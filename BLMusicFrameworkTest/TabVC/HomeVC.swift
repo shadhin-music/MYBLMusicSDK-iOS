@@ -19,7 +19,7 @@ class HomeVC: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    private var dataSource : [String] = ["Home","Popular Artist","Latest Release","Popular Video","Feature Podcast","Amar tune","Amar tune top 100","Radio","Reset Cache","Open with RC Code to Artist","Open RC code to Album","open RC code to Track","open RC code to playlist","open RC code to Patch","open RC code to Podcast Show","Open RC code to podcast episod"]
+    private var dataSource : [String] = ["Home","Popular Artist","Latest Release","Popular Video","Feature Podcast","Amar tune","Amar tune top 100","Radio","Reset Cache","Open with RC Code to Artist","Open RC code to Album","open RC code to Track","open RC code to playlist","open RC code to Patch","open RC code to Podcast Show","Open RC code to podcast episode","Stop Music"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -91,6 +91,8 @@ extension HomeVC : UITableViewDataSource,UITableViewDelegate{
             ShadhinBL.shared.openRC(rcCode: "MF9QREpD", navigationController: self.navigationController!, tabController: self.tabBarController)
         }else if indexPath.row == 15{
             ShadhinBL.shared.openRC(rcCode: "MjM1OV9QREJD", navigationController: self.navigationController!, tabController: self.tabBarController)
+        }else if indexPath.row == 16{
+            ShadhinBL.shared.stopMusic()
         }
         
         
