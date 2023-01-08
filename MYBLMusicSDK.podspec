@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
     s.platform          = :ios
     # change the source location
-    s.source            = = { :git => "https://github.com/shadhin-music/MYBLMusicSDK-iOS.git", :tag => "#{s.version}" }
+    s.source            = { :git => "https://github.com/shadhin-music/MYBLMusicSDK-iOS.git", :tag => "#{s.version}" }
     s.ios.deployment_target = '11.0'
     s.swift_version = "5.7"
     s.ios.vendored_frameworks = 'Shadhin_BL.xcframework' # Your XCFramework
