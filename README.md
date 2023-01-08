@@ -38,41 +38,54 @@ Media control setup from AppDelegate
     }
 ```
 Get Music home controller you need to pass root navigation controller for navigate music conntroller and mini player always visible from any controller. 
-This function return UIViewController you can use this controller as a child or where you show 
-```ruby
-ShadhinBL.shared.getHome(with: self.navigationController!)->UIViewController
-```
 
-There is another method we provide that direct push to navigation controller
+We provide that direct push to navigation controller
 ```ruby
-ShadhinBL.shared.gotoHome(with: self.navigationController!)
+ShadhinBL.shared.gotoHome(with: self.tabBarController, navigationController: self.navigationController!)
 ```
-There is other four feature we implemented that can direct navigate to our controller 
+There is other feature we implemented that can direct navigate to our controller 
 
 ## POPULAR ARTIST 
 ```ruby
- ShadhinBL.shared.openPatch(patchID: FeatureType.POPULAR_ARTIST.rawValue, navigation: self.navigationController!)
+ ShadhinBL.shared.openPatch(patchID: FeatureType.POPULAR_ARTIST.rawValue, navigationController: self.navigationController!,tabController: self.tabBarController)
 ```
 ## LATEST RELEASE 
 ```ruby
- ShadhinBL.shared.openPatch(patchID: FeatureType.LATEST_RELEASE.rawValue, navigation: self.navigationController!)
+ ShadhinBL.shared.openPatch(patchID:FeatureType.LATEST_RELEASE.rawValue, navigationController: self.navigationController!,tabController: self.tabBarController)
 ```
 ## POPULAR VIDEO
 ```ruby
- ShadhinBL.shared.openPatch(patchID: FeatureType.POPULAR_VIDEO.rawValue, navigation: self.navigationController!)
+ ShadhinBL.shared.openPatch(patchID: FeatureType.POPULAR_VIDEO.rawValue, navigationController: self.navigationController!,tabController: self.tabBarController)
 ```
 ## PODCAST 
 ```ruby
- ShadhinBL.shared.openPatch(patchID: FeatureType.PODCAST.rawValue, navigation: self.navigationController!)
+ ShadhinBL.shared.openPatch(patchID: FeatureType.PODCAST.rawValue, navigationController: self.navigationController!,tabController: self.tabBarController)
 ```
 ## AMAR TUNE 
 ```ruby
- ShadhinBL.shared.openPatch(patchID: FeatureType.AMAR_TUNE.rawValue, navigation: self.navigationController!)
+ShadhinBL.shared.openPatch(patchID: FeatureType.AMAR_TUNE.rawValue, navigationController: self.navigationController!,tabController: self.tabBarController)
  ```
 ## AMAR TUNE TOP 100
 ```ruby
- ShadhinBL.shared.openPatch(patchID: FeatureType.AMAR_TUNE_TOP_100.rawValue, navigation: self.navigationController!)
+ ShadhinBL.shared.openPatch(patchID: FeatureType.AMAR_TUNE_TOP_100.rawValue, navigationController: self.navigationController!,tabController: self.tabBarController)
 ```
+## Goto Radio
+```ruby
+ShadhinBL.shared.gotoRadio(nav: self.navigationController!,tabController: self.tabBarController)
+```
+## Stop Music
+```ruby
+ShadhinBL.shared.stopMusic()
+```
+## Clear All Cache
+```ruby
+ShadhinBL.shared.clearAllCache()
+```
+## Open RC Code
+```ruby
+ShadhinBL.shared.openRC(rcCode: "MjM1OV9QREJD", navigationController: self.navigationController!, tabController: self.tabBarController)
+```
+
 ## PERMISSION 
 Add App Transport Security to your info.plist
 ```ruby
