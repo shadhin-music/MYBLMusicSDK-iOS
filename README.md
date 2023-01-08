@@ -1,9 +1,9 @@
 # MYBLMusicSDK
 [![Version](https://img.shields.io/cocoapods/v/MYBLMusicSDK)](https://cocoapods.org/pods/MYBLMusicSDK)
-[![License](https://img.shields.io/github/license/GakkMedia/MYBLMusicSDK)](https://github.com/shadhin-music/MYBLMusicSDK-iOS/blob/main/LICENSE)
-[![Platforms](https://img.shields.io/badge/Platforms-iOS%2011%2B-blue.svg)](#)
+)]()
+[![Platforms](https://img.shields.io/badge/Platforms-iOS%2011%2B-blue.svg)](https://github.com/shadhin-music/MYBLMusicSDK-iOS/blob/main/LICENSE)
 [![Languages](https://img.shields.io/badge/language-%20swift-FF69B4.svg?style=plastic)](#)
-[![Code-Size](https://img.shields.io/github/languages/code-size/GakkMedia/MYBLMusicSDK)](#)
+[![Code-Size](https://img.shields.io/github/languages/code-size/GakkMedia/MYBLMusicSDK-iOS)](#)
 
 ## Installation
 
