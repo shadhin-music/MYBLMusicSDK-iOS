@@ -1,0 +1,336 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Shadhin_BL
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import AVKit
+import Accelerate
+import Combine
+import CommonCrypto
+import CoreData
+import CoreGraphics
+import CoreImage
+import CoreMedia
+import Dispatch
+import Foundation
+import ImageIO
+import MediaPlayer
+import MobileCoreServices
+import ObjectiveC
+import QuartzCore
+@_exported import Shadhin_BL
+import Swift
+import SystemConfiguration
+import UIKit
+import UniformTypeIdentifiers
+import UserNotifications
+import WebKit
+import _Concurrency
+import _StringProcessing
+public protocol ShadhinLogNotifier : ObjectiveC.NSObjectProtocol {
+  func tokenStatus(token isValid: Swift.Bool, error: Swift.String?)
+  func patchError(error: Swift.String)
+  func amarTuneError(error: Swift.String?)
+  func rcError(error: Swift.String?)
+  func shareContentWithRC(rc code: Swift.String)
+}
+public enum AFError : Swift.Error {
+  public enum MultipartEncodingFailureReason {
+    case bodyPartURLInvalid(url: Foundation.URL)
+    case bodyPartFilenameInvalid(in: Foundation.URL)
+    case bodyPartFileNotReachable(at: Foundation.URL)
+    case bodyPartFileNotReachableWithError(atURL: Foundation.URL, error: Swift.Error)
+    case bodyPartFileIsDirectory(at: Foundation.URL)
+    case bodyPartFileSizeNotAvailable(at: Foundation.URL)
+    case bodyPartFileSizeQueryFailedWithError(forURL: Foundation.URL, error: Swift.Error)
+    case bodyPartInputStreamCreationFailed(for: Foundation.URL)
+    case outputStreamCreationFailed(for: Foundation.URL)
+    case outputStreamFileAlreadyExists(at: Foundation.URL)
+    case outputStreamURLInvalid(url: Foundation.URL)
+    case outputStreamWriteFailed(error: Swift.Error)
+    case inputStreamReadFailed(error: Swift.Error)
+  }
+  public struct UnexpectedInputStreamLength : Swift.Error {
+    public var bytesExpected: Swift.UInt64
+    public var bytesRead: Swift.UInt64
+  }
+  public enum ParameterEncodingFailureReason {
+    case missingURL
+    case jsonEncodingFailed(error: Swift.Error)
+    case customEncodingFailed(error: Swift.Error)
+  }
+  public enum ParameterEncoderFailureReason {
+    public enum RequiredComponent {
+      case url
+      case httpMethod(rawValue: Swift.String)
+    }
+    case missingRequiredComponent(Shadhin_BL.AFError.ParameterEncoderFailureReason.RequiredComponent)
+    case encoderFailed(error: Swift.Error)
+  }
+  public enum ResponseValidationFailureReason {
+    case dataFileNil
+    case dataFileReadFailed(at: Foundation.URL)
+    case missingContentType(acceptableContentTypes: [Swift.String])
+    case unacceptableContentType(acceptableContentTypes: [Swift.String], responseContentType: Swift.String)
+    case unacceptableStatusCode(code: Swift.Int)
+    case customValidationFailed(error: Swift.Error)
+  }
+  public enum ResponseSerializationFailureReason {
+    case inputDataNilOrZeroLength
+    case inputFileNil
+    case inputFileReadFailed(at: Foundation.URL)
+    case stringSerializationFailed(encoding: Swift.String.Encoding)
+    case jsonSerializationFailed(error: Swift.Error)
+    case decodingFailed(error: Swift.Error)
+    case customSerializationFailed(error: Swift.Error)
+    case invalidEmptyResponse(type: Swift.String)
+  }
+  public enum ServerTrustFailureReason {
+    public struct Output {
+      public let host: Swift.String
+      public let trust: Security.SecTrust
+      public let status: Darwin.OSStatus
+      public let result: Security.SecTrustResultType
+    }
+    case noRequiredEvaluator(host: Swift.String)
+    case noCertificatesFound
+    case noPublicKeysFound
+    case policyApplicationFailed(trust: Security.SecTrust, policy: Security.SecPolicy, status: Darwin.OSStatus)
+    case settingAnchorCertificatesFailed(status: Darwin.OSStatus, certificates: [Security.SecCertificate])
+    case revocationPolicyCreationFailed
+    case trustEvaluationFailed(error: Swift.Error?)
+    case defaultEvaluationFailed(output: Shadhin_BL.AFError.ServerTrustFailureReason.Output)
+    case hostValidationFailed(output: Shadhin_BL.AFError.ServerTrustFailureReason.Output)
+    case revocationCheckFailed(output: Shadhin_BL.AFError.ServerTrustFailureReason.Output, options: Shadhin_BL.RevocationTrustEvaluator.Options)
+    case certificatePinningFailed(host: Swift.String, trust: Security.SecTrust, pinnedCertificates: [Security.SecCertificate], serverCertificates: [Security.SecCertificate])
+    case publicKeyPinningFailed(host: Swift.String, trust: Security.SecTrust, pinnedKeys: [Security.SecKey], serverKeys: [Security.SecKey])
+    case customEvaluationFailed(error: Swift.Error)
+  }
+  public enum URLRequestValidationFailureReason {
+    case bodyDataInGETRequest(Foundation.Data)
+  }
+  case createUploadableFailed(error: Swift.Error)
+  case createURLRequestFailed(error: Swift.Error)
+  case downloadedFileMoveFailed(error: Swift.Error, source: Foundation.URL, destination: Foundation.URL)
+  case explicitlyCancelled
+  case invalidURL(url: Shadhin_BL.URLConvertible)
+  case multipartEncodingFailed(reason: Shadhin_BL.AFError.MultipartEncodingFailureReason)
+  case parameterEncodingFailed(reason: Shadhin_BL.AFError.ParameterEncodingFailureReason)
+  case parameterEncoderFailed(reason: Shadhin_BL.AFError.ParameterEncoderFailureReason)
+  case requestAdaptationFailed(error: Swift.Error)
+  case requestRetryFailed(retryError: Swift.Error, originalError: Swift.Error)
+  case responseValidationFailed(reason: Shadhin_BL.AFError.ResponseValidationFailureReason)
+  case responseSerializationFailed(reason: Shadhin_BL.AFError.ResponseSerializationFailureReason)
+  case serverTrustEvaluationFailed(reason: Shadhin_BL.AFError.ServerTrustFailureReason)
+  case sessionDeinitialized
+  case sessionInvalidated(error: Swift.Error?)
+  case sessionTaskFailed(error: Swift.Error)
+  case urlRequestValidationFailed(reason: Shadhin_BL.AFError.URLRequestValidationFailureReason)
+}
+extension Swift.Error {
+  public var asAFError: Shadhin_BL.AFError? {
+    get
+  }
+  public func asAFError(orFailWith message: @autoclosure () -> Swift.String, file: Swift.StaticString = #file, line: Swift.UInt = #line) -> Shadhin_BL.AFError
+}
+extension Shadhin_BL.AFError {
+  public var isSessionDeinitializedError: Swift.Bool {
+    get
+  }
+  public var isSessionInvalidatedError: Swift.Bool {
+    get
+  }
+  public var isExplicitlyCancelledError: Swift.Bool {
+    get
+  }
+  public var isInvalidURLError: Swift.Bool {
+    get
+  }
+  public var isParameterEncodingError: Swift.Bool {
+    get
+  }
+  public var isParameterEncoderError: Swift.Bool {
+    get
+  }
+  public var isMultipartEncodingError: Swift.Bool {
+    get
+  }
+  public var isRequestAdaptationError: Swift.Bool {
+    get
+  }
+  public var isResponseValidationError: Swift.Bool {
+    get
+  }
+  public var isResponseSerializationError: Swift.Bool {
+    get
+  }
+  public var isServerTrustEvaluationError: Swift.Bool {
+    get
+  }
+  public var isRequestRetryError: Swift.Bool {
+    get
+  }
+  public var isCreateUploadableError: Swift.Bool {
+    get
+  }
+  public var isCreateURLRequestError: Swift.Bool {
+    get
+  }
+  public var isDownloadedFileMoveError: Swift.Bool {
+    get
+  }
+  public var isSessionTaskError: Swift.Bool {
+    get
+  }
+}
+extension Shadhin_BL.AFError {
+  public var url: Foundation.URL? {
+    get
+  }
+  public var underlyingError: Swift.Error? {
+    get
+  }
+  public var acceptableContentTypes: [Swift.String]? {
+    get
+  }
+  public var responseContentType: Swift.String? {
+    get
+  }
+  public var responseCode: Swift.Int? {
+    get
+  }
+  public var failedStringEncoding: Swift.String.Encoding? {
+    get
+  }
+  public var sourceURL: Foundation.URL? {
+    get
+  }
+  public var destinationURL: Foundation.URL? {
+    get
+  }
+  public var downloadResumeData: Foundation.Data? {
+    get
+  }
+}
+extension Shadhin_BL.AFError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+@objc public protocol ShadhinCoreNotifier : ObjectiveC.NSObjectProtocol {
+  @objc func tokenStatus(token isValid: Swift.Bool, error: Swift.String?)
+  @objc func patchError(error: Swift.String)
+  @objc func amarTuneError(error: Swift.String?)
+  @objc func rcError(error: Swift.String?)
+  @objc func shareContentWithRC(rc code: Swift.String)
+}
+extension UIKit.UIButton {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func hitTest(_ point: CoreFoundation.CGPoint, with event: UIKit.UIEvent?) -> UIKit.UIView?
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class ShadhinBL : ObjectiveC.NSObject {
+  public static let shared: Shadhin_BL.ShadhinBL
+  @objc final public func initialize(with token: Swift.String, delegate: Shadhin_BL.ShadhinCoreNotifier)
+  @objc final public func login(number: Swift.String, complete: @escaping (_ isDone: Swift.Bool, _ token: Swift.String) -> Swift.Void)
+  @objc final public func gotoHome(with tabController: UIKit.UITabBarController?, navigationController: UIKit.UINavigationController)
+  @objc final public func eventRegister(with event: UIKit.UIEvent)
+  @objc final public func openPatch(patchID: Swift.String, navigationController: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
+  @objc final public func gotoRadio(nav navigation: UIKit.UINavigationController, tabController: UIKit.UITabBarController? = nil)
+  @objc final public func openRadio(with id: Swift.String, navigationController: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
+  @objc final public func openRC(rcCode: Swift.String, navigationController: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
+  @objc final public func clearAllCache()
+  @objc final public func stopMusic()
+  @objc deinit
+}
+extension Shadhin_BL.ShadhinBL : Shadhin_BL.ShadhinLogNotifier {
+  final public func tokenStatus(token isValid: Swift.Bool, error: Swift.String?)
+  final public func patchError(error: Swift.String)
+  final public func amarTuneError(error: Swift.String?)
+  final public func rcError(error: Swift.String?)
+  final public func shareContentWithRC(rc code: Swift.String)
+}
+public enum FeatureType : Swift.String {
+  case LATEST_RELEASE
+  case PODCAST
+  case POPULAR_ARTIST
+  case POPULAR_VIDEO
+  case AMAR_TUNE
+  case AMAR_TUNE_TOP_100
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class APIServiceCore : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct EntryPoint {
+  public static let Home: Swift.String
+  public static let LatestRelease: Swift.String
+  public static let PopularArtist: Swift.String
+  public static let PopularVideo: Swift.String
+  public static let Podcast: Swift.String
+}
+prefix operator ^
+public protocol BLWrapperProtocol : ObjectiveC.NSObjectProtocol {
+  func initializer(with token: Swift.String)
+  func gotoHome(with tabController: UIKit.UITabBarController?, navigationController: UIKit.UINavigationController)
+  func eventRegister(with event: UIKit.UIEvent)
+  func openPatch(patchID: Swift.String, navigationController: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
+  func gotoRadio(nav navigation: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
+  func openRadio(with id: Swift.String, navigationController: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
+  func openRC(rcCode: Swift.String, navigationController: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
+  func clearAllCache()
+  func stopMusic()
+}
+@objc public class BLWrapper : ObjectiveC.NSObject, Shadhin_BL.BLWrapperProtocol {
+  public init(delegate: Shadhin_BL.ShadhinLogNotifier)
+  public func initializer(with token: Swift.String)
+  public func gotoHome(with tabController: UIKit.UITabBarController?, navigationController: UIKit.UINavigationController)
+  public func eventRegister(with event: UIKit.UIEvent)
+  public func openPatch(patchID: Swift.String, navigationController: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
+  public func gotoRadio(nav navigation: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
+  public func openRadio(with id: Swift.String, navigationController: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
+  public func openRC(rcCode: Swift.String, navigationController: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
+  public func clearAllCache()
+  public func stopMusic()
+  @objc deinit
+}
+infix operator |> : AdditionPrecedence
+extension Shadhin_BL.APIServiceCore {
+  @_hasMissingDesignatedInitializers public class BLToken {
+    public static func getBLToken(number: Swift.String = "8801900000000", complete: @escaping (Swift.Result<Swift.String, Shadhin_BL.AFError>) -> Swift.Void)
+    @objc deinit
+  }
+}
+extension UIKit.UIControl.State : Swift.Hashable {
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol URLConvertible {
+  func asURL() throws -> Foundation.URL
+}
+extension Swift.String : Shadhin_BL.URLConvertible {
+  public func asURL() throws -> Foundation.URL
+}
+extension Foundation.URL : Shadhin_BL.URLConvertible {
+  public func asURL() throws -> Foundation.URL
+}
+extension Foundation.URLComponents : Shadhin_BL.URLConvertible {
+  public func asURL() throws -> Foundation.URL
+}
+@_hasMissingDesignatedInitializers final public class RevocationTrustEvaluator {
+  public struct Options : Swift.OptionSet {
+    public let rawValue: CoreFoundation.CFOptionFlags
+    public init(rawValue: CoreFoundation.CFOptionFlags)
+    public typealias ArrayLiteralElement = Shadhin_BL.RevocationTrustEvaluator.Options
+    public typealias Element = Shadhin_BL.RevocationTrustEvaluator.Options
+    public typealias RawValue = CoreFoundation.CFOptionFlags
+  }
+  @objc deinit
+}
+extension Shadhin_BL.FeatureType : Swift.Equatable {}
+extension Shadhin_BL.FeatureType : Swift.Hashable {}
+extension Shadhin_BL.FeatureType : Swift.RawRepresentable {}
