@@ -236,7 +236,6 @@ extension UIKit.UIButton {
   @objc final public func openPatch(patchID: Swift.String, navigationController: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
   @objc final public func gotoRadio(nav navigation: UIKit.UINavigationController, tabController: UIKit.UITabBarController? = nil)
   @objc final public func openRadio(with id: Swift.String, navigationController: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
-  @objc final public func openRC(rcCode: Swift.String, navigationController: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
   @objc final public func clearAllCache()
   @objc final public func stopMusic()
   @objc deinit
@@ -261,10 +260,6 @@ public enum FeatureType : Swift.String {
     get
   }
 }
-@objc @_inheritsConvenienceInitializers public class APIServiceCore : ObjectiveC.NSObject {
-  @objc override dynamic public init()
-  @objc deinit
-}
 public struct EntryPoint {
   public static let Home: Swift.String
   public static let LatestRelease: Swift.String
@@ -273,37 +268,7 @@ public struct EntryPoint {
   public static let Podcast: Swift.String
 }
 prefix operator ^
-public protocol BLWrapperProtocol : ObjectiveC.NSObjectProtocol {
-  func initializer(with token: Swift.String)
-  func gotoHome(with tabController: UIKit.UITabBarController?, navigationController: UIKit.UINavigationController)
-  func eventRegister(with event: UIKit.UIEvent)
-  func openPatch(patchID: Swift.String, navigationController: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
-  func gotoRadio(nav navigation: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
-  func openRadio(with id: Swift.String, navigationController: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
-  func openRC(rcCode: Swift.String, navigationController: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
-  func clearAllCache()
-  func stopMusic()
-}
-@objc public class BLWrapper : ObjectiveC.NSObject, Shadhin_BL.BLWrapperProtocol {
-  public init(delegate: Shadhin_BL.ShadhinLogNotifier)
-  public func initializer(with token: Swift.String)
-  public func gotoHome(with tabController: UIKit.UITabBarController?, navigationController: UIKit.UINavigationController)
-  public func eventRegister(with event: UIKit.UIEvent)
-  public func openPatch(patchID: Swift.String, navigationController: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
-  public func gotoRadio(nav navigation: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
-  public func openRadio(with id: Swift.String, navigationController: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
-  public func openRC(rcCode: Swift.String, navigationController: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
-  public func clearAllCache()
-  public func stopMusic()
-  @objc deinit
-}
 infix operator |> : AdditionPrecedence
-extension Shadhin_BL.APIServiceCore {
-  @_hasMissingDesignatedInitializers public class BLToken {
-    public static func getBLToken(number: Swift.String = "8801900000000", complete: @escaping (Swift.Result<Swift.String, Shadhin_BL.AFError>) -> Swift.Void)
-    @objc deinit
-  }
-}
 extension UIKit.UIControl.State : Swift.Hashable {
   public var hashValue: Swift.Int {
     get

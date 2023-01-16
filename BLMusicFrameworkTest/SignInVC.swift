@@ -25,15 +25,14 @@ class SignInVC: UIViewController {
             return
         }
         sender.isEnabled = false
-        APIServiceCore.BLToken.getBLToken(number:number) { result in
-            switch  result {
-            case .success(let success):
-                ShadhinBL.shared.initialize(with: success, delegate: self)
-            case .failure(let failure):
-                print(failure.errorDescription ?? "")
-                sender.isEnabled = true
+        ShadhinBL.shared.login(number: number) { isDone, token in
+            if isDone{
+                ShadhinBL.shared.initialize(with: token, delegate: self)
+            }else{
+                
             }
         }
+        
     }
     
 }

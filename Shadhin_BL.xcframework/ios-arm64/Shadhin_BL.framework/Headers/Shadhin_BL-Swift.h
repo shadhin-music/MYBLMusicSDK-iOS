@@ -254,36 +254,6 @@ using UInt = size_t;
 
 #if defined(__OBJC__)
 
-SWIFT_CLASS("_TtC10Shadhin_BL14APIServiceCore")
-@interface APIServiceCore : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-SWIFT_CLASS("_TtC10Shadhin_BL9BLWrapper")
-@interface BLWrapper : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
 
 
 
@@ -315,7 +285,6 @@ SWIFT_CLASS("_TtC10Shadhin_BL9ShadhinBL")
 - (void)openPatchWithPatchID:(NSString * _Nonnull)patchID navigationController:(UINavigationController * _Nonnull)navigationController tabController:(UITabBarController * _Nullable)tabController;
 - (void)gotoRadioWithNav:(UINavigationController * _Nonnull)navigation tabController:(UITabBarController * _Nullable)tabController;
 - (void)openRadioWith:(NSString * _Nonnull)id navigationController:(UINavigationController * _Nonnull)navigationController tabController:(UITabBarController * _Nullable)tabController;
-- (void)openRCWithRcCode:(NSString * _Nonnull)rcCode navigationController:(UINavigationController * _Nonnull)navigationController tabController:(UITabBarController * _Nullable)tabController;
 - (void)clearAllCache;
 - (void)stopMusic;
 @end
@@ -330,6 +299,7 @@ SWIFT_PROTOCOL("_TtP10Shadhin_BL19ShadhinCoreNotifier_")
 - (void)rcErrorWithError:(NSString * _Nullable)error;
 - (void)shareContentWithRCWithRc:(NSString * _Nonnull)code;
 @end
+
 
 
 

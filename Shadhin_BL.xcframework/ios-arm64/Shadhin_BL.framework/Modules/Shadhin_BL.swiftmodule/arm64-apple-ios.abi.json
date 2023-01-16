@@ -6873,8 +6873,7 @@
             "declAttributes": [
               "Final",
               "AccessControl",
-              "ObjC",
-              "RawDocComment"
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -7042,55 +7041,6 @@
             "mangledName": "$s10Shadhin_BL0aB0C9openRadio4with20navigationController03tabG0ySS_So012UINavigationG0CSo08UITabBarG0CSgtF",
             "moduleName": "Shadhin_BL",
             "objc_name": "openRadioWith:navigationController:tabController:",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "openRC",
-            "printedName": "openRC(rcCode:navigationController:tabController:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UINavigationController",
-                "printedName": "UIKit.UINavigationController",
-                "usr": "c:objc(cs)UINavigationController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UITabBarController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UITabBarController",
-                    "printedName": "UIKit.UITabBarController",
-                    "usr": "c:objc(cs)UITabBarController"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@Shadhin_BL@objc(cs)ShadhinBL(im)openRCWithRcCode:navigationController:tabController:",
-            "mangledName": "$s10Shadhin_BL0aB0C6openRC6rcCode20navigationController03tabH0ySS_So012UINavigationH0CSo08UITabBarH0CSgtF",
-            "moduleName": "Shadhin_BL",
-            "objc_name": "openRCWithRcCode:navigationController:tabController:",
             "declAttributes": [
               "Final",
               "AccessControl",
@@ -8177,180 +8127,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "APIServiceCore",
-        "printedName": "APIServiceCore",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "APIServiceCore",
-                "printedName": "Shadhin_BL.APIServiceCore",
-                "usr": "c:@M@Shadhin_BL@objc(cs)APIServiceCore"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@Shadhin_BL@objc(cs)APIServiceCore(im)init",
-            "mangledName": "$s10Shadhin_BL14APIServiceCoreCACycfc",
-            "moduleName": "Shadhin_BL",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "TypeDecl",
-            "name": "BLToken",
-            "printedName": "BLToken",
-            "children": [
-              {
-                "kind": "Function",
-                "name": "getBLToken",
-                "printedName": "getBLToken(number:complete:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "hasDefaultArg": true,
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Result<Swift.String, Shadhin_BL.AFError>) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Result",
-                        "printedName": "Swift.Result<Swift.String, Shadhin_BL.AFError>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "AFError",
-                            "printedName": "Shadhin_BL.AFError",
-                            "usr": "s:10Shadhin_BL7AFErrorO"
-                          }
-                        ],
-                        "usr": "s:s6ResultO"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:10Shadhin_BL14APIServiceCoreC7BLTokenC03getE06number8completeySS_ys6ResultOySSAA7AFErrorOGctFZ",
-                "mangledName": "$s10Shadhin_BL14APIServiceCoreC7BLTokenC03getE06number8completeySS_ys6ResultOySSAA7AFErrorOGctFZ",
-                "moduleName": "Shadhin_BL",
-                "static": true,
-                "declAttributes": [
-                  "Final",
-                  "AccessControl"
-                ],
-                "funcSelfKind": "NonMutating"
-              }
-            ],
-            "declKind": "Class",
-            "usr": "s:10Shadhin_BL14APIServiceCoreC7BLTokenC",
-            "mangledName": "$s10Shadhin_BL14APIServiceCoreC7BLTokenC",
-            "moduleName": "Shadhin_BL",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "hasMissingDesignatedInitializers": true
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@Shadhin_BL@objc(cs)APIServiceCore",
-        "mangledName": "$s10Shadhin_BL14APIServiceCoreC",
-        "moduleName": "Shadhin_BL",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -9169,6 +8945,26 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -9955,6 +9751,23 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
         "declKind": "Import",
@@ -9976,6 +9789,16 @@
         "printedName": "CoreData",
         "declKind": "Import",
         "moduleName": "Shadhin_BL"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -10125,6 +9948,16 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "Shadhin_BL",
         "declAttributes": [
@@ -10502,781 +10335,6 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "Shadhin_BL"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "BLWrapperProtocol",
-        "printedName": "BLWrapperProtocol",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "initializer",
-            "printedName": "initializer(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_BL17BLWrapperProtocolP11initializer4withySS_tF",
-            "mangledName": "$s10Shadhin_BL17BLWrapperProtocolP11initializer4withySS_tF",
-            "moduleName": "Shadhin_BL",
-            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.BLWrapperProtocol>",
-            "sugared_genericSig": "<Self where Self : Shadhin_BL.BLWrapperProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "gotoHome",
-            "printedName": "gotoHome(with:navigationController:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UITabBarController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UITabBarController",
-                    "printedName": "UIKit.UITabBarController",
-                    "usr": "c:objc(cs)UITabBarController"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UINavigationController",
-                "printedName": "UIKit.UINavigationController",
-                "usr": "c:objc(cs)UINavigationController"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_BL17BLWrapperProtocolP8gotoHome4with20navigationControllerySo08UITabBarI0CSg_So012UINavigationI0CtF",
-            "mangledName": "$s10Shadhin_BL17BLWrapperProtocolP8gotoHome4with20navigationControllerySo08UITabBarI0CSg_So012UINavigationI0CtF",
-            "moduleName": "Shadhin_BL",
-            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.BLWrapperProtocol>",
-            "sugared_genericSig": "<Self where Self : Shadhin_BL.BLWrapperProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "eventRegister",
-            "printedName": "eventRegister(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIEvent",
-                "printedName": "UIKit.UIEvent",
-                "usr": "c:objc(cs)UIEvent"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_BL17BLWrapperProtocolP13eventRegister4withySo7UIEventC_tF",
-            "mangledName": "$s10Shadhin_BL17BLWrapperProtocolP13eventRegister4withySo7UIEventC_tF",
-            "moduleName": "Shadhin_BL",
-            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.BLWrapperProtocol>",
-            "sugared_genericSig": "<Self where Self : Shadhin_BL.BLWrapperProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "openPatch",
-            "printedName": "openPatch(patchID:navigationController:tabController:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UINavigationController",
-                "printedName": "UIKit.UINavigationController",
-                "usr": "c:objc(cs)UINavigationController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UITabBarController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UITabBarController",
-                    "printedName": "UIKit.UITabBarController",
-                    "usr": "c:objc(cs)UITabBarController"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_BL17BLWrapperProtocolP9openPatch7patchID20navigationController03tabJ0ySS_So012UINavigationJ0CSo08UITabBarJ0CSgtF",
-            "mangledName": "$s10Shadhin_BL17BLWrapperProtocolP9openPatch7patchID20navigationController03tabJ0ySS_So012UINavigationJ0CSo08UITabBarJ0CSgtF",
-            "moduleName": "Shadhin_BL",
-            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.BLWrapperProtocol>",
-            "sugared_genericSig": "<Self where Self : Shadhin_BL.BLWrapperProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "gotoRadio",
-            "printedName": "gotoRadio(nav:tabController:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UINavigationController",
-                "printedName": "UIKit.UINavigationController",
-                "usr": "c:objc(cs)UINavigationController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UITabBarController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UITabBarController",
-                    "printedName": "UIKit.UITabBarController",
-                    "usr": "c:objc(cs)UITabBarController"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_BL17BLWrapperProtocolP9gotoRadio3nav13tabControllerySo012UINavigationI0C_So08UITabBarI0CSgtF",
-            "mangledName": "$s10Shadhin_BL17BLWrapperProtocolP9gotoRadio3nav13tabControllerySo012UINavigationI0C_So08UITabBarI0CSgtF",
-            "moduleName": "Shadhin_BL",
-            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.BLWrapperProtocol>",
-            "sugared_genericSig": "<Self where Self : Shadhin_BL.BLWrapperProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "openRadio",
-            "printedName": "openRadio(with:navigationController:tabController:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UINavigationController",
-                "printedName": "UIKit.UINavigationController",
-                "usr": "c:objc(cs)UINavigationController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UITabBarController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UITabBarController",
-                    "printedName": "UIKit.UITabBarController",
-                    "usr": "c:objc(cs)UITabBarController"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_BL17BLWrapperProtocolP9openRadio4with20navigationController03tabI0ySS_So012UINavigationI0CSo08UITabBarI0CSgtF",
-            "mangledName": "$s10Shadhin_BL17BLWrapperProtocolP9openRadio4with20navigationController03tabI0ySS_So012UINavigationI0CSo08UITabBarI0CSgtF",
-            "moduleName": "Shadhin_BL",
-            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.BLWrapperProtocol>",
-            "sugared_genericSig": "<Self where Self : Shadhin_BL.BLWrapperProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "openRC",
-            "printedName": "openRC(rcCode:navigationController:tabController:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UINavigationController",
-                "printedName": "UIKit.UINavigationController",
-                "usr": "c:objc(cs)UINavigationController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UITabBarController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UITabBarController",
-                    "printedName": "UIKit.UITabBarController",
-                    "usr": "c:objc(cs)UITabBarController"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_BL17BLWrapperProtocolP6openRC6rcCode20navigationController03tabJ0ySS_So012UINavigationJ0CSo08UITabBarJ0CSgtF",
-            "mangledName": "$s10Shadhin_BL17BLWrapperProtocolP6openRC6rcCode20navigationController03tabJ0ySS_So012UINavigationJ0CSo08UITabBarJ0CSgtF",
-            "moduleName": "Shadhin_BL",
-            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.BLWrapperProtocol>",
-            "sugared_genericSig": "<Self where Self : Shadhin_BL.BLWrapperProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "clearAllCache",
-            "printedName": "clearAllCache()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_BL17BLWrapperProtocolP13clearAllCacheyyF",
-            "mangledName": "$s10Shadhin_BL17BLWrapperProtocolP13clearAllCacheyyF",
-            "moduleName": "Shadhin_BL",
-            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.BLWrapperProtocol>",
-            "sugared_genericSig": "<Self where Self : Shadhin_BL.BLWrapperProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "stopMusic",
-            "printedName": "stopMusic()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_BL17BLWrapperProtocolP9stopMusicyyF",
-            "mangledName": "$s10Shadhin_BL17BLWrapperProtocolP9stopMusicyyF",
-            "moduleName": "Shadhin_BL",
-            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.BLWrapperProtocol>",
-            "sugared_genericSig": "<Self where Self : Shadhin_BL.BLWrapperProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:10Shadhin_BL17BLWrapperProtocolP",
-        "mangledName": "$s10Shadhin_BL17BLWrapperProtocolP",
-        "moduleName": "Shadhin_BL",
-        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
-        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "BLWrapper",
-        "printedName": "BLWrapper",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(delegate:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "BLWrapper",
-                "printedName": "Shadhin_BL.BLWrapper",
-                "usr": "c:@M@Shadhin_BL@objc(cs)BLWrapper"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ShadhinLogNotifier",
-                "printedName": "Shadhin_BL.ShadhinLogNotifier",
-                "usr": "s:10Shadhin_BL0A11LogNotifierP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10Shadhin_BL9BLWrapperC8delegateAcA0A11LogNotifier_p_tcfc",
-            "mangledName": "$s10Shadhin_BL9BLWrapperC8delegateAcA0A11LogNotifier_p_tcfc",
-            "moduleName": "Shadhin_BL",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "initializer",
-            "printedName": "initializer(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_BL9BLWrapperC11initializer4withySS_tF",
-            "mangledName": "$s10Shadhin_BL9BLWrapperC11initializer4withySS_tF",
-            "moduleName": "Shadhin_BL",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "gotoHome",
-            "printedName": "gotoHome(with:navigationController:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UITabBarController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UITabBarController",
-                    "printedName": "UIKit.UITabBarController",
-                    "usr": "c:objc(cs)UITabBarController"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UINavigationController",
-                "printedName": "UIKit.UINavigationController",
-                "usr": "c:objc(cs)UINavigationController"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_BL9BLWrapperC8gotoHome4with20navigationControllerySo08UITabBarH0CSg_So012UINavigationH0CtF",
-            "mangledName": "$s10Shadhin_BL9BLWrapperC8gotoHome4with20navigationControllerySo08UITabBarH0CSg_So012UINavigationH0CtF",
-            "moduleName": "Shadhin_BL",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "eventRegister",
-            "printedName": "eventRegister(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIEvent",
-                "printedName": "UIKit.UIEvent",
-                "usr": "c:objc(cs)UIEvent"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_BL9BLWrapperC13eventRegister4withySo7UIEventC_tF",
-            "mangledName": "$s10Shadhin_BL9BLWrapperC13eventRegister4withySo7UIEventC_tF",
-            "moduleName": "Shadhin_BL",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "openPatch",
-            "printedName": "openPatch(patchID:navigationController:tabController:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UINavigationController",
-                "printedName": "UIKit.UINavigationController",
-                "usr": "c:objc(cs)UINavigationController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UITabBarController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UITabBarController",
-                    "printedName": "UIKit.UITabBarController",
-                    "usr": "c:objc(cs)UITabBarController"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_BL9BLWrapperC9openPatch7patchID20navigationController03tabI0ySS_So012UINavigationI0CSo08UITabBarI0CSgtF",
-            "mangledName": "$s10Shadhin_BL9BLWrapperC9openPatch7patchID20navigationController03tabI0ySS_So012UINavigationI0CSo08UITabBarI0CSgtF",
-            "moduleName": "Shadhin_BL",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "gotoRadio",
-            "printedName": "gotoRadio(nav:tabController:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UINavigationController",
-                "printedName": "UIKit.UINavigationController",
-                "usr": "c:objc(cs)UINavigationController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UITabBarController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UITabBarController",
-                    "printedName": "UIKit.UITabBarController",
-                    "usr": "c:objc(cs)UITabBarController"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_BL9BLWrapperC9gotoRadio3nav13tabControllerySo012UINavigationH0C_So08UITabBarH0CSgtF",
-            "mangledName": "$s10Shadhin_BL9BLWrapperC9gotoRadio3nav13tabControllerySo012UINavigationH0C_So08UITabBarH0CSgtF",
-            "moduleName": "Shadhin_BL",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "openRadio",
-            "printedName": "openRadio(with:navigationController:tabController:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UINavigationController",
-                "printedName": "UIKit.UINavigationController",
-                "usr": "c:objc(cs)UINavigationController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UITabBarController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UITabBarController",
-                    "printedName": "UIKit.UITabBarController",
-                    "usr": "c:objc(cs)UITabBarController"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_BL9BLWrapperC9openRadio4with20navigationController03tabH0ySS_So012UINavigationH0CSo08UITabBarH0CSgtF",
-            "mangledName": "$s10Shadhin_BL9BLWrapperC9openRadio4with20navigationController03tabH0ySS_So012UINavigationH0CSo08UITabBarH0CSgtF",
-            "moduleName": "Shadhin_BL",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "openRC",
-            "printedName": "openRC(rcCode:navigationController:tabController:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UINavigationController",
-                "printedName": "UIKit.UINavigationController",
-                "usr": "c:objc(cs)UINavigationController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UITabBarController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UITabBarController",
-                    "printedName": "UIKit.UITabBarController",
-                    "usr": "c:objc(cs)UITabBarController"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_BL9BLWrapperC6openRC6rcCode20navigationController03tabI0ySS_So012UINavigationI0CSo08UITabBarI0CSgtF",
-            "mangledName": "$s10Shadhin_BL9BLWrapperC6openRC6rcCode20navigationController03tabI0ySS_So012UINavigationI0CSo08UITabBarI0CSgtF",
-            "moduleName": "Shadhin_BL",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "clearAllCache",
-            "printedName": "clearAllCache()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_BL9BLWrapperC13clearAllCacheyyF",
-            "mangledName": "$s10Shadhin_BL9BLWrapperC13clearAllCacheyyF",
-            "moduleName": "Shadhin_BL",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "stopMusic",
-            "printedName": "stopMusic()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_BL9BLWrapperC9stopMusicyyF",
-            "mangledName": "$s10Shadhin_BL9BLWrapperC9stopMusicyyF",
-            "moduleName": "Shadhin_BL",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "BLWrapper",
-                "printedName": "Shadhin_BL.BLWrapper",
-                "usr": "c:@M@Shadhin_BL@objc(cs)BLWrapper"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@Shadhin_BL@objc(cs)BLWrapper(im)init",
-            "mangledName": "$s10Shadhin_BL9BLWrapperCACycfc",
-            "moduleName": "Shadhin_BL",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@Shadhin_BL@objc(cs)BLWrapper",
-        "mangledName": "$s10Shadhin_BL9BLWrapperC",
-        "moduleName": "Shadhin_BL",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "BLWrapperProtocol",
-            "printedName": "BLWrapperProtocol",
-            "usr": "s:10Shadhin_BL17BLWrapperProtocolP",
-            "mangledName": "$s10Shadhin_BL17BLWrapperProtocolP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
       },
       {
         "kind": "Import",
@@ -12149,6 +11207,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
         "declKind": "Import",
@@ -12168,6 +11236,16 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Shadhin_BL",
         "declAttributes": [
@@ -12457,6 +11535,16 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "Shadhin_BL",
         "declAttributes": [
@@ -13086,6 +12174,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -13148,6 +12246,16 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "Shadhin_BL",
         "declAttributes": [
@@ -13426,6 +12534,26 @@
         "printedName": "MediaPlayer",
         "declKind": "Import",
         "moduleName": "Shadhin_BL"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -17931,7 +17059,7 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/UIView++.swift",
       "kind": "StringLiteral",
-      "offset": 2049,
+      "offset": 2223,
       "length": 13,
       "value": "\"Shadhin_BL.ClickListener\""
     },
@@ -18540,7 +17668,7 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 14724,
+      "offset": 15063,
       "length": 4,
       "value": "true"
     },
@@ -18897,84 +18025,84 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 4080,
+      "offset": 3652,
       "length": 7,
       "value": "\"RC201\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 4114,
+      "offset": 3686,
       "length": 7,
       "value": "\"RC202\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 4148,
+      "offset": 3720,
       "length": 7,
       "value": "\"RC203\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 4182,
+      "offset": 3754,
       "length": 7,
       "value": "\"RC204\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 4216,
+      "offset": 3788,
       "length": 10,
       "value": "\"BNMAIN01\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 4256,
+      "offset": 3828,
       "length": 9,
       "value": "\"BNALL01\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 4080,
+      "offset": 3652,
       "length": 7,
       "value": "\"RC201\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 4114,
+      "offset": 3686,
       "length": 7,
       "value": "\"RC202\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 4148,
+      "offset": 3720,
       "length": 7,
       "value": "\"RC203\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 4182,
+      "offset": 3754,
       "length": 7,
       "value": "\"RC204\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 4216,
+      "offset": 3788,
       "length": 10,
       "value": "\"BNMAIN01\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 4256,
+      "offset": 3828,
       "length": 9,
       "value": "\"BNALL01\""
     },
@@ -19961,133 +19089,133 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore.swift",
       "kind": "StringLiteral",
-      "offset": 168,
+      "offset": 161,
       "length": 37,
       "value": "\"https:\/\/api.shadhinmusic.com\/api\/v5\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore.swift",
       "kind": "StringLiteral",
-      "offset": 236,
+      "offset": 229,
       "length": 31,
       "value": "\"http:\/\/118.67.219.130\/rbt\/api\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore.swift",
       "kind": "StringLiteral",
-      "offset": 296,
+      "offset": 289,
       "length": 3,
       "value": "\"2\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore.swift",
       "kind": "StringLiteral",
-      "offset": 324,
+      "offset": 317,
       "length": 8,
       "value": "\"Client\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore.swift",
       "kind": "StringLiteral",
-      "offset": 465,
+      "offset": 458,
       "length": 44,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore.swift",
       "kind": "StringLiteral",
-      "offset": 505,
+      "offset": 498,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore.swift",
       "kind": "StringLiteral",
-      "offset": 508,
+      "offset": 501,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore.swift",
       "kind": "StringLiteral",
-      "offset": 546,
+      "offset": 539,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore.swift",
       "kind": "StringLiteral",
-      "offset": 620,
+      "offset": 613,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore.swift",
       "kind": "StringLiteral",
-      "offset": 643,
+      "offset": 636,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore.swift",
       "kind": "StringLiteral",
-      "offset": 705,
+      "offset": 698,
       "length": 12,
       "value": "\"clienttype\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore.swift",
       "kind": "StringLiteral",
-      "offset": 726,
+      "offset": 719,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore.swift",
       "kind": "StringLiteral",
-      "offset": 957,
+      "offset": 950,
       "length": 80,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore.swift",
       "kind": "StringLiteral",
-      "offset": 969,
+      "offset": 962,
       "length": 1,
       "value": "\"\/ClientHomeContent\/GetHomeContentV2?pageNumber=\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore.swift",
       "kind": "StringLiteral",
-      "offset": 1023,
+      "offset": 1016,
       "length": 1,
       "value": "\"&isPaid=false\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore.swift",
       "kind": "StringLiteral",
-      "offset": 1106,
+      "offset": 1099,
       "length": 34,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore.swift",
       "kind": "StringLiteral",
-      "offset": 1118,
+      "offset": 1111,
       "length": 1,
       "value": "\"\/track\/GetLatestTrack\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore.swift",
       "kind": "StringLiteral",
-      "offset": 1184,
+      "offset": 1177,
       "length": 34,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore.swift",
       "kind": "StringLiteral",
-      "offset": 1196,
+      "offset": 1189,
       "length": 1,
       "value": "\"\/video\/getlatestVideo\""
     },
@@ -21028,6 +20156,76 @@
       "offset": 441,
       "length": 1,
       "value": "\"\/BanglalinkRbt\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/UserRankingResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 474,
+      "length": 17,
+      "value": "\"MonthlyListener\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/UserRankingResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 474,
+      "length": 17,
+      "value": "\"MonthlyListener\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/UserRankingResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 709,
+      "length": 10,
+      "value": "\"UserRank\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/UserRankingResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 742,
+      "length": 8,
+      "value": "\"Msisdn\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/UserRankingResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 780,
+      "length": 15,
+      "value": "\"TimeInSeconds\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/UserRankingResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 709,
+      "length": 10,
+      "value": "\"UserRank\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/UserRankingResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 742,
+      "length": 8,
+      "value": "\"Msisdn\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/UserRankingResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 780,
+      "length": 15,
+      "value": "\"TimeInSeconds\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/UserRankingResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1149,
+      "length": 17,
+      "value": "\"MonthlyListener\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/UserRankingResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1149,
+      "length": 17,
+      "value": "\"MonthlyListener\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/Alamofire\/Response.swift",
@@ -23629,7 +22827,7 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/BLWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 870,
+      "offset": 858,
       "length": 9,
       "value": "\"Shadhin_BL.BLWrapper\""
     },
@@ -24649,6 +23847,62 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 258,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 278,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 310,
+      "length": 7,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 258,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 278,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 310,
+      "length": 7,
+      "value": "4"
+    },
+    {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "Array",
       "offset": 582,
@@ -25540,14 +24794,14 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeAdapter.swift",
       "kind": "Array",
-      "offset": 1183,
+      "offset": 1261,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 994,
+      "offset": 1072,
       "length": 11,
       "value": "\"Shadhin_BL.HomeAdapter\""
     },
@@ -26422,6 +25676,13 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
+      "offset": 1231,
+      "length": 3,
+      "value": "\"L\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
+      "kind": "StringLiteral",
       "offset": 954,
       "length": 3,
       "value": "\"A\""
@@ -26499,520 +25760,541 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3064,
+      "offset": 1231,
+      "length": 3,
+      "value": "\"L\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 3134,
       "length": 11,
       "value": "\"ContentID\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3147,
+      "offset": 3217,
       "length": 13,
       "value": "\"ContentType\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3188,
+      "offset": 3258,
       "length": 9,
       "value": "\"PlayUrl\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3226,
+      "offset": 3296,
       "length": 10,
       "value": "\"Duration\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3284,
+      "offset": 3354,
       "length": 8,
       "value": "\"Banner\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3322,
+      "offset": 3392,
       "length": 11,
       "value": "\"NewBanner\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3363,
+      "offset": 3433,
       "length": 11,
       "value": "\"PlayCount\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3399,
+      "offset": 3469,
       "length": 6,
       "value": "\"Type\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3432,
+      "offset": 3502,
       "length": 8,
       "value": "\"IsPaid\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3469,
+      "offset": 3539,
       "length": 10,
       "value": "\"Seekable\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3509,
+      "offset": 3579,
       "length": 11,
       "value": "\"TrackType\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3549,
+      "offset": 3619,
       "length": 10,
       "value": "\"ArtistId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3586,
+      "offset": 3656,
       "length": 8,
       "value": "\"Artist\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3626,
+      "offset": 3696,
       "length": 13,
       "value": "\"ArtistImage\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3667,
+      "offset": 3737,
       "length": 9,
       "value": "\"AlbumId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3706,
+      "offset": 3776,
       "length": 11,
       "value": "\"AlbumName\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3748,
+      "offset": 3818,
       "length": 12,
       "value": "\"AlbumImage\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3791,
+      "offset": 3861,
       "length": 12,
       "value": "\"PlayListId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3836,
+      "offset": 3906,
       "length": 14,
       "value": "\"PlayListName\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3884,
+      "offset": 3954,
       "length": 15,
       "value": "\"PlayListImage\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3930,
+      "offset": 4000,
       "length": 12,
       "value": "\"CreateDate\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3969,
+      "offset": 4039,
       "length": 8,
       "value": "\"RootId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4006,
+      "offset": 4076,
       "length": 10,
       "value": "\"RootType\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4046,
+      "offset": 4116,
       "length": 11,
       "value": "\"TeaserUrl\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4086,
+      "offset": 4156,
       "length": 10,
       "value": "\"Follower\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4128,
+      "offset": 4198,
       "length": 13,
       "value": "\"ClientValue\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3064,
+      "offset": 3134,
       "length": 11,
       "value": "\"ContentID\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3147,
+      "offset": 3217,
       "length": 13,
       "value": "\"ContentType\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3188,
+      "offset": 3258,
       "length": 9,
       "value": "\"PlayUrl\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3226,
+      "offset": 3296,
       "length": 10,
       "value": "\"Duration\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3284,
+      "offset": 3354,
       "length": 8,
       "value": "\"Banner\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3322,
+      "offset": 3392,
       "length": 11,
       "value": "\"NewBanner\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3363,
+      "offset": 3433,
       "length": 11,
       "value": "\"PlayCount\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3399,
+      "offset": 3469,
       "length": 6,
       "value": "\"Type\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3432,
+      "offset": 3502,
       "length": 8,
       "value": "\"IsPaid\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3469,
+      "offset": 3539,
       "length": 10,
       "value": "\"Seekable\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3509,
+      "offset": 3579,
       "length": 11,
       "value": "\"TrackType\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3549,
+      "offset": 3619,
       "length": 10,
       "value": "\"ArtistId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3586,
+      "offset": 3656,
       "length": 8,
       "value": "\"Artist\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3626,
+      "offset": 3696,
       "length": 13,
       "value": "\"ArtistImage\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3667,
+      "offset": 3737,
       "length": 9,
       "value": "\"AlbumId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3706,
+      "offset": 3776,
       "length": 11,
       "value": "\"AlbumName\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3748,
+      "offset": 3818,
       "length": 12,
       "value": "\"AlbumImage\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3791,
+      "offset": 3861,
       "length": 12,
       "value": "\"PlayListId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3836,
+      "offset": 3906,
       "length": 14,
       "value": "\"PlayListName\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3884,
+      "offset": 3954,
       "length": 15,
       "value": "\"PlayListImage\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3930,
+      "offset": 4000,
       "length": 12,
       "value": "\"CreateDate\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3969,
+      "offset": 4039,
       "length": 8,
       "value": "\"RootId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4006,
+      "offset": 4076,
       "length": 10,
       "value": "\"RootType\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4046,
+      "offset": 4116,
       "length": 11,
       "value": "\"TeaserUrl\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4086,
+      "offset": 4156,
       "length": 10,
       "value": "\"Follower\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4128,
+      "offset": 4198,
       "length": 13,
       "value": "\"ClientValue\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5395,
+      "offset": 5465,
       "length": 8,
       "value": "\"Artist\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5424,
+      "offset": 5494,
       "length": 10,
       "value": "\"Playlist\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5454,
+      "offset": 5524,
       "length": 9,
       "value": "\"Release\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5481,
+      "offset": 5551,
       "length": 7,
       "value": "\"Track\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5508,
+      "offset": 5578,
       "length": 9,
       "value": "\"Podcast\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5535,
+      "offset": 5605,
       "length": 12,
       "value": "\"SmallVideo\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5568,
+      "offset": 5638,
       "length": 10,
       "value": "\"amarTune\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5599,
+      "offset": 5669,
       "length": 10,
       "value": "\"download\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5633,
+      "offset": 5703,
       "length": 13,
       "value": "\"PodcastLive\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5670,
+      "offset": 5740,
       "length": 6,
       "value": "\"Show\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5697,
+      "offset": 5767,
       "length": 10,
       "value": "\"Discover\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5395,
+      "offset": 5797,
+      "length": 9,
+      "value": "\"Ranking\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 5465,
       "length": 8,
       "value": "\"Artist\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5424,
+      "offset": 5494,
       "length": 10,
       "value": "\"Playlist\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5454,
+      "offset": 5524,
       "length": 9,
       "value": "\"Release\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5481,
+      "offset": 5551,
       "length": 7,
       "value": "\"Track\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5508,
+      "offset": 5578,
       "length": 9,
       "value": "\"Podcast\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5535,
+      "offset": 5605,
       "length": 12,
       "value": "\"SmallVideo\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5568,
+      "offset": 5638,
       "length": 10,
       "value": "\"amarTune\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5599,
+      "offset": 5669,
       "length": 10,
       "value": "\"download\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5633,
+      "offset": 5703,
       "length": 13,
       "value": "\"PodcastLive\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5670,
+      "offset": 5740,
       "length": 6,
       "value": "\"Show\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5697,
+      "offset": 5767,
       "length": 10,
       "value": "\"Discover\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 5797,
+      "length": 9,
+      "value": "\"Ranking\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/Protocol\/ArtistDataModel.swift",
@@ -28023,6 +27305,13 @@
       "value": "\"Kona\""
     },
     {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/TopPlayerCell.swift",
+      "kind": "Array",
+      "offset": 952,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "BooleanLiteral",
       "offset": 1550,
@@ -28140,6 +27429,69 @@
       "offset": 1261,
       "length": 16,
       "value": "\"Shadhin_BL.SDDownloadObject\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Leaderboard.swift",
+      "kind": "StringLiteral",
+      "offset": 272,
+      "length": 96,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Leaderboard.swift",
+      "kind": "StringLiteral",
+      "offset": 284,
+      "length": 1,
+      "value": "\"\/ClientLeaderboard\/UserStreamingDetails?campaignType=\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Leaderboard.swift",
+      "kind": "StringLiteral",
+      "offset": 352,
+      "length": 1,
+      "value": "\"&onDate=\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Leaderboard.swift",
+      "kind": "StringLiteral",
+      "offset": 367,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Leaderboard.swift",
+      "kind": "StringLiteral",
+      "offset": 524,
+      "length": 128,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Leaderboard.swift",
+      "kind": "StringLiteral",
+      "offset": 536,
+      "length": 1,
+      "value": "\"\/ClientLeaderboard\/LeaderboardInfo?campaignType=\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Leaderboard.swift",
+      "kind": "StringLiteral",
+      "offset": 599,
+      "length": 1,
+      "value": "\"&numberOfResults=\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Leaderboard.swift",
+      "kind": "StringLiteral",
+      "offset": 634,
+      "length": 1,
+      "value": "\"&onDate=\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Leaderboard.swift",
+      "kind": "StringLiteral",
+      "offset": 651,
+      "length": 1,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/FSPagerView\/FSPageControl.swift",
@@ -28602,6 +27954,13 @@
       "offset": 1935,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/LeaderBoardAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 203,
+      "length": 18,
+      "value": "\"Shadhin_BL.LeaderBoardAdapter\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/FSPagerView\/FSPagerView.swift",
@@ -30900,6 +30259,13 @@
       "value": "0.2"
     },
     {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/LeaderBoardVM.swift",
+      "kind": "StringLiteral",
+      "offset": 281,
+      "length": 13,
+      "value": "\"Shadhin_BL.LeaderBoardVM\""
+    },
+    {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/AllGenreVC\/AllGenreVM.swift",
       "kind": "StringLiteral",
       "offset": 155,
@@ -31430,6 +30796,174 @@
       "offset": 1370,
       "length": 16,
       "value": "\"UserPlayListId\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/DateCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 1037,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/DateCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 1049,
+      "length": 5,
+      "value": "0.275"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/DateCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 1062,
+      "length": 5,
+      "value": "0.275"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/DateCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 1075,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/DateCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 1131,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/DateCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 1143,
+      "length": 5,
+      "value": "0.275"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/DateCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 1156,
+      "length": 5,
+      "value": "0.275"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/DateCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 1169,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/DateCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1228,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/DateCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 1238,
+      "length": 5,
+      "value": "0.737"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/DateCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 1251,
+      "length": 5,
+      "value": "0.737"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/DateCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1265,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/DateCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 1347,
+      "length": 5,
+      "value": "0.459"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/DateCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 1361,
+      "length": 5,
+      "value": "0.459"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/DateCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 1374,
+      "length": 5,
+      "value": "0.459"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/DateCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1388,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/DateCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 1442,
+      "length": 5,
+      "value": "0.129"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/DateCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 1456,
+      "length": 5,
+      "value": "0.129"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/DateCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 1469,
+      "length": 5,
+      "value": "0.129"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/DateCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1483,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/DateCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 1541,
+      "length": 5,
+      "value": "0.933"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/DateCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 1555,
+      "length": 5,
+      "value": "0.933"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/DateCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 1568,
+      "length": 5,
+      "value": "0.933"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/DateCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1582,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/Alamofire\/MultipartFormData.swift",

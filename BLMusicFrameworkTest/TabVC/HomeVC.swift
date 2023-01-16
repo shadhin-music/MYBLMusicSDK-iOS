@@ -78,21 +78,23 @@ extension HomeVC : UITableViewDataSource,UITableViewDelegate{
         }else if indexPath.row == 8{
             ShadhinBL.shared.clearAllCache()
         }else if indexPath.row == 9{
-            ShadhinBL.shared.openRC(rcCode: "NzBfYQ==", navigationController: self.navigationController!, tabController: self.tabBarController)
+            ShadhinBL.shared.openPatch(patchID: "NzBfYQ==", navigationController: self.navigationController!, tabController: self.tabBarController)
         }else if indexPath.row == 10{
-            ShadhinBL.shared.openRC(rcCode: "MjIwODdfcg==", navigationController: self.navigationController!, tabController: self.tabBarController)
+            ShadhinBL.shared.openPatch(patchID: "UDAwOV9QYXRjaA==", navigationController: self.navigationController!, tabController: self.tabBarController)
         }else if indexPath.row == 11{
-            ShadhinBL.shared.openRC(rcCode: "MTAxMzExX3M=", navigationController: self.navigationController!, tabController: self.tabBarController)
+            ShadhinBL.shared.openPatch(patchID: "UDAzMF9QYXRjaA==", navigationController: self.navigationController!, tabController: self.tabBarController)
         }else if indexPath.row == 12{
-            ShadhinBL.shared.openRC(rcCode: "MjAxNDhfcA==", navigationController: self.navigationController!, tabController: self.tabBarController)
+            ShadhinBL.shared.openPatch(patchID: "UDA1MF9QYXRjaA==", navigationController: self.navigationController!, tabController: self.tabBarController)
         }else if indexPath.row == 13{
-            ShadhinBL.shared.openRC(rcCode: "UDAzMF9QYXRjaA==", navigationController: self.navigationController!, tabController: self.tabBarController)
+            ShadhinBL.shared.openPatch(patchID: "UDA2OV9QYXRjaA==", navigationController: self.navigationController!, tabController: self.tabBarController)
         }else if indexPath.row == 14{
-            ShadhinBL.shared.openRC(rcCode: "MF9QREpD", navigationController: self.navigationController!, tabController: self.tabBarController)
+            ShadhinBL.shared.openPatch(patchID: "UDA4MF9QYXRjaA==", navigationController: self.navigationController!, tabController: self.tabBarController)
         }else if indexPath.row == 15{
-            ShadhinBL.shared.openRC(rcCode: "MjM1OV9QREJD", navigationController: self.navigationController!, tabController: self.tabBarController)
+            ShadhinBL.shared.openPatch(patchID: "UDA3Ml9QYXRjaA==", navigationController: self.navigationController!, tabController: self.tabBarController)
+        }else if indexPath.row == 15{
+            ShadhinBL.shared.openPatch(patchID: "UDA3M19QYXRjaA==", navigationController: self.navigationController!, tabController: self.tabBarController)
         }else if indexPath.row == 16{
-            ShadhinBL.shared.stopMusic()
+                ShadhinBL.shared.stopMusic()
         }
         
         
