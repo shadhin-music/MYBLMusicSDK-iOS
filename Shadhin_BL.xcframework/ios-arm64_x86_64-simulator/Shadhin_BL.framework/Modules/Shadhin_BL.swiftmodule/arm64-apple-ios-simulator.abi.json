@@ -17668,7 +17668,7 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 15063,
+      "offset": 15058,
       "length": 4,
       "value": "true"
     },
@@ -24794,14 +24794,14 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeAdapter.swift",
       "kind": "Array",
-      "offset": 1261,
+      "offset": 1251,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 1072,
+      "offset": 1062,
       "length": 11,
       "value": "\"Shadhin_BL.HomeAdapter\""
     },
@@ -27307,7 +27307,14 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/TopPlayerCell.swift",
       "kind": "Array",
-      "offset": 952,
+      "offset": 993,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/Cell\/TopPlayerCell.swift",
+      "kind": "Array",
+      "offset": 1048,
       "length": 2,
       "value": "[]"
     },
@@ -27958,7 +27965,7 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/LeaderBoardAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 203,
+      "offset": 283,
       "length": 18,
       "value": "\"Shadhin_BL.LeaderBoardAdapter\""
     },
@@ -29900,6 +29907,13 @@
       "offset": 173,
       "length": 12,
       "value": "\"Shadhin_BL.GradientView\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/LeaderBoardVC.swift",
+      "kind": "Array",
+      "offset": 486,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/Alamofire\/Notifications.swift",
