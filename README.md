@@ -77,6 +77,14 @@ ShadhinBL.shared.gotoRadio(nav: self.navigationController!,tabController: self.t
 ```ruby
 ShadhinBL.shared.stopMusic()
 ```
+## Play Music
+```ruby
+ShadhinBL.shared.playMusic()
+```
+## Pause Music
+```ruby
+ShadhinBL.shared.pauseMusic()
+```
 ## Clear All Cache
 ```ruby
 ShadhinBL.shared.clearAllCache()
