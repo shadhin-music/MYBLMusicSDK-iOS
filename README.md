@@ -77,6 +77,14 @@ ShadhinBL.shared.gotoRadio(nav: self.navigationController!,tabController: self.t
 ```ruby
 ShadhinBL.shared.stopMusic()
 ```
+## Play Music
+```ruby
+ShadhinBL.shared.playMusic()
+```
+## Pause Music
+```ruby
+ShadhinBL.shared.pauseMusic()
+```
 ## Clear All Cache
 ```ruby
 ShadhinBL.shared.clearAllCache()
@@ -108,4 +116,4 @@ MD Azizur Rahman, azizur.gakk@gmail.com
 
 ## License
 
-MYBLShadhinSDK is available under the MIT license. See the LICENSE file for more info
+MYBLMusicSDK is available under the MIT license. See the LICENSE file for more info
