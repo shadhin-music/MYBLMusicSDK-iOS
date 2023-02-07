@@ -37,6 +37,7 @@ class SignInVC: UIViewController {
     
 }
 extension SignInVC : ShadhinCoreNotifier{
+    //music play pause state error catch 
     func player(error: String) {
         print(error)
     }
