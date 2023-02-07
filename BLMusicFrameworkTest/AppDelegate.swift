@@ -33,6 +33,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 
 extension AppDelegate : ShadhinCoreNotifier{
+    func player(error: String) {
+        print(error)
+    }
+    
     func rcError(error: String?) {
         print(error)
     }

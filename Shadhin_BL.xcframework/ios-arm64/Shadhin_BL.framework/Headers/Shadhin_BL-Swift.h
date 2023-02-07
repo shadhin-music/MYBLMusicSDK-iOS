@@ -287,6 +287,8 @@ SWIFT_CLASS("_TtC10Shadhin_BL9ShadhinBL")
 - (void)openRadioWith:(NSString * _Nonnull)id navigationController:(UINavigationController * _Nonnull)navigationController tabController:(UITabBarController * _Nullable)tabController;
 - (void)clearAllCache;
 - (void)stopMusic;
+- (void)pauseMusic;
+- (void)playMusic;
 @end
 
 
@@ -298,6 +300,7 @@ SWIFT_PROTOCOL("_TtP10Shadhin_BL19ShadhinCoreNotifier_")
 - (void)amarTuneErrorWithError:(NSString * _Nullable)error;
 - (void)rcErrorWithError:(NSString * _Nullable)error;
 - (void)shareContentWithRCWithRc:(NSString * _Nonnull)code;
+- (void)playerWithError:(NSString * _Nonnull)error;
 @end
 
 

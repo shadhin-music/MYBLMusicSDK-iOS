@@ -33,6 +33,7 @@ public protocol ShadhinLogNotifier : ObjectiveC.NSObjectProtocol {
   func amarTuneError(error: Swift.String?)
   func rcError(error: Swift.String?)
   func shareContentWithRC(rc code: Swift.String)
+  func player(error: Swift.String)
 }
 public enum AFError : Swift.Error {
   public enum MultipartEncodingFailureReason {
@@ -223,6 +224,7 @@ extension Shadhin_BL.AFError : Foundation.LocalizedError {
   @objc func amarTuneError(error: Swift.String?)
   @objc func rcError(error: Swift.String?)
   @objc func shareContentWithRC(rc code: Swift.String)
+  @objc func player(error: Swift.String)
 }
 extension UIKit.UIButton {
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func hitTest(_ point: CoreFoundation.CGPoint, with event: UIKit.UIEvent?) -> UIKit.UIView?
@@ -238,9 +240,12 @@ extension UIKit.UIButton {
   @objc final public func openRadio(with id: Swift.String, navigationController: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
   @objc final public func clearAllCache()
   @objc final public func stopMusic()
+  @objc final public func pauseMusic()
+  @objc final public func playMusic()
   @objc deinit
 }
 extension Shadhin_BL.ShadhinBL : Shadhin_BL.ShadhinLogNotifier {
+  final public func player(error: Swift.String)
   final public func tokenStatus(token isValid: Swift.Bool, error: Swift.String?)
   final public func patchError(error: Swift.String)
   final public func amarTuneError(error: Swift.String?)

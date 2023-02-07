@@ -37,6 +37,10 @@ class SignInVC: UIViewController {
     
 }
 extension SignInVC : ShadhinCoreNotifier{
+    func player(error: String) {
+        print(error)
+    }
+    
     func shareContentWithRC(rc code: String) {
         print(code)
     }
