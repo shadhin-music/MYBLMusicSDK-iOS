@@ -95,7 +95,6 @@
 		84E8D27D2964103400CD59EB /* BLMusicFrameworkTest */ = {
 			isa = PBXGroup;
 			children = (
-				840537002998DD8800E73DC2 /* Shadhin_BL.xcframework */,
 				84E8D2992964117F00CD59EB /* TabVC */,
 				84E8D2972964116400CD59EB /* SignInVC.swift */,
 				84E8D27E2964103400CD59EB /* AppDelegate.swift */,
@@ -112,6 +111,7 @@
 		84E8D2922964105100CD59EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				840537002998DD8800E73DC2 /* Shadhin_BL.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
