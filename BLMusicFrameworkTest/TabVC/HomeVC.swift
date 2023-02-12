@@ -19,7 +19,24 @@ class HomeVC: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    private var dataSource : [String] = ["Home","Popular Artist","Latest Release","Popular Video","Feature Podcast","Amar tune","Amar tune top 100","Radio","Reset Cache","Open with RC Code to Artist","Open RC code to Album","open RC code to Track","open RC code to playlist","open RC code to Patch","open RC code to Podcast Show","Open RC code to podcast episode","Stop Music"]
+    private var dataSource : [String] = [
+        "Home",
+        "Popular Artist",
+        "Latest Release",
+        "Popular Video",
+        "Feature Podcast",
+        "Amar tune",
+        "Amar tune top 100",
+        "Radio","Reset Cache",
+        "Open with RC Code to Artist",
+        "Open RC code to Album",
+        "open RC code to Track",
+        "open RC code to playlist",
+        "open RC code to Patch",
+        "open RC code to Podcast Show",
+        "Open RC code to podcast episode",
+        "Open RC code to terms and condition",
+        "Stop Music"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -91,9 +108,9 @@ extension HomeVC : UITableViewDataSource,UITableViewDelegate{
             ShadhinBL.shared.openPatch(patchID: "UDA4MF9QYXRjaA==", navigationController: self.navigationController!, tabController: self.tabBarController)
         }else if indexPath.row == 15{
             ShadhinBL.shared.openPatch(patchID: "UDA3Ml9QYXRjaA==", navigationController: self.navigationController!, tabController: self.tabBarController)
-        }else if indexPath.row == 15{
-            ShadhinBL.shared.openPatch(patchID: "UDA3M19QYXRjaA==", navigationController: self.navigationController!, tabController: self.tabBarController)
         }else if indexPath.row == 16{
+            ShadhinBL.shared.openPatch(patchID: "MDAwMF9URVJNU0FORENPTkRJVElPTg==", navigationController: self.navigationController!, tabController: self.tabBarController)
+        }else if indexPath.row == 17{
                 ShadhinBL.shared.stopMusic()
         }
         
