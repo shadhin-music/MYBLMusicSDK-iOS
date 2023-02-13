@@ -33985,28 +33985,28 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "Array",
-      "offset": 2444,
+      "offset": 2510,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2469,
+      "offset": 2535,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2496,
+      "offset": 2562,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2765,
+      "offset": 2831,
       "length": 5,
       "value": "false"
     },
@@ -42910,98 +42910,98 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 2876,
+      "offset": 2862,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 3004,
+      "offset": 2990,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 4621,
+      "offset": 4607,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 7869,
+      "offset": 8035,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 8132,
+      "offset": 8298,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 9867,
+      "offset": 10033,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 10016,
+      "offset": 10182,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 10290,
+      "offset": 10456,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 10447,
+      "offset": 10613,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 11146,
+      "offset": 11312,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 11377,
+      "offset": 11543,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12966,
+      "offset": 13132,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 14009,
+      "offset": 14147,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 14216,
+      "offset": 14354,
       "length": 5,
       "value": "false"
     },

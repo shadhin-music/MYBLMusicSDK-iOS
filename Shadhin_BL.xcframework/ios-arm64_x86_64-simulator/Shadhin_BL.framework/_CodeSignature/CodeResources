@@ -94,7 +94,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		tll7is4299GkVv8uiMRAcd7cb6w=
+		rGvRDgk7ENx+95M7AdzBt1o/vCo=
 		</data>
 		<key>BannerCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -346,7 +346,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FaK6S7xXmYQCXBNQ6XekiAJ+5w4=
+		sTEfnAwjSHPOH81jUhH+sU2Clys=
 		</data>
 		<key>LatestReleaseWatchLaterVC.nib/objects-14.0+.nib</key>
 		<data>
@@ -378,7 +378,7 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		0nFpu/4Eyq/i3GtrbzMpHBCNWoI=
+		W5MR+yYi3oP6JlCvgRP6PcK6lRo=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -394,11 +394,11 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rQiEG/T4hlru0RTVlYtjOC9kmDg=
+		qyQslVxjvEKVSeQye2J7jhkwr5A=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		0nFpu/4Eyq/i3GtrbzMpHBCNWoI=
+		W5MR+yYi3oP6JlCvgRP6PcK6lRo=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -414,7 +414,7 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rv3EN4H30+o55LbIlVRR6KdrTFs=
+		cnxLO3HphgIXYWirjrAPlg9pTqQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -426,7 +426,7 @@
 		</data>
 		<key>MusicPlayerVC.nib</key>
 		<data>
-		hZyumSOrH5TQYU21vsIWuFF+uvQ=
+		V7JVjrydAi8I9BlG2B8LCRNDmkU=
 		</data>
 		<key>MusicVideoPlayerVC.nib/objects-14.0+.nib</key>
 		<data>
@@ -802,11 +802,11 @@
 		</data>
 		<key>WebViewVC.nib/objects-14.0+.nib</key>
 		<data>
-		fttrCwYJkm1mg7iKUnOHINO/Sk4=
+		0PRqQqvtwpJXtZXFCio5CD5U3mU=
 		</data>
 		<key>WebViewVC.nib/runtime.nib</key>
 		<data>
-		T/UgF2ZpPuBTAxjsENPD9yPVKHo=
+		6pE8RVCKem0M8pJv5RjFKJsDuCU=
 		</data>
 		<key>WeeklyTrendingCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -994,7 +994,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nM8oFHDPUgjSDt7/rcWSSKfCJuRJ5d+SDAPjl2kaeuI=
+			JiRUFAwnOV+H3Ru6jzX5YRosGUeOZjEOkqmRw/uEt9U=
 			</data>
 		</dict>
 		<key>BannerCell.nib/objects-12.3+.nib</key>
@@ -1484,7 +1484,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YMxrcY1mSgEXYyo8AT0S6gpnOENMWkSt1ROYWO9dl+4=
+			qHBpP8fOS06iGN0jna3ITW3X6UguzfuWesfWURMcXTM=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -1512,14 +1512,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xjrLmHs1hJo2U5ZZq2AnAxn0LHT+j++Gu1QqgGRvIOA=
+			nRjqcgmmauEFetVGrn7Xy13FZqgbnbR6pm/LSIbxlrI=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YMxrcY1mSgEXYyo8AT0S6gpnOENMWkSt1ROYWO9dl+4=
+			qHBpP8fOS06iGN0jna3ITW3X6UguzfuWesfWURMcXTM=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -1547,7 +1547,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g8gSSnPz/VBwXrxO/NqnGHqB1b2CcmvgdDb7W6M48nI=
+			VCOq9aeFKjCz42Jk+Nxw6VoIdNEsALM3idyH31AskfI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1568,7 +1568,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GEq7GVAjfiFi+Uuw4jydZv/FOJdTKEyS0UdnI3BPuLM=
+			FArUV7JuFRW6FWfUB8lJMxGHI72FOiSfdiajYoG8aw8=
 			</data>
 		</dict>
 		<key>MusicVideoPlayerVC.nib/objects-14.0+.nib</key>
@@ -2226,14 +2226,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZpP6Vjot14y829y0yYJwgMqFHn2r3B0IoDsu6Y1bRuE=
+			+Um0xzuUw7ntmROldUJ0aIhSB5PmFeADcT7bBnHTb8I=
 			</data>
 		</dict>
 		<key>WebViewVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dMdkV59ijwENg3JRcOyhpVz+E/qHuKry/mWZhWe/lGk=
+			KkDJnQSDF+B6ymCERtk1Z9tu1FPzI1VZjg3AAhQqLm8=
 			</data>
 		</dict>
 		<key>WeeklyTrendingCell.nib/objects-12.3+.nib</key>
