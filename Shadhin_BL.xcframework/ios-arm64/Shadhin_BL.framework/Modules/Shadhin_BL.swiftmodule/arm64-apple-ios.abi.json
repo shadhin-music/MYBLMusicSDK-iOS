@@ -32011,14 +32011,14 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/FSPagerView\/FSPageViewTransformer.swift",
       "kind": "FloatLiteral",
-      "offset": 591,
+      "offset": 563,
       "length": 4,
       "value": "0.65"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/FSPagerView\/FSPageViewTransformer.swift",
       "kind": "FloatLiteral",
-      "offset": 635,
+      "offset": 607,
       "length": 3,
       "value": "0.6"
     },
@@ -34440,7 +34440,7 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/Kingfisher\/Networking\/RetryStrategy.swift",
       "kind": "IntegerLiteral",
-      "offset": 5300,
+      "offset": 5286,
       "length": 1,
       "value": "3"
     },
@@ -36708,105 +36708,105 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/DropDown\/helpers\/DPDConstants.swift",
       "kind": "StringLiteral",
-      "offset": 249,
+      "offset": 231,
       "length": 7,
       "value": "\"frame\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/DropDown\/helpers\/DPDConstants.swift",
       "kind": "StringLiteral",
-      "offset": 329,
+      "offset": 302,
       "length": 14,
       "value": "\"DropDownCell\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/DropDown\/helpers\/DPDConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 514,
+      "offset": 478,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/DropDown\/helpers\/DPDConstants.swift",
       "kind": "FloatLiteral",
-      "offset": 564,
+      "offset": 528,
       "length": 4,
       "value": "0.94"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/DropDown\/helpers\/DPDConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 577,
+      "offset": 541,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/DropDown\/helpers\/DPDConstants.swift",
       "kind": "FloatLiteral",
-      "offset": 635,
+      "offset": 599,
       "length": 4,
       "value": "0.89"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/DropDown\/helpers\/DPDConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 648,
+      "offset": 612,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/DropDown\/helpers\/DPDConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 732,
+      "offset": 696,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/DropDown\/helpers\/DPDConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 768,
+      "offset": 732,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/DropDown\/helpers\/DPDConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 809,
+      "offset": 773,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/DropDown\/helpers\/DPDConstants.swift",
       "kind": "FloatLiteral",
-      "offset": 937,
+      "offset": 901,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/DropDown\/helpers\/DPDConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 973,
+      "offset": 937,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/DropDown\/helpers\/DPDConstants.swift",
       "kind": "FloatLiteral",
-      "offset": 1039,
+      "offset": 994,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/DropDown\/helpers\/DPDConstants.swift",
       "kind": "FloatLiteral",
-      "offset": 1289,
+      "offset": 1244,
       "length": 3,
       "value": "0.9"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/DropDown\/helpers\/DPDConstants.swift",
       "kind": "FloatLiteral",
-      "offset": 1297,
+      "offset": 1252,
       "length": 3,
       "value": "0.9"
     },
@@ -44072,35 +44072,35 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/Kingfisher\/Views\/AnimatedImageView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14452,
+      "offset": 14438,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/Kingfisher\/Views\/AnimatedImageView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14581,
+      "offset": 14567,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/Kingfisher\/Views\/AnimatedImageView.swift",
       "kind": "StringLiteral",
-      "offset": 15504,
+      "offset": 15490,
       "length": 46,
       "value": "\"com.onevcat.Kingfisher.Animator.preloadQueue\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/Kingfisher\/Views\/AnimatedImageView.swift",
       "kind": "IntegerLiteral",
-      "offset": 21353,
+      "offset": 21339,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/Kingfisher\/Views\/AnimatedImageView.swift",
       "kind": "Array",
-      "offset": 21917,
+      "offset": 21903,
       "length": 2,
       "value": "[]"
     },
