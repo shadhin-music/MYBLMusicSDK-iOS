@@ -94,7 +94,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		pwKdqwXJ8+wZ/a4o6stvESISiTM=
+		tGQbnQY6PirDh+4vk+O4dtPEtGg=
 		</data>
 		<key>BannerCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -111,6 +111,18 @@
 		<key>BiographyCell.nib/runtime.nib</key>
 		<data>
 		cF5uhe9iNvbLth0bmQph1IUaZsU=
+		</data>
+		<key>CampaignDetailsCell.nib/objects-12.3+.nib</key>
+		<data>
+		Wgiz63IpvG1U63C0o4j21ABf2sc=
+		</data>
+		<key>CampaignDetailsCell.nib/objects-13.0+.nib</key>
+		<data>
+		qo+cp7zm/dJ2HxHalx77rkAkDyA=
+		</data>
+		<key>CampaignDetailsCell.nib/runtime.nib</key>
+		<data>
+		1bvS4CgPet5JBmDMm3jfAXgZ3So=
 		</data>
 		<key>ChipCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -219,6 +231,10 @@
 		<key>GenreHeader.nib</key>
 		<data>
 		+DQ+7VKzvUNASNrBfe2gbgPd3gE=
+		</data>
+		<key>Header.nib</key>
+		<data>
+		M2bSghUBczjph/hU3ztFzj7q7yI=
 		</data>
 		<key>Headers/LNChevronView.h</key>
 		<data>
@@ -378,7 +394,7 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		BzaOB12eLX0v8qXgzUAS3AW2Hjk=
+		kVpKGsthlxIzwNFbJFJZZ3yDF2s=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -394,11 +410,11 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6/SkDB1ZQ0XvNcHPTj/kOIyKGTU=
+		mt0Cek4jLs7xcVSc1Cf29NlQmRA=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		BzaOB12eLX0v8qXgzUAS3AW2Hjk=
+		kVpKGsthlxIzwNFbJFJZZ3yDF2s=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -414,7 +430,7 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LYB+ydpc6hh1ghAEkMsvR07jpcE=
+		shDP9CHn8+uU8lrepGgBAsJY8ac=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -631,6 +647,18 @@
 		<key>PrivateHeaders/_LNWeakRef.h</key>
 		<data>
 		RrgA0Fev5Bq4MPewfx2dRryBs+0=
+		</data>
+		<key>PrizeCell.nib/objects-12.3+.nib</key>
+		<data>
+		i+vhjVrZhGpPX64zl1xlvOeOETE=
+		</data>
+		<key>PrizeCell.nib/objects-13.0+.nib</key>
+		<data>
+		b2NWiUFnI1vnjhbSbcr8y4FMn1M=
+		</data>
+		<key>PrizeCell.nib/runtime.nib</key>
+		<data>
+		ug0l2Ec8Ao+EkZYangreRDWZc58=
 		</data>
 		<key>QueueListVC.nib</key>
 		<data>
@@ -994,7 +1022,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zV5D8jxqEpVajBdnYMYoEaHgwutDTTxpCzXuzX73fFE=
+			wRpN4bbg7Cvv9z0obgZfk19OkuybVEm4qVjpduG9Zys=
 			</data>
 		</dict>
 		<key>BannerCell.nib/objects-12.3+.nib</key>
@@ -1023,6 +1051,27 @@
 			<key>hash2</key>
 			<data>
 			Nn1tyPE9iDUDztjng3HpDN0PE8d5iW/JVHxqwaxWFAw=
+			</data>
+		</dict>
+		<key>CampaignDetailsCell.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			55WKOF1HfY39BrykZ1l7H9wBVHS4okG+22oDR/tTS0A=
+			</data>
+		</dict>
+		<key>CampaignDetailsCell.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			g7CEDn8s78wdPO9nxb38vPsMdgvrLPzUlsXhHtfP5M4=
+			</data>
+		</dict>
+		<key>CampaignDetailsCell.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cpyV14MVdciK06NJdSfZCb2/kHESw6HGvl1nK6TzLmY=
 			</data>
 		</dict>
 		<key>ChipCell.nib/objects-12.3+.nib</key>
@@ -1212,6 +1261,13 @@
 			<key>hash2</key>
 			<data>
 			m1GP9+lU9tJU9Qc4jM/REmu9UDPwbPKC3KzPJQ8p7F8=
+			</data>
+		</dict>
+		<key>Header.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LsRJzRTE5c1c++1x6QXdQSfIk5o9Gu2/b382RBm3kNg=
 			</data>
 		</dict>
 		<key>Headers/LNChevronView.h</key>
@@ -1484,7 +1540,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SE2YjPhCI7QjNP7mwKO2GKd7FxpTFTLzUcCCVxJExCI=
+			+Jiit6R2m31IjDtn0isTkJh7tQaR69T8MRDTdAppaCQ=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -1512,14 +1568,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xJ7/WuinnaAQi1nsFTnTeuwSKNwlpMORs8+MfG8hd3Q=
+			bgn2coXJvIWM+or7Q844j8sNMC7Tr97viAw2t7qlOQw=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SE2YjPhCI7QjNP7mwKO2GKd7FxpTFTLzUcCCVxJExCI=
+			+Jiit6R2m31IjDtn0isTkJh7tQaR69T8MRDTdAppaCQ=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -1547,7 +1603,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AtMAaAneTOsqt5qbLEESkWfpwd4PUdD+KFfX/KWAuuU=
+			6Vogz7piXhy0gWnJ6YyGaF1X6DNWHp45irPpWabR1Tg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1926,6 +1982,27 @@
 			<key>hash2</key>
 			<data>
 			ofqJlUTZnc8xbzVAYveS1MGBiDH8WxXgm2ttz2H1crY=
+			</data>
+		</dict>
+		<key>PrizeCell.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dB1NjBn4h4O4jbqB6taWaL5TCCEGMfQT+vwOb1GJbfE=
+			</data>
+		</dict>
+		<key>PrizeCell.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ht74QMkq8ZBSzN3lB2q/cPZEu0TGXkIfbBTGSeVHryw=
+			</data>
+		</dict>
+		<key>PrizeCell.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GgF5xjDQkvPfXQq5aKuDFOf3MhI+d95svlCiqNdzw1I=
 			</data>
 		</dict>
 		<key>QueueListVC.nib</key>

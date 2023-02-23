@@ -6088,6 +6088,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -17196,6 +17206,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -20708,6 +20728,16 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "Shadhin_BL",
         "declAttributes": [
@@ -25684,6 +25714,16 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Shadhin_BL",
         "declAttributes": [
@@ -43076,6 +43116,27 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Leaderboard.swift",
+      "kind": "StringLiteral",
+      "offset": 758,
+      "length": 83,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Leaderboard.swift",
+      "kind": "StringLiteral",
+      "offset": 770,
+      "length": 1,
+      "value": "\"\/CampaignSchedule\/CampaignScheduleDetails?campaignName=\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Leaderboard.swift",
+      "kind": "StringLiteral",
+      "offset": 840,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/FSPagerView\/FSPageControl.swift",
       "kind": "IntegerLiteral",
       "offset": 339,
@@ -43652,7 +43713,7 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/LeaderBoardAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 283,
+      "offset": 319,
       "length": 18,
       "value": "\"Shadhin_BL.LeaderBoardAdapter\""
     },
@@ -45603,6 +45664,188 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PrizeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 403,
+      "length": 6,
+      "value": "\"Data\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PrizeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 431,
+      "length": 7,
+      "value": "\"Extra\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PrizeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 471,
+      "length": 25,
+      "value": "\"LeaderBoardBannerImages\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PrizeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 527,
+      "length": 10,
+      "value": "\"Operator\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PrizeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 403,
+      "length": 6,
+      "value": "\"Data\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PrizeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 431,
+      "length": 7,
+      "value": "\"Extra\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PrizeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 471,
+      "length": 25,
+      "value": "\"LeaderBoardBannerImages\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PrizeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 527,
+      "length": 10,
+      "value": "\"Operator\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PrizeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 713,
+      "length": 7,
+      "value": "\"Title\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PrizeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 745,
+      "length": 10,
+      "value": "\"SubTitle\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PrizeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 780,
+      "length": 10,
+      "value": "\"ImageUrl\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PrizeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 713,
+      "length": 7,
+      "value": "\"Title\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PrizeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 745,
+      "length": 10,
+      "value": "\"SubTitle\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PrizeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 780,
+      "length": 10,
+      "value": "\"ImageUrl\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PrizeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1035,
+      "length": 4,
+      "value": "\"Id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PrizeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1062,
+      "length": 8,
+      "value": "\"IsShow\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PrizeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1098,
+      "length": 13,
+      "value": "\"ClientValue\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PrizeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1133,
+      "length": 7,
+      "value": "\"Title\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PrizeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1160,
+      "length": 5,
+      "value": "\"Url\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PrizeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1195,
+      "length": 10,
+      "value": "\"Operator\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PrizeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1035,
+      "length": 4,
+      "value": "\"Id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PrizeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1062,
+      "length": 8,
+      "value": "\"IsShow\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PrizeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1098,
+      "length": 13,
+      "value": "\"ClientValue\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PrizeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1133,
+      "length": 7,
+      "value": "\"Title\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PrizeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1160,
+      "length": 5,
+      "value": "\"Url\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PrizeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1195,
+      "length": 10,
+      "value": "\"Operator\""
+    },
+    {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsAdapter.swift",
       "kind": "Array",
       "offset": 714,
@@ -46032,7 +46275,7 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/LeaderBoardVC\/LeaderBoardVM.swift",
       "kind": "StringLiteral",
-      "offset": 281,
+      "offset": 323,
       "length": 13,
       "value": "\"Shadhin_BL.LeaderBoardVM\""
     },
