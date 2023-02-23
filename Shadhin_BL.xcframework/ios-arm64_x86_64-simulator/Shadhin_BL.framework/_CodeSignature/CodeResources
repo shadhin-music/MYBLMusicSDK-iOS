@@ -94,7 +94,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		tGQbnQY6PirDh+4vk+O4dtPEtGg=
+		b3aHWIJQ12fFqAg4UU+pTvvwkD4=
 		</data>
 		<key>BannerCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -114,15 +114,19 @@
 		</data>
 		<key>CampaignDetailsCell.nib/objects-12.3+.nib</key>
 		<data>
-		Wgiz63IpvG1U63C0o4j21ABf2sc=
+		v3m+YsQP6H0qeDb4kasglaX6gLc=
 		</data>
 		<key>CampaignDetailsCell.nib/objects-13.0+.nib</key>
 		<data>
-		qo+cp7zm/dJ2HxHalx77rkAkDyA=
+		ZL1nW/Ll/cUNpBpmEAgXtg31xGY=
+		</data>
+		<key>CampaignDetailsCell.nib/objects-14.0+.nib</key>
+		<data>
+		00DDAB+LzUhkUJtSpne0zsCI7EI=
 		</data>
 		<key>CampaignDetailsCell.nib/runtime.nib</key>
 		<data>
-		1bvS4CgPet5JBmDMm3jfAXgZ3So=
+		UxJRJJA9CEuldcWiL4WFC9te5gQ=
 		</data>
 		<key>ChipCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -354,11 +358,11 @@
 		</data>
 		<key>ImageCell.nib/objects-12.3+.nib</key>
 		<data>
-		BCoul5mfrr5DUHNJHe0fMDsm/SQ=
+		/SUti6Cn50PBNJuB5Bbusg2nwwQ=
 		</data>
 		<key>ImageCell.nib/runtime.nib</key>
 		<data>
-		AdOWJ8oUS9uhYZB32CUWtnc1MO0=
+		FSJgfeE/6fCEDIWh5pG+BPimiic=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -1022,7 +1026,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wRpN4bbg7Cvv9z0obgZfk19OkuybVEm4qVjpduG9Zys=
+			DXIBL2kOZQlE1oXnX9VheDUmy4p6UHeh6U8tM420w7E=
 			</data>
 		</dict>
 		<key>BannerCell.nib/objects-12.3+.nib</key>
@@ -1057,21 +1061,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			55WKOF1HfY39BrykZ1l7H9wBVHS4okG+22oDR/tTS0A=
+			E8pnExsHV1ApZeTsRl40/2/AJQkc3magGa9yAvzGq3M=
 			</data>
 		</dict>
 		<key>CampaignDetailsCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g7CEDn8s78wdPO9nxb38vPsMdgvrLPzUlsXhHtfP5M4=
+			7MryBm0apI6kSZeDa7PNshTV7vEqcdnwEmn3o+u4lvM=
+			</data>
+		</dict>
+		<key>CampaignDetailsCell.nib/objects-14.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fmDljBUDyEFTKo3WM5s2lG8+I0+XNRkRC74yw3feu+M=
 			</data>
 		</dict>
 		<key>CampaignDetailsCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cpyV14MVdciK06NJdSfZCb2/kHESw6HGvl1nK6TzLmY=
+			iCgd+oEKLrzcvocm8DRboGOMiX+ibplicxnFtgvOilc=
 			</data>
 		</dict>
 		<key>ChipCell.nib/objects-12.3+.nib</key>
@@ -1477,14 +1488,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JYQKOxrmWAKQ2s+INV3+dlIX0gEmpxqe5QT85awVA50=
+			cZI3ZRwyAqqEnvJ4iLAHZwLV5uYd49sxeI2FTgyTXS4=
 			</data>
 		</dict>
 		<key>ImageCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+8okzOQmfJu0kaBuhJuKq32aS5+Gh23cBKHLXRK/mXQ=
+			+aj4YS+MQnpm7s5aTtSnB15olwzUjSVL3cuemAI6GuY=
 			</data>
 		</dict>
 		<key>LatestReleaseWatchLaterVC.nib/objects-14.0+.nib</key>
