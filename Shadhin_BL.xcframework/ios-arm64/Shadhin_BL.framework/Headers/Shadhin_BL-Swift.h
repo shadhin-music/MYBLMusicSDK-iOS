@@ -285,7 +285,6 @@ SWIFT_CLASS("_TtC10Shadhin_BL9ShadhinBL")
 - (void)eventRegisterWith:(UIEvent * _Nonnull)event;
 - (void)openPatchWithPatchID:(NSString * _Nonnull)patchID navigationController:(UINavigationController * _Nonnull)navigationController tabController:(UITabBarController * _Nullable)tabController;
 - (void)gotoRadioWithNav:(UINavigationController * _Nonnull)navigation tabController:(UITabBarController * _Nullable)tabController;
-- (void)openRadioWith:(NSString * _Nonnull)id navigationController:(UINavigationController * _Nonnull)navigationController tabController:(UITabBarController * _Nullable)tabController;
 - (void)clearAllCache;
 - (void)stopMusic;
 - (void)pauseMusic;
