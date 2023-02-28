@@ -242,7 +242,6 @@ extension UIKit.UIButton {
   @objc final public func gotoHome(with tabController: UIKit.UITabBarController?, navigationController: UIKit.UINavigationController)
   @objc final public func eventRegister(with event: UIKit.UIEvent)
   @objc final public func openPatch(patchID: Swift.String, navigationController: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
-  @objc final public func gotoRadio(nav navigation: UIKit.UINavigationController, tabController: UIKit.UITabBarController? = nil)
   @objc final public func clearAllCache()
   @objc final public func stopMusic()
   @objc final public func pauseMusic()
