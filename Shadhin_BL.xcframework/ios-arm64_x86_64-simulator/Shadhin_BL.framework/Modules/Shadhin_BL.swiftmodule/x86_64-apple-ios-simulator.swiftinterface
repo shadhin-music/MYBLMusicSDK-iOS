@@ -35,6 +35,11 @@ public protocol ShadhinLogNotifier : ObjectiveC.NSObjectProtocol {
   func shareContentWithRC(rc code: Swift.String)
   func player(error: Swift.String)
 }
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var parentViewController: UIKit.UIViewController? {
+    get
+  }
+}
 public enum AFError : Swift.Error {
   public enum MultipartEncodingFailureReason {
     case bodyPartURLInvalid(url: Foundation.URL)
