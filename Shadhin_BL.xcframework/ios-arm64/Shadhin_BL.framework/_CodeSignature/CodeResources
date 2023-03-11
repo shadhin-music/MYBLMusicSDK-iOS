@@ -46,11 +46,11 @@
 		</data>
 		<key>AmarTuneCell.nib/objects-12.3+.nib</key>
 		<data>
-		HzzDBudeiIvtoMznz3deYeo3C0I=
+		LCU7aXbdkfS+b71pOj7zD2E1Cmw=
 		</data>
 		<key>AmarTuneCell.nib/runtime.nib</key>
 		<data>
-		7gGrBee/6nRgApX7HtbPpp+Hw/8=
+		8YMyDCndcPotBvXDnsdyn7pfxio=
 		</data>
 		<key>ArtistAlbumCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -98,11 +98,11 @@
 		</data>
 		<key>BannerCell.nib/objects-12.3+.nib</key>
 		<data>
-		qiVYXjcWo/FVvcIPPPMNZwkMeRQ=
+		Lk5dtD1679LyDH+JqJXM09T+mio=
 		</data>
 		<key>BannerCell.nib/runtime.nib</key>
 		<data>
-		kcVKApDJga7UTki4cgSO/YRkH9Q=
+		VPESyF8sRGjZWv4R3+thEvCtUNY=
 		</data>
 		<key>BiographyCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -342,11 +342,11 @@
 		</data>
 		<key>HomeVC.nib/objects-14.0+.nib</key>
 		<data>
-		kpaeu36w0YMyXReR5v/IIlIp8pU=
+		jd3xwQw402SpblI35TVbJ+PHesU=
 		</data>
 		<key>HomeVC.nib/runtime.nib</key>
 		<data>
-		w1BhgTebpsx0ErHPNrQaurRKwjE=
+		MpG8WRy2L4hEdwkqPywH20OSr7Q=
 		</data>
 		<key>HomeVideoCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -398,7 +398,7 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ZaoqPz0xYQUNyub3UgldsNhYwuM=
+		xwvsVC4T5PwiXNS/zUrs3ghCDMk=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -414,7 +414,7 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		OHXGAzsKPSc8fbgmOlBdUN8kW24=
+		nY4JotreRy8xSjkBKG5+tbWsVIQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -626,15 +626,15 @@
 		</data>
 		<key>PrizeCell.nib/objects-12.3+.nib</key>
 		<data>
-		i+vhjVrZhGpPX64zl1xlvOeOETE=
+		jVugiX/uVrGuEMJzQt2iE1/oAWM=
 		</data>
 		<key>PrizeCell.nib/objects-13.0+.nib</key>
 		<data>
-		b2NWiUFnI1vnjhbSbcr8y4FMn1M=
+		jvibD2OBSB2E6F8GAsysgG6ZOig=
 		</data>
 		<key>PrizeCell.nib/runtime.nib</key>
 		<data>
-		ug0l2Ec8Ao+EkZYangreRDWZc58=
+		kdkZeQbnWRQCC9FvxJ7J172rOGE=
 		</data>
 		<key>QueueListVC.nib</key>
 		<data>
@@ -914,14 +914,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			myFFuHxCOG/SSYedFtdMkFQ1I9tKqBhhh0jDsJ/pYO8=
+			l7TYlpLApyBLoOI0LdJvFvA+QdQrL1sUHRKOYvX0s7o=
 			</data>
 		</dict>
 		<key>AmarTuneCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q1Kt8Uql9gGAfWKUY2rRQun69h7lTUqrmpVkZHUuca4=
+			R2e9yKBiiT1SpTRszY83yG6DDM0ju7fHRMj+7vs13YA=
 			</data>
 		</dict>
 		<key>ArtistAlbumCell.nib/objects-12.3+.nib</key>
@@ -1005,14 +1005,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/K7fgUElUFhGOPCgNm+dzl7gn4J0ui9rEveOfKxI8OA=
+			bDLwFLVBHiVwIVSqygN/C6fGiCV2wshC7mZmYxOiBlM=
 			</data>
 		</dict>
 		<key>BannerCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VQ0bjfHibvcbMzFqZseTSclf/oIkpT25hcCv+vNZ6Xk=
+			dPcNIhIPv51REdlPkAPVI1H0TL3yVpbwCkjiKmOfB6A=
 			</data>
 		</dict>
 		<key>BiographyCell.nib/objects-12.3+.nib</key>
@@ -1432,14 +1432,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JGme0aOPLtyaQ8sSEhaASgwGeq5/+qLoI6Jqw6DfDsQ=
+			juOkG7nZi3VsRLWLqyTZ0kFNvjAucwyiAhsuHcSfpnA=
 			</data>
 		</dict>
 		<key>HomeVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/6PNN4T8/zZsz+sHlvc1U8pKNAAmjUOY1vE0Ou+Ymro=
+			GuYk9B660Y6TFRri8i8m0d52YNgQ7gW+JR/+nvMh8vI=
 			</data>
 		</dict>
 		<key>HomeVideoCell.nib/objects-12.3+.nib</key>
@@ -1523,7 +1523,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vkRhCVWJGi+WQqxI7UgdwnjpCvF3N9SX5RU46Cpnz+w=
+			tc2m/415m/cKmvbHZNjp3j3IYAIIiiyvgsNr55OKeGs=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -1551,7 +1551,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YcsExafXsmxnwr2XoOLQgUN5kSUokvgM9Lt5x3Nes5s=
+			OM7T0eiXELBLSvKy5VeUsjQnMV9MhYLnx7PH0nzoGH0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1922,21 +1922,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dB1NjBn4h4O4jbqB6taWaL5TCCEGMfQT+vwOb1GJbfE=
+			+W46Svbdu2IpDcqkY7PTItRPi8u4/pLz+dwp7NH06c0=
 			</data>
 		</dict>
 		<key>PrizeCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ht74QMkq8ZBSzN3lB2q/cPZEu0TGXkIfbBTGSeVHryw=
+			sY+NGt5PC1MIEhH7Kxe9h2FCekKPvqOpNrKf7fF0ob8=
 			</data>
 		</dict>
 		<key>PrizeCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GgF5xjDQkvPfXQq5aKuDFOf3MhI+d95svlCiqNdzw1I=
+			XgAvjs56/h4w+jMyi18VL/9kg5qXIAAmVGdJzfplXtE=
 			</data>
 		</dict>
 		<key>QueueListVC.nib</key>

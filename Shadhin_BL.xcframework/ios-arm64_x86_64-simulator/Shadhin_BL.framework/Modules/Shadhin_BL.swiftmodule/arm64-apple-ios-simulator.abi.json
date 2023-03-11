@@ -32565,7 +32565,7 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 16364,
+      "offset": 16441,
       "length": 4,
       "value": "true"
     },
@@ -35601,6 +35601,13 @@
       "value": "530"
     },
     {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/SubscriptionVC\/SubscriptionVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 503,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/SignalRClient\/WebsocketsTransport.swift",
       "kind": "StringLiteral",
       "offset": 408,
@@ -37633,56 +37640,56 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/FavouriteContentVC\/FavouriteContentAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 1012,
+      "offset": 1053,
       "length": 5,
       "value": "\"All\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/FavouriteContentVC\/FavouriteContentAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 1047,
+      "offset": 1088,
       "length": 7,
       "value": "\"Songs\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/FavouriteContentVC\/FavouriteContentAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 1078,
+      "offset": 1119,
       "length": 8,
       "value": "\"Videos\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/FavouriteContentVC\/FavouriteContentAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 1110,
+      "offset": 1151,
       "length": 8,
       "value": "\"Albums\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/FavouriteContentVC\/FavouriteContentAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 1142,
+      "offset": 1183,
       "length": 8,
       "value": "\"Artist\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/FavouriteContentVC\/FavouriteContentAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 1174,
+      "offset": 1215,
       "length": 9,
       "value": "\"Podcast\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/FavouriteContentVC\/FavouriteContentAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 1213,
+      "offset": 1254,
       "length": 10,
       "value": "\"Playlist\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/FavouriteContentVC\/FavouriteContentAdapter.swift",
       "kind": "Array",
-      "offset": 1275,
+      "offset": 1316,
       "length": 2,
       "value": "[]"
     },
@@ -47874,14 +47881,14 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/Cell\/BannerCell\/BannerCell.swift",
       "kind": "Array",
-      "offset": 726,
+      "offset": 4329,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/Cell\/BannerCell\/BannerCell.swift",
       "kind": "StringLiteral",
-      "offset": 766,
+      "offset": 4369,
       "length": 2,
       "value": "\"\""
     }
