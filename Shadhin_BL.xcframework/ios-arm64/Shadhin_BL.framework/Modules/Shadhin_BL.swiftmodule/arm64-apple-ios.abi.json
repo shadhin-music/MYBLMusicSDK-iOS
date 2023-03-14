@@ -16358,23 +16358,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "Shadhin_BL"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Shadhin_BL",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "JSONHubProtocol",
         "printedName": "JSONHubProtocol",
@@ -18737,6 +18720,23 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -20623,23 +20623,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Shadhin_BL",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "Shadhin_BL"
       },
       {
         "kind": "Import",
@@ -25706,6 +25689,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL"
       },
       {
         "kind": "Import",
@@ -40627,6 +40627,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/FavouriteContentVC\/FavouriteContentVM.swift",
+      "kind": "StringLiteral",
+      "offset": 226,
+      "length": 18,
+      "value": "\"Shadhin_BL.FavouriteContentVM\""
+    },
+    {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Library\/LoadingButton\/LoadingButton.swift",
       "kind": "BooleanLiteral",
       "offset": 314,
@@ -43905,21 +43912,21 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Database\/CoreDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1010,
+      "offset": 997,
       "length": 36,
       "value": "\"❌ Loading of store failed:\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Database\/CoreDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1045,
+      "offset": 1032,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Database\/CoreDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1100,
+      "offset": 1087,
       "length": 26,
       "value": "\"persistentContainer Load\""
     },
