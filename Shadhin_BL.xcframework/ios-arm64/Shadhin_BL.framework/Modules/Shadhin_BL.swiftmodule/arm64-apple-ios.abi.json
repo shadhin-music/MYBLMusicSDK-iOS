@@ -32686,21 +32686,21 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 4632,
+      "offset": 4633,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 10559,
+      "offset": 10560,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 10945,
+      "offset": 10946,
       "length": 5,
       "value": "false"
     },
@@ -32714,7 +32714,7 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 17321,
+      "offset": 17322,
       "length": 4,
       "value": "true"
     },
@@ -37215,7 +37215,7 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastHomeVC\/Cell\/PDHBhootCell.swift",
       "kind": "Array",
-      "offset": 532,
+      "offset": 537,
       "length": 2,
       "value": "[]"
     },
