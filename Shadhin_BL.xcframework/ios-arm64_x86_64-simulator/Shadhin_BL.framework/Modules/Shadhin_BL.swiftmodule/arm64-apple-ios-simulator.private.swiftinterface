@@ -34,6 +34,7 @@ public protocol ShadhinLogNotifier : ObjectiveC.NSObjectProtocol {
   func rcError(error: Swift.String?)
   func shareContentWithRC(rc code: Swift.String)
   func player(error: Swift.String)
+  func bkashPaymentSuccess()
 }
 extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public var parentViewController: UIKit.UIViewController? {
@@ -230,6 +231,7 @@ extension Shadhin_BL.AFError : Foundation.LocalizedError {
   @objc func rcError(error: Swift.String?)
   @objc func shareContentWithRC(rc code: Swift.String)
   @objc func player(error: Swift.String)
+  @objc func bksahPaymentSuccess()
 }
 public protocol HubConnectionDelegate : AnyObject {
   func connectionDidOpen(hubConnection: Shadhin_BL.HubConnection)
@@ -279,9 +281,12 @@ public class HubConnection {
   @objc final public func stopMusic()
   @objc final public func pauseMusic()
   @objc final public func playMusic()
+  @objc final public func setSessionPulesTimer(second: Swift.Double)
+  @objc final public func setStreamingPulseTimer(second: Swift.Double)
   @objc deinit
 }
 extension Shadhin_BL.ShadhinBL : Shadhin_BL.ShadhinLogNotifier {
+  final public func bkashPaymentSuccess()
   final public func player(error: Swift.String)
   final public func tokenStatus(token isValid: Swift.Bool, error: Swift.String?)
   final public func patchError(error: Swift.String)

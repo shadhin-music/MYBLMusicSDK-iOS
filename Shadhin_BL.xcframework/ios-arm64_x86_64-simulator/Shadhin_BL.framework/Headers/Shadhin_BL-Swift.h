@@ -289,6 +289,8 @@ SWIFT_CLASS("_TtC10Shadhin_BL9ShadhinBL")
 - (void)stopMusic;
 - (void)pauseMusic;
 - (void)playMusic;
+- (void)setSessionPulesTimerWithSecond:(double)second;
+- (void)setStreamingPulseTimerWithSecond:(double)second;
 @end
 
 
@@ -301,6 +303,7 @@ SWIFT_PROTOCOL("_TtP10Shadhin_BL19ShadhinCoreNotifier_")
 - (void)rcErrorWithError:(NSString * _Nullable)error;
 - (void)shareContentWithRCWithRc:(NSString * _Nonnull)code;
 - (void)playerWithError:(NSString * _Nonnull)error;
+- (void)bksahPaymentSuccess;
 @end
 
 
@@ -316,6 +319,7 @@ SWIFT_PROTOCOL("_TtP10Shadhin_BL19ShadhinCoreNotifier_")
 @interface UIButton (SWIFT_EXTENSION(Shadhin_BL))
 - (UIView * _Nullable)hitTest:(CGPoint)point withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 
@@ -668,6 +672,8 @@ SWIFT_CLASS("_TtC10Shadhin_BL9ShadhinBL")
 - (void)stopMusic;
 - (void)pauseMusic;
 - (void)playMusic;
+- (void)setSessionPulesTimerWithSecond:(double)second;
+- (void)setStreamingPulseTimerWithSecond:(double)second;
 @end
 
 
@@ -680,6 +686,7 @@ SWIFT_PROTOCOL("_TtP10Shadhin_BL19ShadhinCoreNotifier_")
 - (void)rcErrorWithError:(NSString * _Nullable)error;
 - (void)shareContentWithRCWithRc:(NSString * _Nonnull)code;
 - (void)playerWithError:(NSString * _Nonnull)error;
+- (void)bksahPaymentSuccess;
 @end
 
 
@@ -695,6 +702,7 @@ SWIFT_PROTOCOL("_TtP10Shadhin_BL19ShadhinCoreNotifier_")
 @interface UIButton (SWIFT_EXTENSION(Shadhin_BL))
 - (UIView * _Nullable)hitTest:(CGPoint)point withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 
