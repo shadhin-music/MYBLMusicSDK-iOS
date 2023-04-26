@@ -11993,8 +11993,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -12005,7 +12014,7 @@
             ],
             "declKind": "Func",
             "usr": "c:@M@Shadhin_BL@objc(cs)ShadhinBL(im)setSessionPulesTimerWithSecond:",
-            "mangledName": "$s10Shadhin_BL0aB0C20setSessionPulesTimer6secondySd_tF",
+            "mangledName": "$s10Shadhin_BL0aB0C20setSessionPulesTimer6secondSSSgSd_tF",
             "moduleName": "Shadhin_BL",
             "objc_name": "setSessionPulesTimerWithSecond:",
             "declAttributes": [
@@ -12022,8 +12031,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -12034,7 +12052,7 @@
             ],
             "declKind": "Func",
             "usr": "c:@M@Shadhin_BL@objc(cs)ShadhinBL(im)setStreamingPulseTimerWithSecond:",
-            "mangledName": "$s10Shadhin_BL0aB0C22setStreamingPulseTimer6secondySd_tF",
+            "mangledName": "$s10Shadhin_BL0aB0C22setStreamingPulseTimer6secondSSSgSd_tF",
             "moduleName": "Shadhin_BL",
             "objc_name": "setStreamingPulseTimerWithSecond:",
             "declAttributes": [
@@ -33096,7 +33114,7 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 17708,
+      "offset": 17769,
       "length": 5,
       "value": "false"
     },
@@ -33110,7 +33128,7 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 18142,
+      "offset": 18203,
       "length": 4,
       "value": "true"
     },
@@ -33467,98 +33485,98 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 3679,
+      "offset": 3944,
       "length": 7,
       "value": "\"RC201\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 3713,
+      "offset": 3978,
       "length": 7,
       "value": "\"RC202\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 3747,
+      "offset": 4012,
       "length": 7,
       "value": "\"RC203\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 3781,
+      "offset": 4046,
       "length": 7,
       "value": "\"RC204\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 3815,
+      "offset": 4080,
       "length": 10,
       "value": "\"BNMAIN01\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 3855,
+      "offset": 4120,
       "length": 9,
       "value": "\"BNALL01\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 3896,
+      "offset": 4161,
       "length": 24,
       "value": "\"0000_TERMSANDCONDITION\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 3679,
+      "offset": 3944,
       "length": 7,
       "value": "\"RC201\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 3713,
+      "offset": 3978,
       "length": 7,
       "value": "\"RC202\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 3747,
+      "offset": 4012,
       "length": 7,
       "value": "\"RC203\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 3781,
+      "offset": 4046,
       "length": 7,
       "value": "\"RC204\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 3815,
+      "offset": 4080,
       "length": 10,
       "value": "\"BNMAIN01\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 3855,
+      "offset": 4120,
       "length": 9,
       "value": "\"BNALL01\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 3896,
+      "offset": 4161,
       "length": 24,
       "value": "\"0000_TERMSANDCONDITION\""
     },
@@ -47894,7 +47912,7 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsAdapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 1755,
+      "offset": 1778,
       "length": 4,
       "value": "true"
     },
@@ -48586,8 +48604,15 @@
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/CommentReplyVC\/CommentReplyVC.swift",
+      "kind": "StringLiteral",
+      "offset": 333,
+      "length": 4,
+      "value": "\"PD\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/CommentReplyVC\/CommentReplyVC.swift",
       "kind": "Array",
-      "offset": 352,
+      "offset": 388,
       "length": 2,
       "value": "[]"
     },
@@ -49819,7 +49844,7 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Podcast.swift",
       "kind": "StringLiteral",
-      "offset": 3899,
+      "offset": 4060,
       "length": 4,
       "value": "\"PD\""
     },

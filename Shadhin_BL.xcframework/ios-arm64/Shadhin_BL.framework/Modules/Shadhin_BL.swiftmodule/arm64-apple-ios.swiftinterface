@@ -280,8 +280,8 @@ public class HubConnection {
   @objc final public func stopMusic()
   @objc final public func pauseMusic()
   @objc final public func playMusic()
-  @objc final public func setSessionPulesTimer(second: Swift.Double)
-  @objc final public func setStreamingPulseTimer(second: Swift.Double)
+  @objc final public func setSessionPulesTimer(second: Swift.Double) -> Swift.String?
+  @objc final public func setStreamingPulseTimer(second: Swift.Double) -> Swift.String?
   @objc deinit
 }
 extension Shadhin_BL.ShadhinBL : Shadhin_BL.ShadhinLogNotifier {

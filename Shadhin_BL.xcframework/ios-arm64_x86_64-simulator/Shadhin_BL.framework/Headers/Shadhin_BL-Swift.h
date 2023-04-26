@@ -289,8 +289,8 @@ SWIFT_CLASS("_TtC10Shadhin_BL9ShadhinBL")
 - (void)stopMusic;
 - (void)pauseMusic;
 - (void)playMusic;
-- (void)setSessionPulesTimerWithSecond:(double)second;
-- (void)setStreamingPulseTimerWithSecond:(double)second;
+- (NSString * _Nullable)setSessionPulesTimerWithSecond:(double)second SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)setStreamingPulseTimerWithSecond:(double)second SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -671,8 +671,8 @@ SWIFT_CLASS("_TtC10Shadhin_BL9ShadhinBL")
 - (void)stopMusic;
 - (void)pauseMusic;
 - (void)playMusic;
-- (void)setSessionPulesTimerWithSecond:(double)second;
-- (void)setStreamingPulseTimerWithSecond:(double)second;
+- (NSString * _Nullable)setSessionPulesTimerWithSecond:(double)second SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)setStreamingPulseTimerWithSecond:(double)second SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
