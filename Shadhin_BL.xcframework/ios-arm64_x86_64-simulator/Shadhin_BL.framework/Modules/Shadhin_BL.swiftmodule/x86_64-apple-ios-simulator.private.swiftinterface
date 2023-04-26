@@ -231,7 +231,6 @@ extension Shadhin_BL.AFError : Foundation.LocalizedError {
   @objc func rcError(error: Swift.String?)
   @objc func shareContentWithRC(rc code: Swift.String)
   @objc func player(error: Swift.String)
-  @objc func bksahPaymentSuccess()
 }
 public protocol HubConnectionDelegate : AnyObject {
   func connectionDidOpen(hubConnection: Shadhin_BL.HubConnection)

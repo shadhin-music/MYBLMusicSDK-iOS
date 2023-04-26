@@ -303,7 +303,6 @@ SWIFT_PROTOCOL("_TtP10Shadhin_BL19ShadhinCoreNotifier_")
 - (void)rcErrorWithError:(NSString * _Nullable)error;
 - (void)shareContentWithRCWithRc:(NSString * _Nonnull)code;
 - (void)playerWithError:(NSString * _Nonnull)error;
-- (void)bksahPaymentSuccess;
 @end
 
 
@@ -686,7 +685,6 @@ SWIFT_PROTOCOL("_TtP10Shadhin_BL19ShadhinCoreNotifier_")
 - (void)rcErrorWithError:(NSString * _Nullable)error;
 - (void)shareContentWithRCWithRc:(NSString * _Nonnull)code;
 - (void)playerWithError:(NSString * _Nonnull)error;
-- (void)bksahPaymentSuccess;
 @end
 
 
