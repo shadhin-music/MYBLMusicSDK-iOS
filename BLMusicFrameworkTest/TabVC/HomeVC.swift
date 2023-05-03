@@ -121,6 +121,8 @@ extension HomeVC : UITableViewDataSource,UITableViewDelegate{
             ShadhinBL.shared.openPatch(patchID: "MDAwMF9WRFZJ", navigationController: self.navigationController!, tabController: self.tabBarController)
         }else if indexPath.row == 20{
             ShadhinBL.shared.openPatch(patchID: "MDAwMF9QRFRD", navigationController: self.navigationController!, tabController: self.tabBarController)
+        }else{
+            print("nothing")
         }
         
         
