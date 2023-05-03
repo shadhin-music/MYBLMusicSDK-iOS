@@ -36,7 +36,10 @@ class HomeVC: UIViewController {
         "open RC code to Podcast Show",
         "Open RC code to podcast episode",
         "Open RC code to terms and condition",
-        "Stop Music"]
+        "Stop Music",
+        "Bkash Open",
+        "Voice of Islam",
+        "Tomake chai"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -112,6 +115,12 @@ extension HomeVC : UITableViewDataSource,UITableViewDelegate{
             ShadhinBL.shared.openPatch(patchID: "MDAwMF9URVJNU0FORENPTkRJVElPTg==", navigationController: self.navigationController!, tabController: self.tabBarController)
         }else if indexPath.row == 17{
                 ShadhinBL.shared.stopMusic()
+        }else if indexPath.row == 18{
+            ShadhinBL.shared.openPatch(patchID: "MDAwMF9CS0FTSA==", navigationController: self.navigationController!, tabController: self.tabBarController)
+        }else if indexPath.row == 19{
+            ShadhinBL.shared.openPatch(patchID: "MDAwMF9WRFZJ", navigationController: self.navigationController!, tabController: self.tabBarController)
+        }else if indexPath.row == 20{
+            ShadhinBL.shared.openPatch(patchID: "MDAwMF9QRFRD", navigationController: self.navigationController!, tabController: self.tabBarController)
         }
         
         

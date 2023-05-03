@@ -102,7 +102,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		WZ9Xnt+qALJYuukCqV0jpbvSk00=
+		PQ4HtOLa600zanOcRnQKK71N4YA=
 		</data>
 		<key>BannerCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -120,9 +120,17 @@
 		<data>
 		cF5uhe9iNvbLth0bmQph1IUaZsU=
 		</data>
-		<key>BkashSubsriptionVC.nib</key>
+		<key>BkashSubsriptionVC.nib/objects-13.0+.nib</key>
 		<data>
-		z50XC4V3iD+0ZAq43hSOpkqaIgA=
+		LTjRqvOpoebD+wBBstj0FIWFig4=
+		</data>
+		<key>BkashSubsriptionVC.nib/objects-14.0+.nib</key>
+		<data>
+		afanDzGGEuXHA4K7/gwZR+w5S7M=
+		</data>
+		<key>BkashSubsriptionVC.nib/runtime.nib</key>
+		<data>
+		r1rU8exb7jDPzIPVZVlRGrTSC2g=
 		</data>
 		<key>CampaignDetailsCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -238,11 +246,11 @@
 		</data>
 		<key>FavouriteContentVC.nib/objects-14.0+.nib</key>
 		<data>
-		eT75E2ztaFTET9TvjR9IzaIvi9I=
+		HMoWTIvauqZbaKnQqcjlZNF21Zc=
 		</data>
 		<key>FavouriteContentVC.nib/runtime.nib</key>
 		<data>
-		cAKZPe+zuZ69YgXG6NXd+qBV+Fw=
+		/SLF7ljdfoulAt951TFwTTWAVJI=
 		</data>
 		<key>FeatureAudioPodcastCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -402,7 +410,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		s8U8wa2d/bwZphzTVdgqdY0YyIM=
+		mNgv7P/hgMMRC+yQH33xphVOWlM=
 		</data>
 		<key>LatestReleaseWatchLaterVC.nib/objects-14.0+.nib</key>
 		<data>
@@ -434,7 +442,7 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		MU+DhvNQmxcRmiNHSbbchNL1JSc=
+		6ujdhCN/FK5h/GLX4gTWms6BHZ8=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -450,11 +458,11 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zUp5AfL114crxyz024RLeDJT7I8=
+		EkRt36QOY4IZMru+tYxbszTfDlI=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		MU+DhvNQmxcRmiNHSbbchNL1JSc=
+		6ujdhCN/FK5h/GLX4gTWms6BHZ8=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -470,7 +478,7 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FoLqQh5gdxwTP4wL1ILDhpRu4yc=
+		OLbzRoBU282MCBMyRYupBHBMhQc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -506,11 +514,11 @@
 		</data>
 		<key>MyDownloadVC.nib/objects-14.0+.nib</key>
 		<data>
-		cXqpl7JFbJNW1jtRhUr9/lzYMuo=
+		XZgalfSDoCzVK5g6foG+VDqNn9I=
 		</data>
 		<key>MyDownloadVC.nib/runtime.nib</key>
 		<data>
-		o7MqCqz/SHNQQ7JqwoJc9/9CVPw=
+		OZvROSGbairk6bAUG3aks0G5oGs=
 		</data>
 		<key>MyPlaylistCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -530,11 +538,11 @@
 		</data>
 		<key>MyRankCell.nib/objects-12.3+.nib</key>
 		<data>
-		k0g7gsoWKnIF+W7MeqqcsJ4R1qI=
+		QzOD6841Z/K7u+ewogPxDEPRiYE=
 		</data>
 		<key>MyRankCell.nib/runtime.nib</key>
 		<data>
-		Nw2pDKdWBdcuZ7jZjRLWSFEoMHY=
+		744sUQ8SvdlczMaOEV3YGyo82O8=
 		</data>
 		<key>NavMenuItemCell.nib</key>
 		<data>
@@ -750,7 +758,7 @@
 		</data>
 		<key>RBTSubscriptionConfirm.nib</key>
 		<data>
-		fg0ciR2cc3O2lFBU/VwPbgbbB8Y=
+		aAjeiBQBhZI1v8MO9p0mL0ytpt4=
 		</data>
 		<key>RadioCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -770,11 +778,11 @@
 		</data>
 		<key>RankCell.nib/objects-12.3+.nib</key>
 		<data>
-		98ubhMZUmtdVUwddV9CthDZPXYI=
+		sCXH3bLasxIgvuq4uQMl2En0mik=
 		</data>
 		<key>RankCell.nib/runtime.nib</key>
 		<data>
-		r7XKeTdsgrphspQdKZ8t4p/74iQ=
+		rvigdflMzOePsanu0jDek0l+irY=
 		</data>
 		<key>ReplyFooter.nib</key>
 		<data>
@@ -822,47 +830,47 @@
 		</data>
 		<key>SubscriptionCancelVC.nib/objects-13.0+.nib</key>
 		<data>
-		rlvJmgooYPZDoBYfA22+Ec7vEf8=
+		7bIlrjyxQ0CaYh72BFEskM7eRZA=
 		</data>
 		<key>SubscriptionCancelVC.nib/objects-14.0+.nib</key>
 		<data>
-		WwqeKXwriZL6UFXKeLnlx0RsZT4=
+		b9iHACUl+tXuV6cuK2eng3/ctl8=
 		</data>
 		<key>SubscriptionCancelVC.nib/runtime.nib</key>
 		<data>
-		TPhEhzqepR/Bez/dPPp6ggocDic=
+		ivB2yA/+hbd5mSfXXATmbVkukBE=
 		</data>
 		<key>SubscriptionInvoiceVC.nib/objects-13.0+.nib</key>
 		<data>
-		IZEj+7Ffk9qKIns9OOt4DGeMnGg=
+		8GYTJ/dd4aWJselF07HdXNCOcMw=
 		</data>
 		<key>SubscriptionInvoiceVC.nib/objects-14.0+.nib</key>
 		<data>
-		+jkRazN4dAuDpbCF/2T22+1dYfM=
+		CBw4xggy7MtqQZLETQcvHUJKcBE=
 		</data>
 		<key>SubscriptionInvoiceVC.nib/runtime.nib</key>
 		<data>
-		AdKlsidqhtcV7t41QZeKwDN+WFo=
+		cwzfv8RyOHz6uQJmcTby0Nha49Q=
 		</data>
 		<key>SubscriptionPlanVC.nib/objects-13.0+.nib</key>
 		<data>
-		f3RHKY3QWUaaDzjB45D2t3An91k=
+		y0ii3Or4e607ZwBfMv4BI5ty6bs=
 		</data>
 		<key>SubscriptionPlanVC.nib/objects-14.0+.nib</key>
 		<data>
-		zwZyYgoq2/Kzj59wP9d9sBw/Ao8=
+		OZno/3CLjbTOQx1lU6Ua4HFwbMQ=
 		</data>
 		<key>SubscriptionPlanVC.nib/runtime.nib</key>
 		<data>
-		oq6t4fmnOD8/6cFmX7mnpIjHrbs=
+		p+ydaIel+p/nRL+jkJ4Ugy+ilrg=
 		</data>
 		<key>SubscriptionVC.nib/objects-13.0+.nib</key>
 		<data>
-		LvpG+RlH+K4EtHqMUEX19RyiuzM=
+		mNUcyuGhutQ/y/oBnF8W0CxEGPk=
 		</data>
 		<key>SubscriptionVC.nib/runtime.nib</key>
 		<data>
-		FbH6FFXPkWLKA3y1eebvZnQx5Cc=
+		kBAlip/+IrycevsKqK9CoGGiWus=
 		</data>
 		<key>TVideoCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -1168,7 +1176,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wnCtpIB7jK15QKEUUkTt3vG1P6y0Jt+EqHImur7V3jg=
+			LuObFCVl6LcklMqLwxjia4AFURr4tcPZ3sh/9cldxYw=
 			</data>
 		</dict>
 		<key>BannerCell.nib/objects-12.3+.nib</key>
@@ -1199,11 +1207,25 @@
 			Nn1tyPE9iDUDztjng3HpDN0PE8d5iW/JVHxqwaxWFAw=
 			</data>
 		</dict>
-		<key>BkashSubsriptionVC.nib</key>
+		<key>BkashSubsriptionVC.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KV7ihjUhFSEMhe/ctpFqsviPWGlHUGmxPNTQXuGObYU=
+			jqwHlRF4sh58/8dS/k1vHOkE5fNnqHZhh98IPUTEXD0=
+			</data>
+		</dict>
+		<key>BkashSubsriptionVC.nib/objects-14.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AsNAxQ5h/5hxhngue9xshoIXu5hWQ46Un8qyxpAaxz4=
+			</data>
+		</dict>
+		<key>BkashSubsriptionVC.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fEArro5T8e59e/c0bEBPqHvknO2jeJqbwhdPjWdmwaE=
 			</data>
 		</dict>
 		<key>CampaignDetailsCell.nib/objects-12.3+.nib</key>
@@ -1406,14 +1428,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B0xGeKwrUepiRkaUUop9lI+w61AHvTMESNw+iucRKBs=
+			x78phbrx6oPwMBSg5vuSntbuXWrZQcs8cQYdZY7Qzv0=
 			</data>
 		</dict>
 		<key>FavouriteContentVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O1wynNc6c0IVCv2Ght91AOgtXPpQ/UhbjgY23G6vZ7w=
+			ro15dZNlswlTT1Qa21Vd7Bh2qS6VWQSqUZclW2F0g74=
 			</data>
 		</dict>
 		<key>FeatureAudioPodcastCell.nib/objects-12.3+.nib</key>
@@ -1742,7 +1764,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			msDlxt8ZsfKr2OO2JzfJtiCwAln39FI0sy42w4dT7gM=
+			8iSA1iO2QLPAZwzkmUng/aQ8OQD53can5VoZKYLroQE=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -1770,14 +1792,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z0irg0a3/F02BKShXtjP1iVuhkBO1grb3rzRgrFiG1I=
+			6xDQqIVyB2LYLGXtxy0RZrEqzn7/J5nvXTas0d90Qtk=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			msDlxt8ZsfKr2OO2JzfJtiCwAln39FI0sy42w4dT7gM=
+			8iSA1iO2QLPAZwzkmUng/aQ8OQD53can5VoZKYLroQE=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -1805,7 +1827,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			i2BK41JsIjUchnJ+GGLLCgz6cgNfJksOriKAnI45Tmc=
+			r4RWPrA2AhHVqRsHD1q5JCWRgw1UsnU0h5mZ3sQ+NLM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1868,14 +1890,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c6006pKwfeyq2EbsC/SMZMUIKl8vFxCdrGIr30GworU=
+			lgcV7Y+CbJiidu/izcOyA73cDB/Td2rkGBKSP2/wu28=
 			</data>
 		</dict>
 		<key>MyDownloadVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JuU9/aueu6MKpKne5YDMAmEYfr+7brCDpeOOoUdXFPI=
+			W3+fcr46LFExBd/lH55bLPpLWqf0CpGXXnfZCMT2Xic=
 			</data>
 		</dict>
 		<key>MyPlaylistCell.nib/objects-12.3+.nib</key>
@@ -1910,14 +1932,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dtR8YJW24L6Tb64MkeWOz7EUyPFScPO+siJj7dLUHEk=
+			0eMs1pZTHDd0dfkc8x6CeUAfjz4CatMP5CGxrxAS8wY=
 			</data>
 		</dict>
 		<key>MyRankCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V3zm1f87OkFTexiocr5lseMy4YoEHJJXcH3jJI+2D4U=
+			Ta0r8pD5Qz1vp41aZ3t53kq0Cj5Qmdn2PqBuG5+SNVg=
 			</data>
 		</dict>
 		<key>NavMenuItemCell.nib</key>
@@ -2295,7 +2317,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			L4+d5f+SL3hWwRHVRgWZT/G+4KpPE4XcePDmzSsaajQ=
+			h2uzBaVfBULhbyAPnQVq3ztB7vydl3evPthoxzFWBSA=
 			</data>
 		</dict>
 		<key>RadioCell.nib/objects-12.3+.nib</key>
@@ -2330,14 +2352,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q70dnqBNF9RgV/2ECtxcYt5RZT1bZ9YTpCLmy1i89p4=
+			/OB8j4eN01r43dpWWvuhEflrwiIK2MD0Oc2ksX/70yU=
 			</data>
 		</dict>
 		<key>RankCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LyxSNF3vT+LS0tbC5xQ0ggeJU58my41TLQgsBkAcZDE=
+			HaX/7Az/xKo21WOZ1JnaBxFGJXObGw5GBus94cfU408=
 			</data>
 		</dict>
 		<key>ReplyFooter.nib</key>
@@ -2421,77 +2443,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8bZ6kqJnmdvDj2tByNAOcLpz88Vk3iTlov1awqGRDws=
+			KNwWstz0vV4cg99cIRe7Z7eCYy/WD75M88U3/coV//s=
 			</data>
 		</dict>
 		<key>SubscriptionCancelVC.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pj63mvPuI/7ZrQVoXlCkvVeIikPqu61n9QuABT5+sXc=
+			rHyUQeVR+iFbVYmSk2Hu4M5a9YP8t8+wYkrXlr/asQY=
 			</data>
 		</dict>
 		<key>SubscriptionCancelVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l1rxLKl8s8jqG4HMJ6F0miebVMhVn1ePzs2h2rSh7HY=
+			HeRyx/GwXVZNx+4a9F0pgsn1qfhl7/5vI6By7TLaP+I=
 			</data>
 		</dict>
 		<key>SubscriptionInvoiceVC.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			goTar3Xi4ySiEIBIljkye/JOIVoN3XRdJXwi55sbm9U=
+			ABsdk6hfPNKUoJwjYNvbu2WgyiHp9O799pG0jkFd4NU=
 			</data>
 		</dict>
 		<key>SubscriptionInvoiceVC.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pUyOxPAlzBvrWRu68Yr0B/3UWBfiU93UHRLEr9t/Kpg=
+			/jmYXhaBwRIOtquMXI/jvoZ5WCfOc5wAF7Pz8YoOK/4=
 			</data>
 		</dict>
 		<key>SubscriptionInvoiceVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			94D+rz6Hey6I39YUOwIk++jxbeTai31KB9ONI8XoCzw=
+			nHTdKP3TAh+OaSdaBKg4srGBMPWIwSOg2Lndcd3nUbo=
 			</data>
 		</dict>
 		<key>SubscriptionPlanVC.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gb19hQlpR2E/3VaDjQuwTb6RPSPe8/H5Fq/szbTHm9g=
+			5ojG+hl2sDvZR5KB8J5kYANShDoBnb+QO0v3x/LpeR8=
 			</data>
 		</dict>
 		<key>SubscriptionPlanVC.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4sNkdf1V9nCx52htzD6MjcFwjlaxD9oadVRIRc0ieRk=
+			zph7y46M4+KlA1Lx7TpRuT2+F7pvzNX/Ej4X0wUaFxc=
 			</data>
 		</dict>
 		<key>SubscriptionPlanVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pcn3wHrK8RSaQpVWUhy9GvoYGEhdwFiAPk7a8fkPREo=
+			5AC9vEIq6bdgl28lHcD7GX1Y51pPBOOam19cfmYXsNI=
 			</data>
 		</dict>
 		<key>SubscriptionVC.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xNjA1t19ySMYcJ8JDpe048zY/UQrRjM1gjE7df6YXjs=
+			nQPCI0RyX5eAjMToS3As/nL0Vzl5sg+09AL+zvhDf2Q=
 			</data>
 		</dict>
 		<key>SubscriptionVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qI3J2p+mwVBkg8zfM0u9XmXDGhsiO+B/OrqqLjFkBQw=
+			WiudK76yNBmJBtmLJMQ+Yvconha7TtUd71vUXKd1prk=
 			</data>
 		</dict>
 		<key>TVideoCell.nib/objects-12.3+.nib</key>
