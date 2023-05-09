@@ -33,6 +33,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 
 extension AppDelegate : ShadhinCoreNotifier{
+    func bksahPaymentSuccess() {
+        print("Payment success")
+    }
+    
     func player(error: String) {
         print(error)
     }

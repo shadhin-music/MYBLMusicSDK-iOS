@@ -102,7 +102,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		PQ4HtOLa600zanOcRnQKK71N4YA=
+		/HbqDTgXSqN+rVGh+2nBSNYlxkw=
 		</data>
 		<key>BannerCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -122,15 +122,15 @@
 		</data>
 		<key>BkashSubsriptionVC.nib/objects-13.0+.nib</key>
 		<data>
-		LTjRqvOpoebD+wBBstj0FIWFig4=
+		RbuKJTFLK2kouVeXgQJ6QEbdgCI=
 		</data>
 		<key>BkashSubsriptionVC.nib/objects-14.0+.nib</key>
 		<data>
-		afanDzGGEuXHA4K7/gwZR+w5S7M=
+		Xxv+g3aluBkSQuSMW1q4hlduBOw=
 		</data>
 		<key>BkashSubsriptionVC.nib/runtime.nib</key>
 		<data>
-		r1rU8exb7jDPzIPVZVlRGrTSC2g=
+		o385Zu3Fyc2cW8PXmJIV0prCvDU=
 		</data>
 		<key>CampaignDetailsCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -318,7 +318,7 @@
 		</data>
 		<key>Headers/Shadhin_BL-Swift.h</key>
 		<data>
-		VWR2NsX9b/dtJHSyRdwlXsP4rUI=
+		j6/BwxwwHtUC7p2fX9xMygmyBVQ=
 		</data>
 		<key>Headers/Shadhin_BL.h</key>
 		<data>
@@ -442,11 +442,11 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		6ujdhCN/FK5h/GLX4gTWms6BHZ8=
+		wxAGq82qg6wPXloed7L/0RfGJ1M=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		vdyL6mSQmFsWI6BK/frFRfEf3G0=
+		7WD8qzrfOOy/jMDb16vUsuDk24M=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -454,19 +454,19 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		vdyL6mSQmFsWI6BK/frFRfEf3G0=
+		7WD8qzrfOOy/jMDb16vUsuDk24M=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		EkRt36QOY4IZMru+tYxbszTfDlI=
+		/ZaMu1C2kONX2KIdH3EDN4gN1Dc=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		6ujdhCN/FK5h/GLX4gTWms6BHZ8=
+		wxAGq82qg6wPXloed7L/0RfGJ1M=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		77LtWE9iHX0Y1mzIUkrCml7L5DE=
+		N+zXokFnqbrIxOomQTvYvK/68QU=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -474,11 +474,11 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		77LtWE9iHX0Y1mzIUkrCml7L5DE=
+		N+zXokFnqbrIxOomQTvYvK/68QU=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		OLbzRoBU282MCBMyRYupBHBMhQc=
+		miOnFjrAvGEwwlel+3TgHjIiMas=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -510,7 +510,7 @@
 		</data>
 		<key>MusicVideoTopView.nib</key>
 		<data>
-		VhL/+YcTc7l2mTCqnPdBB8U+RO8=
+		Y0tW1f4mwurjeNi+JggHDsI6VwM=
 		</data>
 		<key>MyDownloadVC.nib/objects-14.0+.nib</key>
 		<data>
@@ -680,9 +680,13 @@
 		<data>
 		rclvqNBM/ZF6K29JZ3MUf1v468E=
 		</data>
-		<key>PriceItem.nib</key>
+		<key>PriceItem.nib/objects-13.0+.nib</key>
 		<data>
-		vhd0Mgd6ub7MT7HANVdJRLh6uZ8=
+		TH26A4oMTqdOvaTuRrt7ODl86O4=
+		</data>
+		<key>PriceItem.nib/runtime.nib</key>
+		<data>
+		zNCT4DVQXmeXzjj67fofHpJkGdY=
 		</data>
 		<key>PrivateHeaders/LNForwardingDelegate.h</key>
 		<data>
@@ -746,7 +750,7 @@
 		</data>
 		<key>RBTDoneVC.nib</key>
 		<data>
-		Yd8rP6Xj5/LrR/5oYuVn+WhzEtw=
+		XN9MBg8HNUhP1x/RT7eKvELqa8k=
 		</data>
 		<key>RBTErrorVC.nib</key>
 		<data>
@@ -810,15 +814,15 @@
 		</data>
 		<key>SongsCell.nib/objects-12.3+.nib</key>
 		<data>
-		/cDrV1q6o80Z7rQflcJ4XuhGNcg=
+		8ukRTKvpLxtfOS2Q4l2N2V6XbgA=
 		</data>
 		<key>SongsCell.nib/objects-14.0+.nib</key>
 		<data>
-		MHzoQY2vIW/xiRT7bsniVm/N350=
+		Wr+kSQkQaMl4pp9I3ZUsFDbuuaE=
 		</data>
 		<key>SongsCell.nib/runtime.nib</key>
 		<data>
-		XmE1wk2wd3qfBhtisXVaMsB5bF4=
+		ATtFNnRyKgSOMZiTtymI2AkhK7A=
 		</data>
 		<key>SquareSubCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -830,27 +834,27 @@
 		</data>
 		<key>SubscriptionCancelVC.nib/objects-13.0+.nib</key>
 		<data>
-		7bIlrjyxQ0CaYh72BFEskM7eRZA=
+		WE/QAtIwlTaFwLxHguXyrTPBFkU=
 		</data>
 		<key>SubscriptionCancelVC.nib/objects-14.0+.nib</key>
 		<data>
-		b9iHACUl+tXuV6cuK2eng3/ctl8=
+		9hVdXST3uiGfal1biq8Mg36kIHI=
 		</data>
 		<key>SubscriptionCancelVC.nib/runtime.nib</key>
 		<data>
-		ivB2yA/+hbd5mSfXXATmbVkukBE=
+		5IiFwrLgDiaOC+HqKQwVuALtVFk=
 		</data>
 		<key>SubscriptionInvoiceVC.nib/objects-13.0+.nib</key>
 		<data>
-		8GYTJ/dd4aWJselF07HdXNCOcMw=
+		GfiZOqd5JBuG7ru9DfuPe55sg4I=
 		</data>
 		<key>SubscriptionInvoiceVC.nib/objects-14.0+.nib</key>
 		<data>
-		CBw4xggy7MtqQZLETQcvHUJKcBE=
+		XNXIM4TgrafZN+mHJwiIme5bkfY=
 		</data>
 		<key>SubscriptionInvoiceVC.nib/runtime.nib</key>
 		<data>
-		cwzfv8RyOHz6uQJmcTby0Nha49Q=
+		6ZUkULfjy4deVbfrRUKH9jAads4=
 		</data>
 		<key>SubscriptionPlanVC.nib/objects-13.0+.nib</key>
 		<data>
@@ -898,11 +902,11 @@
 		</data>
 		<key>TopTrendingMusicVideoCell.nib/objects-12.3+.nib</key>
 		<data>
-		cH88/uz/C2Jg5qKo4pfxcGUoTyk=
+		fuxJJEIDQRXfdEKEzuFbReDAsIQ=
 		</data>
 		<key>TopTrendingMusicVideoCell.nib/runtime.nib</key>
 		<data>
-		63rq4MpIuTvEHUcvA9xvjsrpPxA=
+		uvffLsq7c19F75ZWrVk/8NKIhyM=
 		</data>
 		<key>TopTrendingMusicVideoVC.nib/objects-14.0+.nib</key>
 		<data>
@@ -942,15 +946,15 @@
 		</data>
 		<key>VideoSongCell.nib/objects-12.3+.nib</key>
 		<data>
-		VSqmQhjXlQVIlIodD6HcMZ9u1MQ=
+		zDTmgPJ4ya1IXMk0rnpsCebjWtY=
 		</data>
 		<key>VideoSongCell.nib/objects-14.0+.nib</key>
 		<data>
-		Fn9Neo5aNt1BAtqVHZBNg0YLcFQ=
+		IX5QKzm67CKa2G56fI/krBz1a9E=
 		</data>
 		<key>VideoSongCell.nib/runtime.nib</key>
 		<data>
-		8p0h/3f4mjv7EGady8GxE7n3fyk=
+		+tvxAyOY5UnTnpCkFNnG0/Gs+kI=
 		</data>
 		<key>VolumeVC.nib</key>
 		<data>
@@ -1176,7 +1180,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LuObFCVl6LcklMqLwxjia4AFURr4tcPZ3sh/9cldxYw=
+			AzJPaDsPDH+4LzGrFQOpSCWHmKHON7adhBSVsrC83Gk=
 			</data>
 		</dict>
 		<key>BannerCell.nib/objects-12.3+.nib</key>
@@ -1211,21 +1215,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jqwHlRF4sh58/8dS/k1vHOkE5fNnqHZhh98IPUTEXD0=
+			t43/oChl2iL7gvXYG8/wfobGvB5kVVGxK4sR49UXpRA=
 			</data>
 		</dict>
 		<key>BkashSubsriptionVC.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AsNAxQ5h/5hxhngue9xshoIXu5hWQ46Un8qyxpAaxz4=
+			K5LwVKh4wjPjX3a61D9c8nBCVT9r0qeim7IrZOsItK4=
 			</data>
 		</dict>
 		<key>BkashSubsriptionVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fEArro5T8e59e/c0bEBPqHvknO2jeJqbwhdPjWdmwaE=
+			EW7qNqw5XYbAOmkxIwrsoGkz7ziCV5ACQD3yt+zgHgc=
 			</data>
 		</dict>
 		<key>CampaignDetailsCell.nib/objects-12.3+.nib</key>
@@ -1554,7 +1558,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lyRbmKKVSa3MX7Bz0QOrnHsvyEJikJRrBHHGpuSNsy8=
+			/h+jo0iwAfSb3PhimUqbl3zs4PPKlav8wubXcW/m79k=
 			</data>
 		</dict>
 		<key>Headers/Shadhin_BL.h</key>
@@ -1764,14 +1768,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8iSA1iO2QLPAZwzkmUng/aQ8OQD53can5VoZKYLroQE=
+			Ki6ADDoRupdDkmBzPnscvLABYwiNtW2Gt1Nr+edmwgQ=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a/sSCuPg+Zzuti//+hkc5nwhai4FgBn1SBR1kbdDXz8=
+			zqDkkT1urfSUKj90jdRjJswXVmQejqj4jAwu5b5kqIQ=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -1785,28 +1789,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a/sSCuPg+Zzuti//+hkc5nwhai4FgBn1SBR1kbdDXz8=
+			zqDkkT1urfSUKj90jdRjJswXVmQejqj4jAwu5b5kqIQ=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6xDQqIVyB2LYLGXtxy0RZrEqzn7/J5nvXTas0d90Qtk=
+			EWgIgE7R/hkfXi4H84ihhdwjemYVr5UmPk48OYTnTTg=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8iSA1iO2QLPAZwzkmUng/aQ8OQD53can5VoZKYLroQE=
+			Ki6ADDoRupdDkmBzPnscvLABYwiNtW2Gt1Nr+edmwgQ=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sFodU2YPFTRVZbJvGrV1gQvGXsvmmOtJTBcpSw+D4tE=
+			ZTE2tgUN//JJ6oCOWmLQFZJ7mFJeycR7UyGlhjQt4zY=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -1820,14 +1824,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sFodU2YPFTRVZbJvGrV1gQvGXsvmmOtJTBcpSw+D4tE=
+			ZTE2tgUN//JJ6oCOWmLQFZJ7mFJeycR7UyGlhjQt4zY=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r4RWPrA2AhHVqRsHD1q5JCWRgw1UsnU0h5mZ3sQ+NLM=
+			fj+30O4BlhgGPfUCiHYo451MWLW4Oogby+AEOaHqnPY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1883,7 +1887,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+d7pK4/Wun8cPs1ohtbXHm96ZaxQxQuilNYHtnkUgc4=
+			ke9dQ0YvId2fGI5jFhovBvOc9kH3wg+nblD+epdFZV8=
 			</data>
 		</dict>
 		<key>MyDownloadVC.nib/objects-14.0+.nib</key>
@@ -2180,11 +2184,18 @@
 			tLdAlNyjtNHDzcMThdh1KNsK8BHER8ZBvKUz3vLMaOs=
 			</data>
 		</dict>
-		<key>PriceItem.nib</key>
+		<key>PriceItem.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XjKT+GAAeS8Uu8U3I/AraVTju1uVPjpt6j+XQlZQxcc=
+			+u4uFZVsmlHSySKbjPJALyWgHyFseT7KvrtERdxp8Cg=
+			</data>
+		</dict>
+		<key>PriceItem.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Brg8b1vU9D+58EO8uDuSHscL7SUAvpxH6HSADgNuRQ8=
 			</data>
 		</dict>
 		<key>PrivateHeaders/LNForwardingDelegate.h</key>
@@ -2296,7 +2307,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mXGatjtsOQppIN7dZAbp8l5GcxjgrrcS4aF45LxQaiM=
+			ZfGb2a4QSFiXcf00Q0aA+xYUMvrLNFCHldjFmjrtSpc=
 			</data>
 		</dict>
 		<key>RBTErrorVC.nib</key>
@@ -2408,21 +2419,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ueLrVn28Y7nvo/SSy4RLnJ84gp0ma+BSd6Fu2we7LEo=
+			ft4iYCfZe16bRSA/+dv1tWcB9VhtQb6iMuqrAojoSk0=
 			</data>
 		</dict>
 		<key>SongsCell.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PpA2tYvzvco0owubVyLWNOwukEjUzKfXHjA8eX7qoDU=
+			OEH2gvT9H10Agj7UJyU3qqQeuoLY11QwK8ItDYy4BaM=
 			</data>
 		</dict>
 		<key>SongsCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O1MlSwHEdegEUXYEYqNictlcpNcZKB2GnoiY+yTUWkQ=
+			lAdH0LMtJWnKJNHzy9IkU+sEfKuxOSdJJQxd5IDl8uM=
 			</data>
 		</dict>
 		<key>SquareSubCell.nib/objects-12.3+.nib</key>
@@ -2443,42 +2454,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KNwWstz0vV4cg99cIRe7Z7eCYy/WD75M88U3/coV//s=
+			z6Zacz8jlcSDkuRmFtYZfc/9VFJKRctKbBPuYu/d8lI=
 			</data>
 		</dict>
 		<key>SubscriptionCancelVC.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rHyUQeVR+iFbVYmSk2Hu4M5a9YP8t8+wYkrXlr/asQY=
+			fFfaqq0ThQaTDNyX8fNVUh4tZPapP9qtd48uWVAfo4M=
 			</data>
 		</dict>
 		<key>SubscriptionCancelVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HeRyx/GwXVZNx+4a9F0pgsn1qfhl7/5vI6By7TLaP+I=
+			WKyf4qhR3+YBOpSgTBz4Ss9byarp+nu8YfvU9MxBD0k=
 			</data>
 		</dict>
 		<key>SubscriptionInvoiceVC.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ABsdk6hfPNKUoJwjYNvbu2WgyiHp9O799pG0jkFd4NU=
+			djuQglM2338R5TnQg8mZSDA4uMmHOqx4MfYF1mD9nf0=
 			</data>
 		</dict>
 		<key>SubscriptionInvoiceVC.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/jmYXhaBwRIOtquMXI/jvoZ5WCfOc5wAF7Pz8YoOK/4=
+			+9lWhQ1VAmzkTsWecsGS/xmoQ65r47JI3OR9Ezcobas=
 			</data>
 		</dict>
 		<key>SubscriptionInvoiceVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nHTdKP3TAh+OaSdaBKg4srGBMPWIwSOg2Lndcd3nUbo=
+			WloYhANOBI9GlfTTBG+d7dw6ir/QLiy5x5A6A6WQz9Y=
 			</data>
 		</dict>
 		<key>SubscriptionPlanVC.nib/objects-13.0+.nib</key>
@@ -2562,14 +2573,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LBV1N2METThOQGSmlmcPUXi65wBE3/BbZly8l/5r7sQ=
+			pM218wEHpoOWTIozMtC3zTPilKbK8CuuUQxw/bmN4Os=
 			</data>
 		</dict>
 		<key>TopTrendingMusicVideoCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gnhu14M4oDgqqKUNOvp7XG9nrxn2OFBFssDLCGjk8Bg=
+			I2U9CyoMNCSjlxsfbr3+Iu85SAPMBfx7Orqn8RU12e8=
 			</data>
 		</dict>
 		<key>TopTrendingMusicVideoVC.nib/objects-14.0+.nib</key>
@@ -2639,21 +2650,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rh1uaPYo8D+AWlvGYqmqe7KWeiPfKow0OoRczOXejwU=
+			iB/eLZPkNCluPU3O6zoZZLj4zS9HpVls7aMk/Gf8fQE=
 			</data>
 		</dict>
 		<key>VideoSongCell.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gv+F3CM2E2UbYTw1Cg/66kgnWFugMB4mBRb1df617LQ=
+			Bzp0BEowWkjQfmBleHtese28WGnnx60k03qZ6YPATbQ=
 			</data>
 		</dict>
 		<key>VideoSongCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jIOjTz5JIC+t84jZsHgA2YeI+0OaZGAmWup4gqN94kU=
+			9Edl8oR5BmST7WjB60Otmjv+nIopqVdq+fmW42+ZsPo=
 			</data>
 		</dict>
 		<key>VolumeVC.nib</key>
