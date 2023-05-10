@@ -33178,7 +33178,7 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 17769,
+      "offset": 17877,
       "length": 5,
       "value": "false"
     },
@@ -33192,21 +33192,21 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 18203,
+      "offset": 18311,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 22819,
+      "offset": 22927,
       "length": 18,
       "value": "\"Congratulations!\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 22859,
+      "offset": 22967,
       "length": 30,
       "value": "\"Pack purchase is successful.\""
     },
@@ -34087,365 +34087,372 @@
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 446,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 907,
+      "offset": 1059,
       "length": 11,
       "value": "\"ContentID\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 982,
+      "offset": 1134,
       "length": 13,
       "value": "\"ContentType\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1019,
+      "offset": 1171,
       "length": 9,
       "value": "\"PlayUrl\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1053,
+      "offset": 1205,
       "length": 10,
       "value": "\"Duration\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1103,
+      "offset": 1255,
       "length": 8,
       "value": "\"Banner\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1137,
+      "offset": 1289,
       "length": 11,
       "value": "\"NewBanner\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1174,
+      "offset": 1326,
       "length": 11,
       "value": "\"PlayCount\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1206,
+      "offset": 1358,
       "length": 6,
       "value": "\"Type\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1235,
+      "offset": 1387,
       "length": 8,
       "value": "\"IsPaid\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1268,
+      "offset": 1420,
       "length": 10,
       "value": "\"Seekable\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1304,
+      "offset": 1456,
       "length": 11,
       "value": "\"TrackType\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1340,
+      "offset": 1492,
       "length": 10,
       "value": "\"ArtistId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1373,
+      "offset": 1525,
       "length": 8,
       "value": "\"Artist\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1409,
+      "offset": 1561,
       "length": 13,
       "value": "\"ArtistImage\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1446,
+      "offset": 1598,
       "length": 9,
       "value": "\"AlbumId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1481,
+      "offset": 1633,
       "length": 11,
       "value": "\"AlbumName\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1519,
+      "offset": 1671,
       "length": 12,
       "value": "\"AlbumImage\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1558,
+      "offset": 1710,
       "length": 12,
       "value": "\"PlayListId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1599,
+      "offset": 1751,
       "length": 14,
       "value": "\"PlayListName\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1643,
+      "offset": 1795,
       "length": 15,
       "value": "\"PlayListImage\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1685,
+      "offset": 1837,
       "length": 12,
       "value": "\"CreateDate\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1720,
+      "offset": 1872,
       "length": 8,
       "value": "\"RootId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1753,
+      "offset": 1905,
       "length": 10,
       "value": "\"RootType\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1789,
+      "offset": 1941,
       "length": 11,
       "value": "\"TeaserUrl\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1825,
+      "offset": 1977,
       "length": 10,
       "value": "\"Follower\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1863,
+      "offset": 2015,
       "length": 13,
       "value": "\"ClientValue\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 907,
+      "offset": 1059,
       "length": 11,
       "value": "\"ContentID\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 982,
+      "offset": 1134,
       "length": 13,
       "value": "\"ContentType\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1019,
+      "offset": 1171,
       "length": 9,
       "value": "\"PlayUrl\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1053,
+      "offset": 1205,
       "length": 10,
       "value": "\"Duration\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1103,
+      "offset": 1255,
       "length": 8,
       "value": "\"Banner\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1137,
+      "offset": 1289,
       "length": 11,
       "value": "\"NewBanner\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1174,
+      "offset": 1326,
       "length": 11,
       "value": "\"PlayCount\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1206,
+      "offset": 1358,
       "length": 6,
       "value": "\"Type\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1235,
+      "offset": 1387,
       "length": 8,
       "value": "\"IsPaid\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1268,
+      "offset": 1420,
       "length": 10,
       "value": "\"Seekable\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1304,
+      "offset": 1456,
       "length": 11,
       "value": "\"TrackType\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1340,
+      "offset": 1492,
       "length": 10,
       "value": "\"ArtistId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1373,
+      "offset": 1525,
       "length": 8,
       "value": "\"Artist\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1409,
+      "offset": 1561,
       "length": 13,
       "value": "\"ArtistImage\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1446,
+      "offset": 1598,
       "length": 9,
       "value": "\"AlbumId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1481,
+      "offset": 1633,
       "length": 11,
       "value": "\"AlbumName\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1519,
+      "offset": 1671,
       "length": 12,
       "value": "\"AlbumImage\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1558,
+      "offset": 1710,
       "length": 12,
       "value": "\"PlayListId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1599,
+      "offset": 1751,
       "length": 14,
       "value": "\"PlayListName\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1643,
+      "offset": 1795,
       "length": 15,
       "value": "\"PlayListImage\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1685,
+      "offset": 1837,
       "length": 12,
       "value": "\"CreateDate\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1720,
+      "offset": 1872,
       "length": 8,
       "value": "\"RootId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1753,
+      "offset": 1905,
       "length": 10,
       "value": "\"RootType\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1789,
+      "offset": 1941,
       "length": 11,
       "value": "\"TeaserUrl\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1825,
+      "offset": 1977,
       "length": 10,
       "value": "\"Follower\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PopularVideoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1863,
+      "offset": 2015,
       "length": 13,
       "value": "\"ClientValue\""
     },
@@ -37001,6 +37008,13 @@
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/Protocol\/VideoDataModel.swift",
       "kind": "BooleanLiteral",
       "offset": 856,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/Protocol\/VideoDataModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1171,
       "length": 5,
       "value": "false"
     },
@@ -40472,7 +40486,7 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/Protocol\/AlbumDataModel.swift",
       "kind": "StringLiteral",
-      "offset": 1778,
+      "offset": 1904,
       "length": 2,
       "value": "\"\""
     },
@@ -42354,85 +42368,92 @@
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/AlbumResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 377,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/AlbumResponse.swift",
       "kind": "StringLiteral",
-      "offset": 812,
+      "offset": 846,
       "length": 11,
       "value": "\"ContentID\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/AlbumResponse.swift",
       "kind": "StringLiteral",
-      "offset": 877,
+      "offset": 911,
       "length": 13,
       "value": "\"ContentType\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/AlbumResponse.swift",
       "kind": "StringLiteral",
-      "offset": 914,
+      "offset": 948,
       "length": 9,
       "value": "\"PlayUrl\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/AlbumResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1021,
+      "offset": 1055,
       "length": 9,
       "value": "\"AlbumId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/AlbumResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1055,
+      "offset": 1089,
       "length": 10,
       "value": "\"ArtistId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/AlbumResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1091,
+      "offset": 1125,
       "length": 11,
       "value": "\"TotalPlay\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/AlbumResponse.swift",
       "kind": "StringLiteral",
-      "offset": 812,
+      "offset": 846,
       "length": 11,
       "value": "\"ContentID\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/AlbumResponse.swift",
       "kind": "StringLiteral",
-      "offset": 877,
+      "offset": 911,
       "length": 13,
       "value": "\"ContentType\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/AlbumResponse.swift",
       "kind": "StringLiteral",
-      "offset": 914,
+      "offset": 948,
       "length": 9,
       "value": "\"PlayUrl\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/AlbumResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1021,
+      "offset": 1055,
       "length": 9,
       "value": "\"AlbumId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/AlbumResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1055,
+      "offset": 1089,
       "length": 10,
       "value": "\"ArtistId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/AlbumResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1091,
+      "offset": 1125,
       "length": 11,
       "value": "\"TotalPlay\""
     },
@@ -43643,196 +43664,196 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5540,
+      "offset": 5589,
       "length": 8,
       "value": "\"Artist\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5569,
+      "offset": 5618,
       "length": 10,
       "value": "\"Playlist\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5599,
+      "offset": 5648,
       "length": 9,
       "value": "\"Release\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5626,
+      "offset": 5675,
       "length": 7,
       "value": "\"Track\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5653,
+      "offset": 5702,
       "length": 9,
       "value": "\"Podcast\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5680,
+      "offset": 5729,
       "length": 12,
       "value": "\"SmallVideo\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5713,
+      "offset": 5762,
       "length": 10,
       "value": "\"amarTune\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5744,
+      "offset": 5793,
       "length": 11,
       "value": "\"Downloads\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5779,
+      "offset": 5828,
       "length": 13,
       "value": "\"PodcastLive\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5816,
+      "offset": 5865,
       "length": 6,
       "value": "\"Show\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5851,
+      "offset": 5900,
       "length": 11,
       "value": "\"VideoShow\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5887,
+      "offset": 5936,
       "length": 14,
       "value": "\"PodcastVideo\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5922,
+      "offset": 5971,
       "length": 10,
       "value": "\"Discover\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5952,
+      "offset": 6001,
       "length": 9,
       "value": "\"Ranking\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5540,
+      "offset": 5589,
       "length": 8,
       "value": "\"Artist\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5569,
+      "offset": 5618,
       "length": 10,
       "value": "\"Playlist\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5599,
+      "offset": 5648,
       "length": 9,
       "value": "\"Release\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5626,
+      "offset": 5675,
       "length": 7,
       "value": "\"Track\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5653,
+      "offset": 5702,
       "length": 9,
       "value": "\"Podcast\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5680,
+      "offset": 5729,
       "length": 12,
       "value": "\"SmallVideo\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5713,
+      "offset": 5762,
       "length": 10,
       "value": "\"amarTune\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5744,
+      "offset": 5793,
       "length": 11,
       "value": "\"Downloads\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5779,
+      "offset": 5828,
       "length": 13,
       "value": "\"PodcastLive\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5816,
+      "offset": 5865,
       "length": 6,
       "value": "\"Show\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5851,
+      "offset": 5900,
       "length": 11,
       "value": "\"VideoShow\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5887,
+      "offset": 5936,
       "length": 14,
       "value": "\"PodcastVideo\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5922,
+      "offset": 5971,
       "length": 10,
       "value": "\"Discover\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/HomeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5952,
+      "offset": 6001,
       "length": 9,
       "value": "\"Ranking\""
     },
@@ -47451,210 +47472,210 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6056,
+      "offset": 6072,
       "length": 4,
       "value": "\"Id\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6083,
+      "offset": 6099,
       "length": 8,
       "value": "\"ShowId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6117,
+      "offset": 6133,
       "length": 11,
       "value": "\"EpisodeId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6149,
+      "offset": 6165,
       "length": 6,
       "value": "\"Name\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6180,
+      "offset": 6196,
       "length": 10,
       "value": "\"ImageUrl\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6214,
+      "offset": 6230,
       "length": 9,
       "value": "\"PlayUrl\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6248,
+      "offset": 6264,
       "length": 10,
       "value": "\"Starring\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6283,
+      "offset": 6299,
       "length": 10,
       "value": "\"Duration\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6318,
+      "offset": 6334,
       "length": 10,
       "value": "\"Seekable\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6352,
+      "offset": 6368,
       "length": 9,
       "value": "\"Details\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6387,
+      "offset": 6403,
       "length": 11,
       "value": "\"CeateDate\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6451,
+      "offset": 6467,
       "length": 13,
       "value": "\"ContentType\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6502,
+      "offset": 6518,
       "length": 6,
       "value": "\"Sort\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6534,
+      "offset": 6550,
       "length": 11,
       "value": "\"TrackType\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6568,
+      "offset": 6584,
       "length": 8,
       "value": "\"IsPaid\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6056,
+      "offset": 6072,
       "length": 4,
       "value": "\"Id\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6083,
+      "offset": 6099,
       "length": 8,
       "value": "\"ShowId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6117,
+      "offset": 6133,
       "length": 11,
       "value": "\"EpisodeId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6149,
+      "offset": 6165,
       "length": 6,
       "value": "\"Name\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6180,
+      "offset": 6196,
       "length": 10,
       "value": "\"ImageUrl\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6214,
+      "offset": 6230,
       "length": 9,
       "value": "\"PlayUrl\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6248,
+      "offset": 6264,
       "length": 10,
       "value": "\"Starring\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6283,
+      "offset": 6299,
       "length": 10,
       "value": "\"Duration\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6318,
+      "offset": 6334,
       "length": 10,
       "value": "\"Seekable\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6352,
+      "offset": 6368,
       "length": 9,
       "value": "\"Details\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6387,
+      "offset": 6403,
       "length": 11,
       "value": "\"CeateDate\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6451,
+      "offset": 6467,
       "length": 13,
       "value": "\"ContentType\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6502,
+      "offset": 6518,
       "length": 6,
       "value": "\"Sort\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6534,
+      "offset": 6550,
       "length": 11,
       "value": "\"TrackType\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/PodcastAudioResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6568,
+      "offset": 6584,
       "length": 8,
       "value": "\"IsPaid\""
     },
@@ -50027,84 +50048,84 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/AlbumSongsResponse.swift",
       "kind": "BooleanLiteral",
-      "offset": 866,
+      "offset": 896,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/AlbumSongsResponse.swift",
       "kind": "BooleanLiteral",
-      "offset": 1448,
+      "offset": 1478,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/AlbumSongsResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1525,
+      "offset": 1555,
       "length": 11,
       "value": "\"ContentID\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/AlbumSongsResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1590,
+      "offset": 1620,
       "length": 13,
       "value": "\"ContentType\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/AlbumSongsResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1627,
+      "offset": 1657,
       "length": 9,
       "value": "\"PlayUrl\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/AlbumSongsResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1731,
+      "offset": 1761,
       "length": 10,
       "value": "\"ArtistId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/AlbumSongsResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1765,
+      "offset": 1795,
       "length": 9,
       "value": "\"AlbumId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/AlbumSongsResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1525,
+      "offset": 1555,
       "length": 11,
       "value": "\"ContentID\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/AlbumSongsResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1590,
+      "offset": 1620,
       "length": 13,
       "value": "\"ContentType\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/AlbumSongsResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1627,
+      "offset": 1657,
       "length": 9,
       "value": "\"PlayUrl\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/AlbumSongsResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1731,
+      "offset": 1761,
       "length": 10,
       "value": "\"ArtistId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Model\/AlbumSongsResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1765,
+      "offset": 1795,
       "length": 9,
       "value": "\"AlbumId\""
     },
