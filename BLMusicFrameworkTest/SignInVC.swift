@@ -37,6 +37,14 @@ class SignInVC: UIViewController {
     
 }
 extension SignInVC : ShadhinCoreNotifier{
+    func shareContentWithRC(title: String, image: String, rc code: String) {
+        print(title,image,code)
+    }
+    
+    func bkashPaymentInit() {
+        
+    }
+    
     func bksahPaymentSuccess() {
         print("payment success")
     }

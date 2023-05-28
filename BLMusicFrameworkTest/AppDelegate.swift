@@ -33,6 +33,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 
 extension AppDelegate : ShadhinCoreNotifier{
+    func shareContentWithRC(title: String, image: String, rc code: String) {
+        
+    }
+    
+    func bkashPaymentInit() {
+        
+    }
+    
     func bksahPaymentSuccess() {
         print("Payment success")
     }
