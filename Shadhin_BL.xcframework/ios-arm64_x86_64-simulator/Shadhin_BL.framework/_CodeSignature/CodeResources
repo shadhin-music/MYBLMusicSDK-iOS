@@ -442,7 +442,7 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		qJdX683pB2qG3VSCJD7JnHXCIpg=
+		O7rrDcel4qvnuOejDIT5cUBHbaU=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -462,7 +462,7 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		qJdX683pB2qG3VSCJD7JnHXCIpg=
+		O7rrDcel4qvnuOejDIT5cUBHbaU=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -490,7 +490,7 @@
 		</data>
 		<key>MusicPlayerVC.nib</key>
 		<data>
-		R0PrPIUbciS0GxhWsGTTGX0ziOs=
+		nlZHarxVXzLo4ksTsYc/mY9tCqE=
 		</data>
 		<key>MusicVideoPlayerVC.nib/objects-14.0+.nib</key>
 		<data>
@@ -650,11 +650,11 @@
 		</data>
 		<key>PodcastVideoVC.nib/objects-14.0+.nib</key>
 		<data>
-		5oS5SBSW/dixA4V2+c5mV0UVZLE=
+		YRG0fF5LYWj0BKJoeP76epFYDaU=
 		</data>
 		<key>PodcastVideoVC.nib/runtime.nib</key>
 		<data>
-		94QgyAS9WA5S0aAWYZbb/dysIrU=
+		HNu6WUwULEXm+mDDmanVT/KMqAg=
 		</data>
 		<key>PopularAlbumTopTrendingCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -1768,7 +1768,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FCGN0ORkQgx6h6SdQRzS/IdTiAmtqxcnws6TV6/A0Co=
+			E5vhvSDzf5EKOpfHxh8Iv/zqOfaSD31mq2NR/hSsIUI=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -1803,7 +1803,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FCGN0ORkQgx6h6SdQRzS/IdTiAmtqxcnws6TV6/A0Co=
+			E5vhvSDzf5EKOpfHxh8Iv/zqOfaSD31mq2NR/hSsIUI=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -1852,7 +1852,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PBqAg+aO7V1nIHyLcfT9UZOsU52PY1iQ2I95iowi1jE=
+			u0tD1c35BMmx8ai0SNFckLDLO0/eBmbsZ92rFMrcf6U=
 			</data>
 		</dict>
 		<key>MusicVideoPlayerVC.nib/objects-14.0+.nib</key>
@@ -2132,14 +2132,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vUIAU44QG12g6MzsuLLpgWrM7M68qQlSu3FCXLOtUBg=
+			BVYzd8yuVMov4pJOseENByzUORmp1P2/ax0i9q1HCbs=
 			</data>
 		</dict>
 		<key>PodcastVideoVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mr+AmTsL/dl+P5HuV9XvHJq2uXlJ5GUtT/N4zAEC8tw=
+			MzefBiJJsCmcfAtOGk/TeeJRcya8XsLogiwZS8VGkow=
 			</data>
 		</dict>
 		<key>PopularAlbumTopTrendingCell.nib/objects-12.3+.nib</key>
