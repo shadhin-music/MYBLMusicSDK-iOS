@@ -71748,6 +71748,27 @@
       "value": "60"
     },
     {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/AppData.swift",
+      "kind": "StringLiteral",
+      "offset": 6408,
+      "length": 10,
+      "value": "\"userInfo\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/AppData.swift",
+      "kind": "StringLiteral",
+      "offset": 6511,
+      "length": 17,
+      "value": "\"termsOfUsageUrl\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/AppData.swift",
+      "kind": "StringLiteral",
+      "offset": 6637,
+      "length": 5,
+      "value": "\"faq\""
+    },
+    {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopCell.swift",
       "kind": "IntegerLiteral",
       "offset": 479,
