@@ -102,7 +102,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		VJ8zItm3SGJ6ktpt+T81MD3L/k0=
+		JicKYwA9chgQGSRTU27umdEDzQE=
 		</data>
 		<key>BannerCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -318,7 +318,7 @@
 		</data>
 		<key>Headers/Shadhin_BL-Swift.h</key>
 		<data>
-		UqGCeu12ByCF+YYQlx1OEHG+CL0=
+		WtVyTcENVWHItpx6IsA8DBS+zaE=
 		</data>
 		<key>Headers/Shadhin_BL.h</key>
 		<data>
@@ -410,7 +410,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wzAbWqtDz/MuUjtKMbj5EoPu4iA=
+		I+YtmfWOhhkOqXJ98aTgbXiMo8k=
 		</data>
 		<key>LatestReleaseWatchLaterVC.nib/objects-14.0+.nib</key>
 		<data>
@@ -442,23 +442,23 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		wcA9xNr2T/eyCFbb1mrX6v8qJek=
+		MbvE7bKzstZGvxDu9cGYOyCydN0=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		DlVE/f0qfz9oe+3r6H17ygKO75I=
+		Mm2aY5QvhbRAeSeL6im/bdkRP+s=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		XeWi47goA9evLxvLJBXYWStjtDk=
+		SjmzZDao/SZlUBdluyLyybnjULM=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		DlVE/f0qfz9oe+3r6H17ygKO75I=
+		Mm2aY5QvhbRAeSeL6im/bdkRP+s=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		laWgLKH+iJcg3XfZL+2zXY6baw0=
+		JKVrPv9EwSP7xntu7J8bWvnVIFo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -550,7 +550,7 @@
 		</data>
 		<key>OfflineDatabase.momd/OfflineDatabase.mom</key>
 		<data>
-		QoDF4wURVNh0KCCMkZWvy+QggRY=
+		BXJmJchOy3iHGF6P3YBkyo2EotY=
 		</data>
 		<key>OfflineDatabase.momd/OfflineDatabase.omo</key>
 		<data>
@@ -1160,7 +1160,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FXECdYtsUwwtUiT1inZ9ze6hDi7moJjlinbAPXZhtpo=
+			lFeXt+vIJeYBA2ih8sgXrpq4sme4mq0M4J1hrfhTieE=
 			</data>
 		</dict>
 		<key>BannerCell.nib/objects-12.3+.nib</key>
@@ -1538,7 +1538,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SltEqP9s6jfygQxs1lYT00rgUj5qxEP3ASfUD5wYUbI=
+			3dIaaEBHS7t1Z9Se5iCuwRXthgUsfsQOU0zIfp8ZP00=
 			</data>
 		</dict>
 		<key>Headers/Shadhin_BL.h</key>
@@ -1748,35 +1748,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ukxRNOTLaqNIWHVK5GQsQLCOOuZX6CJzPIJhw25aCt8=
+			TLPrMug4yLPQJO9tzPzQam2I/nNKDfpjZO6QDRap3Ik=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UfuQiFxxnHSRp2yxoOrq5D6GU+IAP6Ddt/e7DKN+RKY=
+			uOvwB0XuknYdNSWiYIXAuWWSQvVRIAfk8amSrhXeeow=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HzTpju+dgDCbEwLeo5uexK7Kd4dRY41aPTeXtpXo2Ck=
+			wu0KfenoG5RCW6eg8TyEP9/SQUqQjytKul3xrw7sjXA=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UfuQiFxxnHSRp2yxoOrq5D6GU+IAP6Ddt/e7DKN+RKY=
+			uOvwB0XuknYdNSWiYIXAuWWSQvVRIAfk8amSrhXeeow=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GVCwbwKk4J/uYKlwdYA6xlJMA8WfaiMQaugD2wYHF5M=
+			J5jAnHREc9D+Tqx4DUQpXmAx0SISEdgRhlyyVGFl9lE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1937,7 +1937,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5rzUNxXHpeMntuHWpbiV6qiZI0/ue4WemdEDPGw36cg=
+			lrmzIBXfFzFpjcpmKqliwJ5iet7Dzth52UroSZfHt5E=
 			</data>
 		</dict>
 		<key>OfflineDatabase.momd/OfflineDatabase.omo</key>
