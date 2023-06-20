@@ -37534,49 +37534,28 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Login.swift",
       "kind": "StringLiteral",
-      "offset": 1198,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Login.swift",
-      "kind": "StringLiteral",
-      "offset": 1225,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Login.swift",
-      "kind": "StringLiteral",
-      "offset": 1285,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Login.swift",
-      "kind": "StringLiteral",
-      "offset": 1312,
-      "length": 8,
-      "value": "\"Accept\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Login.swift",
-      "kind": "StringLiteral",
-      "offset": 1433,
+      "offset": 1266,
       "length": 10,
       "value": "\"vendorId\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Login.swift",
       "kind": "StringLiteral",
-      "offset": 1588,
+      "offset": 1421,
       "length": 12,
       "value": "\"deviceName\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Login.swift",
       "kind": "StringLiteral",
-      "offset": 2915,
+      "offset": 1442,
+      "length": 5,
+      "value": "\"iOS\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Login.swift",
+      "kind": "StringLiteral",
+      "offset": 2685,
       "length": 10,
       "value": "\"response\""
     },
@@ -58261,140 +58240,133 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/BkashSubscription\/SubscriptionCancelVC\/SubscriptionCancelVC.swift",
       "kind": "StringLiteral",
-      "offset": 660,
-      "length": 15,
-      "value": "\"8801960685935\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/BkashSubscription\/SubscriptionCancelVC\/SubscriptionCancelVC.swift",
-      "kind": "StringLiteral",
-      "offset": 847,
+      "offset": 849,
       "length": 3,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/BkashSubscription\/SubscriptionCancelVC\/SubscriptionCancelVC.swift",
       "kind": "StringLiteral",
-      "offset": 911,
+      "offset": 913,
       "length": 4,
       "value": "\"TK\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/BkashSubscription\/SubscriptionCancelVC\/SubscriptionCancelVC.swift",
       "kind": "StringLiteral",
-      "offset": 923,
+      "offset": 925,
       "length": 6,
       "value": "\"TAKA\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/BkashSubscription\/SubscriptionCancelVC\/SubscriptionCancelVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 997,
+      "offset": 999,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/BkashSubscription\/SubscriptionCancelVC\/SubscriptionCancelVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1036,
+      "offset": 1038,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/BkashSubscription\/SubscriptionCancelVC\/SubscriptionCancelVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1085,
+      "offset": 1087,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/BkashSubscription\/SubscriptionCancelVC\/SubscriptionCancelVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1287,
+      "offset": 1289,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/BkashSubscription\/SubscriptionCancelVC\/SubscriptionCancelVC.swift",
       "kind": "StringLiteral",
-      "offset": 1369,
+      "offset": 1371,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/BkashSubscription\/SubscriptionCancelVC\/SubscriptionCancelVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1415,
+      "offset": 1417,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/BkashSubscription\/SubscriptionCancelVC\/SubscriptionCancelVC.swift",
       "kind": "StringLiteral",
-      "offset": 1824,
+      "offset": 1826,
       "length": 37,
       "value": "\"There is no plan is active for you.\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/BkashSubscription\/SubscriptionCancelVC\/SubscriptionCancelVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2043,
+      "offset": 2045,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/BkashSubscription\/SubscriptionCancelVC\/SubscriptionCancelVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2084,
+      "offset": 2086,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/BkashSubscription\/SubscriptionCancelVC\/SubscriptionCancelVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2350,
+      "offset": 2352,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/BkashSubscription\/SubscriptionCancelVC\/SubscriptionCancelVC.swift",
       "kind": "StringLiteral",
-      "offset": 2493,
+      "offset": 2495,
       "length": 15,
       "value": "\"Unsubscribed!\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/BkashSubscription\/SubscriptionCancelVC\/SubscriptionCancelVC.swift",
       "kind": "StringLiteral",
-      "offset": 2539,
+      "offset": 2541,
       "length": 44,
       "value": "\"Your active pack is successfully Canceled.\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/BkashSubscription\/SubscriptionCancelVC\/SubscriptionCancelVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3013,
+      "offset": 3015,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/BkashSubscription\/SubscriptionCancelVC\/SubscriptionCancelVC.swift",
       "kind": "StringLiteral",
-      "offset": 3131,
+      "offset": 3133,
       "length": 7,
       "value": "\"Alert\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/BkashSubscription\/SubscriptionCancelVC\/SubscriptionCancelVC.swift",
       "kind": "StringLiteral",
-      "offset": 3220,
+      "offset": 3222,
       "length": 8,
       "value": "\"Cancel\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/BkashSubscription\/SubscriptionCancelVC\/SubscriptionCancelVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3316,
+      "offset": 3318,
       "length": 4,
       "value": "true"
     },

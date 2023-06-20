@@ -442,7 +442,7 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		nOEBIpIu8SY6vFO6KI7QeJFZobU=
+		pTPkeZc4XH6mxLmhUiIpynh8z6E=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -462,7 +462,7 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		nOEBIpIu8SY6vFO6KI7QeJFZobU=
+		pTPkeZc4XH6mxLmhUiIpynh8z6E=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -834,15 +834,11 @@
 		</data>
 		<key>SubscriptionCancelVC.nib/objects-13.0+.nib</key>
 		<data>
-		z+YbSChT7x2S219Sep0vG3TJPY0=
-		</data>
-		<key>SubscriptionCancelVC.nib/objects-14.0+.nib</key>
-		<data>
-		mtRP0btLhYOxpuq5eDTSEvS7ZYE=
+		apVoI3/oa6r37SsGsiuhp9jLPiw=
 		</data>
 		<key>SubscriptionCancelVC.nib/runtime.nib</key>
 		<data>
-		cN3I6w4VA2gcTYVZt7kJyc8KBek=
+		zPeKcemFMwMpHTDxmqkddeb73ug=
 		</data>
 		<key>SubscriptionInvoiceVC.nib/objects-13.0+.nib</key>
 		<data>
@@ -1768,7 +1764,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KNrNbI5GeXd2BnrWJwMqozHF0if37HJw+SiQtb3Va0I=
+			XSXAZglMhbNCk8gXbI70z5+TppNhrX0qhO+vslHE3Cc=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -1803,7 +1799,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KNrNbI5GeXd2BnrWJwMqozHF0if37HJw+SiQtb3Va0I=
+			XSXAZglMhbNCk8gXbI70z5+TppNhrX0qhO+vslHE3Cc=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -2454,21 +2450,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VdvFfW2WkfhC3HWgpI9q5hzOh7tM1mqqLonLuGF9KKI=
-			</data>
-		</dict>
-		<key>SubscriptionCancelVC.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			NhPDg5wJEGOeskjFX9Ev9614KnICU0XO4n8QGSmy6Ws=
+			ETSjThE0O2XvC457zMrx04/RP1sbagzRono4rjpZ73w=
 			</data>
 		</dict>
 		<key>SubscriptionCancelVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hnxcvzr5MVGLdiMqO4/gbX28SqucIrdcX7fsg+5ne4c=
+			wHWpRtt258u5OxGLsBVuA4b7Lr9n9SXc/EAASE5Zsu0=
 			</data>
 		</dict>
 		<key>SubscriptionInvoiceVC.nib/objects-13.0+.nib</key>
