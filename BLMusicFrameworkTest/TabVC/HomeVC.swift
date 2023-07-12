@@ -94,7 +94,8 @@ extension HomeVC : UITableViewDataSource,UITableViewDelegate{
         }else if indexPath.row == 6{
             ShadhinBL.shared.openPatch(patchID: FeatureType.AMAR_TUNE_TOP_100.rawValue, navigationController: self.navigationController!,tabController: self.tabBarController)
         }else if indexPath.row == 7{
-            ShadhinBL.shared.gotoRadio(nav: self.navigationController!,tabController: self.tabBarController)
+            ShadhinBL.shared.openPatch(patchID: "MzAwMDlfcmFkaW8=", navigationController: self.navigationController!, tabController: self.tabBarController)
+            //ShadhinBL.shared.openPatch(patchID: "30001_radio", navigationController: self.navigationController!, tabController: self.tabBarController)
         }else if indexPath.row == 8{
             ShadhinBL.shared.clearAllCache()
         }else if indexPath.row == 9{
