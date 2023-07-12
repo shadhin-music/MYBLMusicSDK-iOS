@@ -39988,78 +39988,92 @@
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 14430,
+      "length": 12,
+      "value": "\"BL_Outside\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 14472,
+      "length": 9,
+      "value": "\"P_Radio\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 15079,
+      "offset": 15190,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 15267,
+      "offset": 15378,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 15525,
+      "offset": 15636,
       "length": 8,
       "value": "\"Artist\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 15656,
+      "offset": 15767,
       "length": 10,
       "value": "\"Playlist\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 15783,
+      "offset": 15894,
       "length": 7,
       "value": "\"Album\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 15907,
+      "offset": 16018,
       "length": 7,
       "value": "\"Songs\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 16029,
+      "offset": 16140,
       "length": 9,
       "value": "\"Podcast\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 16872,
+      "offset": 16983,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 18125,
+      "offset": 18236,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 18533,
+      "offset": 18644,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 18610,
+      "offset": 18721,
       "length": 5,
       "value": "false"
     },
@@ -40073,245 +40087,245 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 18998,
+      "offset": 19109,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 19044,
+      "offset": 19155,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "IntegerLiteral",
-      "offset": 19380,
+      "offset": 19491,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 19404,
+      "offset": 19515,
       "length": 15,
       "value": "\"Out of BL_SDK\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 19558,
+      "offset": 19669,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 19729,
+      "offset": 19840,
       "length": 15,
       "value": "\"Inside BL_SDK\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 20034,
+      "offset": 20145,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 20256,
+      "offset": 20367,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 20376,
+      "offset": 20487,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 20451,
+      "offset": 20562,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 21233,
+      "offset": 21344,
       "length": 9,
       "value": "\"Monthly\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 21365,
+      "offset": 21476,
       "length": 6,
       "value": "\"5010\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 21404,
+      "offset": 21515,
       "length": 11,
       "value": "\"By Weekly\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 21458,
+      "offset": 21569,
       "length": 6,
       "value": "\"5011\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 21497,
+      "offset": 21608,
       "length": 9,
       "value": "\"Monthly\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 21549,
+      "offset": 21660,
       "length": 6,
       "value": "\"5012\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 21588,
+      "offset": 21699,
       "length": 13,
       "value": "\"Half Yearly\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 21722,
+      "offset": 21833,
       "length": 58,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 21730,
+      "offset": 21841,
       "length": 4,
       "value": "\" plan purchase request is successfully submitted.\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 22344,
+      "offset": 22455,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 22417,
+      "offset": 22528,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 22499,
+      "offset": 22610,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 24212,
+      "offset": 24323,
       "length": 18,
       "value": "\"Congratulations!\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 24252,
+      "offset": 24363,
       "length": 49,
       "value": "\"Plan purchase request is successfully submitted\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 24956,
+      "offset": 25067,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 25075,
+      "offset": 25186,
       "length": 15,
       "value": "\"Unsubscribed!\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 25113,
+      "offset": 25224,
       "length": 44,
       "value": "\"Your active pack is successfully Canceled.\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 25610,
+      "offset": 25721,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 25981,
+      "offset": 26092,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 26337,
+      "offset": 26448,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 26426,
+      "offset": 26537,
       "length": 15,
       "value": "\"App terminate\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 26608,
+      "offset": 26719,
       "length": 39,
       "value": "\"Application State : App in background\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 26759,
+      "offset": 26870,
       "length": 39,
       "value": "\"Application State : App in Foreground\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 27027,
+      "offset": 27138,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 27152,
+      "offset": 27263,
       "length": 11,
       "value": "\"Task fire\""
     },
@@ -63201,385 +63215,399 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 7194,
+      "offset": 7167,
+      "length": 12,
+      "value": "\"_BL_Inside\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 7209,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 7230,
+      "offset": 7245,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 7251,
+      "length": 8,
+      "value": "\"_Radio\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 7388,
+      "offset": 7415,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 7612,
+      "offset": 7639,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 7628,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7801,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
-      "kind": "StringLiteral",
-      "offset": 7893,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
-      "kind": "StringLiteral",
-      "offset": 7936,
+      "offset": 7655,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 8111,
+      "offset": 7828,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 8203,
+      "offset": 7920,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 8246,
+      "offset": 7963,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8138,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 8230,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 8273,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "Array",
-      "offset": 8523,
+      "offset": 8550,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 8725,
+      "offset": 8752,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 8936,
+      "offset": 8963,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 9041,
+      "offset": 9068,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 9148,
+      "offset": 9175,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 9285,
+      "offset": 9312,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 9480,
+      "offset": 9507,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 9522,
+      "offset": 9549,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 9576,
+      "offset": 9603,
       "length": 28,
       "value": "\"Load more : \""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 9603,
+      "offset": 9630,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 9635,
+      "offset": 9662,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 9697,
+      "offset": 9724,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 9925,
+      "offset": 9952,
       "length": 8,
       "value": "\"Artist\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 10038,
+      "offset": 10065,
       "length": 10,
       "value": "\"Playlist\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 10153,
+      "offset": 10180,
       "length": 7,
       "value": "\"Album\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 10265,
+      "offset": 10292,
       "length": 7,
       "value": "\"Songs\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 10449,
+      "offset": 10476,
       "length": 10,
       "value": "\"Podcast \""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 10843,
+      "offset": 10870,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 10879,
+      "offset": 10906,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 11008,
+      "offset": 11035,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 11157,
+      "offset": 11184,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 11418,
+      "offset": 11445,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 11454,
+      "offset": 11481,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 11726,
+      "offset": 11753,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 11759,
+      "offset": 11786,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 12179,
+      "offset": 12206,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 12215,
+      "offset": 12242,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 12236,
+      "offset": 12263,
       "length": 21,
       "value": "\"Artist item pressed\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 12674,
+      "offset": 12701,
       "length": 8,
       "value": "\"Artist\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 12818,
+      "offset": 12845,
       "length": 10,
       "value": "\"Playlist\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 12958,
+      "offset": 12985,
       "length": 7,
       "value": "\"Album\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 13095,
+      "offset": 13122,
       "length": 7,
       "value": "\"Songs\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 13278,
+      "offset": 13305,
       "length": 9,
       "value": "\"Podcast\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 13900,
+      "offset": 13927,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 13916,
+      "offset": 13943,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 14103,
+      "offset": 14130,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 14260,
+      "offset": 14287,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 14276,
+      "offset": 14303,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 14458,
+      "offset": 14485,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 14579,
+      "offset": 14606,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 14595,
+      "offset": 14622,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 15974,
+      "offset": 16001,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 16061,
+      "offset": 16088,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 16098,
+      "offset": 16125,
       "length": 2,
       "value": "\"\""
     },
