@@ -39,7 +39,7 @@ class HomeVC: UIViewController {
         "Stop Music",
         "Bkash Open",
         "Voice of Islam",
-        "Tomake chai"]
+        "Tomake chai","Radio see all"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -122,8 +122,8 @@ extension HomeVC : UITableViewDataSource,UITableViewDelegate{
             ShadhinBL.shared.openPatch(patchID: "MDAwMF9WRFZJ", navigationController: self.navigationController!, tabController: self.tabBarController)
         }else if indexPath.row == 20{
             ShadhinBL.shared.openPatch(patchID: "MDAwMF9QRFRD", navigationController: self.navigationController!, tabController: self.tabBarController)
-        }else{
-            print("nothing")
+        }else {
+            ShadhinBL.shared.openPatch(patchID: "UDA5N19wYXRjaA==", navigationController: self.navigationController!, tabController: self.tabBarController)
         }
         
         
