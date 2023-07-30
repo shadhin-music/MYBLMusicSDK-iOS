@@ -273,7 +273,7 @@ public class HubConnection {
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class ShadhinBL : ObjectiveC.NSObject {
   public static let shared: Shadhin_BL.ShadhinBL
-  @objc final public func initialize(with token: Swift.String, delegate: any Shadhin_BL.ShadhinCoreNotifier)
+  @objc final public func initialize(with token: Swift.String, isBL: Swift.Bool, delegate: any Shadhin_BL.ShadhinCoreNotifier)
   @objc final public func login(number: Swift.String, complete: @escaping (_ isDone: Swift.Bool, _ token: Swift.String) -> Swift.Void)
   @objc final public func gotoHome(with tabController: UIKit.UITabBarController?, navigationController: UIKit.UINavigationController)
   @objc final public func eventRegister(with event: UIKit.UIEvent)

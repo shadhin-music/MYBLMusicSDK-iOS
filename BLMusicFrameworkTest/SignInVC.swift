@@ -27,7 +27,7 @@ class SignInVC: UIViewController {
         sender.isEnabled = false
         ShadhinBL.shared.login(number: number) { isDone, token in
             if isDone{
-                ShadhinBL.shared.initialize(with: token, delegate: self)
+                ShadhinBL.shared.initialize(with: token,isBL: PhoneNumberVerify.isBanglalink(number), delegate: self)
             }else{
                 
             }
@@ -78,4 +78,19 @@ extension SignInVC : ShadhinCoreNotifier{
     }
     
     
+}
+class PhoneNumberVerify{
+    static func isBanglalink(_ number : String) -> Bool{
+        let phone = number.replacingOccurrences(of: "+", with: "")
+        let banglalinkRegex =  "^8801[49]\\d{8}$"
+        do {
+            let regex = try NSRegularExpression(pattern: banglalinkRegex)
+            let nsString = phone as NSString
+            let results = regex.matches(in: phone, range: NSRange(location: 0, length: nsString.length))
+            return !results.isEmpty
+        } catch let error {
+            debugPrint(error.localizedDescription)
+            return false
+        }
+    }
 }
