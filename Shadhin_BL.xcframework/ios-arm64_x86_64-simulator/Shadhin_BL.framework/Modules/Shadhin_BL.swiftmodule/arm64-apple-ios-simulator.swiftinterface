@@ -306,6 +306,7 @@ public enum FeatureType : Swift.String {
   case AMAR_TUNE_TOP_100
   case TERMS_AND_CONDITION
   case BKASH_SUBSCRIPTION
+  case RADIO_SEEALL
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
