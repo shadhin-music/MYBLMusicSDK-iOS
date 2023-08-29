@@ -300,6 +300,34 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 @class NSString;
+
+SWIFT_PROTOCOL("_TtP10Shadhin_BL13RadioCallBack_")
+@protocol RadioCallBack <NSObject>
+- (void)fetchTokenForRadioWithComplete:(void (^ _Nonnull)(NSString * _Nonnull, BOOL))complete;
+@end
+
+@class NSCoder;
+
+IB_DESIGNABLE
+SWIFT_CLASS("_TtC10Shadhin_BL12RadioNewView")
+@interface RadioNewView : UIView
+@property (nonatomic) IBInspectable BOOL isAutoPlay;
+- (void)awakeFromNib;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+@end
+
+@class UICollectionView;
+@class NSIndexPath;
+@class UICollectionViewCell;
+@class UICollectionViewLayout;
+
+@interface RadioNewView (SWIFT_EXTENSION(Shadhin_BL)) <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
 @protocol ShadhinCoreNotifier;
 @class UITabBarController;
 @class UINavigationController;
@@ -309,11 +337,14 @@ SWIFT_CLASS("_TtC10Shadhin_BL9ShadhinBL")
 @interface ShadhinBL : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-- (void)initializeWith:(NSString * _Nonnull)token isBL:(BOOL)isBL delegate:(id <ShadhinCoreNotifier> _Nonnull)delegate;
+- (void)initializeWith:(NSString * _Nonnull)token isBL:(BOOL)isBL delegate:(id <ShadhinCoreNotifier> _Nonnull)delegate SWIFT_DEPRECATED_MSG("This method will be deprecated.");
+- (void)initializeWith:(NSString * _Nonnull)token isBL:(BOOL)isBL delegate:(id <ShadhinCoreNotifier> _Nonnull)delegate tabController:(UITabBarController * _Nullable)tabController navigationController:(UINavigationController * _Nonnull)navigationController SWIFT_DEPRECATED_MSG("This method will be deprecated");
 - (void)loginWithNumber:(NSString * _Nonnull)number complete:(void (^ _Nonnull)(BOOL, NSString * _Nonnull))complete;
 - (void)gotoHomeWith:(UITabBarController * _Nullable)tabController navigationController:(UINavigationController * _Nonnull)navigationController;
 - (void)eventRegisterWith:(UIEvent * _Nonnull)event;
 - (void)openPatchWithPatchID:(NSString * _Nonnull)patchID navigationController:(UINavigationController * _Nonnull)navigationController tabController:(UITabBarController * _Nullable)tabController;
+- (RadioNewView * _Nullable)radioViewWithRadioDelegate:(id <RadioCallBack> _Nonnull)radioDelegate isAutoPlay:(BOOL)isAutoPlay SWIFT_WARN_UNUSED_RESULT;
+- (void)radioInitialiseWithTabBarController:(UITabBarController * _Nonnull)tabBarController delegate:(id <RadioCallBack> _Nonnull)delegate;
 - (void)clearAllCache;
 - (void)terminate;
 - (void)stopMusic;
@@ -347,11 +378,11 @@ SWIFT_PROTOCOL("_TtP10Shadhin_BL19ShadhinCoreNotifier_")
 
 
 
-@class UIView;
-
 @interface UIButton (SWIFT_EXTENSION(Shadhin_BL))
 - (UIView * _Nullable)hitTest:(CGPoint)point withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
 @end
+
+
 
 
 
@@ -718,6 +749,34 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 @class NSString;
+
+SWIFT_PROTOCOL("_TtP10Shadhin_BL13RadioCallBack_")
+@protocol RadioCallBack <NSObject>
+- (void)fetchTokenForRadioWithComplete:(void (^ _Nonnull)(NSString * _Nonnull, BOOL))complete;
+@end
+
+@class NSCoder;
+
+IB_DESIGNABLE
+SWIFT_CLASS("_TtC10Shadhin_BL12RadioNewView")
+@interface RadioNewView : UIView
+@property (nonatomic) IBInspectable BOOL isAutoPlay;
+- (void)awakeFromNib;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+@end
+
+@class UICollectionView;
+@class NSIndexPath;
+@class UICollectionViewCell;
+@class UICollectionViewLayout;
+
+@interface RadioNewView (SWIFT_EXTENSION(Shadhin_BL)) <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
 @protocol ShadhinCoreNotifier;
 @class UITabBarController;
 @class UINavigationController;
@@ -727,11 +786,14 @@ SWIFT_CLASS("_TtC10Shadhin_BL9ShadhinBL")
 @interface ShadhinBL : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-- (void)initializeWith:(NSString * _Nonnull)token isBL:(BOOL)isBL delegate:(id <ShadhinCoreNotifier> _Nonnull)delegate;
+- (void)initializeWith:(NSString * _Nonnull)token isBL:(BOOL)isBL delegate:(id <ShadhinCoreNotifier> _Nonnull)delegate SWIFT_DEPRECATED_MSG("This method will be deprecated.");
+- (void)initializeWith:(NSString * _Nonnull)token isBL:(BOOL)isBL delegate:(id <ShadhinCoreNotifier> _Nonnull)delegate tabController:(UITabBarController * _Nullable)tabController navigationController:(UINavigationController * _Nonnull)navigationController SWIFT_DEPRECATED_MSG("This method will be deprecated");
 - (void)loginWithNumber:(NSString * _Nonnull)number complete:(void (^ _Nonnull)(BOOL, NSString * _Nonnull))complete;
 - (void)gotoHomeWith:(UITabBarController * _Nullable)tabController navigationController:(UINavigationController * _Nonnull)navigationController;
 - (void)eventRegisterWith:(UIEvent * _Nonnull)event;
 - (void)openPatchWithPatchID:(NSString * _Nonnull)patchID navigationController:(UINavigationController * _Nonnull)navigationController tabController:(UITabBarController * _Nullable)tabController;
+- (RadioNewView * _Nullable)radioViewWithRadioDelegate:(id <RadioCallBack> _Nonnull)radioDelegate isAutoPlay:(BOOL)isAutoPlay SWIFT_WARN_UNUSED_RESULT;
+- (void)radioInitialiseWithTabBarController:(UITabBarController * _Nonnull)tabBarController delegate:(id <RadioCallBack> _Nonnull)delegate;
 - (void)clearAllCache;
 - (void)terminate;
 - (void)stopMusic;
@@ -765,11 +827,11 @@ SWIFT_PROTOCOL("_TtP10Shadhin_BL19ShadhinCoreNotifier_")
 
 
 
-@class UIView;
-
 @interface UIButton (SWIFT_EXTENSION(Shadhin_BL))
 - (UIView * _Nullable)hitTest:(CGPoint)point withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
 @end
+
+
 
 
 

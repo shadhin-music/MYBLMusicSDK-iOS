@@ -36,6 +36,10 @@ public protocol ShadhinLogNotifier : ObjectiveC.NSObjectProtocol {
   func player(error: Swift.String)
   func bkashPaymentInit()
   func bkashPaymentSuccess()
+  func tokenFetchSuccess(complete: @escaping () -> Swift.Void)
+}
+@objc public protocol RadioCallBack : ObjectiveC.NSObjectProtocol {
+  @objc func fetchTokenForRadio(complete: @escaping (Swift.String, Swift.Bool) -> Swift.Void)
 }
 extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public var parentViewController: UIKit.UIViewController? {
@@ -273,11 +277,18 @@ public class HubConnection {
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class ShadhinBL : ObjectiveC.NSObject {
   public static let shared: Shadhin_BL.ShadhinBL
+  @available(*, deprecated, message: "This method will be deprecated.")
   @objc final public func initialize(with token: Swift.String, isBL: Swift.Bool, delegate: any Shadhin_BL.ShadhinCoreNotifier)
+  final public func tokenInitialize(with token: Swift.String, isBL: Swift.Bool)
+  @available(*, deprecated, message: "This method will be deprecated")
+  @objc final public func initialize(with token: Swift.String, isBL: Swift.Bool, delegate: any Shadhin_BL.ShadhinCoreNotifier, tabController: UIKit.UITabBarController?, navigationController: UIKit.UINavigationController)
+  final public func initilize(with tabController: UIKit.UITabBarController?, navigationController: UIKit.UINavigationController)
   @objc final public func login(number: Swift.String, complete: @escaping (_ isDone: Swift.Bool, _ token: Swift.String) -> Swift.Void)
   @objc final public func gotoHome(with tabController: UIKit.UITabBarController?, navigationController: UIKit.UINavigationController)
   @objc final public func eventRegister(with event: UIKit.UIEvent)
   @objc final public func openPatch(patchID: Swift.String, navigationController: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
+  @objc final public func radioView(radioDelegate: any Shadhin_BL.RadioCallBack, isAutoPlay: Swift.Bool) -> Shadhin_BL.RadioNewView?
+  @objc final public func radioInitialise(tabBarController: UIKit.UITabBarController, delegate: any Shadhin_BL.RadioCallBack)
   @objc final public func clearAllCache()
   @objc final public func terminate()
   @objc final public func stopMusic()
@@ -288,6 +299,7 @@ public class HubConnection {
   @objc deinit
 }
 extension Shadhin_BL.ShadhinBL : Shadhin_BL.ShadhinLogNotifier {
+  final public func tokenFetchSuccess(complete: @escaping () -> Swift.Void)
   final public func bkashPaymentSuccess()
   final public func player(error: Swift.String)
   final public func tokenStatus(token isValid: Swift.Bool, error: Swift.String?)
@@ -315,6 +327,11 @@ public enum FeatureType : Swift.String {
 }
 @_hasMissingDesignatedInitializers public class StreamHandle {
   @objc deinit
+}
+extension UIKit.UIImage {
+  public class func gifImageWithData(_ data: Foundation.Data) -> UIKit.UIImage?
+  public class func gifImageWithURL(_ gifUrl: Swift.String) -> UIKit.UIImage?
+  public class func gifImageWithName(_ name: Swift.String) -> UIKit.UIImage?
 }
 public protocol TransportDelegate : AnyObject {
   func transportDidOpen()
@@ -408,6 +425,16 @@ public struct EntryPoint {
   public static let PopularVideo: Swift.String
   public static let Podcast: Swift.String
   public static let PodcastAudio: Swift.String
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @IBDesignable @objc @_Concurrency.MainActor(unsafe) final public class RadioNewView : UIKit.UIView {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var isAutoPlay: Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override final public func awakeFromNib()
+  @objc deinit
+}
+extension Shadhin_BL.RadioNewView : UIKit.UICollectionViewDataSource, UIKit.UICollectionViewDelegateFlowLayout {
+  @_Concurrency.MainActor(unsafe) @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
+  @_Concurrency.MainActor(unsafe) @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, sizeForItemAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGSize
 }
 public class HubConnectionBuilder {
   public init(url: Foundation.URL)

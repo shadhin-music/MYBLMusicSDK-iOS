@@ -42,7 +42,6 @@ class TabBarVC: UITabBarController {
         c.view.backgroundColor = .gray
         viewControllers = [aNav,b,nav]
         
-        
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)

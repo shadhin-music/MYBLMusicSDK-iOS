@@ -127,7 +127,14 @@ extension HomeVC : UITableViewDataSource,UITableViewDelegate{
         }else {
             ShadhinBL.shared.openPatch(patchID: "radio", navigationController: self.navigationController!, tabController: self.tabBarController)
         }
-        
+        let view = ShadhinBL.shared.radioView(radioDelegate: self, isAutoPlay: false)
         
     }
+}
+extension HomeVC : RadioCallBack{
+    func fetchTokenForRadio(complete: @escaping (String, Bool) -> Void) {
+        
+    }
+    
+    
 }

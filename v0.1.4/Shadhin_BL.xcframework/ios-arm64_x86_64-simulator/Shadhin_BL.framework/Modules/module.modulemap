@@ -1,0 +1,11 @@
+framework module Shadhin_BL {
+  umbrella header "Shadhin_BL.h"
+
+  export *
+  module * { export * }
+}
+
+module Shadhin_BL.Swift {
+  header "Shadhin_BL-Swift.h"
+  requires objc
+}

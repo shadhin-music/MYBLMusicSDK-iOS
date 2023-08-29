@@ -1,0 +1,724 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Shadhin_BL
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import AVKit
+import Accelerate
+import Combine
+import CommonCrypto
+import CoreData
+import CoreGraphics
+import CoreImage
+import CoreMedia
+import Dispatch
+import Foundation
+import ImageIO
+import MediaPlayer
+import MobileCoreServices
+import ObjectiveC
+import QuartzCore
+@_exported import Shadhin_BL
+import Swift
+import SystemConfiguration
+import UIKit
+import UniformTypeIdentifiers
+import UserNotifications
+import WebKit
+import _Concurrency
+import _StringProcessing
+public protocol ShadhinLogNotifier : ObjectiveC.NSObjectProtocol {
+  func tokenStatus(token isValid: Swift.Bool, error: Swift.String?)
+  func patchError(error: Swift.String)
+  func amarTuneError(error: Swift.String?)
+  func rcError(error: Swift.String?)
+  func shareContentWithRC(title: Swift.String, image: Swift.String, rc code: Swift.String)
+  func player(error: Swift.String)
+  func bkashPaymentInit()
+  func bkashPaymentSuccess()
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var parentViewController: UIKit.UIViewController? {
+    get
+  }
+}
+public enum AFError : Swift.Error {
+  public enum MultipartEncodingFailureReason {
+    case bodyPartURLInvalid(url: Foundation.URL)
+    case bodyPartFilenameInvalid(in: Foundation.URL)
+    case bodyPartFileNotReachable(at: Foundation.URL)
+    case bodyPartFileNotReachableWithError(atURL: Foundation.URL, error: any Swift.Error)
+    case bodyPartFileIsDirectory(at: Foundation.URL)
+    case bodyPartFileSizeNotAvailable(at: Foundation.URL)
+    case bodyPartFileSizeQueryFailedWithError(forURL: Foundation.URL, error: any Swift.Error)
+    case bodyPartInputStreamCreationFailed(for: Foundation.URL)
+    case outputStreamCreationFailed(for: Foundation.URL)
+    case outputStreamFileAlreadyExists(at: Foundation.URL)
+    case outputStreamURLInvalid(url: Foundation.URL)
+    case outputStreamWriteFailed(error: any Swift.Error)
+    case inputStreamReadFailed(error: any Swift.Error)
+  }
+  public struct UnexpectedInputStreamLength : Swift.Error {
+    public var bytesExpected: Swift.UInt64
+    public var bytesRead: Swift.UInt64
+  }
+  public enum ParameterEncodingFailureReason {
+    case missingURL
+    case jsonEncodingFailed(error: any Swift.Error)
+    case customEncodingFailed(error: any Swift.Error)
+  }
+  public enum ParameterEncoderFailureReason {
+    public enum RequiredComponent {
+      case url
+      case httpMethod(rawValue: Swift.String)
+    }
+    case missingRequiredComponent(Shadhin_BL.AFError.ParameterEncoderFailureReason.RequiredComponent)
+    case encoderFailed(error: any Swift.Error)
+  }
+  public enum ResponseValidationFailureReason {
+    case dataFileNil
+    case dataFileReadFailed(at: Foundation.URL)
+    case missingContentType(acceptableContentTypes: [Swift.String])
+    case unacceptableContentType(acceptableContentTypes: [Swift.String], responseContentType: Swift.String)
+    case unacceptableStatusCode(code: Swift.Int)
+    case customValidationFailed(error: any Swift.Error)
+  }
+  public enum ResponseSerializationFailureReason {
+    case inputDataNilOrZeroLength
+    case inputFileNil
+    case inputFileReadFailed(at: Foundation.URL)
+    case stringSerializationFailed(encoding: Swift.String.Encoding)
+    case jsonSerializationFailed(error: any Swift.Error)
+    case decodingFailed(error: any Swift.Error)
+    case customSerializationFailed(error: any Swift.Error)
+    case invalidEmptyResponse(type: Swift.String)
+  }
+  public enum ServerTrustFailureReason {
+    public struct Output {
+      public let host: Swift.String
+      public let trust: Security.SecTrust
+      public let status: Darwin.OSStatus
+      public let result: Security.SecTrustResultType
+    }
+    case noRequiredEvaluator(host: Swift.String)
+    case noCertificatesFound
+    case noPublicKeysFound
+    case policyApplicationFailed(trust: Security.SecTrust, policy: Security.SecPolicy, status: Darwin.OSStatus)
+    case settingAnchorCertificatesFailed(status: Darwin.OSStatus, certificates: [Security.SecCertificate])
+    case revocationPolicyCreationFailed
+    case trustEvaluationFailed(error: (any Swift.Error)?)
+    case defaultEvaluationFailed(output: Shadhin_BL.AFError.ServerTrustFailureReason.Output)
+    case hostValidationFailed(output: Shadhin_BL.AFError.ServerTrustFailureReason.Output)
+    case revocationCheckFailed(output: Shadhin_BL.AFError.ServerTrustFailureReason.Output, options: Shadhin_BL.RevocationTrustEvaluator.Options)
+    case certificatePinningFailed(host: Swift.String, trust: Security.SecTrust, pinnedCertificates: [Security.SecCertificate], serverCertificates: [Security.SecCertificate])
+    case publicKeyPinningFailed(host: Swift.String, trust: Security.SecTrust, pinnedKeys: [Security.SecKey], serverKeys: [Security.SecKey])
+    case customEvaluationFailed(error: any Swift.Error)
+  }
+  public enum URLRequestValidationFailureReason {
+    case bodyDataInGETRequest(Foundation.Data)
+  }
+  case createUploadableFailed(error: any Swift.Error)
+  case createURLRequestFailed(error: any Swift.Error)
+  case downloadedFileMoveFailed(error: any Swift.Error, source: Foundation.URL, destination: Foundation.URL)
+  case explicitlyCancelled
+  case invalidURL(url: any Shadhin_BL.URLConvertible)
+  case multipartEncodingFailed(reason: Shadhin_BL.AFError.MultipartEncodingFailureReason)
+  case parameterEncodingFailed(reason: Shadhin_BL.AFError.ParameterEncodingFailureReason)
+  case parameterEncoderFailed(reason: Shadhin_BL.AFError.ParameterEncoderFailureReason)
+  case requestAdaptationFailed(error: any Swift.Error)
+  case requestRetryFailed(retryError: any Swift.Error, originalError: any Swift.Error)
+  case responseValidationFailed(reason: Shadhin_BL.AFError.ResponseValidationFailureReason)
+  case responseSerializationFailed(reason: Shadhin_BL.AFError.ResponseSerializationFailureReason)
+  case serverTrustEvaluationFailed(reason: Shadhin_BL.AFError.ServerTrustFailureReason)
+  case sessionDeinitialized
+  case sessionInvalidated(error: (any Swift.Error)?)
+  case sessionTaskFailed(error: any Swift.Error)
+  case urlRequestValidationFailed(reason: Shadhin_BL.AFError.URLRequestValidationFailureReason)
+}
+extension Swift.Error {
+  public var asAFError: Shadhin_BL.AFError? {
+    get
+  }
+  public func asAFError(orFailWith message: @autoclosure () -> Swift.String, file: Swift.StaticString = #file, line: Swift.UInt = #line) -> Shadhin_BL.AFError
+}
+extension Shadhin_BL.AFError {
+  public var isSessionDeinitializedError: Swift.Bool {
+    get
+  }
+  public var isSessionInvalidatedError: Swift.Bool {
+    get
+  }
+  public var isExplicitlyCancelledError: Swift.Bool {
+    get
+  }
+  public var isInvalidURLError: Swift.Bool {
+    get
+  }
+  public var isParameterEncodingError: Swift.Bool {
+    get
+  }
+  public var isParameterEncoderError: Swift.Bool {
+    get
+  }
+  public var isMultipartEncodingError: Swift.Bool {
+    get
+  }
+  public var isRequestAdaptationError: Swift.Bool {
+    get
+  }
+  public var isResponseValidationError: Swift.Bool {
+    get
+  }
+  public var isResponseSerializationError: Swift.Bool {
+    get
+  }
+  public var isServerTrustEvaluationError: Swift.Bool {
+    get
+  }
+  public var isRequestRetryError: Swift.Bool {
+    get
+  }
+  public var isCreateUploadableError: Swift.Bool {
+    get
+  }
+  public var isCreateURLRequestError: Swift.Bool {
+    get
+  }
+  public var isDownloadedFileMoveError: Swift.Bool {
+    get
+  }
+  public var isSessionTaskError: Swift.Bool {
+    get
+  }
+}
+extension Shadhin_BL.AFError {
+  public var url: Foundation.URL? {
+    get
+  }
+  public var underlyingError: (any Swift.Error)? {
+    get
+  }
+  public var acceptableContentTypes: [Swift.String]? {
+    get
+  }
+  public var responseContentType: Swift.String? {
+    get
+  }
+  public var responseCode: Swift.Int? {
+    get
+  }
+  public var failedStringEncoding: Swift.String.Encoding? {
+    get
+  }
+  public var sourceURL: Foundation.URL? {
+    get
+  }
+  public var destinationURL: Foundation.URL? {
+    get
+  }
+  public var downloadResumeData: Foundation.Data? {
+    get
+  }
+}
+extension Shadhin_BL.AFError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+@objc public protocol ShadhinCoreNotifier : ObjectiveC.NSObjectProtocol {
+  @objc func tokenStatus(token isValid: Swift.Bool, error: Swift.String?)
+  @objc func patchError(error: Swift.String)
+  @objc func amarTuneError(error: Swift.String?)
+  @objc func rcError(error: Swift.String?)
+  @objc func shareContentWithRC(title: Swift.String, image: Swift.String, rc code: Swift.String)
+  @objc func player(error: Swift.String)
+  @objc func bkashPaymentInit()
+  @objc func bksahPaymentSuccess()
+}
+public protocol HubConnectionDelegate : AnyObject {
+  func connectionDidOpen(hubConnection: Shadhin_BL.HubConnection)
+  func connectionDidFailToOpen(error: any Swift.Error)
+  func connectionDidClose(error: (any Swift.Error)?)
+  func connectionWillReconnect(error: any Swift.Error)
+  func connectionDidReconnect()
+}
+extension Shadhin_BL.HubConnectionDelegate {
+  public func connectionWillReconnect(error: any Swift.Error)
+  public func connectionDidReconnect()
+}
+extension UIKit.UIButton {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func hitTest(_ point: CoreFoundation.CGPoint, with event: UIKit.UIEvent?) -> UIKit.UIView?
+}
+public class HubConnection {
+  weak public var delegate: (any Shadhin_BL.HubConnectionDelegate)?
+  public var connectionId: Swift.String? {
+    get
+  }
+  convenience public init(connection: any Shadhin_BL.Connection, hubProtocol: any Shadhin_BL.HubProtocol, logger: any Shadhin_BL.Logger = NullLogger())
+  public init(connection: any Shadhin_BL.Connection, hubProtocol: any Shadhin_BL.HubProtocol, hubConnectionOptions: Shadhin_BL.HubConnectionOptions, logger: any Shadhin_BL.Logger = NullLogger())
+  @objc deinit
+  public func start()
+  public func stop()
+  public func on(method: Swift.String, callback: @escaping (_ argumentExtractor: Shadhin_BL.ArgumentExtractor) throws -> Swift.Void)
+  public func send(method: Swift.String, arguments: [any Swift.Encodable], sendDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void)
+  public func invoke(method: Swift.String, arguments: [any Swift.Encodable], invocationDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void)
+  public func invoke<T>(method: Swift.String, arguments: [any Swift.Encodable], resultType: T.Type, invocationDidComplete: @escaping (_ result: T?, _ error: (any Swift.Error)?) -> Swift.Void) where T : Swift.Decodable
+  public func stream<T>(method: Swift.String, arguments: [any Swift.Encodable], streamItemReceived: @escaping (_ item: T) -> Swift.Void, invocationDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void) -> Shadhin_BL.StreamHandle where T : Swift.Decodable
+  public func cancelStreamInvocation(streamHandle: Shadhin_BL.StreamHandle, cancelDidFail: @escaping (_ error: any Swift.Error) -> Swift.Void)
+}
+@_hasMissingDesignatedInitializers public class ArgumentExtractor {
+  public func getArgument<T>(type: T.Type) throws -> T where T : Swift.Decodable
+  public func hasMoreArgs() -> Swift.Bool
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class ShadhinBL : ObjectiveC.NSObject {
+  public static let shared: Shadhin_BL.ShadhinBL
+  @objc final public func initialize(with token: Swift.String, isBL: Swift.Bool, delegate: any Shadhin_BL.ShadhinCoreNotifier)
+  @objc final public func login(number: Swift.String, complete: @escaping (_ isDone: Swift.Bool, _ token: Swift.String) -> Swift.Void)
+  @objc final public func gotoHome(with tabController: UIKit.UITabBarController?, navigationController: UIKit.UINavigationController)
+  @objc final public func eventRegister(with event: UIKit.UIEvent)
+  @objc final public func openPatch(patchID: Swift.String, navigationController: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
+  @objc final public func clearAllCache()
+  @objc final public func terminate()
+  @objc final public func stopMusic()
+  @objc final public func pauseMusic()
+  @objc final public func playMusic()
+  @objc final public func setSessionPulesTimer(second: Swift.Double) -> Swift.String?
+  @objc final public func setStreamingPulseTimer(second: Swift.Double) -> Swift.String?
+  @objc deinit
+}
+extension Shadhin_BL.ShadhinBL : Shadhin_BL.ShadhinLogNotifier {
+  final public func bkashPaymentSuccess()
+  final public func player(error: Swift.String)
+  final public func tokenStatus(token isValid: Swift.Bool, error: Swift.String?)
+  final public func patchError(error: Swift.String)
+  final public func amarTuneError(error: Swift.String?)
+  final public func rcError(error: Swift.String?)
+  final public func shareContentWithRC(title: Swift.String, image: Swift.String, rc code: Swift.String)
+  final public func bkashPaymentInit()
+}
+public enum FeatureType : Swift.String {
+  case LATEST_RELEASE
+  case PODCAST
+  case POPULAR_ARTIST
+  case POPULAR_VIDEO
+  case AMAR_TUNE
+  case AMAR_TUNE_TOP_100
+  case TERMS_AND_CONDITION
+  case BKASH_SUBSCRIPTION
+  case RADIO_SEEALL
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class StreamHandle {
+  @objc deinit
+}
+public protocol TransportDelegate : AnyObject {
+  func transportDidOpen()
+  func transportDidReceiveData(_ data: Foundation.Data)
+  func transportDidClose(_ error: (any Swift.Error)?)
+}
+@objc @_hasMissingDesignatedInitializers @available(macOS 10.15, iOS 13.0, watchOS 6.0, tvOS 13.0, *)
+public class WebsocketsTransport : ObjectiveC.NSObject, Shadhin_BL.Transport, Foundation.URLSessionWebSocketDelegate {
+  public var delegate: (any Shadhin_BL.TransportDelegate)?
+  final public let inherentKeepAlive: Swift.Bool
+  public func start(url: Foundation.URL, options: Shadhin_BL.HttpConnectionOptions)
+  public func send(data: Foundation.Data, sendDidComplete: @escaping ((any Swift.Error)?) -> Swift.Void)
+  public func close()
+  @objc public func urlSession(_ session: Foundation.URLSession, webSocketTask: Foundation.URLSessionWebSocketTask, didOpenWithProtocol protocol: Swift.String?)
+  @objc public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError error: (any Swift.Error)?)
+  @objc public func urlSession(_ session: Foundation.URLSession, webSocketTask: Foundation.URLSessionWebSocketTask, didCloseWith closeCode: Foundation.URLSessionWebSocketTask.CloseCode, reason: Foundation.Data?)
+  #if compiler(>=5.3) && $Sendable
+  @objc public func urlSession(_ session: Foundation.URLSession, didReceive challenge: Foundation.URLAuthenticationChallenge, completionHandler: @escaping @Sendable (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void)
+  #endif
+  @objc deinit
+}
+extension Shadhin_BL.HubConnection {
+  public func invoke(method: Swift.String, invocationDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void)
+  public func invoke<T1>(method: Swift.String, _ arg1: T1, invocationDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void) where T1 : Swift.Encodable
+  public func invoke<T1, T2>(method: Swift.String, _ arg1: T1, _ arg2: T2, invocationDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void) where T1 : Swift.Encodable, T2 : Swift.Encodable
+  public func invoke<T1, T2, T3>(method: Swift.String, _ arg1: T1, _ arg2: T2, _ arg3: T3, invocationDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void) where T1 : Swift.Encodable, T2 : Swift.Encodable, T3 : Swift.Encodable
+  public func invoke<T1, T2, T3, T4>(method: Swift.String, _ arg1: T1, _ arg2: T2, _ arg3: T3, _ arg4: T4, invocationDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void) where T1 : Swift.Encodable, T2 : Swift.Encodable, T3 : Swift.Encodable, T4 : Swift.Encodable
+  public func invoke<T1, T2, T3, T4, T5>(method: Swift.String, _ arg1: T1, _ arg2: T2, _ arg3: T3, _ arg4: T4, _ arg5: T5, invocationDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void) where T1 : Swift.Encodable, T2 : Swift.Encodable, T3 : Swift.Encodable, T4 : Swift.Encodable, T5 : Swift.Encodable
+  public func invoke<T1, T2, T3, T4, T5, T6>(method: Swift.String, _ arg1: T1, _ arg2: T2, _ arg3: T3, _ arg4: T4, _ arg5: T5, _ arg6: T6, invocationDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void) where T1 : Swift.Encodable, T2 : Swift.Encodable, T3 : Swift.Encodable, T4 : Swift.Encodable, T5 : Swift.Encodable, T6 : Swift.Encodable
+  public func invoke<T1, T2, T3, T4, T5, T6, T7>(method: Swift.String, _ arg1: T1, _ arg2: T2, _ arg3: T3, _ arg4: T4, _ arg5: T5, _ arg6: T6, _ arg7: T7, invocationDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void) where T1 : Swift.Encodable, T2 : Swift.Encodable, T3 : Swift.Encodable, T4 : Swift.Encodable, T5 : Swift.Encodable, T6 : Swift.Encodable, T7 : Swift.Encodable
+  public func invoke<T1, T2, T3, T4, T5, T6, T7, T8>(method: Swift.String, _ arg1: T1, _ arg2: T2, _ arg3: T3, _ arg4: T4, _ arg5: T5, _ arg6: T6, _ arg7: T7, _ arg8: T8, invocationDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void) where T1 : Swift.Encodable, T2 : Swift.Encodable, T3 : Swift.Encodable, T4 : Swift.Encodable, T5 : Swift.Encodable, T6 : Swift.Encodable, T7 : Swift.Encodable, T8 : Swift.Encodable
+  public func invoke<TRes>(method: Swift.String, resultType: TRes.Type, invocationDidComplete: @escaping (_ result: TRes?, _ error: (any Swift.Error)?) -> Swift.Void) where TRes : Swift.Decodable
+  public func invoke<T1, TRes>(method: Swift.String, _ arg1: T1, resultType: TRes.Type, invocationDidComplete: @escaping (_ result: TRes?, _ error: (any Swift.Error)?) -> Swift.Void) where T1 : Swift.Encodable, TRes : Swift.Decodable
+  public func invoke<T1, T2, TRes>(method: Swift.String, _ arg1: T1, _ arg2: T2, resultType: TRes.Type, invocationDidComplete: @escaping (_ result: TRes?, _ error: (any Swift.Error)?) -> Swift.Void) where T1 : Swift.Encodable, T2 : Swift.Encodable, TRes : Swift.Decodable
+  public func invoke<T1, T2, T3, TRes>(method: Swift.String, _ arg1: T1, _ arg2: T2, _ arg3: T3, resultType: TRes.Type, invocationDidComplete: @escaping (_ result: TRes?, _ error: (any Swift.Error)?) -> Swift.Void) where T1 : Swift.Encodable, T2 : Swift.Encodable, T3 : Swift.Encodable, TRes : Swift.Decodable
+  public func invoke<T1, T2, T3, T4, TRes>(method: Swift.String, _ arg1: T1, _ arg2: T2, _ arg3: T3, _ arg4: T4, resultType: TRes.Type, invocationDidComplete: @escaping (_ result: TRes?, _ error: (any Swift.Error)?) -> Swift.Void) where T1 : Swift.Encodable, T2 : Swift.Encodable, T3 : Swift.Encodable, T4 : Swift.Encodable, TRes : Swift.Decodable
+  public func invoke<T1, T2, T3, T4, T5, TRes>(method: Swift.String, _ arg1: T1, _ arg2: T2, _ arg3: T3, _ arg4: T4, _ arg5: T5, resultType: TRes.Type, invocationDidComplete: @escaping (_ result: TRes?, _ error: (any Swift.Error)?) -> Swift.Void) where T1 : Swift.Encodable, T2 : Swift.Encodable, T3 : Swift.Encodable, T4 : Swift.Encodable, T5 : Swift.Encodable, TRes : Swift.Decodable
+  public func invoke<T1, T2, T3, T4, T5, T6, TRes>(method: Swift.String, _ arg1: T1, _ arg2: T2, _ arg3: T3, _ arg4: T4, _ arg5: T5, _ arg6: T6, resultType: TRes.Type, invocationDidComplete: @escaping (_ result: TRes?, _ error: (any Swift.Error)?) -> Swift.Void) where T1 : Swift.Encodable, T2 : Swift.Encodable, T3 : Swift.Encodable, T4 : Swift.Encodable, T5 : Swift.Encodable, T6 : Swift.Encodable, TRes : Swift.Decodable
+  public func invoke<T1, T2, T3, T4, T5, T6, T7, TRes>(method: Swift.String, _ arg1: T1, _ arg2: T2, _ arg3: T3, _ arg4: T4, _ arg5: T5, _ arg6: T6, _ arg7: T7, resultType: TRes.Type, invocationDidComplete: @escaping (_ result: TRes?, _ error: (any Swift.Error)?) -> Swift.Void) where T1 : Swift.Encodable, T2 : Swift.Encodable, T3 : Swift.Encodable, T4 : Swift.Encodable, T5 : Swift.Encodable, T6 : Swift.Encodable, T7 : Swift.Encodable, TRes : Swift.Decodable
+  public func invoke<T1, T2, T3, T4, T5, T6, T7, T8, TRes>(method: Swift.String, _ arg1: T1, _ arg2: T2, _ arg3: T3, _ arg4: T4, _ arg5: T5, _ arg6: T6, _ arg7: T7, _ arg8: T8, resultType: TRes.Type, invocationDidComplete: @escaping (_ result: TRes?, _ error: (any Swift.Error)?) -> Swift.Void) where T1 : Swift.Encodable, T2 : Swift.Encodable, T3 : Swift.Encodable, T4 : Swift.Encodable, T5 : Swift.Encodable, T6 : Swift.Encodable, T7 : Swift.Encodable, T8 : Swift.Encodable, TRes : Swift.Decodable
+  public func send(method: Swift.String, sendDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void = {_ in})
+  public func send<T1>(method: Swift.String, _ arg1: T1, sendDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void = {_ in}) where T1 : Swift.Encodable
+  public func send<T1, T2>(method: Swift.String, _ arg1: T1, _ arg2: T2, sendDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void = {_ in}) where T1 : Swift.Encodable, T2 : Swift.Encodable
+  public func send<T1, T2, T3>(method: Swift.String, _ arg1: T1, _ arg2: T2, _ arg3: T3, sendDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void = {_ in}) where T1 : Swift.Encodable, T2 : Swift.Encodable, T3 : Swift.Encodable
+  public func send<T1, T2, T3, T4>(method: Swift.String, _ arg1: T1, _ arg2: T2, _ arg3: T3, _ arg4: T4, sendDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void = {_ in}) where T1 : Swift.Encodable, T2 : Swift.Encodable, T3 : Swift.Encodable, T4 : Swift.Encodable
+  public func send<T1, T2, T3, T4, T5>(method: Swift.String, _ arg1: T1, _ arg2: T2, _ arg3: T3, _ arg4: T4, _ arg5: T5, sendDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void = {_ in}) where T1 : Swift.Encodable, T2 : Swift.Encodable, T3 : Swift.Encodable, T4 : Swift.Encodable, T5 : Swift.Encodable
+  public func send<T1, T2, T3, T4, T5, T6>(method: Swift.String, _ arg1: T1, _ arg2: T2, _ arg3: T3, _ arg4: T4, _ arg5: T5, _ arg6: T6, sendDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void = {_ in}) where T1 : Swift.Encodable, T2 : Swift.Encodable, T3 : Swift.Encodable, T4 : Swift.Encodable, T5 : Swift.Encodable, T6 : Swift.Encodable
+  public func send<T1, T2, T3, T4, T5, T6, T7>(method: Swift.String, _ arg1: T1, _ arg2: T2, _ arg3: T3, _ arg4: T4, _ arg5: T5, _ arg6: T6, _ arg7: T7, sendDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void = {_ in}) where T1 : Swift.Encodable, T2 : Swift.Encodable, T3 : Swift.Encodable, T4 : Swift.Encodable, T5 : Swift.Encodable, T6 : Swift.Encodable, T7 : Swift.Encodable
+  public func send<T1, T2, T3, T4, T5, T6, T7, T8>(method: Swift.String, _ arg1: T1, _ arg2: T2, _ arg3: T3, _ arg4: T4, _ arg5: T5, _ arg6: T6, _ arg7: T7, _ arg8: T8, sendDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void = {_ in}) where T1 : Swift.Encodable, T2 : Swift.Encodable, T3 : Swift.Encodable, T4 : Swift.Encodable, T5 : Swift.Encodable, T6 : Swift.Encodable, T7 : Swift.Encodable, T8 : Swift.Encodable
+  public func on(method: Swift.String, callback: @escaping () -> Swift.Void)
+  public func on<T1>(method: Swift.String, callback: @escaping (_ arg1: T1) -> Swift.Void) where T1 : Swift.Decodable
+  public func on<T1, T2>(method: Swift.String, callback: @escaping (_ arg1: T1, _ arg2: T2) -> Swift.Void) where T1 : Swift.Decodable, T2 : Swift.Decodable
+  public func on<T1, T2, T3>(method: Swift.String, callback: @escaping (_ arg1: T1, _ arg2: T2, _ arg3: T3) -> Swift.Void) where T1 : Swift.Decodable, T2 : Swift.Decodable, T3 : Swift.Decodable
+  public func on<T1, T2, T3, T4>(method: Swift.String, callback: @escaping (_ arg1: T1, _ arg2: T2, _ arg3: T3, _ arg4: T4) -> Swift.Void) where T1 : Swift.Decodable, T2 : Swift.Decodable, T3 : Swift.Decodable, T4 : Swift.Decodable
+  public func on<T1, T2, T3, T4, T5>(method: Swift.String, callback: @escaping (_ arg1: T1, _ arg2: T2, _ arg3: T3, _ arg4: T4, _ arg5: T5) -> Swift.Void) where T1 : Swift.Decodable, T2 : Swift.Decodable, T3 : Swift.Decodable, T4 : Swift.Decodable, T5 : Swift.Decodable
+  public func on<T1, T2, T3, T4, T5, T6>(method: Swift.String, callback: @escaping (_ arg1: T1, _ arg2: T2, _ arg3: T3, _ arg4: T4, _ arg5: T5, _ arg6: T6) -> Swift.Void) where T1 : Swift.Decodable, T2 : Swift.Decodable, T3 : Swift.Decodable, T4 : Swift.Decodable, T5 : Swift.Decodable, T6 : Swift.Decodable
+  public func on<T1, T2, T3, T4, T5, T6, T7>(method: Swift.String, callback: @escaping (_ arg1: T1, _ arg2: T2, _ arg3: T3, _ arg4: T4, _ arg5: T5, _ arg6: T6, _ arg7: T7) -> Swift.Void) where T1 : Swift.Decodable, T2 : Swift.Decodable, T3 : Swift.Decodable, T4 : Swift.Decodable, T5 : Swift.Decodable, T6 : Swift.Decodable, T7 : Swift.Decodable
+  public func on<T1, T2, T3, T4, T5, T6, T7, T8>(method: Swift.String, callback: @escaping (_ arg1: T1, _ arg2: T2, _ arg3: T3, _ arg4: T4, _ arg5: T5, _ arg6: T6, _ arg7: T7, _ arg8: T8) -> Swift.Void) where T1 : Swift.Decodable, T2 : Swift.Decodable, T3 : Swift.Decodable, T4 : Swift.Decodable, T5 : Swift.Decodable, T6 : Swift.Decodable, T7 : Swift.Decodable, T8 : Swift.Decodable
+  public func stream<TItemType>(method: Swift.String, streamItemReceived: @escaping (_ item: TItemType) -> Swift.Void, invocationDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void) -> Shadhin_BL.StreamHandle where TItemType : Swift.Decodable
+  public func stream<T1, TItemType>(method: Swift.String, _ arg1: T1, streamItemReceived: @escaping (_ item: TItemType) -> Swift.Void, invocationDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void) -> Shadhin_BL.StreamHandle where T1 : Swift.Encodable, TItemType : Swift.Decodable
+  public func stream<T1, T2, TItemType>(method: Swift.String, _ arg1: T1, _ arg2: T2, streamItemReceived: @escaping (_ item: TItemType) -> Swift.Void, invocationDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void) -> Shadhin_BL.StreamHandle where T1 : Swift.Encodable, T2 : Swift.Encodable, TItemType : Swift.Decodable
+  public func stream<T1, T2, T3, TItemType>(method: Swift.String, _ arg1: T1, _ arg2: T2, _ arg3: T3, streamItemReceived: @escaping (_ item: TItemType) -> Swift.Void, invocationDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void) -> Shadhin_BL.StreamHandle where T1 : Swift.Encodable, T2 : Swift.Encodable, T3 : Swift.Encodable, TItemType : Swift.Decodable
+  public func stream<T1, T2, T3, T4, TItemType>(method: Swift.String, _ arg1: T1, _ arg2: T2, _ arg3: T3, _ arg4: T4, streamItemReceived: @escaping (_ item: TItemType) -> Swift.Void, invocationDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void) -> Shadhin_BL.StreamHandle where T1 : Swift.Encodable, T2 : Swift.Encodable, T3 : Swift.Encodable, T4 : Swift.Encodable, TItemType : Swift.Decodable
+  public func stream<T1, T2, T3, T4, T5, TItemType>(method: Swift.String, _ arg1: T1, _ arg2: T2, _ arg3: T3, _ arg4: T4, _ arg5: T5, streamItemReceived: @escaping (_ item: TItemType) -> Swift.Void, invocationDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void) -> Shadhin_BL.StreamHandle where T1 : Swift.Encodable, T2 : Swift.Encodable, T3 : Swift.Encodable, T4 : Swift.Encodable, T5 : Swift.Encodable, TItemType : Swift.Decodable
+  public func stream<T1, T2, T3, T4, T5, T6, TItemType>(method: Swift.String, _ arg1: T1, _ arg2: T2, _ arg3: T3, _ arg4: T4, _ arg5: T5, _ arg6: T6, streamItemReceived: @escaping (_ item: TItemType) -> Swift.Void, invocationDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void) -> Shadhin_BL.StreamHandle where T1 : Swift.Encodable, T2 : Swift.Encodable, T3 : Swift.Encodable, T4 : Swift.Encodable, T5 : Swift.Encodable, T6 : Swift.Encodable, TItemType : Swift.Decodable
+  public func stream<T1, T2, T3, T4, T5, T6, T7, TItemType>(method: Swift.String, _ arg1: T1, _ arg2: T2, _ arg3: T3, _ arg4: T4, _ arg5: T5, _ arg6: T6, _ arg7: T7, streamItemReceived: @escaping (_ item: TItemType) -> Swift.Void, invocationDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void) -> Shadhin_BL.StreamHandle where T1 : Swift.Encodable, T2 : Swift.Encodable, T3 : Swift.Encodable, T4 : Swift.Encodable, T5 : Swift.Encodable, T6 : Swift.Encodable, T7 : Swift.Encodable, TItemType : Swift.Decodable
+  public func stream<T1, T2, T3, T4, T5, T6, T7, T8, TItemType>(method: Swift.String, _ arg1: T1, _ arg2: T2, _ arg3: T3, _ arg4: T4, _ arg5: T5, _ arg6: T6, _ arg7: T7, _ arg8: T8, streamItemReceived: @escaping (_ item: TItemType) -> Swift.Void, invocationDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void) -> Shadhin_BL.StreamHandle where T1 : Swift.Encodable, T2 : Swift.Encodable, T3 : Swift.Encodable, T4 : Swift.Encodable, T5 : Swift.Encodable, T6 : Swift.Encodable, T7 : Swift.Encodable, T8 : Swift.Encodable, TItemType : Swift.Decodable
+}
+public enum SignalRError : Swift.Error {
+  case invalidState
+  case webError(statusCode: Swift.Int)
+  case hubInvocationError(message: Swift.String)
+  case hubInvocationCancelled
+  case unknownMessageType
+  case invalidMessage
+  case unsupportedType
+  case serializationError(underlyingError: any Swift.Error)
+  case connectionIsBeingClosed
+  case invalidOperation(message: Swift.String)
+  case protocolViolation(underlyingError: any Swift.Error)
+  case handshakeError(message: Swift.String)
+  case invalidNegotiationResponse(message: Swift.String)
+  case serverClose(message: Swift.String?)
+  case noSupportedTransportAvailable
+  case connectionIsReconnecting
+}
+public struct EntryPoint {
+  public static let Home: Swift.String
+  public static let LatestRelease: Swift.String
+  public static let PopularArtist: Swift.String
+  public static let PopularVideo: Swift.String
+  public static let Podcast: Swift.String
+  public static let PodcastAudio: Swift.String
+}
+public class HubConnectionBuilder {
+  public init(url: Foundation.URL)
+  public func withHubProtocol(hubProtocolFactory: @escaping (any Shadhin_BL.Logger) -> any Shadhin_BL.HubProtocol) -> Shadhin_BL.HubConnectionBuilder
+  public func withHttpConnectionOptions(configureHttpOptions: (_ httpConnectionOptions: Shadhin_BL.HttpConnectionOptions) -> Swift.Void) -> Shadhin_BL.HubConnectionBuilder
+  public func withHubConnectionOptions(configureHubConnectionOptions: (_ hubConnectionOptions: Shadhin_BL.HubConnectionOptions) -> Swift.Void) -> Shadhin_BL.HubConnectionBuilder
+  public func withLogging(minLogLevel: Shadhin_BL.LogLevel) -> Shadhin_BL.HubConnectionBuilder
+  public func withLogging(logger: any Shadhin_BL.Logger) -> Shadhin_BL.HubConnectionBuilder
+  public func withLogging(minLogLevel: Shadhin_BL.LogLevel, logger: any Shadhin_BL.Logger) -> Shadhin_BL.HubConnectionBuilder
+  public func withHubConnectionDelegate(delegate: any Shadhin_BL.HubConnectionDelegate) -> Shadhin_BL.HubConnectionBuilder
+  public func withAutoReconnect(reconnectPolicy: any Shadhin_BL.ReconnectPolicy = DefaultReconnectPolicy()) -> Shadhin_BL.HubConnectionBuilder
+  public func withPermittedTransportTypes(_ permittedTransportTypes: Shadhin_BL.TransportType) -> Shadhin_BL.HubConnectionBuilder
+  public func withLegacyHttpConnection() -> Shadhin_BL.HubConnectionBuilder
+  public func build() -> Shadhin_BL.HubConnection
+  @objc deinit
+}
+extension Shadhin_BL.HubConnectionBuilder {
+  public func withJSONHubProtocol() -> Shadhin_BL.HubConnectionBuilder
+}
+prefix operator ^
+public protocol Connection {
+  var delegate: (any Shadhin_BL.ConnectionDelegate)? { get set }
+  var inherentKeepAlive: Swift.Bool { get }
+  var connectionId: Swift.String? { get }
+  func start()
+  func send(data: Foundation.Data, sendDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void)
+  func stop(stopError: (any Swift.Error)?)
+}
+public protocol ConnectionDelegate : AnyObject {
+  func connectionDidOpen(connection: any Shadhin_BL.Connection)
+  func connectionDidFailToOpen(error: any Swift.Error)
+  func connectionDidReceiveData(connection: any Shadhin_BL.Connection, data: Foundation.Data)
+  func connectionDidClose(error: (any Swift.Error)?)
+  func connectionWillReconnect(error: any Swift.Error)
+  func connectionDidReconnect()
+}
+extension Shadhin_BL.ConnectionDelegate {
+  public func connectionWillReconnect(error: any Swift.Error)
+  public func connectionDidReconnect()
+}
+public protocol Transport : AnyObject {
+  var delegate: (any Shadhin_BL.TransportDelegate)? { get set }
+  var inherentKeepAlive: Swift.Bool { get }
+  func start(url: Foundation.URL, options: Shadhin_BL.HttpConnectionOptions)
+  func send(data: Foundation.Data, sendDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void)
+  func close()
+}
+infix operator |> : AdditionPrecedence
+public class JSONHubProtocol : Shadhin_BL.HubProtocol {
+  final public let name: Swift.String
+  final public let version: Swift.Int
+  final public let type: Shadhin_BL.ProtocolType
+  public init(logger: any Shadhin_BL.Logger, encoder: Foundation.JSONEncoder = JSONEncoder(), decoder: Foundation.JSONDecoder = JSONDecoder())
+  public func parseMessages(input: Foundation.Data) throws -> [any Shadhin_BL.HubMessage]
+  public func createHubMessage(payload: Foundation.Data) throws -> any Shadhin_BL.HubMessage
+  public func writeMessage(message: any Shadhin_BL.HubMessage) throws -> Foundation.Data
+  @objc deinit
+}
+public struct SRRetryContext {
+  public let failedAttemptsCount: Swift.Int
+  public let reconnectStartTime: Foundation.Date
+  public let error: any Swift.Error
+}
+public protocol ReconnectPolicy {
+  func nextAttemptInterval(retryContext: Shadhin_BL.SRRetryContext) -> Dispatch.DispatchTimeInterval
+}
+public class DefaultReconnectPolicy : Shadhin_BL.ReconnectPolicy {
+  public init(retryIntervals: [Dispatch.DispatchTimeInterval] = [.milliseconds(0), .seconds(2), .seconds(10), .seconds(30)])
+  public func nextAttemptInterval(retryContext: Shadhin_BL.SRRetryContext) -> Dispatch.DispatchTimeInterval
+  @objc deinit
+}
+public protocol HttpClientProtocol {
+  func get(url: Foundation.URL, completionHandler: @escaping (Shadhin_BL.HttpResponse?, (any Swift.Error)?) -> Swift.Void)
+  func post(url: Foundation.URL, body: Foundation.Data?, completionHandler: @escaping (Shadhin_BL.HttpResponse?, (any Swift.Error)?) -> Swift.Void)
+  func delete(url: Foundation.URL, completionHandler: @escaping (Shadhin_BL.HttpResponse?, (any Swift.Error)?) -> Swift.Void)
+}
+public enum LogLevel : Swift.Int {
+  case error
+  case warning
+  case info
+  case debug
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol Logger {
+  func log(logLevel: Shadhin_BL.LogLevel, message: @autoclosure () -> Swift.String)
+}
+extension Shadhin_BL.LogLevel {
+  public func toString() -> Swift.String
+}
+public class PrintLogger : Shadhin_BL.Logger {
+  public init()
+  public func log(logLevel: Shadhin_BL.LogLevel, message: @autoclosure () -> Swift.String)
+  @objc deinit
+}
+public class NullLogger : Shadhin_BL.Logger {
+  public init()
+  public func log(logLevel: Shadhin_BL.LogLevel, message: @autoclosure () -> Swift.String)
+  @objc deinit
+}
+public struct TransportType : Swift.OptionSet {
+  public let rawValue: Swift.Int
+  public init(rawValue: Swift.Int)
+  public static let longPolling: Shadhin_BL.TransportType
+  public static let webSockets: Shadhin_BL.TransportType
+  public static let all: Shadhin_BL.TransportType
+  public typealias ArrayLiteralElement = Shadhin_BL.TransportType
+  public typealias Element = Shadhin_BL.TransportType
+  public typealias RawValue = Swift.Int
+}
+public class HubConnectionOptions {
+  public var keepAliveInterval: Swift.Double?
+  public var callbackQueue: Dispatch.DispatchQueue
+  public init()
+  @objc deinit
+}
+public enum TransferFormat : Swift.String {
+  case text
+  case binary
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension UIKit.UIControl.State : Swift.Hashable {
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public class HttpResponse {
+  public init(statusCode: Swift.Int, contents: Foundation.Data?)
+  @objc deinit
+}
+public protocol URLConvertible {
+  func asURL() throws -> Foundation.URL
+}
+extension Swift.String : Shadhin_BL.URLConvertible {
+  public func asURL() throws -> Foundation.URL
+}
+extension Foundation.URL : Shadhin_BL.URLConvertible {
+  public func asURL() throws -> Foundation.URL
+}
+extension Foundation.URLComponents : Shadhin_BL.URLConvertible {
+  public func asURL() throws -> Foundation.URL
+}
+@_hasMissingDesignatedInitializers final public class RevocationTrustEvaluator {
+  public struct Options : Swift.OptionSet {
+    public let rawValue: CoreFoundation.CFOptionFlags
+    public init(rawValue: CoreFoundation.CFOptionFlags)
+    public typealias ArrayLiteralElement = Shadhin_BL.RevocationTrustEvaluator.Options
+    public typealias Element = Shadhin_BL.RevocationTrustEvaluator.Options
+    public typealias RawValue = CoreFoundation.CFOptionFlags
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class LongPollingTransport : Shadhin_BL.Transport {
+  public var delegate: (any Shadhin_BL.TransportDelegate)?
+  final public let inherentKeepAlive: Swift.Bool
+  public func start(url: Foundation.URL, options: Shadhin_BL.HttpConnectionOptions)
+  public func send(data: Foundation.Data, sendDidComplete: @escaping ((any Swift.Error)?) -> Swift.Void)
+  public func close()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class HttpConnection : Shadhin_BL.Connection {
+  weak public var delegate: (any Shadhin_BL.ConnectionDelegate)?
+  public var connectionId: Swift.String? {
+    get
+  }
+  public var inherentKeepAlive: Swift.Bool {
+    get
+  }
+  convenience public init(url: Foundation.URL, options: Shadhin_BL.HttpConnectionOptions = HttpConnectionOptions(), logger: any Shadhin_BL.Logger = NullLogger())
+  @objc deinit
+  public func start()
+  public func send(data: Foundation.Data, sendDidComplete: @escaping (_ error: (any Swift.Error)?) -> Swift.Void)
+  public func stop(stopError: (any Swift.Error)? = nil)
+}
+@_hasMissingDesignatedInitializers public class ConnectionTransportDelegate : Shadhin_BL.TransportDelegate {
+  public func transportDidOpen()
+  public func transportDidReceiveData(_ data: Foundation.Data)
+  public func transportDidClose(_ error: (any Swift.Error)?)
+  @objc deinit
+}
+public enum ProtocolType : Swift.Int {
+  case Text
+  case Binary
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol HubProtocol {
+  var name: Swift.String { get }
+  var version: Swift.Int { get }
+  var type: Shadhin_BL.ProtocolType { get }
+  func parseMessages(input: Foundation.Data) throws -> [any Shadhin_BL.HubMessage]
+  func writeMessage(message: any Shadhin_BL.HubMessage) throws -> Foundation.Data
+}
+public enum MessageType : Swift.Int, Swift.Codable {
+  case Invocation
+  case StreamItem
+  case Completion
+  case StreamInvocation
+  case CancelInvocation
+  case Ping
+  case Close
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol HubMessage {
+  var type: Shadhin_BL.MessageType { get }
+}
+@_hasMissingDesignatedInitializers public class ServerInvocationMessage : Shadhin_BL.HubMessage, Swift.Encodable {
+  final public let type: Shadhin_BL.MessageType
+  final public let invocationId: Swift.String?
+  final public let target: Swift.String
+  final public let arguments: [any Swift.Encodable]
+  final public let streamIds: [Swift.String]?
+  public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+public class ClientInvocationMessage : Shadhin_BL.HubMessage, Swift.Decodable {
+  final public let type: Shadhin_BL.MessageType
+  final public let target: Swift.String
+  required public init(from decoder: any Swift.Decoder) throws
+  public func getArgument<T>(type: T.Type) throws -> T where T : Swift.Decodable
+  @objc deinit
+}
+public class StreamItemMessage : Shadhin_BL.HubMessage, Swift.Codable {
+  final public let type: Shadhin_BL.MessageType
+  final public let invocationId: Swift.String
+  required public init(from decoder: any Swift.Decoder) throws
+  public init(invocationId: Swift.String, item: any Swift.Encodable)
+  public func getItem<T>(_ type: T.Type) throws -> T where T : Swift.Decodable
+  public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+public class CompletionMessage : Shadhin_BL.HubMessage, Swift.Codable {
+  final public let type: Shadhin_BL.MessageType
+  final public let invocationId: Swift.String
+  final public let error: Swift.String?
+  final public let hasResult: Swift.Bool
+  required public init(from decoder: any Swift.Decoder) throws
+  public init(invocationId: Swift.String, error: Swift.String?)
+  public func getResult<T>(_ type: T.Type) throws -> T? where T : Swift.Decodable
+  public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class StreamInvocationMessage : Shadhin_BL.HubMessage, Swift.Encodable {
+  final public let type: Shadhin_BL.MessageType
+  final public let invocationId: Swift.String
+  final public let target: Swift.String
+  final public let arguments: [any Swift.Encodable]
+  final public let streamIds: [Swift.String]?
+  public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class CancelInvocationMessage : Shadhin_BL.HubMessage, Swift.Encodable {
+  final public let type: Shadhin_BL.MessageType
+  final public let invocationId: Swift.String
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+@_hasMissingDesignatedInitializers public class PingMessage : Shadhin_BL.HubMessage, Swift.Encodable {
+  final public let type: Shadhin_BL.MessageType
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+@_hasMissingDesignatedInitializers public class CloseMessage : Shadhin_BL.HubMessage, Swift.Decodable {
+  public var type: Shadhin_BL.MessageType {
+    get
+  }
+  final public let error: Swift.String?
+  @objc deinit
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public class HttpConnectionOptions {
+  public var headers: [Swift.String : Swift.String]
+  public var accessTokenProvider: () -> Swift.String?
+  public var httpClientFactory: (Shadhin_BL.HttpConnectionOptions) -> any Shadhin_BL.HttpClientProtocol
+  public var skipNegotiation: Swift.Bool {
+    get
+    @available(macOS 10.15, iOS 13.0, watchOS 6.0, tvOS 13.0, *)
+    set
+  }
+  public var requestTimeout: Swift.Double
+  public var authenticationChallengeHandler: ((_ session: Foundation.URLSession, _ challenge: Foundation.URLAuthenticationChallenge, _ completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void) -> Swift.Void)?
+  public var callbackQueue: Dispatch.DispatchQueue
+  public init()
+  @objc deinit
+}
+extension Shadhin_BL.FeatureType : Swift.Equatable {}
+extension Shadhin_BL.FeatureType : Swift.Hashable {}
+extension Shadhin_BL.FeatureType : Swift.RawRepresentable {}
+extension Shadhin_BL.LogLevel : Swift.Equatable {}
+extension Shadhin_BL.LogLevel : Swift.Hashable {}
+extension Shadhin_BL.LogLevel : Swift.RawRepresentable {}
+extension Shadhin_BL.TransferFormat : Swift.Equatable {}
+extension Shadhin_BL.TransferFormat : Swift.Hashable {}
+extension Shadhin_BL.TransferFormat : Swift.RawRepresentable {}
+extension Shadhin_BL.ProtocolType : Swift.Equatable {}
+extension Shadhin_BL.ProtocolType : Swift.Hashable {}
+extension Shadhin_BL.ProtocolType : Swift.RawRepresentable {}
+extension Shadhin_BL.MessageType : Swift.Equatable {}
+extension Shadhin_BL.MessageType : Swift.Hashable {}
+extension Shadhin_BL.MessageType : Swift.RawRepresentable {}
