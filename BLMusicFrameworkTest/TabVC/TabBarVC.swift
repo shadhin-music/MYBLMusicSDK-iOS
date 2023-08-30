@@ -35,7 +35,7 @@ class TabBarVC: UITabBarController {
         b.view.backgroundColor = .blue
         b.tabBarItem = bItem
         
-        let c = C()
+        let c = A()
         let nav = UINavigationController(rootViewController: c)
         nav.isNavigationBarHidden = true
         nav.tabBarItem = cItem

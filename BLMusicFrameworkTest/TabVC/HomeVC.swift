@@ -47,6 +47,8 @@ class HomeVC: UIViewController {
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         tableView.dataSource = self
         tableView.delegate = self
+        
+        
     }
 
 
@@ -127,7 +129,6 @@ extension HomeVC : UITableViewDataSource,UITableViewDelegate{
         }else {
             ShadhinBL.shared.openPatch(patchID: "radio", navigationController: self.navigationController!, tabController: self.tabBarController)
         }
-        let view = ShadhinBL.shared.radioView(radioDelegate: self, isAutoPlay: false)
         
     }
 }

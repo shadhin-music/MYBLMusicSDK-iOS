@@ -287,7 +287,7 @@ public class HubConnection {
   @objc final public func gotoHome(with tabController: UIKit.UITabBarController?, navigationController: UIKit.UINavigationController)
   @objc final public func eventRegister(with event: UIKit.UIEvent)
   @objc final public func openPatch(patchID: Swift.String, navigationController: UIKit.UINavigationController, tabController: UIKit.UITabBarController?)
-  @objc final public func radioView(radioDelegate: any Shadhin_BL.RadioCallBack, isAutoPlay: Swift.Bool) -> Shadhin_BL.RadioNewView?
+  @objc final public func radioView(isAutoPlay: Swift.Bool) -> Shadhin_BL.BLRadioView?
   @objc final public func radioInitialise(tabBarController: UIKit.UITabBarController, delegate: any Shadhin_BL.RadioCallBack)
   @objc final public func clearAllCache()
   @objc final public func terminate()
@@ -426,12 +426,12 @@ public struct EntryPoint {
   public static let Podcast: Swift.String
   public static let PodcastAudio: Swift.String
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @IBDesignable @objc @_Concurrency.MainActor(unsafe) final public class RadioNewView : UIKit.UIView {
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var isAutoPlay: Swift.Bool
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @IBDesignable @objc @_Concurrency.MainActor(unsafe) final public class BLRadioView : UIKit.UIView {
+  @IBInspectable @objc @_Concurrency.MainActor(unsafe) final public var isAutoPlay: Swift.Bool
   @_Concurrency.MainActor(unsafe) @objc override final public func awakeFromNib()
   @objc deinit
 }
-extension Shadhin_BL.RadioNewView : UIKit.UICollectionViewDataSource, UIKit.UICollectionViewDelegateFlowLayout {
+extension Shadhin_BL.BLRadioView : UIKit.UICollectionViewDataSource, UIKit.UICollectionViewDelegateFlowLayout {
   @_Concurrency.MainActor(unsafe) @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
   @_Concurrency.MainActor(unsafe) @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
   @_Concurrency.MainActor(unsafe) @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, sizeForItemAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGSize

@@ -17,12 +17,17 @@ class A: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
+    @IBOutlet weak var radioView: BLRadioView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        ShadhinBL.shared.radioInitialise(tabBarController: self.tabBarController!, delegate: self)
+    }
 
     @IBAction func onGotoMusicPressd(_ sender: Any) {
         guard let nav = self.navigationController else{
@@ -40,4 +45,11 @@ class A: UIViewController {
     }
     */
 
+}
+extension A : RadioCallBack{
+    func fetchTokenForRadio(complete: @escaping (String, Bool) -> Void) {
+        
+    }
+    
+    
 }
