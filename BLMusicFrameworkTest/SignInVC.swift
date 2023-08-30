@@ -27,12 +27,34 @@ class SignInVC: UIViewController {
         sender.isEnabled = false
         ShadhinBL.shared.login(number: number) { isDone, token in
             if isDone{
-                ShadhinBL.shared.initialize(with: token,isBL: PhoneNumberVerify.isBanglalink(number), delegate: self)
+                ShadhinBL.shared.initialize(with: token,isBL: PhoneNumberVerify.isBanglalink(number), delegate: self,tabController: self.tabBarController,navigationController: self.navigationController!)
             }else{
                 
             }
         }
         
+    }
+    @IBAction func onWithoutLogin(_ sender: Any) {
+        let home = TabBarVC()
+        self.navigationController?.pushViewController(home, animated: true)
+        
+    }
+    @IBAction func onDarkMood(_ sender: Any) {
+        if #available(iOS 13.0, *) {
+            let scenes = UIApplication.shared.connectedScenes
+            let windowScene = scenes.first as? UIWindowScene
+            let window = windowScene?.windows.first
+            let interfaceStyle = window?.overrideUserInterfaceStyle == .unspecified ? UIScreen.main.traitCollection.userInterfaceStyle : window?.overrideUserInterfaceStyle
+            
+            if interfaceStyle != .dark {
+                window?.overrideUserInterfaceStyle = .dark
+            } else {
+                window?.overrideUserInterfaceStyle = .light
+            }
+        } else {
+            // Fallback on earlier versions
+        }
+                
     }
     
 }

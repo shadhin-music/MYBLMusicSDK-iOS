@@ -17,16 +17,24 @@ class A: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
-    @IBOutlet weak var radioView: BLRadioView!
+    @IBOutlet weak var radioView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        ShadhinBL.shared.radioInitialise(tabBarController: self.tabBarController!, delegate: self)
+//        if let vv = ShadhinBL.shared.radioView(isAutoPlay: true){
+//            radioView.addSubview(vv)
+//            vv.translatesAutoresizingMaskIntoConstraints = false
+//            vv.topAnchor.constraint(equalTo: radioView.topAnchor).isActive = true
+//            vv.bottomAnchor.constraint(equalTo: radioView.bottomAnchor).isActive = true
+//            vv.leadingAnchor.constraint(equalTo: radioView.leadingAnchor).isActive = true
+//            vv.trailingAnchor.constraint(equalTo: radioView.trailingAnchor).isActive = true
+//        }
+//        ShadhinBL.shared.radioInitialise(tabBarController: self.tabBarController!, delegate: self)
     }
 
     @IBAction func onGotoMusicPressd(_ sender: Any) {
@@ -35,20 +43,16 @@ class A: UIViewController {
         }
         ShadhinBL.shared.gotoHome(with: self.tabBarController, navigationController: nav)
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
 extension A : RadioCallBack{
     func fetchTokenForRadio(complete: @escaping (String, Bool) -> Void) {
-        
+        debugPrint("need token ")
+        ShadhinBL.shared.login(number: "8801954545813") { isDone, token in
+            if isDone{
+                complete(token,true)
+            }
+        }
     }
     
     

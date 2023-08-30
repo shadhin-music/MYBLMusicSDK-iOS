@@ -338,8 +338,7 @@ SWIFT_CLASS("_TtC10Shadhin_BL9ShadhinBL")
 @interface ShadhinBL : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-- (void)initializeWith:(NSString * _Nonnull)token isBL:(BOOL)isBL delegate:(id <ShadhinCoreNotifier> _Nonnull)delegate SWIFT_DEPRECATED_MSG("This method will be deprecated.");
-- (void)initializeWith:(NSString * _Nonnull)token isBL:(BOOL)isBL delegate:(id <ShadhinCoreNotifier> _Nonnull)delegate tabController:(UITabBarController * _Nullable)tabController navigationController:(UINavigationController * _Nonnull)navigationController SWIFT_DEPRECATED_MSG("This method will be deprecated");
+- (void)initializeWith:(NSString * _Nonnull)token isBL:(BOOL)isBL delegate:(id <ShadhinCoreNotifier> _Nonnull)delegate tabController:(UITabBarController * _Nullable)tabController navigationController:(UINavigationController * _Nonnull)navigationController;
 - (void)loginWithNumber:(NSString * _Nonnull)number complete:(void (^ _Nonnull)(BOOL, NSString * _Nonnull))complete;
 - (void)gotoHomeWith:(UITabBarController * _Nullable)tabController navigationController:(UINavigationController * _Nonnull)navigationController;
 - (void)eventRegisterWith:(UIEvent * _Nonnull)event;
@@ -788,8 +787,7 @@ SWIFT_CLASS("_TtC10Shadhin_BL9ShadhinBL")
 @interface ShadhinBL : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-- (void)initializeWith:(NSString * _Nonnull)token isBL:(BOOL)isBL delegate:(id <ShadhinCoreNotifier> _Nonnull)delegate SWIFT_DEPRECATED_MSG("This method will be deprecated.");
-- (void)initializeWith:(NSString * _Nonnull)token isBL:(BOOL)isBL delegate:(id <ShadhinCoreNotifier> _Nonnull)delegate tabController:(UITabBarController * _Nullable)tabController navigationController:(UINavigationController * _Nonnull)navigationController SWIFT_DEPRECATED_MSG("This method will be deprecated");
+- (void)initializeWith:(NSString * _Nonnull)token isBL:(BOOL)isBL delegate:(id <ShadhinCoreNotifier> _Nonnull)delegate tabController:(UITabBarController * _Nullable)tabController navigationController:(UINavigationController * _Nonnull)navigationController;
 - (void)loginWithNumber:(NSString * _Nonnull)number complete:(void (^ _Nonnull)(BOOL, NSString * _Nonnull))complete;
 - (void)gotoHomeWith:(UITabBarController * _Nullable)tabController navigationController:(UINavigationController * _Nonnull)navigationController;
 - (void)eventRegisterWith:(UIEvent * _Nonnull)event;

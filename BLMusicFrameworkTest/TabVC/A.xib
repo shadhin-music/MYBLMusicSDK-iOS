@@ -29,7 +29,7 @@
                         <action selector="onGotoMusicPressd:" destination="-1" eventType="touchUpInside" id="3u3-ao-3R0"/>
                     </connections>
                 </button>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g2b-o0-0W8" customClass="BLRadioView" customModule="Shadhin_BL">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g2b-o0-0W8">
                     <rect key="frame" x="0.0" y="47" width="390" height="150"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>

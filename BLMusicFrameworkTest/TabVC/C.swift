@@ -18,10 +18,16 @@ class C: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
+    @IBOutlet weak var radioView: BLRadioView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        radioView.isAutoPlay = true 
         // Do any additional setup after loading the view.
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        ShadhinBL.shared.radioInitialise(tabBarController: self.tabBarController!, delegate: self)
     }
 
     @IBAction func onGotoMusicPressed(_ sender: Any) {
@@ -41,4 +47,16 @@ class C: UIViewController {
     }
     */
 
+}
+extension C : RadioCallBack{
+    func fetchTokenForRadio(complete: @escaping (String, Bool) -> Void) {
+        debugPrint("need token ")
+        ShadhinBL.shared.login(number: "8801954545813") { isDone, token in
+            if isDone{
+                complete(token,true)
+            }
+        }
+    }
+    
+    
 }
