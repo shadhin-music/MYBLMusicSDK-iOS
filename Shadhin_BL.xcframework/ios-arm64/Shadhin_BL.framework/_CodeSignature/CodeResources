@@ -530,7 +530,7 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		7L6UZX8BwhJLdE37mACvK+7SU4s=
+		8cl+NTgPor0tJdlTDP1CYwoK8Sk=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -546,7 +546,7 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		u86PgZinTTe5nSSitl2+vPz/PNw=
+		e218+VCdjzdBtu9XpNNH1RDdBIY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -643,6 +643,14 @@
 		<key>NavigationMenuVC.nib/runtime.nib</key>
 		<data>
 		D3wA7E7jHiEVetEvPFh4Vsc2/Ik=
+		</data>
+		<key>NewBannerCell.nib/objects-12.3+.nib</key>
+		<data>
+		pJ7X8kUYT3J0g5ufjRWgg65m0Qo=
+		</data>
+		<key>NewBannerCell.nib/runtime.nib</key>
+		<data>
+		Kft/dwMllmo7SVHu8iloZUVeU4Y=
 		</data>
 		<key>OfferSubCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -2082,7 +2090,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			syrO/JMflOfcSC3bKAUSmRFn6vhi1Jmh+fYxfrtWIWg=
+			ArtYCzR7Mw/gw41pP/EIqn6f7czL8NdUj0q68Ag6RsE=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -2110,7 +2118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1msCB7T9V/xh8WaZqmSqsEtYhU35yy7LsZsG5OGXTvw=
+			9fF6BXz7NDMXUTIwRn5922xK9gtvNu1les2TvfuwIM8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -2279,6 +2287,20 @@
 			<key>hash2</key>
 			<data>
 			A9wnp8qsJLJ0bAJ0m4rTnyvjecK5KRBYHIHXzUOGrvE=
+			</data>
+		</dict>
+		<key>NewBannerCell.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5k5X/vWkmaTuUv/XmkGgyXGH9GgESi2LyXXVoIC8iyM=
+			</data>
+		</dict>
+		<key>NewBannerCell.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QuX8DdM7LuhbKtNtD22kI4TnhZLjjkOFQpXzmLzpvRA=
 			</data>
 		</dict>
 		<key>OfferSubCell.nib/objects-12.3+.nib</key>

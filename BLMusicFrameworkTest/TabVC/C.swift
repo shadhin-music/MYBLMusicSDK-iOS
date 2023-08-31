@@ -22,7 +22,7 @@ class C: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        radioView.isAutoPlay = true 
+        radioView.isAutoPlay = true
         // Do any additional setup after loading the view.
     }
     override func viewWillAppear(_ animated: Bool) {
