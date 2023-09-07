@@ -58,11 +58,11 @@
 		</data>
 		<key>AmarTuneCell.nib/objects-12.3+.nib</key>
 		<data>
-		Jn+uVfGGj59LDCh8AeR6QUH5Boo=
+		+wbCgHGeZ7AHPe6WwWFfm5CRRWA=
 		</data>
 		<key>AmarTuneCell.nib/runtime.nib</key>
 		<data>
-		JBa+EW+Mt0OYCL0ifPUMS/K4AWU=
+		5QhoNX6owCOpA5xqnaLuglMi+G8=
 		</data>
 		<key>ArtistAlbumCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		dTSl3qOHINLZMTL91ms3vZHyGAs=
+		+LPa5rHS2R1N+JKFz4jQI2rq0gM=
 		</data>
 		<key>BLPodcastShowCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -206,15 +206,15 @@
 		</data>
 		<key>CommentCell.nib/objects-12.3+.nib</key>
 		<data>
-		CAwyDeyMbdMCyui5YeikqvAYDus=
+		hakHGuHCCiUcUWgYH0jEwnuWF40=
 		</data>
 		<key>CommentCell.nib/objects-13.0+.nib</key>
 		<data>
-		/bo5Z0WeNQBrgr/LHPULnerrXJw=
+		7Hgb0CVj2F4IwfN2Q2uwwhU31C0=
 		</data>
 		<key>CommentCell.nib/runtime.nib</key>
 		<data>
-		SfK2uolHU0TebeMrvfmRLPcAv7Q=
+		AoKY9dZU6zTflPyP3I6DBCzedLA=
 		</data>
 		<key>CommentReplyVC.nib</key>
 		<data>
@@ -530,7 +530,7 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		8cl+NTgPor0tJdlTDP1CYwoK8Sk=
+		VFhY58VoWEQyjmHrPpdO1HB2o+A=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -546,7 +546,7 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		e218+VCdjzdBtu9XpNNH1RDdBIY=
+		0t2U0+Qz9Md+WCWr3H0s79HliEo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -651,6 +651,14 @@
 		<key>NewBannerCell.nib/runtime.nib</key>
 		<data>
 		Kft/dwMllmo7SVHu8iloZUVeU4Y=
+		</data>
+		<key>NewTrackCell.nib/objects-12.3+.nib</key>
+		<data>
+		gAekKpNG90YI+py03NeWmF55+GE=
+		</data>
+		<key>NewTrackCell.nib/runtime.nib</key>
+		<data>
+		a4MFe7TDCuS+g1aGakVpoUdYPlE=
 		</data>
 		<key>OfferSubCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -1072,6 +1080,14 @@
 		<data>
 		z8W9VsuhhsbehgXMrpvUMBxzpso=
 		</data>
+		<key>TrackCell.nib/objects-12.3+.nib</key>
+		<data>
+		WkX5VKJ8CvaBr1V+S0SrFMheG64=
+		</data>
+		<key>TrackCell.nib/runtime.nib</key>
+		<data>
+		4UWNTdJQ93h7sHszLnEZe8rteX0=
+		</data>
 		<key>TrackSearchCell.nib/objects-12.3+.nib</key>
 		<data>
 		zs0wpJkyxPnKK4vu8T1y6fC0u8s=
@@ -1271,14 +1287,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hL+sJo5GbqzinjdNpH6n+M0pIT7wKU5uzvB+op66QrE=
+			tsw0tyXPcN32ar8gIH8cnT5ZxYVZHlPUVYU8zrwR80c=
 			</data>
 		</dict>
 		<key>AmarTuneCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BF/kjk/Cce7kpFItmDxKgHATRLwxra1yoIMAbZT+wCY=
+			7ltlhq27KsVDJxiwUz3Vb0IW0A9EdyOmwGsRAuAuJbs=
 			</data>
 		</dict>
 		<key>ArtistAlbumCell.nib/objects-12.3+.nib</key>
@@ -1362,7 +1378,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			w2Ihabqw4S//qEcQvn41mvk0WJctyxTvnM/UIe8kZwM=
+			E2pAupLRECmVjKI5ynPFkwkor6KMi8JL1ZT1VagkLzk=
 			</data>
 		</dict>
 		<key>BLPodcastShowCell.nib/objects-12.3+.nib</key>
@@ -1530,21 +1546,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WRiKZmvzdBAf1sm+ujiv6k62MG3i7kGtT31jCnLQIyA=
+			KlrB/HmuqZZjTWApV54J6QHa9cO96IqqcwjNwwOj5JQ=
 			</data>
 		</dict>
 		<key>CommentCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8Z7q+2Gk2vod4+y3Xt0KTslS/R9rvS282BXcJFO8EAc=
+			d8Z2K7fR50y8vh1cIL0sckjMZEkVgLpuXiR6N7Xh4H4=
 			</data>
 		</dict>
 		<key>CommentCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			62s03h58YcSWrf+hUym3uq78EWEkoODjfdvHjDmRC4o=
+			b1djQGvclUnSnzRUDRss6FnxHgsWiMVs/NpTvo+/qP4=
 			</data>
 		</dict>
 		<key>CommentReplyVC.nib</key>
@@ -2090,7 +2106,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ArtYCzR7Mw/gw41pP/EIqn6f7czL8NdUj0q68Ag6RsE=
+			Er7qE2gjqBnjOeJ3UVFDbrxknAyrbOY+pXbTP6c2YBM=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -2118,7 +2134,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9fF6BXz7NDMXUTIwRn5922xK9gtvNu1les2TvfuwIM8=
+			FdVYsJ/07X2t36fSR1SlNboswW/KdjibAyP/GOU3q6k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -2301,6 +2317,20 @@
 			<key>hash2</key>
 			<data>
 			QuX8DdM7LuhbKtNtD22kI4TnhZLjjkOFQpXzmLzpvRA=
+			</data>
+		</dict>
+		<key>NewTrackCell.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dy9H60ClHVQHl+3XjZu1VgHTH6a4+vII9TYaEX0S+ZQ=
+			</data>
+		</dict>
+		<key>NewTrackCell.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RDY9rMWkIyXTUZ5kbyeR4rkhulzJLMsmlej0HQWETpY=
 			</data>
 		</dict>
 		<key>OfferSubCell.nib/objects-12.3+.nib</key>
@@ -3036,6 +3066,20 @@
 			<key>hash2</key>
 			<data>
 			5NCGF6i7fizjWLztTQ7i4R6QkkVWjMdetDZcMNVEl/I=
+			</data>
+		</dict>
+		<key>TrackCell.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IIkk6VAdg8VZMJyZK1GP7lJgcjKE2ny8rt8sX7qET9w=
+			</data>
+		</dict>
+		<key>TrackCell.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			miyaqCTxMIk292D11erfO6pUENJv1HXDXuci+OQv9AM=
 			</data>
 		</dict>
 		<key>TrackSearchCell.nib/objects-12.3+.nib</key>
