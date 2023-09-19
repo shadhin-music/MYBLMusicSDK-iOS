@@ -285,16 +285,21 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
+@class NSString;
 @class NSCoder;
+@class UIColor;
 
 IB_DESIGNABLE
 SWIFT_CLASS("_TtC10Shadhin_BL11BLRadioView")
 @interface BLRadioView : UIView
+@property (nonatomic) CGFloat height;
 /// radio auto play control
 @property (nonatomic) IBInspectable BOOL isAutoPlay;
+@property (nonatomic, copy) IBInspectable NSString * _Nonnull title;
 - (void)awakeFromNib;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)setTitleWithTitle:(NSString * _Nonnull)title backgroundColor:(UIColor * _Nonnull)backgroundColor isDotHide:(BOOL)isDotHide;
 @end
 
 @class UICollectionView;
@@ -322,7 +327,6 @@ SWIFT_CLASS("_TtC10Shadhin_BL11BLRadioView")
 
 
 
-@class NSString;
 
 SWIFT_PROTOCOL("_TtP10Shadhin_BL13RadioCallBack_")
 @protocol RadioCallBack <NSObject>
@@ -734,16 +738,21 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
+@class NSString;
 @class NSCoder;
+@class UIColor;
 
 IB_DESIGNABLE
 SWIFT_CLASS("_TtC10Shadhin_BL11BLRadioView")
 @interface BLRadioView : UIView
+@property (nonatomic) CGFloat height;
 /// radio auto play control
 @property (nonatomic) IBInspectable BOOL isAutoPlay;
+@property (nonatomic, copy) IBInspectable NSString * _Nonnull title;
 - (void)awakeFromNib;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)setTitleWithTitle:(NSString * _Nonnull)title backgroundColor:(UIColor * _Nonnull)backgroundColor isDotHide:(BOOL)isDotHide;
 @end
 
 @class UICollectionView;
@@ -771,7 +780,6 @@ SWIFT_CLASS("_TtC10Shadhin_BL11BLRadioView")
 
 
 
-@class NSString;
 
 SWIFT_PROTOCOL("_TtP10Shadhin_BL13RadioCallBack_")
 @protocol RadioCallBack <NSObject>

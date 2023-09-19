@@ -422,8 +422,14 @@ public struct EntryPoint {
   public static let PodcastAudio: Swift.String
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @IBDesignable @objc @_Concurrency.MainActor(unsafe) final public class BLRadioView : UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) final public var height: CoreFoundation.CGFloat
   @IBInspectable @objc @_Concurrency.MainActor(unsafe) final public var isAutoPlay: Swift.Bool
+  @IBInspectable @objc @_Concurrency.MainActor(unsafe) final public var title: Swift.String {
+    @objc get
+    @objc set
+  }
   @_Concurrency.MainActor(unsafe) @objc override final public func awakeFromNib()
+  @objc @_Concurrency.MainActor(unsafe) final public func setTitle(title: Swift.String, backgroundColor: UIKit.UIColor, isDotHide: Swift.Bool)
   @objc deinit
 }
 extension Shadhin_BL.BLRadioView : UIKit.UICollectionViewDataSource, UIKit.UICollectionViewDelegateFlowLayout {
