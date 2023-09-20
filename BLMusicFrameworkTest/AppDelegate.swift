@@ -33,6 +33,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 
 extension AppDelegate : ShadhinCoreNotifier{
+    func event(eventName: String, content: [String : String]) {
+        
+    }
+    
     func shareContentWithRC(title: String, image: String, rc code: String) {
         
     }

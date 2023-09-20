@@ -322,6 +322,51 @@
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "event",
+            "printedName": "event(eventName:contentName:contentType:patchName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Shadhin_BL0A11LogNotifierP5event0E4Name07contentF00G4Type05patchF0ySS_S3StF",
+            "mangledName": "$s10Shadhin_BL0A11LogNotifierP5event0E4Name07contentF00G4Type05patchF0ySS_S3StF",
+            "moduleName": "Shadhin_BL",
+            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.ShadhinLogNotifier>",
+            "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinLogNotifier>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -6601,6 +6646,56 @@
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "event",
+            "printedName": "event(eventName:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Shadhin_BL@objc(pl)ShadhinCoreNotifier(im)eventWithEventName:content:",
+            "mangledName": "$s10Shadhin_BL0A12CoreNotifierP5event0E4Name7contentySS_SDyS2SGtF",
+            "moduleName": "Shadhin_BL",
+            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.ShadhinCoreNotifier>",
+            "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinCoreNotifier>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -11896,6 +11991,49 @@
           {
             "kind": "Function",
             "name": "initialize",
+            "printedName": "initialize(with:isBL:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ShadhinCoreNotifier",
+                "printedName": "Shadhin_BL.ShadhinCoreNotifier",
+                "usr": "c:@M@Shadhin_BL@objc(pl)ShadhinCoreNotifier"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Shadhin_BL@objc(cs)ShadhinBL(im)initializeWith:isBL:delegate:",
+            "mangledName": "$s10Shadhin_BL0aB0C10initialize4with02isB08delegateySS_SbAA0A12CoreNotifier_ptF",
+            "moduleName": "Shadhin_BL",
+            "deprecated": true,
+            "objc_name": "initializeWith:isBL:delegate:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
             "printedName": "initialize(with:isBL:delegate:tabController:navigationController:)",
             "children": [
               {
@@ -12393,6 +12531,52 @@
               "AccessControl",
               "ObjC"
             ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "event",
+            "printedName": "event(eventName:contentName:contentType:patchName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Shadhin_BL0aB0C5event0C4Name07contentD00E4Type05patchD0ySS_S3StF",
+            "mangledName": "$s10Shadhin_BL0aB0C5event0C4Name07contentD00E4Type05patchD0ySS_S3StF",
+            "moduleName": "Shadhin_BL",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -34245,6 +34429,34 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinLogNotifier.swift",
+      "kind": "StringLiteral",
+      "offset": 157,
+      "length": 24,
+      "value": "\"content_played_clicked\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinLogNotifier.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 19,
+      "value": "\"details_page_view\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinLogNotifier.swift",
+      "kind": "StringLiteral",
+      "offset": 157,
+      "length": 24,
+      "value": "\"content_played_clicked\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinLogNotifier.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 19,
+      "value": "\"details_page_view\""
+    },
+    {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/UIView++.swift",
       "kind": "IntegerLiteral",
       "offset": 866,
@@ -42465,231 +42677,252 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "BooleanLiteral",
-      "offset": 806,
+      "offset": 804,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 820,
+      "offset": 818,
       "length": 16,
       "value": "\"Token is empty\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "BooleanLiteral",
-      "offset": 1106,
+      "offset": 1104,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 1120,
+      "offset": 1118,
       "length": 49,
       "value": "\"Navigation not set, please set navigation first\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "BooleanLiteral",
-      "offset": 1281,
+      "offset": 1279,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 1295,
+      "offset": 1293,
       "length": 16,
       "value": "\"Token is empty\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "BooleanLiteral",
-      "offset": 1845,
+      "offset": 1843,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 1859,
+      "offset": 1857,
       "length": 16,
       "value": "\"Token is empty\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "BooleanLiteral",
-      "offset": 2488,
+      "offset": 2486,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "BooleanLiteral",
-      "offset": 2623,
+      "offset": 2621,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 3481,
+      "offset": 3479,
       "length": 7,
       "value": "\"RADIO\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "IntegerLiteral",
-      "offset": 5409,
+      "offset": 5407,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 5432,
+      "offset": 5430,
       "length": 50,
       "value": "\"Invalid input, please add second greater than 60\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "IntegerLiteral",
-      "offset": 5667,
+      "offset": 5665,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 5690,
+      "offset": 5688,
       "length": 50,
       "value": "\"Invalid input, please add second greater than 60\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7192,
+      "offset": 6046,
+      "length": 13,
+      "value": "\"contentName\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
+      "kind": "StringLiteral",
+      "offset": 6072,
+      "length": 13,
+      "value": "\"contentType\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
+      "kind": "StringLiteral",
+      "offset": 6098,
+      "length": 11,
+      "value": "\"patchName\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
+      "kind": "StringLiteral",
+      "offset": 7495,
       "length": 7,
       "value": "\"RC201\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7226,
+      "offset": 7529,
       "length": 7,
       "value": "\"RC202\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7260,
+      "offset": 7563,
       "length": 7,
       "value": "\"RC203\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7294,
+      "offset": 7597,
       "length": 7,
       "value": "\"RC204\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7328,
+      "offset": 7631,
       "length": 10,
       "value": "\"BNMAIN01\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7368,
+      "offset": 7671,
       "length": 9,
       "value": "\"BNALL01\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7409,
+      "offset": 7712,
       "length": 24,
       "value": "\"0000_TERMSANDCONDITION\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7464,
+      "offset": 7767,
       "length": 12,
       "value": "\"0000_BKASH\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7501,
+      "offset": 7804,
       "length": 7,
       "value": "\"RADIO\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7192,
+      "offset": 7495,
       "length": 7,
       "value": "\"RC201\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7226,
+      "offset": 7529,
       "length": 7,
       "value": "\"RC202\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7260,
+      "offset": 7563,
       "length": 7,
       "value": "\"RC203\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7294,
+      "offset": 7597,
       "length": 7,
       "value": "\"RC204\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7328,
+      "offset": 7631,
       "length": 10,
       "value": "\"BNMAIN01\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7368,
+      "offset": 7671,
       "length": 9,
       "value": "\"BNALL01\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7409,
+      "offset": 7712,
       "length": 24,
       "value": "\"0000_TERMSANDCONDITION\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7464,
+      "offset": 7767,
       "length": 12,
       "value": "\"0000_BKASH\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7501,
+      "offset": 7804,
       "length": 7,
       "value": "\"RADIO\""
     },
@@ -43934,80 +44167,45 @@
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
+      "kind": "StringLiteral",
+      "offset": 865,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
       "kind": "Array",
-      "offset": 731,
+      "offset": 927,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2012,
+      "offset": 2208,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2118,
+      "offset": 2314,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2132,
+      "offset": 2328,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3573,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3583,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3595,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3606,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3747,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3757,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
-      "kind": "IntegerLiteral",
       "offset": 3769,
-      "length": 1,
-      "value": "0"
+      "length": 2,
+      "value": "16"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
@@ -44019,56 +44217,98 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4550,
+      "offset": 3791,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3802,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3943,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3953,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3965,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3975,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4746,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
       "kind": "StringLiteral",
-      "offset": 4860,
+      "offset": 5056,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
       "kind": "StringLiteral",
-      "offset": 4902,
+      "offset": 5098,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 6545,
+      "offset": 6741,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
       "kind": "StringLiteral",
-      "offset": 7831,
+      "offset": 8027,
       "length": 20,
       "value": "\"Banar  load failed\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
       "kind": "StringLiteral",
-      "offset": 7904,
+      "offset": 8100,
       "length": 17,
       "value": "\"Bio load failed\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
       "kind": "Array",
-      "offset": 7991,
+      "offset": 8187,
       "length": 82,
       "value": "[\"Scarecrow\", \"Mizan\", \"Feedback\", \"Vibe\", \"Kona\", \"Balam\", \"Nancy\", \"Liza\"]"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/ArtistDetailsVC\/ArtistDetailsVC.swift",
       "kind": "StringLiteral",
-      "offset": 8142,
+      "offset": 8338,
       "length": 7,
       "value": "\"Elita\""
     },
@@ -48897,344 +49137,351 @@
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
+      "kind": "StringLiteral",
+      "offset": 20347,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 20547,
+      "offset": 20839,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 20678,
+      "offset": 20970,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 20721,
+      "offset": 21013,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 20758,
+      "offset": 21050,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 20806,
+      "offset": 21098,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 20906,
+      "offset": 21198,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 20943,
+      "offset": 21235,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 21628,
+      "offset": 21920,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "StringLiteral",
-      "offset": 22561,
+      "offset": 22853,
       "length": 26,
       "value": "\"Index playing : \""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "StringLiteral",
-      "offset": 22586,
+      "offset": 22878,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 22753,
+      "offset": 23045,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 22902,
+      "offset": 23194,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 23824,
+      "offset": 24116,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "FloatLiteral",
-      "offset": 24114,
+      "offset": 24406,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "StringLiteral",
-      "offset": 24309,
+      "offset": 24601,
       "length": 4,
       "value": "\"LM\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 24347,
+      "offset": 24639,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 24383,
+      "offset": 24675,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "StringLiteral",
-      "offset": 24423,
+      "offset": 24715,
       "length": 6,
       "value": "\"Live\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "StringLiteral",
-      "offset": 24805,
+      "offset": 25097,
       "length": 4,
       "value": "\"LM\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 24845,
+      "offset": 25137,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 24887,
+      "offset": 25179,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 24930,
+      "offset": 25222,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 24971,
+      "offset": 25263,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 25028,
+      "offset": 25320,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 25067,
+      "offset": 25359,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 25110,
+      "offset": 25402,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 25152,
+      "offset": 25444,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 25298,
+      "offset": 25590,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 25567,
+      "offset": 25859,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "StringLiteral",
-      "offset": 25600,
+      "offset": 25892,
       "length": 24,
       "value": "\"Waiting for connection\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 26172,
+      "offset": 26464,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 26220,
+      "offset": 26512,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 26271,
+      "offset": 26563,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 26471,
+      "offset": 26763,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 26519,
+      "offset": 26811,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 26570,
+      "offset": 26862,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 26777,
+      "offset": 27069,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 26826,
+      "offset": 27118,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 26872,
+      "offset": 27164,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "StringLiteral",
-      "offset": 27074,
+      "offset": 27366,
       "length": 31,
       "value": "\"download progress \""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "StringLiteral",
-      "offset": 27104,
+      "offset": 27396,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 27377,
+      "offset": 27669,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 27442,
+      "offset": 27734,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 27498,
+      "offset": 27790,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 27555,
+      "offset": 27847,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 27730,
+      "offset": 28022,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 27784,
+      "offset": 28076,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 27836,
+      "offset": 28128,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 27898,
+      "offset": 28190,
       "length": 1,
       "value": "0"
     },
@@ -53742,287 +53989,280 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "IntegerLiteral",
-      "offset": 973,
+      "offset": 1022,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "IntegerLiteral",
-      "offset": 979,
+      "offset": 1028,
       "length": 3,
       "value": "360"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1065,
+      "offset": 1114,
       "length": 3,
       "value": "130"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1071,
+      "offset": 1120,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2044,
+      "offset": 2093,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "Dictionary",
-      "offset": 2503,
+      "offset": 2552,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2711,
+      "offset": 2760,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2836,
+      "offset": 2885,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "FloatLiteral",
-      "offset": 2847,
+      "offset": 2896,
       "length": 4,
       "value": "2.77"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2895,
+      "offset": 2944,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3043,
+      "offset": 3092,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3159,
+      "offset": 3208,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3202,
+      "offset": 3251,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3259,
+      "offset": 3308,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3270,
+      "offset": 3319,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "StringLiteral",
-      "offset": 4086,
+      "offset": 4135,
       "length": 10,
       "value": "\"Download\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5177,
+      "offset": 5226,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5374,
+      "offset": 5423,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "StringLiteral",
-      "offset": 5484,
+      "offset": 5533,
       "length": 54,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "StringLiteral",
-      "offset": 5501,
+      "offset": 5550,
       "length": 3,
       "value": "\" • \""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "StringLiteral",
-      "offset": 5537,
+      "offset": 5586,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5786,
+      "offset": 5835,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5984,
+      "offset": 6033,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "FloatLiteral",
-      "offset": 6172,
+      "offset": 6221,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "StringLiteral",
-      "offset": 6478,
+      "offset": 6527,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7191,
+      "offset": 7240,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7260,
+      "offset": 7309,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7381,
+      "offset": 7430,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7495,
+      "offset": 7544,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7611,
+      "offset": 7660,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7729,
+      "offset": 7778,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8198,
+      "offset": 8267,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "StringLiteral",
-      "offset": 9064,
+      "offset": 9133,
       "length": 12,
       "value": "\"Downloaded\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "StringLiteral",
-      "offset": 9175,
+      "offset": 9244,
       "length": 10,
       "value": "\"Download\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9309,
+      "offset": 9378,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9353,
+      "offset": 9422,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "StringLiteral",
-      "offset": 9406,
+      "offset": 9475,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "StringLiteral",
-      "offset": 9836,
+      "offset": 9905,
       "length": 17,
       "value": "\"Download Cancel\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10443,
+      "offset": 10512,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10785,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11339,
+      "offset": 10854,
       "length": 4,
       "value": "true"
     },
@@ -54036,7 +54276,7 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11492,
+      "offset": 11477,
       "length": 4,
       "value": "true"
     },
@@ -54049,15 +54289,22 @@
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11630,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "StringLiteral",
-      "offset": 11703,
+      "offset": 11772,
       "length": 16,
       "value": "\"is full screen\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/Cell\/MusicVideoTopView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12050,
+      "offset": 12119,
       "length": 1,
       "value": "0"
     },
@@ -55989,315 +56236,399 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "Array",
-      "offset": 580,
+      "offset": 614,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 623,
+      "offset": 657,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 730,
+      "offset": 764,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "StringLiteral",
-      "offset": 834,
+      "offset": 868,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1263,
+      "offset": 1297,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1297,
+      "offset": 1331,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1610,
+      "offset": 1644,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1710,
+      "offset": 1744,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1892,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2022,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2036,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2124,
+      "length": 2,
+      "value": "-4"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2139,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2229,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2243,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2335,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2349,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2391,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "StringLiteral",
-      "offset": 1879,
+      "offset": 2428,
       "length": 12,
       "value": "\"Radio Live\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1938,
+      "offset": 2487,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2091,
+      "offset": 2642,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2284,
+      "offset": 2837,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2299,
+      "offset": 2852,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2375,
+      "offset": 2928,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2484,
+      "offset": 3037,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2499,
+      "offset": 3052,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2585,
+      "offset": 3138,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2600,
+      "offset": 3153,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2688,
+      "offset": 3241,
       "length": 3,
       "value": "-16"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2704,
+      "offset": 3257,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2768,
+      "offset": 3321,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2783,
+      "offset": 3336,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2897,
+      "offset": 3450,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2912,
+      "offset": 3465,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3001,
+      "offset": 3554,
       "length": 3,
       "value": "-16"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3017,
+      "offset": 3570,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3110,
+      "offset": 3663,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3205,
+      "offset": 3758,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3443,
+      "offset": 3996,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3452,
+      "offset": 4005,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3464,
+      "offset": 4017,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3474,
+      "offset": 4027,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
-      "kind": "StringLiteral",
-      "offset": 3555,
-      "length": 5,
-      "value": "\"dot\""
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
-      "kind": "StringLiteral",
-      "offset": 3577,
-      "length": 5,
-      "value": "\"gif\""
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3630,
+      "kind": "FloatLiteral",
+      "offset": 4101,
       "length": 4,
-      "value": "true"
+      "value": "0.40"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4087,
-      "length": 1,
-      "value": "0"
+      "kind": "FloatLiteral",
+      "offset": 4114,
+      "length": 4,
+      "value": "0.14"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4126,
+      "length": 4,
+      "value": "0.19"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4139,
+      "length": 4,
+      "value": "1.00"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4182,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4194,
+      "length": 3,
+      "value": "0.5"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "StringLiteral",
-      "offset": 4909,
+      "offset": 4799,
       "length": 6,
       "value": "\"P097\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6129,
+      "offset": 6019,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "StringLiteral",
-      "offset": 7079,
+      "offset": 6969,
       "length": 6,
       "value": "\"P097\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "StringLiteral",
-      "offset": 7115,
+      "offset": 7005,
       "length": 9,
       "value": "\"P_Radio\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7316,
+      "offset": 7206,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7339,
+      "offset": 7229,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7992,
+      "offset": 7882,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8466,
+      "offset": 8356,
       "length": 3,
       "value": "270"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8472,
+      "offset": 8362,
       "length": 3,
       "value": "170"
     },
@@ -63499,365 +63830,379 @@
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1090,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 984,
+      "offset": 1148,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1072,
+      "offset": 1236,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1115,
+      "offset": 1279,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1499,
+      "offset": 1663,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1639,
+      "offset": 1803,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "StringLiteral",
-      "offset": 3316,
+      "offset": 3480,
       "length": 8,
       "value": "\"header\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3865,
+      "offset": 4029,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3874,
+      "offset": 4038,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3886,
+      "offset": 4050,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3897,
+      "offset": 4061,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4206,
+      "offset": 4370,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "FloatLiteral",
-      "offset": 4618,
+      "offset": 4782,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "StringLiteral",
-      "offset": 4789,
+      "offset": 4953,
       "length": 25,
       "value": "\"www.google.com\/test.mp3\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4876,
+      "offset": 5040,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4929,
+      "offset": 5093,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "StringLiteral",
-      "offset": 5076,
+      "offset": 5240,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 5775,
+      "offset": 5939,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 5844,
+      "offset": 6008,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 5966,
+      "offset": 6130,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 6081,
+      "offset": 6245,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 6198,
+      "offset": 6362,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 6317,
+      "offset": 6481,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "StringLiteral",
-      "offset": 6857,
+      "offset": 6902,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
+      "kind": "StringLiteral",
+      "offset": 7185,
       "length": 4,
       "value": "\"LM\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6923,
+      "offset": 7251,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 7084,
+      "offset": 7412,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 7403,
+      "offset": 7731,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "StringLiteral",
-      "offset": 7483,
+      "offset": 7811,
       "length": 12,
       "value": "\"Loading...\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "StringLiteral",
-      "offset": 7812,
+      "offset": 8140,
       "length": 4,
       "value": "\"VD\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 8003,
+      "offset": 8331,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 8682,
+      "offset": 9010,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 8911,
+      "offset": 9239,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 9057,
+      "offset": 9385,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 9342,
+      "offset": 9670,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 10171,
+      "offset": 10499,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 10264,
+      "offset": 10592,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 10424,
+      "offset": 10752,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 10462,
+      "offset": 10790,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 10642,
+      "offset": 10970,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 10834,
+      "offset": 11162,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "StringLiteral",
-      "offset": 11625,
+      "offset": 11953,
       "length": 21,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 11643,
+      "offset": 11971,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "StringLiteral",
-      "offset": 11645,
+      "offset": 11973,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 14139,
+      "offset": 14467,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 14750,
+      "offset": 15078,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "StringLiteral",
-      "offset": 14906,
+      "offset": 15234,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "StringLiteral",
-      "offset": 15066,
+      "offset": 15394,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 15810,
+      "offset": 16138,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 15879,
+      "offset": 16207,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 15963,
+      "offset": 16291,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 16032,
+      "offset": 16360,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "StringLiteral",
-      "offset": 16141,
+      "offset": 16469,
       "length": 16,
       "value": "\"is full screen\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastVideoVC\/PodcastVideoVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 16488,
+      "offset": 16816,
       "length": 1,
       "value": "0"
     },
@@ -73566,497 +73911,497 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "Array",
-      "offset": 631,
+      "offset": 681,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 760,
+      "offset": 810,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 982,
+      "offset": 1032,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 1162,
+      "offset": 1212,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 1667,
+      "offset": 1717,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 1822,
+      "offset": 1872,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 3044,
+      "offset": 3094,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 3116,
+      "offset": 3166,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 3204,
+      "offset": 3254,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 3376,
+      "offset": 3426,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 4312,
+      "offset": 4362,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 4929,
+      "offset": 4979,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 5097,
+      "offset": 5147,
       "length": 4,
       "value": "\"LM\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 5284,
+      "offset": 5334,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 5468,
+      "offset": 5518,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 5472,
+      "offset": 5522,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 5478,
+      "offset": 5528,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 6074,
+      "offset": 6124,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 6173,
+      "offset": 6223,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 6217,
+      "offset": 6267,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 6374,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6487,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6820,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
-      "kind": "StringLiteral",
-      "offset": 6921,
+      "offset": 6424,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 7021,
+      "offset": 6537,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6870,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 503,
+      "offset": 6971,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7071,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
+      "kind": "StringLiteral",
+      "offset": 553,
       "length": 13,
       "value": "\"Shadhin_BL.MusicPlayerVM\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 7365,
+      "offset": 7415,
       "length": 11,
       "value": "\"Buffering\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 7679,
+      "offset": 7729,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 7691,
+      "offset": 7741,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 7764,
+      "offset": 7814,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 7854,
+      "offset": 7904,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 8142,
+      "offset": 8192,
       "length": 9,
       "value": "\"playing\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 8228,
+      "offset": 8278,
       "length": 8,
       "value": "\"Paused\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 8282,
+      "offset": 8332,
       "length": 9,
       "value": "\"Stopped\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 8416,
+      "offset": 8466,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 8444,
+      "offset": 8494,
       "length": 53,
       "value": "\"Play duration : \""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 8496,
+      "offset": 8546,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 8654,
+      "offset": 8704,
       "length": 24,
       "value": "\"waiting for connection\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 8912,
+      "offset": 8962,
       "length": 4,
       "value": "\"LM\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 9274,
+      "offset": 9324,
       "length": 37,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 9310,
+      "offset": 9360,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 9368,
+      "offset": 9418,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 9482,
+      "offset": 9532,
       "length": 11,
       "value": "\"Will Play\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 10042,
+      "offset": 10132,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 10189,
+      "offset": 10279,
       "length": 37,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 10225,
+      "offset": 10315,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 10370,
+      "offset": 10460,
       "length": 11,
       "value": "\"meta data\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 10899,
+      "offset": 10989,
       "length": 4,
       "value": "\"LM\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 10961,
+      "offset": 11051,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "FloatLiteral",
-      "offset": 11023,
+      "offset": 11113,
       "length": 3,
       "value": "6.0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 11094,
+      "offset": 11184,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 11229,
+      "offset": 11319,
       "length": 4,
       "value": "\"LM\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 11658,
+      "offset": 11748,
       "length": 4,
       "value": "\"LM\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 11720,
+      "offset": 11810,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "FloatLiteral",
-      "offset": 11782,
+      "offset": 11872,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 11853,
+      "offset": 11943,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 11982,
+      "offset": 12072,
       "length": 4,
       "value": "\"LM\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 12061,
+      "offset": 12151,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 12094,
+      "offset": 12184,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 12193,
+      "offset": 12283,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 12297,
+      "offset": 12387,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 12786,
+      "offset": 12876,
       "length": 4,
       "value": "\"LM\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 12931,
+      "offset": 13021,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 12997,
+      "offset": 13087,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 13039,
+      "offset": 13129,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 13089,
+      "offset": 13179,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 13278,
+      "offset": 13368,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 13422,
+      "offset": 13512,
       "length": 20,
       "value": "\"Download url error\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 13673,
+      "offset": 13763,
       "length": 13,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 13685,
+      "offset": 13775,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "StringLiteral",
-      "offset": 14112,
+      "offset": 14202,
       "length": 14,
       "value": "\"download key\""
     },
@@ -74477,48 +74822,48 @@
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 890,
-      "length": 8,
-      "value": "\"v0.3.9\""
+      "length": 9,
+      "value": "\"v0.3.10\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 979,
+      "offset": 980,
       "length": 7,
       "value": "\"10 TK\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1018,
+      "offset": 1019,
       "length": 6,
       "value": "\"5010\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1039,
+      "offset": 1040,
       "length": 7,
       "value": "\"15 TK\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1079,
+      "offset": 1080,
       "length": 6,
       "value": "\"5011\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1100,
+      "offset": 1101,
       "length": 7,
       "value": "\"60 TK\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1143,
+      "offset": 1144,
       "length": 6,
       "value": "\"5012\""
     },
@@ -85577,59 +85922,45 @@
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
+      "kind": "StringLiteral",
+      "offset": 902,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 796,
+      "offset": 960,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1093,
+      "offset": 1257,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1233,
+      "offset": 1397,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
       "kind": "StringLiteral",
-      "offset": 3091,
+      "offset": 3255,
       "length": 8,
       "value": "\"header\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3640,
+      "offset": 3804,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3649,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3661,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3672,
-      "length": 2,
-      "value": "16"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
@@ -85641,126 +85972,147 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3823,
+      "offset": 3825,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3835,
+      "offset": 3836,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3977,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3987,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3999,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3845,
+      "offset": 4009,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4398,
+      "offset": 4562,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4425,
+      "offset": 4589,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 5524,
+      "offset": 5688,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
       "kind": "StringLiteral",
-      "offset": 5905,
+      "offset": 6069,
       "length": 4,
       "value": "\"PD\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6096,
+      "offset": 6260,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6736,
+      "offset": 6900,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6960,
+      "offset": 7124,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 7106,
+      "offset": 7270,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 7603,
+      "offset": 7767,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 7696,
+      "offset": 7860,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 8097,
+      "offset": 8261,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
       "kind": "StringLiteral",
-      "offset": 8511,
+      "offset": 8675,
       "length": 21,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 8529,
+      "offset": 8693,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
       "kind": "StringLiteral",
-      "offset": 8531,
+      "offset": 8695,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/PodcastAudioVC\/PodcastAudioVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 10981,
+      "offset": 11145,
       "length": 1,
       "value": "1"
     },
@@ -99423,71 +99775,85 @@
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/MusicVideoPlayerVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2100,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/MusicVideoPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2979,
+      "offset": 3174,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/MusicVideoPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2988,
+      "offset": 3183,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/MusicVideoPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2999,
+      "offset": 3194,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/MusicVideoPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3010,
+      "offset": 3205,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/MusicVideoPlayerVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4491,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/MusicVideoPlayerVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4929,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/MusicVideoPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4440,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/MusicVideoPlayerVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4514,
+      "offset": 5003,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/MusicVideoPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4528,
+      "offset": 5017,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/MusicVideoPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 5933,
+      "offset": 6422,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/MusicVideoPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6008,
+      "offset": 6497,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicVideoPlayerVC\/MusicVideoPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 6022,
+      "offset": 6511,
       "length": 5,
       "value": "false"
     },
@@ -107046,92 +107412,99 @@
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
+      "kind": "StringLiteral",
+      "offset": 857,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1171,
+      "offset": 1374,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2357,
+      "offset": 2560,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2691,
+      "offset": 2894,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3678,
+      "offset": 3881,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3687,
+      "offset": 3890,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3699,
+      "offset": 3902,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3710,
+      "offset": 3913,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6566,
+      "offset": 6769,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 6762,
+      "offset": 6965,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 7011,
+      "offset": 7214,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 7190,
+      "offset": 7393,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 8340,
+      "offset": 8543,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
       "kind": "Array",
-      "offset": 9839,
+      "offset": 10042,
       "length": 2,
       "value": "[]"
     },

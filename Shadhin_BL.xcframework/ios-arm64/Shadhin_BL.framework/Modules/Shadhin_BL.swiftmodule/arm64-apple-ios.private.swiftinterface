@@ -37,6 +37,7 @@ public protocol ShadhinLogNotifier : ObjectiveC.NSObjectProtocol {
   func bkashPaymentInit()
   func bkashPaymentSuccess()
   func tokenFetchSuccess(complete: @escaping () -> Swift.Void)
+  func event(eventName: Swift.String, contentName: Swift.String, contentType: Swift.String, patchName: Swift.String)
 }
 @objc public protocol RadioCallBack : ObjectiveC.NSObjectProtocol {
   @objc func fetchTokenForRadio(complete: @escaping (Swift.String, Swift.Bool) -> Swift.Void)
@@ -238,6 +239,7 @@ extension Shadhin_BL.AFError : Foundation.LocalizedError {
   @objc func player(error: Swift.String)
   @objc func bkashPaymentInit()
   @objc func bksahPaymentSuccess()
+  @objc func event(eventName: Swift.String, content: [Swift.String : Swift.String])
 }
 public protocol HubConnectionDelegate : AnyObject {
   func connectionDidOpen(hubConnection: Shadhin_BL.HubConnection)
@@ -277,6 +279,8 @@ public class HubConnection {
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class ShadhinBL : ObjectiveC.NSObject {
   public static let shared: Shadhin_BL.ShadhinBL
+  @available(*, deprecated, message: "This method will be deprecated.")
+  @objc final public func initialize(with token: Swift.String, isBL: Swift.Bool, delegate: any Shadhin_BL.ShadhinCoreNotifier)
   @objc final public func initialize(with token: Swift.String, isBL: Swift.Bool, delegate: any Shadhin_BL.ShadhinCoreNotifier, tabController: UIKit.UITabBarController?, navigationController: UIKit.UINavigationController)
   @objc final public func login(number: Swift.String, complete: @escaping (_ isDone: Swift.Bool, _ token: Swift.String) -> Swift.Void)
   @objc final public func gotoHome(with tabController: UIKit.UITabBarController?, navigationController: UIKit.UINavigationController)
@@ -294,6 +298,7 @@ public class HubConnection {
   @objc deinit
 }
 extension Shadhin_BL.ShadhinBL : Shadhin_BL.ShadhinLogNotifier {
+  final public func event(eventName: Swift.String, contentName: Swift.String, contentType: Swift.String, patchName: Swift.String)
   final public func tokenFetchSuccess(complete: @escaping () -> Swift.Void)
   final public func bkashPaymentSuccess()
   final public func player(error: Swift.String)
