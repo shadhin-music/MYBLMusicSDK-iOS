@@ -23,7 +23,7 @@ class C: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         radioView.isAutoPlay = true
-        radioView.setTitle(title: "New Radio", backgroundColor: .gray, isDotHide: false)
+        radioView.setTitle(title: "New Radio", backgroundColor: .gray, isDotHide: false, isSeeAll: true)
         // Do any additional setup after loading the view.
     }
     override func viewWillAppear(_ animated: Bool) {
@@ -50,6 +50,10 @@ class C: UIViewController {
 
 }
 extension C : RadioCallBack{
+    func radioSeeAll() {
+        
+    }
+    
     func fetchTokenForRadio(complete: @escaping (String, Bool) -> Void) {
         debugPrint("need token ")
         ShadhinBL.shared.login(number: "8801954545813") { isDone, token in

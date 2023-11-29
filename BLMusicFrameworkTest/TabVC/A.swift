@@ -46,6 +46,10 @@ class A: UIViewController {
 
 }
 extension A : RadioCallBack{
+    func radioSeeAll() {
+        
+    }
+    
     func fetchTokenForRadio(complete: @escaping (String, Bool) -> Void) {
         debugPrint("need token ")
         ShadhinBL.shared.login(number: "8801954545813") { isDone, token in

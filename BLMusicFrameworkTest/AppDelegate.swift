@@ -33,6 +33,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 
 extension AppDelegate : ShadhinCoreNotifier{
+    func linkRedirect(link: String) {
+        
+    }
+    
     func event(eventName: String, content: [String : String]) {
         
     }

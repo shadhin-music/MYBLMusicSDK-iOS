@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Shadhin_BL
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -11,15 +11,18 @@ import CoreData
 import CoreGraphics
 import CoreImage
 import CoreMedia
+import DeveloperToolsSupport
 import Dispatch
 import Foundation
 import ImageIO
 import MediaPlayer
 import MobileCoreServices
 import ObjectiveC
+import PDFKit
 import QuartzCore
 @_exported import Shadhin_BL
 import Swift
+import SwiftUI
 import SystemConfiguration
 import UIKit
 import UniformTypeIdentifiers
@@ -27,6 +30,7 @@ import UserNotifications
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 public protocol ShadhinLogNotifier : ObjectiveC.NSObjectProtocol {
   func tokenStatus(token isValid: Swift.Bool, error: Swift.String?)
   func patchError(error: Swift.String)
@@ -38,9 +42,11 @@ public protocol ShadhinLogNotifier : ObjectiveC.NSObjectProtocol {
   func bkashPaymentSuccess()
   func tokenFetchSuccess(complete: @escaping () -> Swift.Void)
   func event(eventName: Swift.String, contentName: Swift.String, contentType: Swift.String, patchName: Swift.String)
+  func linkRedirect(link: Swift.String)
 }
 @objc public protocol RadioCallBack : ObjectiveC.NSObjectProtocol {
   @objc func fetchTokenForRadio(complete: @escaping (Swift.String, Swift.Bool) -> Swift.Void)
+  @objc func radioSeeAll()
 }
 extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public var parentViewController: UIKit.UIViewController? {
@@ -240,6 +246,7 @@ extension Shadhin_BL.AFError : Foundation.LocalizedError {
   @objc func bkashPaymentInit()
   @objc func bksahPaymentSuccess()
   @objc func event(eventName: Swift.String, content: [Swift.String : Swift.String])
+  @objc func linkRedirect(link: Swift.String)
 }
 public protocol HubConnectionDelegate : AnyObject {
   func connectionDidOpen(hubConnection: Shadhin_BL.HubConnection)
@@ -298,6 +305,7 @@ public class HubConnection {
   @objc deinit
 }
 extension Shadhin_BL.ShadhinBL : Shadhin_BL.ShadhinLogNotifier {
+  final public func linkRedirect(link: Swift.String)
   final public func event(eventName: Swift.String, contentName: Swift.String, contentType: Swift.String, patchName: Swift.String)
   final public func tokenFetchSuccess(complete: @escaping () -> Swift.Void)
   final public func bkashPaymentSuccess()
@@ -434,7 +442,7 @@ public struct EntryPoint {
     @objc set
   }
   @_Concurrency.MainActor(unsafe) @objc override final public func awakeFromNib()
-  @objc @_Concurrency.MainActor(unsafe) final public func setTitle(title: Swift.String, backgroundColor: UIKit.UIColor, isDotHide: Swift.Bool)
+  @objc @_Concurrency.MainActor(unsafe) final public func setTitle(title: Swift.String, backgroundColor: UIKit.UIColor, isDotHide: Swift.Bool, isSeeAll: Swift.Bool)
   @objc deinit
 }
 extension Shadhin_BL.BLRadioView : UIKit.UICollectionViewDataSource, UIKit.UICollectionViewDelegateFlowLayout {

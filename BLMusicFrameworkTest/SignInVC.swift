@@ -59,6 +59,10 @@ class SignInVC: UIViewController {
     
 }
 extension SignInVC : ShadhinCoreNotifier{
+    func linkRedirect(link: String) {
+        
+    }
+    
     func event(eventName: String, content: [String : String]) {
         
     }
