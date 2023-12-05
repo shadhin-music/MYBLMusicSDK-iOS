@@ -390,7 +390,7 @@ SWIFT_PROTOCOL("_TtP10Shadhin_BL19ShadhinCoreNotifier_")
 - (void)bkashPaymentInit;
 - (void)bksahPaymentSuccess;
 - (void)eventWithEventName:(NSString * _Nonnull)eventName content:(NSDictionary<NSString *, NSString *> * _Nonnull)content;
-- (void)linkRedirectWithLink:(NSString * _Nonnull)link;
+- (BOOL)linkRedirectWithLink:(NSString * _Nonnull)link SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -866,7 +866,7 @@ SWIFT_PROTOCOL("_TtP10Shadhin_BL19ShadhinCoreNotifier_")
 - (void)bkashPaymentInit;
 - (void)bksahPaymentSuccess;
 - (void)eventWithEventName:(NSString * _Nonnull)eventName content:(NSDictionary<NSString *, NSString *> * _Nonnull)content;
-- (void)linkRedirectWithLink:(NSString * _Nonnull)link;
+- (BOOL)linkRedirectWithLink:(NSString * _Nonnull)link SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
