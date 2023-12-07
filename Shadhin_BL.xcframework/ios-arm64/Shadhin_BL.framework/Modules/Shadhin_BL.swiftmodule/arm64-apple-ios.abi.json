@@ -375,9 +375,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Void",
+                "printedName": "()"
               },
               {
                 "kind": "TypeNominal",
@@ -387,8 +386,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Shadhin_BL0A11LogNotifierP12linkRedirect0E0SbSS_tF",
-            "mangledName": "$s10Shadhin_BL0A11LogNotifierP12linkRedirect0E0SbSS_tF",
+            "usr": "s:10Shadhin_BL0A11LogNotifierP12linkRedirect0E0ySS_tF",
+            "mangledName": "$s10Shadhin_BL0A11LogNotifierP12linkRedirect0E0ySS_tF",
             "moduleName": "Shadhin_BL",
             "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.ShadhinLogNotifier>",
             "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinLogNotifier>",
@@ -6756,9 +6755,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Void",
+                "printedName": "()"
               },
               {
                 "kind": "TypeNominal",
@@ -6769,7 +6767,7 @@
             ],
             "declKind": "Func",
             "usr": "c:@M@Shadhin_BL@objc(pl)ShadhinCoreNotifier(im)linkRedirectWithLink:",
-            "mangledName": "$s10Shadhin_BL0A12CoreNotifierP12linkRedirect0E0SbSS_tF",
+            "mangledName": "$s10Shadhin_BL0A12CoreNotifierP12linkRedirect0E0ySS_tF",
             "moduleName": "Shadhin_BL",
             "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.ShadhinCoreNotifier>",
             "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinCoreNotifier>",
@@ -12653,9 +12651,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Void",
+                "printedName": "()"
               },
               {
                 "kind": "TypeNominal",
@@ -12665,8 +12662,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Shadhin_BL0aB0C12linkRedirect0C0SbSS_tF",
-            "mangledName": "$s10Shadhin_BL0aB0C12linkRedirect0C0SbSS_tF",
+            "usr": "s:10Shadhin_BL0aB0C12linkRedirect0C0ySS_tF",
+            "mangledName": "$s10Shadhin_BL0aB0C12linkRedirect0C0ySS_tF",
             "moduleName": "Shadhin_BL",
             "declAttributes": [
               "Final",
@@ -43955,155 +43952,148 @@
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6010,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 6174,
+      "offset": 6151,
       "length": 13,
       "value": "\"contentName\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 6200,
+      "offset": 6177,
       "length": 13,
       "value": "\"contentType\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 6226,
+      "offset": 6203,
       "length": 11,
       "value": "\"patchName\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7623,
+      "offset": 7600,
       "length": 7,
       "value": "\"RC201\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7657,
+      "offset": 7634,
       "length": 7,
       "value": "\"RC202\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7691,
+      "offset": 7668,
       "length": 7,
       "value": "\"RC203\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7725,
+      "offset": 7702,
       "length": 7,
       "value": "\"RC204\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7759,
+      "offset": 7736,
       "length": 10,
       "value": "\"BNMAIN01\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7799,
+      "offset": 7776,
       "length": 9,
       "value": "\"BNALL01\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7840,
+      "offset": 7817,
       "length": 24,
       "value": "\"0000_TERMSANDCONDITION\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7895,
+      "offset": 7872,
       "length": 12,
       "value": "\"0000_BKASH\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7932,
+      "offset": 7909,
       "length": 7,
       "value": "\"RADIO\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7623,
+      "offset": 7600,
       "length": 7,
       "value": "\"RC201\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7657,
+      "offset": 7634,
       "length": 7,
       "value": "\"RC202\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7691,
+      "offset": 7668,
       "length": 7,
       "value": "\"RC203\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7725,
+      "offset": 7702,
       "length": 7,
       "value": "\"RC204\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7759,
+      "offset": 7736,
       "length": 10,
       "value": "\"BNMAIN01\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7799,
+      "offset": 7776,
       "length": 9,
       "value": "\"BNALL01\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7840,
+      "offset": 7817,
       "length": 24,
       "value": "\"0000_TERMSANDCONDITION\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7895,
+      "offset": 7872,
       "length": 12,
       "value": "\"0000_BKASH\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 7932,
+      "offset": 7909,
       "length": 7,
       "value": "\"RADIO\""
     },
@@ -68827,343 +68817,322 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 11671,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11678,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
-      "kind": "StringLiteral",
-      "offset": 11830,
+      "offset": 11699,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 11872,
+      "offset": 11798,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 11926,
+      "offset": 11840,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 11894,
       "length": 28,
       "value": "\"Load more : \""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 11953,
+      "offset": 11921,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 11985,
+      "offset": 11953,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 12047,
+      "offset": 12015,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 12284,
+      "offset": 12252,
       "length": 8,
       "value": "\"Artist\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 12397,
+      "offset": 12365,
       "length": 10,
       "value": "\"Playlist\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 12512,
+      "offset": 12480,
       "length": 7,
       "value": "\"Album\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 12624,
+      "offset": 12592,
       "length": 7,
       "value": "\"Songs\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 12808,
+      "offset": 12776,
       "length": 10,
       "value": "\"Podcast \""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 13657,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13664,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
-      "kind": "StringLiteral",
-      "offset": 13809,
+      "offset": 13658,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 13845,
+      "offset": 13764,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 13800,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 13974,
+      "offset": 13929,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 14123,
+      "offset": 14078,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 14209,
+      "offset": 14164,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 14245,
+      "offset": 14200,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 14494,
+      "offset": 14449,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 14530,
+      "offset": 14485,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 14802,
+      "offset": 14757,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 14835,
+      "offset": 14790,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 15255,
+      "offset": 15210,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 15291,
+      "offset": 15246,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 15312,
+      "offset": 15267,
       "length": 21,
       "value": "\"Artist item pressed\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 15558,
+      "offset": 15513,
       "length": 12,
       "value": "\"_BL_Inside\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 15582,
+      "offset": 15537,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 15616,
+      "offset": 15571,
       "length": 8,
       "value": "\"_Radio\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 15884,
+      "offset": 15839,
       "length": 8,
       "value": "\"Artist\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 16028,
+      "offset": 15983,
       "length": 10,
       "value": "\"Playlist\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 16168,
+      "offset": 16123,
       "length": 7,
       "value": "\"Album\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 16305,
+      "offset": 16260,
       "length": 7,
       "value": "\"Songs\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 16488,
+      "offset": 16443,
       "length": 9,
       "value": "\"Podcast\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 17138,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17145,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
-      "kind": "StringLiteral",
-      "offset": 17273,
+      "offset": 17126,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 17289,
+      "offset": 17202,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 17218,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 17476,
+      "offset": 17405,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 17633,
+      "offset": 17562,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 17649,
+      "offset": 17578,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 17831,
+      "offset": 17760,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 17952,
+      "offset": 17881,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 17968,
+      "offset": 17897,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 19347,
+      "offset": 19276,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 19434,
+      "offset": 19363,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeVC.swift",
       "kind": "StringLiteral",
-      "offset": 19471,
+      "offset": 19400,
       "length": 2,
       "value": "\"\""
     },
@@ -78495,48 +78464,48 @@
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/AppConstant.swift",
       "kind": "StringLiteral",
       "offset": 890,
-      "length": 9,
-      "value": "\"v0.3.13\""
+      "length": 8,
+      "value": "\"v0.4.0\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 980,
+      "offset": 979,
       "length": 7,
       "value": "\"10 TK\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1019,
+      "offset": 1018,
       "length": 6,
       "value": "\"5010\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1040,
+      "offset": 1039,
       "length": 7,
       "value": "\"15 TK\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1080,
+      "offset": 1079,
       "length": 6,
       "value": "\"5011\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1101,
+      "offset": 1100,
       "length": 7,
       "value": "\"60 TK\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/Shadhin_BL\/Shadhin_BL\/Utility\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1144,
+      "offset": 1143,
       "length": 6,
       "value": "\"5012\""
     },

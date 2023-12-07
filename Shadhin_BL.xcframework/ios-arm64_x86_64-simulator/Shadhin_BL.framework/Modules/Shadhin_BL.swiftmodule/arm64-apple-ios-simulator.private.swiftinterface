@@ -42,7 +42,7 @@ public protocol ShadhinLogNotifier : ObjectiveC.NSObjectProtocol {
   func bkashPaymentSuccess()
   func tokenFetchSuccess(complete: @escaping () -> Swift.Void)
   func event(eventName: Swift.String, contentName: Swift.String, contentType: Swift.String, patchName: Swift.String)
-  func linkRedirect(link: Swift.String) -> Swift.Bool
+  func linkRedirect(link: Swift.String)
 }
 @objc public protocol RadioCallBack : ObjectiveC.NSObjectProtocol {
   @objc func fetchTokenForRadio(complete: @escaping (Swift.String, Swift.Bool) -> Swift.Void)
@@ -246,7 +246,7 @@ extension Shadhin_BL.AFError : Foundation.LocalizedError {
   @objc func bkashPaymentInit()
   @objc func bksahPaymentSuccess()
   @objc func event(eventName: Swift.String, content: [Swift.String : Swift.String])
-  @objc func linkRedirect(link: Swift.String) -> Swift.Bool
+  @objc func linkRedirect(link: Swift.String)
 }
 public protocol HubConnectionDelegate : AnyObject {
   func connectionDidOpen(hubConnection: Shadhin_BL.HubConnection)
@@ -305,7 +305,7 @@ public class HubConnection {
   @objc deinit
 }
 extension Shadhin_BL.ShadhinBL : Shadhin_BL.ShadhinLogNotifier {
-  final public func linkRedirect(link: Swift.String) -> Swift.Bool
+  final public func linkRedirect(link: Swift.String)
   final public func event(eventName: Swift.String, contentName: Swift.String, contentType: Swift.String, patchName: Swift.String)
   final public func tokenFetchSuccess(complete: @escaping () -> Swift.Void)
   final public func bkashPaymentSuccess()
