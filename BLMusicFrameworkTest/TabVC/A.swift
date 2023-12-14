@@ -46,7 +46,7 @@ class A: UIViewController {
 
 }
 extension A : RadioCallBack{
-    func radioSeeAll() {
+    func radioSeeAll(rcCode : String) {
         
     }
     

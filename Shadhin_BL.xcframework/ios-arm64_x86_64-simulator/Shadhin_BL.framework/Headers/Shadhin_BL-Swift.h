@@ -348,7 +348,7 @@ SWIFT_CLASS("_TtC10Shadhin_BL11BLRadioView")
 SWIFT_PROTOCOL("_TtP10Shadhin_BL13RadioCallBack_")
 @protocol RadioCallBack <NSObject>
 - (void)fetchTokenForRadioWithComplete:(void (^ _Nonnull)(NSString * _Nonnull, BOOL))complete;
-- (void)radioSeeAll;
+- (void)radioSeeAllWithRcCode:(NSString * _Nonnull)rcCode;
 @end
 
 @protocol ShadhinCoreNotifier;
@@ -824,7 +824,7 @@ SWIFT_CLASS("_TtC10Shadhin_BL11BLRadioView")
 SWIFT_PROTOCOL("_TtP10Shadhin_BL13RadioCallBack_")
 @protocol RadioCallBack <NSObject>
 - (void)fetchTokenForRadioWithComplete:(void (^ _Nonnull)(NSString * _Nonnull, BOOL))complete;
-- (void)radioSeeAll;
+- (void)radioSeeAllWithRcCode:(NSString * _Nonnull)rcCode;
 @end
 
 @protocol ShadhinCoreNotifier;

@@ -46,7 +46,7 @@ public protocol ShadhinLogNotifier : ObjectiveC.NSObjectProtocol {
 }
 @objc public protocol RadioCallBack : ObjectiveC.NSObjectProtocol {
   @objc func fetchTokenForRadio(complete: @escaping (Swift.String, Swift.Bool) -> Swift.Void)
-  @objc func radioSeeAll()
+  @objc func radioSeeAll(rcCode: Swift.String)
 }
 extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public var parentViewController: UIKit.UIViewController? {

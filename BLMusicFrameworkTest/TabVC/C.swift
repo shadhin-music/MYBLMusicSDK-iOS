@@ -50,7 +50,7 @@ class C: UIViewController {
 
 }
 extension C : RadioCallBack{
-    func radioSeeAll() {
+    func radioSeeAll(rcCode : String) {
         
     }
     

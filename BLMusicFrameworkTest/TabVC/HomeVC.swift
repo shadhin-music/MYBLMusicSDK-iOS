@@ -133,7 +133,7 @@ extension HomeVC : UITableViewDataSource,UITableViewDelegate{
     }
 }
 extension HomeVC : RadioCallBack{
-    func radioSeeAll() {
+    func radioSeeAll(rcCode : String) {
         
     }
     
