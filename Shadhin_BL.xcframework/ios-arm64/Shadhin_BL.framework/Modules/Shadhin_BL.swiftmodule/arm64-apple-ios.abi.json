@@ -54857,28 +54857,28 @@
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/AudioAdsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3287,
+      "offset": 3313,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/AudioAdsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3320,
+      "offset": 3346,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/AudioAdsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3360,
+      "offset": 3386,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/AudioAdsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3509,
+      "offset": 3535,
       "length": 4,
       "value": "true"
     },
@@ -68136,63 +68136,63 @@
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/AudioAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 2378,
+      "offset": 2436,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/AudioAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 2415,
+      "offset": 2473,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/AudioAd.swift",
       "kind": "StringLiteral",
-      "offset": 2716,
+      "offset": 2774,
       "length": 31,
       "value": "\"current Time : \""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/AudioAd.swift",
       "kind": "StringLiteral",
-      "offset": 2746,
+      "offset": 2804,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/AudioAd.swift",
       "kind": "StringLiteral",
-      "offset": 2970,
+      "offset": 3028,
       "length": 11,
       "value": "\"Video end\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/AudioAd.swift",
       "kind": "FloatLiteral",
-      "offset": 3090,
+      "offset": 3148,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/AudioAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 3186,
+      "offset": 3244,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/AudioAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 3269,
+      "offset": 3327,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/AudioAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 3435,
+      "offset": 3493,
       "length": 1,
       "value": "0"
     },
@@ -68206,21 +68206,21 @@
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/AudioAd.swift",
       "kind": "StringLiteral",
-      "offset": 4245,
+      "offset": 4303,
       "length": 16,
       "value": "\"Unknown status\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/AudioAd.swift",
       "kind": "StringLiteral",
-      "offset": 4327,
+      "offset": 4385,
       "length": 15,
       "value": "\"ready to play\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/AudioAd.swift",
       "kind": "StringLiteral",
-      "offset": 4452,
+      "offset": 4510,
       "length": 8,
       "value": "\"failed\""
     },
@@ -74471,161 +74471,161 @@
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3822,
+      "offset": 3879,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3859,
+      "offset": 3916,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4098,
+      "offset": 4155,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "FloatLiteral",
-      "offset": 4155,
+      "offset": 4212,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "FloatLiteral",
-      "offset": 4214,
+      "offset": 4271,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "StringLiteral",
-      "offset": 4305,
+      "offset": 4362,
       "length": 31,
       "value": "\"current Time : \""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "StringLiteral",
-      "offset": 4335,
+      "offset": 4392,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "FloatLiteral",
-      "offset": 4568,
+      "offset": 4625,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4664,
+      "offset": 4721,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4747,
+      "offset": 4804,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4913,
+      "offset": 4970,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 5161,
+      "offset": 5218,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 5556,
+      "offset": 5613,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 5595,
+      "offset": 5652,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "StringLiteral",
-      "offset": 5618,
+      "offset": 5675,
       "length": 11,
       "value": "\"Video end\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "StringLiteral",
-      "offset": 6350,
+      "offset": 6407,
       "length": 16,
       "value": "\"Unknown status\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "FloatLiteral",
-      "offset": 6452,
+      "offset": 6509,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6509,
+      "offset": 6566,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 6605,
+      "offset": 6662,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6660,
+      "offset": 6717,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "StringLiteral",
-      "offset": 6803,
+      "offset": 6860,
       "length": 13,
       "value": "\"readyToPlay\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "StringLiteral",
-      "offset": 6877,
+      "offset": 6934,
       "length": 8,
       "value": "\"failed\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 6935,
+      "offset": 6992,
       "length": 4,
       "value": "true"
     },
