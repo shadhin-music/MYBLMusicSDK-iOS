@@ -8,11 +8,11 @@
 
 Pod::Spec.new do |s|
     s.name              = 'MYBLMusicSDK' # Name for your pod
-    s.version           = '0.4.3'
+    s.version           = '0.4.4'
     s.summary           = 'Sample Spec'
     s.homepage          = 'https://github.com/shadhin-music/MYBLMusicSDK-iOS'
 
-    s.author            = { 'MD Azizur Rahman' => 'azizur.gakk@gmail.com' }
+    s.author            = { 'Md Rezwanul Hoque' => 'rezwan.gakk@gmail.com' }
     s.license      = { :type => "MIT", :file => "LICENSE" }
 
     s.platform          = :ios
