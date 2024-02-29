@@ -54850,35 +54850,35 @@
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/AudioAdsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2229,
+      "offset": 2220,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/AudioAdsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3313,
+      "offset": 3403,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/AudioAdsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3346,
+      "offset": 3436,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/AudioAdsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3386,
+      "offset": 3476,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/AudioAdsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3535,
+      "offset": 3625,
       "length": 4,
       "value": "true"
     },
@@ -67247,21 +67247,21 @@
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/ImageCell\/ImageCell.swift",
       "kind": "StringLiteral",
-      "offset": 2002,
+      "offset": 2011,
       "length": 3,
       "value": "\"x\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/ImageCell\/ImageCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2036,
+      "offset": 2045,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/ImageCell\/ImageCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2277,
+      "offset": 2286,
       "length": 2,
       "value": "32"
     },
@@ -84088,120 +84088,134 @@
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15672,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 15587,
+      "offset": 15713,
+      "length": 5,
+      "value": "\"800\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 16268,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 15990,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeAdapter.swift",
-      "kind": "StringLiteral",
-      "offset": 17259,
+      "offset": 17537,
       "length": 4,
       "value": "\"lk\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 18183,
+      "offset": 18461,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeAdapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 19782,
+      "offset": 20060,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 19821,
+      "offset": 20099,
       "length": 2,
       "value": "52"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 20362,
+      "length": 3,
+      "value": "\"x\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeAdapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 20447,
+      "offset": 20898,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 20482,
+      "offset": 20933,
       "length": 2,
       "value": "52"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 20783,
+      "offset": 21234,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 20983,
+      "offset": 21434,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 21199,
+      "offset": 21650,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 21208,
+      "offset": 21659,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 21219,
+      "offset": 21670,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 21230,
+      "offset": 21681,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 21503,
+      "offset": 21954,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeAdapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 22344,
+      "offset": 22795,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/HomeVC\/HomeAdapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 22416,
+      "offset": 22867,
       "length": 4,
       "value": "true"
     },
