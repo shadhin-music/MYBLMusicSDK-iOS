@@ -51195,24 +51195,17 @@
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18685,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "StringLiteral",
-      "offset": 18833,
+      "offset": 18929,
       "length": 4,
       "value": "\"LM\""
-    },
-    {
-      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 18883,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 18933,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
@@ -51223,276 +51216,276 @@
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19029,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19075,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 19044,
+      "offset": 19140,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 19108,
+      "offset": 19204,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 19157,
+      "offset": 19253,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 19202,
+      "offset": 19298,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 19372,
+      "offset": 19468,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 19382,
+      "offset": 19478,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 19391,
+      "offset": 19487,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 19401,
+      "offset": 19497,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 19922,
+      "offset": 20018,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 19982,
+      "offset": 20078,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "StringLiteral",
-      "offset": 20384,
+      "offset": 20480,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 20429,
+      "offset": 20525,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 20735,
+      "offset": 20831,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 20797,
+      "offset": 20893,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "StringLiteral",
-      "offset": 21190,
+      "offset": 21286,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 21727,
+      "offset": 21823,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 21858,
+      "offset": 21954,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 21901,
+      "offset": 21997,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 21938,
+      "offset": 22034,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 21986,
+      "offset": 22082,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 22086,
+      "offset": 22182,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 22123,
+      "offset": 22219,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 22329,
+      "offset": 22425,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "StringLiteral",
-      "offset": 23757,
+      "offset": 23853,
       "length": 26,
       "value": "\"Index playing : \""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "StringLiteral",
-      "offset": 23782,
+      "offset": 23878,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 23949,
+      "offset": 24045,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 24098,
+      "offset": 24194,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 25020,
+      "offset": 25116,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "FloatLiteral",
-      "offset": 25310,
+      "offset": 25406,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "StringLiteral",
-      "offset": 25505,
+      "offset": 25601,
       "length": 4,
       "value": "\"LM\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 25543,
+      "offset": 25639,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 25579,
+      "offset": 25675,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "StringLiteral",
-      "offset": 25619,
+      "offset": 25715,
       "length": 6,
       "value": "\"Live\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "StringLiteral",
-      "offset": 25974,
+      "offset": 26070,
       "length": 4,
       "value": "\"LM\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 26014,
+      "offset": 26110,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 26056,
+      "offset": 26152,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 26099,
+      "offset": 26195,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 26140,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 26197,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
@@ -51504,210 +51497,224 @@
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 26279,
+      "offset": 26293,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 26321,
+      "offset": 26332,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26375,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 26467,
+      "offset": 26417,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 26736,
+      "offset": 26563,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26832,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "StringLiteral",
-      "offset": 26769,
+      "offset": 26865,
       "length": 24,
       "value": "\"Waiting for connection\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 27341,
+      "offset": 27437,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 27389,
+      "offset": 27485,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 27440,
+      "offset": 27536,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 27640,
+      "offset": 27736,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 27688,
+      "offset": 27784,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 27739,
+      "offset": 27835,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 27946,
+      "offset": 28042,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 27995,
+      "offset": 28091,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 28041,
+      "offset": 28137,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "StringLiteral",
-      "offset": 28243,
+      "offset": 28339,
       "length": 31,
       "value": "\"download progress \""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "StringLiteral",
-      "offset": 28273,
+      "offset": 28369,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 28546,
+      "offset": 28642,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 28611,
+      "offset": 28707,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 28667,
+      "offset": 28763,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 28724,
+      "offset": 28820,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 28899,
+      "offset": 28995,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 28953,
+      "offset": 29049,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 29005,
+      "offset": 29101,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 29067,
+      "offset": 29163,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 29259,
+      "offset": 29355,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 29297,
+      "offset": 29393,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 29410,
+      "offset": 29506,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 29448,
+      "offset": 29544,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 29599,
+      "offset": 29695,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 29637,
+      "offset": 29733,
       "length": 4,
       "value": "true"
     },
@@ -80325,7 +80332,7 @@
       "kind": "StringLiteral",
       "offset": 890,
       "length": 8,
-      "value": "\"v0.4.7\""
+      "value": "\"v0.4.8\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Utility\/AppConstant.swift",
