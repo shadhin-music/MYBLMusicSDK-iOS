@@ -39274,80 +39274,45 @@
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 550,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1036,
+      "offset": 1237,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1498,
+      "offset": 1699,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1608,
+      "offset": 1809,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1663,
+      "offset": 1864,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1715,
+      "offset": 1916,
       "length": 2,
       "value": "16"
-    },
-    {
-      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1776,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1786,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1795,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 1805,
-      "length": 4,
-      "value": "0.25"
-    },
-    {
-      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1866,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1914,
-      "length": 2,
-      "value": "36"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
@@ -39359,315 +39324,413 @@
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1988,
+      "offset": 1987,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1996,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 2006,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2067,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2115,
+      "length": 2,
+      "value": "36"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2178,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2189,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2773,
+      "offset": 2974,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3383,
+      "offset": 3584,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3460,
+      "offset": 3661,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3597,
+      "offset": 3798,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3674,
+      "offset": 3875,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3784,
+      "offset": 3985,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 4046,
+      "offset": 4247,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 4120,
+      "offset": 4321,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 4883,
+      "offset": 5128,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 4960,
+      "offset": 5205,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5114,
+      "offset": 5359,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5191,
+      "offset": 5436,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5278,
+      "offset": 5523,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5394,
+      "offset": 5639,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 5483,
+      "offset": 5728,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 5539,
+      "offset": 5784,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 5666,
+      "offset": 5880,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5920,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6100,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6146,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6281,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5670,
+      "offset": 6285,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5677,
+      "offset": 6292,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5803,
+      "offset": 6418,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 6262,
+      "offset": 6877,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 6339,
+      "offset": 6954,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 6476,
+      "offset": 7091,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 6553,
+      "offset": 7168,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 6641,
+      "offset": 7256,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 6804,
+      "offset": 7419,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 6873,
+      "offset": 7488,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 6962,
+      "offset": 7577,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 7013,
+      "offset": 7628,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7676,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7718,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "StringLiteral",
-      "offset": 7289,
+      "offset": 7963,
       "length": 43,
       "value": "\"Total song : \""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 7329,
+      "offset": 8003,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "StringLiteral",
-      "offset": 7331,
+      "offset": 8005,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 7603,
+      "offset": 8277,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 7680,
+      "offset": 8354,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 7817,
+      "offset": 8491,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 7894,
+      "offset": 8568,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 7981,
+      "offset": 8655,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 8084,
+      "offset": 8758,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8796,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8838,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "FloatLiteral",
-      "offset": 8441,
+      "offset": 9192,
       "length": 3,
       "value": "0.9"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 8501,
+      "offset": 9252,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "FloatLiteral",
-      "offset": 8558,
+      "offset": 9309,
       "length": 5,
       "value": "0.851"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "FloatLiteral",
-      "offset": 8572,
+      "offset": 9323,
       "length": 5,
       "value": "0.851"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "FloatLiteral",
-      "offset": 8585,
+      "offset": 9336,
       "length": 5,
       "value": "0.851"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/Cell\/AlbumTopCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 8599,
+      "offset": 9350,
       "length": 1,
       "value": "1"
     },
@@ -40293,6 +40356,20 @@
       "offset": 2860,
       "length": 7,
       "value": "\"PopUp\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/BLAdsResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 3212,
+      "length": 12,
+      "value": "\"playlistId\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/BLAdsResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 3212,
+      "length": 12,
+      "value": "\"playlistId\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/WebViewVC\/WebViewAmarTuneVC.swift",
@@ -59437,7 +59514,7 @@
       "kind": "IntegerLiteral",
       "offset": 2765,
       "length": 2,
-      "value": "14"
+      "value": "12"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
@@ -72279,92 +72356,127 @@
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 379,
+      "length": 42,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 394,
+      "length": 1,
+      "value": "\"\/ads\/getAdIcon?playlistId=\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Ads.swift",
       "kind": "IntegerLiteral",
-      "offset": 1703,
+      "offset": 1786,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Ads.swift",
       "kind": "IntegerLiteral",
-      "offset": 2237,
+      "offset": 2320,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Ads.swift",
       "kind": "IntegerLiteral",
-      "offset": 2379,
+      "offset": 2462,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Ads.swift",
       "kind": "FloatLiteral",
-      "offset": 2494,
+      "offset": 2577,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Ads.swift",
       "kind": "StringLiteral",
-      "offset": 2706,
+      "offset": 2789,
       "length": 11,
       "value": "\"ContentId\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Ads.swift",
       "kind": "StringLiteral",
-      "offset": 2741,
+      "offset": 2824,
       "length": 8,
       "value": "\"MSISDN\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Ads.swift",
       "kind": "StringLiteral",
-      "offset": 2775,
+      "offset": 2858,
       "length": 14,
       "value": "\"playDuration\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Ads.swift",
       "kind": "StringLiteral",
-      "offset": 2835,
+      "offset": 2918,
       "length": 27,
       "value": "\"Ad Viewed \""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Ads.swift",
       "kind": "StringLiteral",
-      "offset": 2853,
+      "offset": 2936,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Ads.swift",
       "kind": "StringLiteral",
-      "offset": 2861,
+      "offset": 2944,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Ads.swift",
       "kind": "StringLiteral",
-      "offset": 4236,
+      "offset": 3941,
+      "length": 21,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 3948,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 3961,
+      "length": 32,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 5115,
       "length": 11,
       "value": "\"ContentId\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Ads.swift",
       "kind": "StringLiteral",
-      "offset": 4255,
+      "offset": 5134,
       "length": 8,
       "value": "\"MSISDN\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Ads.swift",
       "kind": "StringLiteral",
-      "offset": 4809,
+      "offset": 5688,
       "length": 23,
       "value": "\"Ad Viewed api success\""
     },
@@ -80213,7 +80325,7 @@
       "kind": "StringLiteral",
       "offset": 890,
       "length": 8,
-      "value": "\"v0.4.4\""
+      "value": "\"v0.4.7\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Utility\/AppConstant.swift",
@@ -92048,308 +92160,322 @@
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1469,
+      "offset": 1604,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1606,
+      "offset": 1741,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1673,
+      "offset": 1808,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1762,
+      "offset": 1897,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1798,
+      "offset": 1933,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1828,
+      "offset": 1963,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1871,
+      "offset": 2006,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1875,
+      "offset": 2010,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1902,
+      "offset": 2037,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 2074,
+      "offset": 2209,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 2254,
+      "offset": 2389,
       "length": 24,
       "value": "\"video cell load failed\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 2364,
+      "offset": 2499,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 2700,
+      "offset": 2848,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 2874,
+      "offset": 3022,
       "length": 22,
       "value": "\"Ad image load failed\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 3154,
+      "offset": 3302,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 3327,
+      "offset": 3475,
       "length": 23,
       "value": "\"Popular cell not load\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4319,
+      "offset": 4467,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4355,
+      "offset": 4503,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4460,
+      "offset": 4593,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4598,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4640,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4643,
+      "offset": 4823,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4973,
+      "offset": 5153,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 5173,
+      "offset": 5353,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 5325,
+      "offset": 5505,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 5351,
+      "offset": 5531,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 5373,
+      "offset": 5553,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 5404,
+      "offset": 5584,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 5621,
+      "offset": 5801,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 5728,
+      "offset": 5908,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6089,
+      "offset": 6269,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6239,
+      "offset": 6419,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6248,
+      "offset": 6428,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6259,
+      "offset": 6439,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6270,
+      "offset": 6450,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6317,
+      "offset": 6497,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6327,
+      "offset": 6507,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6338,
+      "offset": 6518,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6349,
+      "offset": 6529,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6393,
+      "offset": 6573,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6426,
+      "offset": 6606,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6436,
+      "offset": 6616,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6447,
+      "offset": 6627,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6457,
+      "offset": 6637,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6760,
+      "offset": 6940,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6831,
+      "offset": 7011,
       "length": 2,
       "value": "20"
     },
@@ -114819,56 +114945,56 @@
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVM.swift",
       "kind": "StringLiteral",
-      "offset": 1650,
+      "offset": 1702,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 2100,
+      "offset": 2152,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVM.swift",
       "kind": "StringLiteral",
-      "offset": 2468,
+      "offset": 2721,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVM.swift",
       "kind": "StringLiteral",
-      "offset": 2612,
+      "offset": 2865,
       "length": 20,
       "value": "\"Download url error\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVM.swift",
       "kind": "StringLiteral",
-      "offset": 2863,
+      "offset": 3116,
       "length": 13,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVM.swift",
       "kind": "StringLiteral",
-      "offset": 2875,
+      "offset": 3128,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVM.swift",
       "kind": "StringLiteral",
-      "offset": 3303,
+      "offset": 3556,
       "length": 14,
       "value": "\"download key\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVM.swift",
       "kind": "StringLiteral",
-      "offset": 261,
+      "offset": 313,
       "length": 14,
       "value": "\"Shadhin_BL.AlbumDetailsVM\""
     },
@@ -117164,77 +117290,70 @@
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1374,
+      "offset": 1408,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2761,
+      "offset": 2795,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3095,
+      "offset": 3129,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4179,
+      "offset": 4213,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4188,
+      "offset": 4222,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4200,
+      "offset": 4234,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4211,
+      "offset": 4245,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
       "kind": "StringLiteral",
-      "offset": 6688,
+      "offset": 6867,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 7242,
+      "offset": 7421,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 7438,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7687,
+      "offset": 7617,
       "length": 5,
       "value": "false"
     },
@@ -117242,20 +117361,27 @@
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
       "kind": "BooleanLiteral",
       "offset": 7866,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8045,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 9016,
+      "offset": 9195,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AlbumDetailsVC\/AlbumDetailsVC.swift",
       "kind": "Array",
-      "offset": 10515,
+      "offset": 10694,
       "length": 2,
       "value": "[]"
     },
