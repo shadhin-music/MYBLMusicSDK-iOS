@@ -23,7 +23,7 @@ class C: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         radioView.isAutoPlay = true
-        radioView.setTitle(title: "New Radio", backgroundColor: .gray, isDotHide: false, isSeeAll: true)
+        radioView.setTitle(title: "New Radio", backgroundColor: .gray, isDotHide: false, isSeeAll: true, seeAllArrowTint: .purple)
         // Do any additional setup after loading the view.
     }
     override func viewWillAppear(_ animated: Bool) {
