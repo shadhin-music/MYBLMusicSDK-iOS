@@ -442,7 +442,7 @@ public struct EntryPoint {
     @objc set
   }
   @_Concurrency.MainActor(unsafe) @objc override final public func awakeFromNib()
-  @objc @_Concurrency.MainActor(unsafe) final public func setTitle(title: Swift.String, backgroundColor: UIKit.UIColor, isDotHide: Swift.Bool, isSeeAll: Swift.Bool)
+  @objc @_Concurrency.MainActor(unsafe) final public func setTitle(title: Swift.String, backgroundColor: UIKit.UIColor, isDotHide: Swift.Bool, isSeeAll: Swift.Bool, seeAllArrowTint: UIKit.UIColor)
   @objc deinit
 }
 extension Shadhin_BL.BLRadioView : UIKit.UICollectionViewDataSource, UIKit.UICollectionViewDelegateFlowLayout {

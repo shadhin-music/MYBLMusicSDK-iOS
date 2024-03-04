@@ -17073,7 +17073,7 @@
           {
             "kind": "Function",
             "name": "setTitle",
-            "printedName": "setTitle(title:backgroundColor:isDotHide:isSeeAll:)",
+            "printedName": "setTitle(title:backgroundColor:isDotHide:isSeeAll:seeAllArrowTint:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -17103,13 +17103,19 @@
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@Shadhin_BL@objc(cs)BLRadioView(im)setTitleWithTitle:backgroundColor:isDotHide:isSeeAll:",
-            "mangledName": "$s10Shadhin_BL11BLRadioViewC8setTitle5title15backgroundColor9isDotHide0J6SeeAllySS_So7UIColorCS2btF",
+            "usr": "c:@M@Shadhin_BL@objc(cs)BLRadioView(im)setTitleWithTitle:backgroundColor:isDotHide:isSeeAll:seeAllArrowTint:",
+            "mangledName": "$s10Shadhin_BL11BLRadioViewC8setTitle5title15backgroundColor9isDotHide0J6SeeAll03seeN9ArrowTintySS_So7UIColorCS2bAKtF",
             "moduleName": "Shadhin_BL",
-            "objc_name": "setTitleWithTitle:backgroundColor:isDotHide:isSeeAll:",
+            "objc_name": "setTitleWithTitle:backgroundColor:isDotHide:isSeeAll:seeAllArrowTint:",
             "declAttributes": [
               "Final",
               "Custom",
@@ -54941,28 +54947,28 @@
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/AudioAdsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3403,
+      "offset": 3461,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/AudioAdsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3436,
+      "offset": 3494,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/AudioAdsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3476,
+      "offset": 3534,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/AudioAdsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3625,
+      "offset": 3683,
       "length": 4,
       "value": "true"
     },
@@ -59365,441 +59371,483 @@
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "Array",
-      "offset": 664,
+      "offset": 753,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 707,
+      "offset": 796,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 747,
+      "offset": 836,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 849,
+      "offset": 938,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "StringLiteral",
-      "offset": 953,
+      "offset": 1042,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1382,
+      "offset": 1471,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1416,
+      "offset": 1505,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1729,
+      "offset": 1818,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1829,
+      "offset": 1918,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1977,
+      "offset": 2066,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2107,
+      "offset": 2196,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2121,
+      "offset": 2210,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2209,
+      "offset": 2298,
       "length": 2,
       "value": "-4"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2224,
+      "offset": 2313,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2314,
+      "offset": 2403,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2328,
+      "offset": 2417,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2420,
+      "offset": 2509,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2434,
+      "offset": 2523,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2476,
+      "offset": 2565,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "StringLiteral",
-      "offset": 2513,
+      "offset": 2623,
       "length": 12,
       "value": "\"Radio Live\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2572,
+      "offset": 2682,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "StringLiteral",
-      "offset": 2632,
+      "offset": 2742,
       "length": 9,
       "value": "\"See All\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2765,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2970,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3260,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3451,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3466,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3542,
+      "offset": 2921,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3651,
+      "offset": 2987,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3217,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3282,
+      "length": 4,
+      "value": "18.0"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3299,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
+      "kind": "StringLiteral",
+      "offset": 3347,
+      "length": 22,
+      "value": "\"radioViewSeeAllArrow\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3511,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3757,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4293,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4484,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4499,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4575,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4684,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3666,
+      "offset": 4699,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3752,
+      "offset": 4785,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3767,
+      "offset": 4800,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3855,
+      "offset": 4888,
       "length": 3,
       "value": "-16"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3871,
+      "offset": 4904,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3935,
+      "offset": 4968,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3950,
+      "offset": 4983,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4064,
+      "offset": 5097,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4079,
+      "offset": 5112,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4168,
+      "offset": 5201,
       "length": 3,
       "value": "-16"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4184,
+      "offset": 5217,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4277,
+      "offset": 5310,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4372,
+      "offset": 5405,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4610,
+      "offset": 5643,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4619,
+      "offset": 5652,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4631,
+      "offset": 5664,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4641,
+      "offset": 5674,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "FloatLiteral",
-      "offset": 4715,
+      "offset": 5748,
       "length": 4,
       "value": "0.40"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "FloatLiteral",
-      "offset": 4728,
+      "offset": 5761,
       "length": 4,
       "value": "0.14"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "FloatLiteral",
-      "offset": 4740,
+      "offset": 5773,
       "length": 4,
       "value": "0.19"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "FloatLiteral",
-      "offset": 4753,
+      "offset": 5786,
       "length": 4,
       "value": "1.00"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "FloatLiteral",
-      "offset": 4816,
+      "offset": 5849,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "FloatLiteral",
-      "offset": 4864,
+      "offset": 5897,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "FloatLiteral",
-      "offset": 4876,
+      "offset": 5909,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "StringLiteral",
-      "offset": 5588,
+      "offset": 6696,
       "length": 18,
       "value": "\"UDA5N19wYXRjaA==\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "StringLiteral",
-      "offset": 5766,
+      "offset": 6874,
       "length": 6,
       "value": "\"P097\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6424,
+      "offset": 7532,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "StringLiteral",
-      "offset": 7374,
+      "offset": 8482,
       "length": 6,
       "value": "\"P097\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "StringLiteral",
-      "offset": 7410,
+      "offset": 8518,
       "length": 9,
       "value": "\"P_Radio\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7611,
+      "offset": 8719,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7634,
+      "offset": 8742,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8287,
+      "offset": 9395,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8761,
+      "offset": 9869,
       "length": 3,
       "value": "270"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Common\/BLRadioView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8767,
+      "offset": 9875,
       "length": 3,
       "value": "170"
     },
@@ -74576,175 +74624,175 @@
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3393,
+      "offset": 3422,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3407,
+      "offset": 3436,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3879,
+      "offset": 3908,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3916,
+      "offset": 3945,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4155,
+      "offset": 4184,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "FloatLiteral",
-      "offset": 4212,
+      "offset": 4241,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "FloatLiteral",
-      "offset": 4271,
+      "offset": 4300,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "StringLiteral",
-      "offset": 4362,
+      "offset": 4391,
       "length": 31,
       "value": "\"current Time : \""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "StringLiteral",
-      "offset": 4392,
+      "offset": 4421,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "FloatLiteral",
-      "offset": 4625,
+      "offset": 4654,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4721,
+      "offset": 4750,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4804,
+      "offset": 4833,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4970,
+      "offset": 4999,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 5218,
+      "offset": 5247,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 5613,
+      "offset": 5642,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 5652,
+      "offset": 5681,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "StringLiteral",
-      "offset": 5675,
+      "offset": 5704,
       "length": 11,
       "value": "\"Video end\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "StringLiteral",
-      "offset": 6407,
+      "offset": 6436,
       "length": 16,
       "value": "\"Unknown status\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "FloatLiteral",
-      "offset": 6509,
+      "offset": 6538,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6566,
+      "offset": 6595,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 6662,
+      "offset": 6691,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6717,
+      "offset": 6746,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "StringLiteral",
-      "offset": 6860,
+      "offset": 6889,
       "length": 13,
       "value": "\"readyToPlay\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "StringLiteral",
-      "offset": 6934,
+      "offset": 6963,
       "length": 8,
       "value": "\"failed\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/AdsVC\/FullScreenAdsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 6992,
+      "offset": 7021,
       "length": 4,
       "value": "true"
     },
@@ -118417,350 +118465,357 @@
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18141,
+      "offset": 18046,
+      "length": 22,
+      "value": "\"radioViewSeeAllArrow\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 18313,
       "length": 7,
       "value": "\"rank1\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18268,
+      "offset": 18440,
       "length": 7,
       "value": "\"rank2\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18395,
+      "offset": 18567,
       "length": 7,
       "value": "\"rank3\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18532,
+      "offset": 18704,
       "length": 12,
       "value": "\"rbtChecked\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18674,
+      "offset": 18846,
       "length": 12,
       "value": "\"rbtDivider\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18810,
+      "offset": 18982,
       "length": 9,
       "value": "\"rbtDone\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18945,
+      "offset": 19117,
       "length": 10,
       "value": "\"rbtError\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19089,
+      "offset": 19261,
       "length": 14,
       "value": "\"rbtUnchecked\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19225,
+      "offset": 19397,
       "length": 8,
       "value": "\"reload\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19383,
+      "offset": 19555,
       "length": 23,
       "value": "\"remove_favourite_menu\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19557,
+      "offset": 19729,
       "length": 24,
       "value": "\"remove_watch_list_menu\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19705,
+      "offset": 19877,
       "length": 8,
       "value": "\"repeat\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19840,
+      "offset": 20012,
       "length": 11,
       "value": "\"repeat_on\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19985,
+      "offset": 20157,
       "length": 15,
       "value": "\"repeat_one_on\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20122,
+      "offset": 20294,
       "length": 8,
       "value": "\"reward\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20261,
+      "offset": 20433,
       "length": 13,
       "value": "\"right_arrow\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20396,
+      "offset": 20568,
       "length": 8,
       "value": "\"search\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20528,
+      "offset": 20700,
       "length": 9,
       "value": "\"shadhin\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20657,
+      "offset": 20829,
       "length": 7,
       "value": "\"share\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20793,
+      "offset": 20965,
       "length": 12,
       "value": "\"share_menu\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20929,
+      "offset": 21101,
       "length": 9,
       "value": "\"shuffle\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21067,
+      "offset": 21239,
       "length": 12,
       "value": "\"shuffle_on\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21201,
+      "offset": 21373,
       "length": 8,
       "value": "\"slider\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21354,
+      "offset": 21526,
       "length": 21,
       "value": "\"speaker.wave.2.fill\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21503,
+      "offset": 21675,
       "length": 11,
       "value": "\"subCancel\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21654,
+      "offset": 21826,
       "length": 17,
       "value": "\"subCancelOption\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21785,
+      "offset": 21957,
       "length": 4,
       "value": "\"tc\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21921,
+      "offset": 22093,
       "length": 13,
       "value": "\"termsOfUses\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22062,
+      "offset": 22234,
       "length": 11,
       "value": "\"thumbFill\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22197,
+      "offset": 22369,
       "length": 9,
       "value": "\"thumbUp\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22328,
+      "offset": 22500,
       "length": 8,
       "value": "\"ticket\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22482,
+      "offset": 22654,
       "length": 20,
       "value": "\"ticketDoneBottomBG\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22630,
+      "offset": 22802,
       "length": 11,
       "value": "\"ticketFaq\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22779,
+      "offset": 22951,
       "length": 16,
       "value": "\"ticketHeaderBG\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22927,
+      "offset": 23099,
       "length": 13,
       "value": "\"ticketRadio\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23084,
+      "offset": 23256,
       "length": 19,
       "value": "\"ticketRadioSelect\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23223,
+      "offset": 23395,
       "length": 7,
       "value": "\"timer\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23346,
+      "offset": 23518,
       "length": 5,
       "value": "\"tmp\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23469,
+      "offset": 23641,
       "length": 6,
       "value": "\"tmp1\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23607,
+      "offset": 23779,
       "length": 13,
       "value": "\"topCouponBG\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23748,
+      "offset": 23920,
       "length": 11,
       "value": "\"topRankBG\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23891,
+      "offset": 24063,
       "length": 13,
       "value": "\"unCheckMark\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24048,
+      "offset": 24220,
       "length": 19,
       "value": "\"unlimitedPlaylist\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24185,
+      "offset": 24357,
       "length": 6,
       "value": "\"user\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24324,
+      "offset": 24496,
       "length": 14,
       "value": "\"user_premium\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24467,
+      "offset": 24639,
       "length": 12,
       "value": "\"video_play\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24601,
+      "offset": 24773,
       "length": 8,
       "value": "\"volume\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24741,
+      "offset": 24913,
       "length": 13,
       "value": "\"volumeThumb\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24892,
+      "offset": 25064,
       "length": 16,
       "value": "\"watchLaterHome\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25054,
+      "offset": 25226,
       "length": 21,
       "value": "\"watch_later_Outline\""
     }
