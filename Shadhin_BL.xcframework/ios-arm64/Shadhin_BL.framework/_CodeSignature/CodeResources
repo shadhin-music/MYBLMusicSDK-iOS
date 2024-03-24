@@ -110,7 +110,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		TmIqbVk5D2olghNizb0HVLd0qIE=
+		zWKAUMRHyo2OI3HJ+ENu4C3eJU4=
 		</data>
 		<key>AudioAdsView.nib/objects-13.0+.nib</key>
 		<data>
@@ -414,11 +414,11 @@
 		</data>
 		<key>FullScreenAdsVC.nib/objects-13.0+.nib</key>
 		<data>
-		LEPx1chFCsnNPLyoxjiKlJWEXq8=
+		Fd/P6tcm9JZ0V4A0nco0PpnKkcI=
 		</data>
 		<key>FullScreenAdsVC.nib/runtime.nib</key>
 		<data>
-		T9ux1tIlHDTx5sL4Udef4dYVB1Y=
+		UqB9zkeebnyQ2j+MB/K+afr3UZE=
 		</data>
 		<key>GenreCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -470,7 +470,7 @@
 		</data>
 		<key>Headers/Shadhin_BL-Swift.h</key>
 		<data>
-		K2phCjfpAwvL0TOt3EoN8xtkGHU=
+		r4sPYAisZ1DrY3SgFOouy2MrFt4=
 		</data>
 		<key>Headers/Shadhin_BL.h</key>
 		<data>
@@ -562,7 +562,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ytac/6WSGSxhmY0hPM+pO/l5YZw=
+		fysFGG+vUB5gK17FvOjfbWyreCM=
 		</data>
 		<key>LatestReleaseWatchLaterVC.nib/objects-13.0+.nib</key>
 		<data>
@@ -622,23 +622,23 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		uU7w6LPMSLaLe/9YAIZBE2SPiGQ=
+		zzJVfNUWHwlZg7kIyD4hLXtJb+M=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		F/VSLF4sBSRhaCt/fDnukO75JMk=
+		xbExv9pZpiXg3ZOUn6WJXrbPVGQ=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Ee5mrtHO6K5gN7O3OmZtJw1Ri2Y=
+		aK3PaCGxRiS95/y01xlV5EGkdOM=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		F/VSLF4sBSRhaCt/fDnukO75JMk=
+		xbExv9pZpiXg3ZOUn6WJXrbPVGQ=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		gfHj9DWirBYWB5q+cwXQnL+effk=
+		R85kAJfmv7AHvm94CeqdoK+cJlE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -770,7 +770,7 @@
 		</data>
 		<key>OfflineDatabase.momd/OfflineDatabase.mom</key>
 		<data>
-		DPgVx8IRiN3NfM85gvgDmsEWalI=
+		XoIY2hr3zSZgaIZZp6j+LzetJrs=
 		</data>
 		<key>OfflineDatabase.momd/OfflineDatabase.omo</key>
 		<data>
@@ -894,11 +894,11 @@
 		</data>
 		<key>PopUpAdsVC.nib/objects-13.0+.nib</key>
 		<data>
-		xpOPUk5elU7Fchg8qWZsWd6Qnc0=
+		UPZzj+GViZyXb9YU0cCqTNfie7A=
 		</data>
 		<key>PopUpAdsVC.nib/runtime.nib</key>
 		<data>
-		tGcbJ3d+iX5G2DBo/NvqH6ikGVc=
+		v/x50G2f2flo9rpTx7exDv4ce58=
 		</data>
 		<key>PopularAlbumTopTrendingCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -1110,15 +1110,15 @@
 		</data>
 		<key>SongsCell.nib/objects-12.3+.nib</key>
 		<data>
-		kynXERdL6icHx2HMuVajIU5d/qY=
+		T0vpNKY1gUotVFlXGXfaUyF6HTg=
 		</data>
 		<key>SongsCell.nib/objects-14.0+.nib</key>
 		<data>
-		KCT3lGsY3oEelUpc/RLBUdqwQQ0=
+		AdSWV7RA3C8r95H2XJDEtnWBeX4=
 		</data>
 		<key>SongsCell.nib/runtime.nib</key>
 		<data>
-		FMNskUSeoXbfbpfbQXP0bMeCFhk=
+		IifjuAGe1aRKxO4ZHs9nFuA28cE=
 		</data>
 		<key>SquareSubCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -1582,7 +1582,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kGcOJhpr4v9T4Q4JZz+vJcYfpBZrdLqxVPHL+BfK4Bc=
+			F4XdTjSPaVu9XPPiAx2qXWSjoRPqXlcdB10AbkReSNg=
 			</data>
 		</dict>
 		<key>AudioAdsView.nib/objects-13.0+.nib</key>
@@ -2114,14 +2114,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3F4whTDrJ28oXJyIUWB30LILCK8kCFEj9xA10MTepIg=
+			LCPrCPOwrj4lCtvgxCvQo7H5oyC71rZLTMWLgpePUuo=
 			</data>
 		</dict>
 		<key>FullScreenAdsVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6++0NYJ5lSBHV9b0CDiVOcnxI4qjypgHfk0fNxQT1MQ=
+			2UFa8njCwo7WHFzb/0y2gv4beaJCqDEyovu8R1MAXz0=
 			</data>
 		</dict>
 		<key>GenreCell.nib/objects-12.3+.nib</key>
@@ -2212,7 +2212,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YXDxdu7HgDnCbydLjRi0JLyCYnevBFoaRzBo7TZOnWM=
+			AY7gPibdXcRxbXUMvyzjGmvBFTktshquqREOQEDXG+I=
 			</data>
 		</dict>
 		<key>Headers/Shadhin_BL.h</key>
@@ -2471,35 +2471,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3as8vT/pTsMcTt0FZOFc6xKHVOsZU3FfJScz/ZeueYE=
+			hhr/X3LZeHpvnR3mQ6BacrSH8YjfR4L8ynL32NWuKAQ=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WdlrtQ3WUZms/YG6HRrCxM9FiNUDIMJ4OooYPT8QCIU=
+			KeNJ81llTaYmRRSKLVcxlj76ikS8dd9gyFJO9rzuDHw=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dFkV4vaw/01SBOzKk724240vZ5LfoNeFBtx1FArf1Jk=
+			cqLHj5kV+FUt12cy0JbnVuInC1Og7WaGMVGbNT1oJqg=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WdlrtQ3WUZms/YG6HRrCxM9FiNUDIMJ4OooYPT8QCIU=
+			KeNJ81llTaYmRRSKLVcxlj76ikS8dd9gyFJO9rzuDHw=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rDfcwqhaElSVOsMWxO4v3vz8TKkVBR9Tw27uDA3Nsn4=
+			kBqc63ZEYNkkS2uVYU471Jrk3IxE5GLWm7wdjO44fRE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -2730,7 +2730,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7HgyXr2qni9es2ctblR4TLf7BY3tMAyLlz0w5k/YR/U=
+			tgyrne7obE1/AYCP/3Atbhmw8I/I8HV3NmWbSZG9jmM=
 			</data>
 		</dict>
 		<key>OfflineDatabase.momd/OfflineDatabase.omo</key>
@@ -2947,14 +2947,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			58XMBVsIrSuVl1oS8qwuafvTB9zn70nn3HKpmzfGs1A=
+			IQst3+QEZpEUmkqx9bzonWZ3qIeLqRfhQKJhS/iwvtw=
 			</data>
 		</dict>
 		<key>PopUpAdsVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VjWp+2aZXtaweRQJpVtLIR8OGuiuUqXxpkIbpJL4lv0=
+			IrOVirgX5H92qRubthEj6/bM9ZB3n62RnNAii2bpX54=
 			</data>
 		</dict>
 		<key>PopularAlbumTopTrendingCell.nib/objects-12.3+.nib</key>
@@ -3325,21 +3325,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W6x2dPjAaD+AJ3ptfY8bmM7oi42Ol881htAn9zsPesA=
+			+rndOGvdfOIW/q4eBMn4agsDX/zckoMR2VPo76aFNVA=
 			</data>
 		</dict>
 		<key>SongsCell.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hXO/gIr38tuA253w0c8WmbOcv3Jxn/4M+hsdkIjbtxw=
+			eIbeZAW7Pvzto3GgrCJWAB9xzynp3P9W7ilMaxAr3s4=
 			</data>
 		</dict>
 		<key>SongsCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IUK0f5gWqzqJTja7aL4izELKihuVFVAy5hSYa8I/bb8=
+			UZ1owJJ0i6krtdUfzykXNmIs5/c2QG4Ddzl5vOd10io=
 			</data>
 		</dict>
 		<key>SquareSubCell.nib/objects-12.3+.nib</key>
