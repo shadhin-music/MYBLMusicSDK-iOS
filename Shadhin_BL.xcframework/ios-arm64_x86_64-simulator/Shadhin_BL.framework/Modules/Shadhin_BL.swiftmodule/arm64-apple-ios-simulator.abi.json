@@ -38104,78 +38104,218 @@
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 734,
+      "offset": 795,
+      "length": 12,
+      "value": "\"CouponInfo\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 835,
       "length": 9,
       "value": "\"Coupons\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 734,
+      "offset": 795,
+      "length": 12,
+      "value": "\"CouponInfo\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 835,
       "length": 9,
       "value": "\"Coupons\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 940,
+      "offset": 1158,
+      "length": 10,
+      "value": "\"ImageUrl\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1193,
+      "length": 6,
+      "value": "\"Size\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1231,
+      "length": 13,
+      "value": "\"ButtonTitle\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1279,
+      "length": 16,
+      "value": "\"ButtonSubTitle\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1325,
+      "length": 11,
+      "value": "\"ClickType\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1365,
+      "length": 10,
+      "value": "\"ClickUrl\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1409,
+      "length": 15,
+      "value": "\"NoCouponTitle\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1461,
+      "length": 18,
+      "value": "\"NoCouponSubTitle\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1158,
+      "length": 10,
+      "value": "\"ImageUrl\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1193,
+      "length": 6,
+      "value": "\"Size\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1231,
+      "length": 13,
+      "value": "\"ButtonTitle\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1279,
+      "length": 16,
+      "value": "\"ButtonSubTitle\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1325,
+      "length": 11,
+      "value": "\"ClickType\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1365,
+      "length": 10,
+      "value": "\"ClickUrl\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1409,
+      "length": 15,
+      "value": "\"NoCouponTitle\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1461,
+      "length": 18,
+      "value": "\"NoCouponSubTitle\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1700,
       "length": 6,
       "value": "\"Code\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 970,
-      "length": 9,
-      "value": "\"Vouchar\""
+      "offset": 1737,
+      "length": 12,
+      "value": "\"CouponType\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1004,
+      "offset": 1775,
+      "length": 7,
+      "value": "\"Title\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1811,
+      "length": 10,
+      "value": "\"SubTitle\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1850,
       "length": 10,
       "value": "\"Validity\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1040,
-      "length": 11,
-      "value": "\"LearnMore\""
-    },
-    {
-      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 940,
+      "offset": 1700,
       "length": 6,
       "value": "\"Code\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 970,
-      "length": 9,
-      "value": "\"Vouchar\""
+      "offset": 1737,
+      "length": 12,
+      "value": "\"CouponType\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1004,
+      "offset": 1775,
+      "length": 7,
+      "value": "\"Title\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1811,
+      "length": 10,
+      "value": "\"SubTitle\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1850,
       "length": 10,
       "value": "\"Validity\""
-    },
-    {
-      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/UserInfoResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1040,
-      "length": 11,
-      "value": "\"LearnMore\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Profile.swift",
       "kind": "StringLiteral",
       "offset": 360,
-      "length": 39,
+      "length": 41,
       "value": "\"\""
     },
     {
@@ -38183,19 +38323,19 @@
       "kind": "StringLiteral",
       "offset": 372,
       "length": 1,
-      "value": "\"\/AccountClient\/GetUserInfo\""
+      "value": "\"\/AccountClient\/GetUserInfoV3\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Profile.swift",
       "kind": "StringLiteral",
-      "offset": 446,
+      "offset": 448,
       "length": 41,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/APIService\/APIServiceCore+Profile.swift",
       "kind": "StringLiteral",
-      "offset": 458,
+      "offset": 460,
       "length": 1,
       "value": "\"\/AccountClient\/UpdateProfile\""
     },
@@ -40004,13 +40144,6 @@
       "offset": 181,
       "length": 23,
       "value": "\"Shadhin_BL.TopTrendingMusicVideoVM\""
-    },
-    {
-      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/CuponVC\/CuponVC.swift",
-      "kind": "Array",
-      "offset": 385,
-      "length": 2,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Library\/SwiftEntrykit\/MessageViews\/Notes\/EKImageNoteMessageView.swift",
