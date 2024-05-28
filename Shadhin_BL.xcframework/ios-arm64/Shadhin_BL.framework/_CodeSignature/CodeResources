@@ -110,7 +110,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		FVYfUSAxTbuzp+Yo5TPBYYRd9w8=
+		YhfW+o98OaV9P9WNgm4gd+EH0YY=
 		</data>
 		<key>AudioAdsView.nib/objects-13.0+.nib</key>
 		<data>
@@ -474,7 +474,7 @@
 		</data>
 		<key>Headers/Shadhin_BL-Swift.h</key>
 		<data>
-		r4sPYAisZ1DrY3SgFOouy2MrFt4=
+		r8FKuUjOvkO9PddxdirJdHeQdj4=
 		</data>
 		<key>Headers/Shadhin_BL.h</key>
 		<data>
@@ -566,7 +566,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fysFGG+vUB5gK17FvOjfbWyreCM=
+		E2vomVRMROxrZShpm83v72DEHcQ=
 		</data>
 		<key>LatestReleaseWatchLaterVC.nib/objects-13.0+.nib</key>
 		<data>
@@ -604,6 +604,14 @@
 		<data>
 		NnXF2M+8K8zRhon4/qOHC80Rf8s=
 		</data>
+		<key>LyricsCardVC.nib/objects-13.0+.nib</key>
+		<data>
+		M5zKWN4rPQ7F4ALujU8K4pTeLlQ=
+		</data>
+		<key>LyricsCardVC.nib/runtime.nib</key>
+		<data>
+		8XCROAbu/l0Kn6Hveanyd+VhfvI=
+		</data>
 		<key>MadeForYouVC.nib/objects-13.0+.nib</key>
 		<data>
 		azp66C1v7T8wcKxQYxjFPu4cJy4=
@@ -626,7 +634,7 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		xSuIuDp887Q/ON6hcab8PFRHYLY=
+		RgCEeNVRJ8NW2QA3+z8DybdMYNM=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -642,7 +650,7 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		uWtuD8bRQE5HKUi4EzYF8poK2P0=
+		EpHC+DRzt1gHInFf/YUodmvf+7c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -658,7 +666,7 @@
 		</data>
 		<key>MusicPlayerVC.nib</key>
 		<data>
-		Bmv2KZBSvebW4gtabL2zAyxnlBk=
+		7AJb+XKv6BM2g7d9D+Jc1h3fJaw=
 		</data>
 		<key>MusicVideoPlayerVC.nib/objects-14.0+.nib</key>
 		<data>
@@ -774,7 +782,7 @@
 		</data>
 		<key>OfflineDatabase.momd/OfflineDatabase.mom</key>
 		<data>
-		XoIY2hr3zSZgaIZZp6j+LzetJrs=
+		CQ4U/B2EKtF08xsCzaPQZWNKA9U=
 		</data>
 		<key>OfflineDatabase.momd/OfflineDatabase.omo</key>
 		<data>
@@ -1586,7 +1594,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qIZ6X9Rk5YjlzTKGse8sQ4i/fiYjKkJHNaebI8C8Uxs=
+			RyCHYmPc1HmEYVQ/iXOfqcaBrpH+SXcmhY0iBNEj6g8=
 			</data>
 		</dict>
 		<key>AudioAdsView.nib/objects-13.0+.nib</key>
@@ -2223,7 +2231,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AY7gPibdXcRxbXUMvyzjGmvBFTktshquqREOQEDXG+I=
+			ucCvud/THLSBGkQmUl5zV7gD5BcT2VDlcot8slCrMag=
 			</data>
 		</dict>
 		<key>Headers/Shadhin_BL.h</key>
@@ -2443,6 +2451,20 @@
 			TGlOHxtcT8MHr7N4l/6ZdfFt7gSbp9OT3bnmqM17F/c=
 			</data>
 		</dict>
+		<key>LyricsCardVC.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yiMnfrj7CCobNeYy6/TXF3HVrygapusPKHIl6TrDb8Y=
+			</data>
+		</dict>
+		<key>LyricsCardVC.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4uX5aYF+1enb2R67bdNHWBvY34hScE0tqx2PLO5ZNbU=
+			</data>
+		</dict>
 		<key>MadeForYouVC.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -2482,7 +2504,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gt3mp3wh1ryFyL/lEG7jLnzjZXH5UrTnSxdJA51SDwM=
+			P3Urt6jyWrzABCr77TGr/OtGBG591QTObsyMAIphJzc=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -2510,7 +2532,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BEFYfYPPh01baVuO+/7DZVz7VTTHQkFy6PCFnGFii3o=
+			FWXrw3xnaaLu/PxpuMymEdezu2AXg+PjGLBLqNyIp1g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -2538,7 +2560,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ENQMDqicH06X/Mukq1Rl4qAUwfcvt2cvEeNdXvc9jdg=
+			SkHFeFVZfKqjBT4imwrG2TCcEromQrCm8FsWNdfeKz4=
 			</data>
 		</dict>
 		<key>MusicVideoPlayerVC.nib/objects-14.0+.nib</key>
@@ -2741,7 +2763,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tgyrne7obE1/AYCP/3Atbhmw8I/I8HV3NmWbSZG9jmM=
+			tKemMedaCihNLYjpC6Bbqil1Wr7Mc3UZSG021c/JqTc=
 			</data>
 		</dict>
 		<key>OfflineDatabase.momd/OfflineDatabase.omo</key>

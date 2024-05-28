@@ -18929,6 +18929,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "ConnectionDelegate",
         "printedName": "ConnectionDelegate",
@@ -23142,6 +23152,16 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "Shadhin_BL",
         "declAttributes": [
@@ -38348,36 +38368,64 @@
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
-      "kind": "Array",
-      "offset": 2586,
-      "length": 2,
-      "value": "[]"
+      "kind": "IntegerLiteral",
+      "offset": 991,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2611,
+      "offset": 1027,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2638,
+      "offset": 1133,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1405,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
+      "kind": "Array",
+      "offset": 3142,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3167,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3194,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2981,
+      "offset": 3537,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 17511,
+      "offset": 18221,
       "length": 5,
       "value": "false"
     },
@@ -41364,6 +41412,97 @@
       "value": "1.0"
     },
     {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Utility\/Color++.swift",
+      "kind": "StringLiteral",
+      "offset": 3239,
+      "length": 11,
+      "value": "\"tintColor\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Utility\/Color++.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3268,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Utility\/Color++.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3278,
+      "length": 3,
+      "value": "176"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Utility\/Color++.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3289,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Utility\/Color++.swift",
+      "kind": "StringLiteral",
+      "offset": 3336,
+      "length": 11,
+      "value": "\"textColor\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Utility\/Color++.swift",
+      "kind": "StringLiteral",
+      "offset": 3412,
+      "length": 20,
+      "value": "\"textColorSecondury\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Utility\/Color++.swift",
+      "kind": "StringLiteral",
+      "offset": 3492,
+      "length": 14,
+      "value": "\"primaryBlack\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Utility\/Color++.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3524,
+      "length": 2,
+      "value": "42"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Utility\/Color++.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3529,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Utility\/Color++.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3541,
+      "length": 2,
+      "value": "45"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Utility\/Color++.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3546,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Utility\/Color++.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3557,
+      "length": 2,
+      "value": "54"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Utility\/Color++.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3562,
+      "length": 3,
+      "value": "255"
+    },
+    {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/OnlineTicket\/OnlineBookTicketVC\/Cell\/OTPaymentCell.swift",
       "kind": "Array",
       "offset": 480,
@@ -42356,6 +42495,62 @@
       "offset": 878,
       "length": 1,
       "value": "\"\/artist\/getpopularartist\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Features\/Lyrics\/LyricsAPI.swift",
+      "kind": "Dictionary",
+      "offset": 146,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Features\/Lyrics\/LyricsAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 266,
+      "length": 60,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Features\/Lyrics\/LyricsAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 278,
+      "length": 1,
+      "value": "\"\/Track\/Lyrics?contentType=s&contentId=\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Features\/Lyrics\/LyricsAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 325,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Features\/Lyrics\/LyricsAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 1413,
+      "length": 4,
+      "value": "\"Id\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Features\/Lyrics\/LyricsAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 1444,
+      "length": 8,
+      "value": "\"Lyrics\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Features\/Lyrics\/LyricsAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 1413,
+      "length": 4,
+      "value": "\"Id\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Features\/Lyrics\/LyricsAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 1444,
+      "length": 8,
+      "value": "\"Lyrics\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Model\/LoginResponse.swift",
@@ -45923,42 +46118,42 @@
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "Array",
-      "offset": 685,
+      "offset": 712,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 814,
+      "offset": 841,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 1071,
+      "offset": 1098,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 1251,
+      "offset": 1278,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 1280,
+      "offset": 1307,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/ViewController\/MusicPlayerVC\/MusicPlayerVM.swift",
       "kind": "BooleanLiteral",
-      "offset": 4741,
+      "offset": 4768,
       "length": 5,
       "value": "false"
     },
@@ -48509,6 +48704,13 @@
       "offset": 1125,
       "length": 11,
       "value": "\"TotalPlay\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Features\/Lyrics\/LyricsCardVC.swift",
+      "kind": "StringLiteral",
+      "offset": 446,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/AzizProjects\/Shadhin_BL\/Shadhin_BL\/Library\/AudioPlayer\/utils\/BackgroundHandler.swift",
@@ -57613,679 +57815,693 @@
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11431,
+      "offset": 11453,
+      "length": 16,
+      "value": "\"ic_scroll_down\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 11601,
+      "length": 14,
+      "value": "\"ic_scroll_up\""
+    },
+    {
+      "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 11729,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11567,
+      "offset": 11865,
       "length": 13,
       "value": "\"leaderboard\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11721,
+      "offset": 12019,
       "length": 18,
       "value": "\"leaderboard-star\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11870,
+      "offset": 12168,
       "length": 13,
       "value": "\"library_add\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12008,
+      "offset": 12306,
       "length": 10,
       "value": "\"live_eye\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12143,
+      "offset": 12441,
       "length": 10,
       "value": "\"live_tag\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12271,
+      "offset": 12569,
       "length": 6,
       "value": "\"love\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12404,
+      "offset": 12702,
       "length": 11,
       "value": "\"love.fill\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12533,
+      "offset": 12831,
       "length": 6,
       "value": "\"mail\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12661,
+      "offset": 12959,
       "length": 8,
       "value": "\"marker\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12799,
+      "offset": 13097,
       "length": 12,
       "value": "\"membership\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12931,
+      "offset": 13229,
       "length": 7,
       "value": "\"minus\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13056,
+      "offset": 13354,
       "length": 6,
       "value": "\"more\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13182,
+      "offset": 13480,
       "length": 7,
       "value": "\"music\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13326,
+      "offset": 13624,
       "length": 16,
       "value": "\"music_download\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13471,
+      "offset": 13769,
       "length": 12,
       "value": "\"music_wave\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13609,
+      "offset": 13907,
       "length": 10,
       "value": "\"muteIcon\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13749,
+      "offset": 14047,
       "length": 12,
       "value": "\"myDownload\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13893,
+      "offset": 14191,
       "length": 13,
       "value": "\"myFavourite\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14036,
+      "offset": 14334,
       "length": 12,
       "value": "\"myPlaylist\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14184,
+      "offset": 14482,
       "length": 15,
       "value": "\"newTrendySong\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14325,
+      "offset": 14623,
       "length": 10,
       "value": "\"noReward\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14457,
+      "offset": 14755,
       "length": 8,
       "value": "\"number\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14611,
+      "offset": 14909,
       "length": 20,
       "value": "\"offlineDownloadSub\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14757,
+      "offset": 15055,
       "length": 10,
       "value": "\"onReward\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14920,
+      "offset": 15218,
       "length": 25,
       "value": "\"pause_fill_circle_music\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15076,
+      "offset": 15374,
       "length": 13,
       "value": "\"pause_music\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15220,
+      "offset": 15518,
       "length": 13,
       "value": "\"pause_radio\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15357,
+      "offset": 15655,
       "length": 9,
       "value": "\"payment\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15498,
+      "offset": 15796,
       "length": 13,
       "value": "\"planArtwork\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15635,
+      "offset": 15933,
       "length": 9,
       "value": "\"planTop\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15774,
+      "offset": 16072,
       "length": 12,
       "value": "\"playButton\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15930,
+      "offset": 16228,
       "length": 20,
       "value": "\"play_circle_filled\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16105,
+      "offset": 16403,
       "length": 26,
       "value": "\"play_circle_filled_music\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16260,
+      "offset": 16558,
       "length": 12,
       "value": "\"play_radio\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16398,
+      "offset": 16696,
       "length": 10,
       "value": "\"playlist\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16546,
+      "offset": 16844,
       "length": 16,
       "value": "\"playlistDelete\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16680,
+      "offset": 16978,
       "length": 6,
       "value": "\"plus\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16832,
+      "offset": 17130,
       "length": 20,
       "value": "\"premiumPodcastShow\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16972,
+      "offset": 17270,
       "length": 7,
       "value": "\"print\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17107,
+      "offset": 17405,
       "length": 11,
       "value": "\"proBanner\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17254,
+      "offset": 17552,
       "length": 15,
       "value": "\"profileAvater\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17400,
+      "offset": 17698,
       "length": 13,
       "value": "\"queue_music\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17563,
+      "offset": 17861,
       "length": 22,
       "value": "\"radioGroupItemNormal\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17735,
+      "offset": 18033,
       "length": 22,
       "value": "\"radioGroupItemSelect\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17885,
+      "offset": 18183,
       "length": 11,
       "value": "\"radioLive\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18046,
+      "offset": 18344,
       "length": 22,
       "value": "\"radioViewSeeAllArrow\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18313,
+      "offset": 18611,
       "length": 7,
       "value": "\"rank1\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18440,
+      "offset": 18738,
       "length": 7,
       "value": "\"rank2\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18567,
+      "offset": 18865,
       "length": 7,
       "value": "\"rank3\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18704,
+      "offset": 19002,
       "length": 12,
       "value": "\"rbtChecked\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18846,
+      "offset": 19144,
       "length": 12,
       "value": "\"rbtDivider\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18982,
+      "offset": 19280,
       "length": 9,
       "value": "\"rbtDone\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19117,
+      "offset": 19415,
       "length": 10,
       "value": "\"rbtError\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19261,
+      "offset": 19559,
       "length": 14,
       "value": "\"rbtUnchecked\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19397,
+      "offset": 19695,
       "length": 8,
       "value": "\"reload\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19555,
+      "offset": 19853,
       "length": 23,
       "value": "\"remove_favourite_menu\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19729,
+      "offset": 20027,
       "length": 24,
       "value": "\"remove_watch_list_menu\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19877,
+      "offset": 20175,
       "length": 8,
       "value": "\"repeat\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20012,
+      "offset": 20310,
       "length": 11,
       "value": "\"repeat_on\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20157,
+      "offset": 20455,
       "length": 15,
       "value": "\"repeat_one_on\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20294,
+      "offset": 20592,
       "length": 8,
       "value": "\"reward\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20433,
+      "offset": 20731,
       "length": 13,
       "value": "\"right_arrow\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20568,
+      "offset": 20866,
       "length": 8,
       "value": "\"search\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20700,
+      "offset": 20998,
       "length": 9,
       "value": "\"shadhin\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20829,
+      "offset": 21127,
       "length": 7,
       "value": "\"share\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20965,
+      "offset": 21263,
       "length": 12,
       "value": "\"share_menu\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21101,
+      "offset": 21399,
       "length": 9,
       "value": "\"shuffle\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21239,
+      "offset": 21537,
       "length": 12,
       "value": "\"shuffle_on\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21373,
+      "offset": 21671,
       "length": 8,
       "value": "\"slider\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21526,
+      "offset": 21824,
       "length": 21,
       "value": "\"speaker.wave.2.fill\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21675,
+      "offset": 21973,
       "length": 11,
       "value": "\"subCancel\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21826,
+      "offset": 22124,
       "length": 17,
       "value": "\"subCancelOption\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21957,
+      "offset": 22255,
       "length": 4,
       "value": "\"tc\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22093,
+      "offset": 22391,
       "length": 13,
       "value": "\"termsOfUses\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22234,
+      "offset": 22532,
       "length": 11,
       "value": "\"thumbFill\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22369,
+      "offset": 22667,
       "length": 9,
       "value": "\"thumbUp\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22500,
+      "offset": 22798,
       "length": 8,
       "value": "\"ticket\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22654,
+      "offset": 22952,
       "length": 20,
       "value": "\"ticketDoneBottomBG\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22802,
+      "offset": 23100,
       "length": 11,
       "value": "\"ticketFaq\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22951,
+      "offset": 23249,
       "length": 16,
       "value": "\"ticketHeaderBG\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23099,
+      "offset": 23397,
       "length": 13,
       "value": "\"ticketRadio\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23256,
+      "offset": 23554,
       "length": 19,
       "value": "\"ticketRadioSelect\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23395,
+      "offset": 23693,
       "length": 7,
       "value": "\"timer\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23518,
+      "offset": 23816,
       "length": 5,
       "value": "\"tmp\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23641,
+      "offset": 23939,
       "length": 6,
       "value": "\"tmp1\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23779,
+      "offset": 24077,
       "length": 13,
       "value": "\"topCouponBG\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23920,
+      "offset": 24218,
       "length": 11,
       "value": "\"topRankBG\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24063,
+      "offset": 24361,
       "length": 13,
       "value": "\"unCheckMark\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24220,
+      "offset": 24518,
       "length": 19,
       "value": "\"unlimitedPlaylist\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24357,
+      "offset": 24655,
       "length": 6,
       "value": "\"user\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24496,
+      "offset": 24794,
       "length": 14,
       "value": "\"user_premium\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24639,
+      "offset": 24937,
       "length": 12,
       "value": "\"video_play\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24773,
+      "offset": 25071,
       "length": 8,
       "value": "\"volume\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24913,
+      "offset": 25211,
       "length": 13,
       "value": "\"volumeThumb\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25064,
+      "offset": 25362,
       "length": 16,
       "value": "\"watchLaterHome\""
     },
     {
       "filePath": "\/Users\/gakkalpha\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-fqmqfuehjbtlegdbhumlulajidgr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphoneos\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25226,
+      "offset": 25524,
       "length": 21,
       "value": "\"watch_later_Outline\""
     }
