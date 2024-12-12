@@ -39,9 +39,10 @@ Media control setup from AppDelegate
 ```
 Get Music home controller you need to pass root navigation controller for navigate music conntroller and mini player always visible from any controller. 
 
-We provide that direct push to navigation controller
+We provide that direct push to navigation controller and membership parameter
+Here need to pass the value for membership status. 
 ```ruby
-ShadhinBL.shared.gotoHome(with: self.tabBarController, navigationController: self.navigationController!)
+ShadhinBL.shared.gotoHome(with: self.tabBarController, navigationController: self.navigationController!,membership ="silver")
 ```
 There is other feature we implemented that can direct navigate to our controller 
 
