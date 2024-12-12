@@ -33,6 +33,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 
 extension AppDelegate : ShadhinCoreNotifier{
+    func memberShipStatus(isValid: Bool, value: String) {
+        
+    }
+
     func linkRedirect(link: String) {
         
     }

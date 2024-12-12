@@ -80,8 +80,14 @@ extension HomeVC : UITableViewDataSource,UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //let type =  FeatureType(rawValue: indexPath.row)!
+        // Here need set the membership status
         if indexPath.row == 0{
-            ShadhinBL.shared.gotoHome(with: self.tabBarController, navigationController: self.navigationController!)
+            ShadhinBL.shared
+                .gotoHome(
+                    with: self.tabBarController,
+                    navigationController: self.navigationController!,
+                    membership: "silver"
+                )
             
         }else if indexPath.row == 1{
             ShadhinBL.shared.openPatch(patchID: FeatureType.POPULAR_ARTIST.rawValue, navigationController: self.navigationController!,tabController: self.tabBarController)

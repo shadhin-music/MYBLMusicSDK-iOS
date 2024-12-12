@@ -59,6 +59,10 @@ class SignInVC: UIViewController {
     
 }
 extension SignInVC : ShadhinCoreNotifier{
+    func memberShipStatus(isValid: Bool, value: String) {
+        
+    }
+
     func linkRedirect(link: String) {
         
     }
