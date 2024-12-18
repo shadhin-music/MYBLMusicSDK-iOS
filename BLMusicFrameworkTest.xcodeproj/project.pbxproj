@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5297EC5B2D0E92F10061DAE7 /* Shadhin_BL.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5297EC592D0E92BF0061DAE7 /* Shadhin_BL.xcframework */; };
-		5297EC5C2D0E92F10061DAE7 /* Shadhin_BL.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5297EC592D0E92BF0061DAE7 /* Shadhin_BL.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5279688E2D12EBCD00713F4E /* Shadhin_BL.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5279688D2D12EBCD00713F4E /* Shadhin_BL.xcframework */; };
 		847BF9EC296AE4220065A454 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847BF9EB296AE4220065A454 /* Package.swift */; };
 		84E8D27F2964103400CD59EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8D27E2964103400CD59EB /* AppDelegate.swift */; };
 		84E8D2832964103400CD59EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8D2822964103400CD59EB /* ViewController.swift */; };
@@ -27,22 +26,8 @@
 		84E8D2AB2964117F00CD59EB /* TabBarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E8D2A22964117F00CD59EB /* TabBarVC.xib */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		5296EE2F2D0ACFFE0035EB94 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				5297EC5C2D0E92F10061DAE7 /* Shadhin_BL.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		5297EC592D0E92BF0061DAE7 /* Shadhin_BL.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Shadhin_BL.xcframework; sourceTree = "<group>"; };
+		5279688D2D12EBCD00713F4E /* Shadhin_BL.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Shadhin_BL.xcframework; sourceTree = "<group>"; };
 		847BF9EB296AE4220065A454 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		84E8D27B2964103400CD59EB /* BLMusicFrameworkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLMusicFrameworkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E8D27E2964103400CD59EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5297EC5B2D0E92F10061DAE7 /* Shadhin_BL.xcframework in Frameworks */,
+				5279688E2D12EBCD00713F4E /* Shadhin_BL.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +96,7 @@
 		84E8D2922964105100CD59EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5297EC592D0E92BF0061DAE7 /* Shadhin_BL.xcframework */,
+				5279688D2D12EBCD00713F4E /* Shadhin_BL.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -142,7 +127,6 @@
 				84E8D2772964103400CD59EB /* Sources */,
 				84E8D2782964103400CD59EB /* Frameworks */,
 				84E8D2792964103400CD59EB /* Resources */,
-				5296EE2F2D0ACFFE0035EB94 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
