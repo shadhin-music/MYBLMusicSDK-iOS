@@ -109,7 +109,7 @@ From your Project target Signing & Capabilities add Background Mood and select '
 
 ## Author
 
-MD Azizur Rahman, azizur.gakk@gmail.com
+MD Maruf Prodhan , mdmaruf.shadhin@gmail.com
 
 ## Company
 
