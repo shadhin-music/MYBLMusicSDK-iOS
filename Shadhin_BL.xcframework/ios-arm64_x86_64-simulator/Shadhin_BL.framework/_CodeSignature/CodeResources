@@ -646,7 +646,7 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		l8nYCYgtKjSa1ViTGOle5hlp9bQ=
+		sA1BuwLh8e21NqKy5p7gg+KDghk=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -666,7 +666,7 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		l8nYCYgtKjSa1ViTGOle5hlp9bQ=
+		sA1BuwLh8e21NqKy5p7gg+KDghk=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -2557,7 +2557,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RnkA3UddQyHbmYOq0VW39T6J2c+wDOX+GOHry1Ha6SM=
+			S42FLCTedQ0XAlr0K0JrCJ92FgvHg83J0M+jCdBByGA=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -2592,7 +2592,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RnkA3UddQyHbmYOq0VW39T6J2c+wDOX+GOHry1Ha6SM=
+			S42FLCTedQ0XAlr0K0JrCJ92FgvHg83J0M+jCdBByGA=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>

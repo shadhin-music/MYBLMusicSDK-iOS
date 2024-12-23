@@ -93,11 +93,11 @@ extension SignInVC : ShadhinCoreNotifier{
     }
     
     func rcError(error: String?) {
-        print(error)
+        print(error as Any)
     }
     
     func amarTuneError(error: String?) {
-        print(error)
+        print(error as Any)
     }
     
     func tokenStatus(token isValid: Bool, error: String?) {

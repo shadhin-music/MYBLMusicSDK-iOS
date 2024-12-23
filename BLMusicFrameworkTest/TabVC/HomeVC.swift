@@ -8,7 +8,7 @@
 import UIKit
 import Shadhin_BL
 class HomeVC: UIViewController {
-    
+    private var membership: String = "silver"
     init(){
         super.init(nibName: "HomeVC", bundle: nil)
     }

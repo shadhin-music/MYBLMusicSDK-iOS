@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 extension AppDelegate : ShadhinCoreNotifier{
     func memberShipStatus(isValid: Bool, value: String) {
-        
+        print("\(isValid) \(value)")
     }
 
     func linkRedirect(link: String) {
@@ -62,11 +62,11 @@ extension AppDelegate : ShadhinCoreNotifier{
     }
     
     func rcError(error: String?) {
-        print(error)
+        print(error as Any)
     }
     
     func amarTuneError(error: String?) {
-        print(error)
+        print(error as Any)
     }
     
     func patchError(error: String) {
@@ -74,7 +74,7 @@ extension AppDelegate : ShadhinCoreNotifier{
     }
     
     func tokenStatus(token isValid: Bool, error: String?) {
-        print(error)
+        print(error as Any)
     }
     func shareContentWithRC(rc code: String) {
         print(code)
