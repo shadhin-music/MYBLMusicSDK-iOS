@@ -8,7 +8,7 @@
 import UIKit
 import Shadhin_BL
 class HomeVC: UIViewController {
-    private var membership: String = "silver"
+    private var membership: String = "Gold"
     init(){
         super.init(nibName: "HomeVC", bundle: nil)
     }
@@ -86,7 +86,7 @@ extension HomeVC : UITableViewDataSource,UITableViewDelegate{
                 .gotoHome(
                     with: self.tabBarController,
                     navigationController: self.navigationController!,
-                    membership: "silver"
+                    membership:membership
                 )
             
         }else if indexPath.row == 1{
