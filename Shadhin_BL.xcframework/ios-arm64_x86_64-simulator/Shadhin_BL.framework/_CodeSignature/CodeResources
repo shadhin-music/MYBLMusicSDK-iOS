@@ -110,7 +110,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		rx/okLbGmGjxzf5wF1D9liFrlVA=
+		oQfo5n9yne33V/PjnNE2P6T8ZIQ=
 		</data>
 		<key>AudioAdsView.nib/objects-13.0+.nib</key>
 		<data>
@@ -162,27 +162,31 @@
 		</data>
 		<key>BkashPlanCell.nib/objects-12.3+.nib</key>
 		<data>
-		IiHcn3ZbuNu7VzWTX9Zsrz44It4=
+		tTsRyqOh+mcmvdCn6/Sk59cNikU=
 		</data>
 		<key>BkashPlanCell.nib/objects-13.0+.nib</key>
 		<data>
-		eCxjTMpWVRc9f/bJRvu8UMPjKEA=
+		ORpX0RSZKWwdwjbz5/U52nbx/+Q=
+		</data>
+		<key>BkashPlanCell.nib/objects-14.0+.nib</key>
+		<data>
+		kamPnXJOccT178iRSSIHFrKC+iU=
 		</data>
 		<key>BkashPlanCell.nib/runtime.nib</key>
 		<data>
-		d9rUYEa2m8MyDvrI5G80LLnOCrA=
+		K5qtmjWzeiUOxd7iS0F1LJbgSjk=
 		</data>
 		<key>BkashSubsriptionVC.nib/objects-13.0+.nib</key>
 		<data>
-		isk2HxF5EAvD9XPCoO1NJnlxmbk=
+		OC2dzClLuF8q0JNyAkF86gl9cfg=
 		</data>
 		<key>BkashSubsriptionVC.nib/objects-14.0+.nib</key>
 		<data>
-		cROA1+Z2+kMWzSbVFHwFSqHhUfg=
+		dqdZnnBgu7aMNBdKTLECpiCvuUg=
 		</data>
 		<key>BkashSubsriptionVC.nib/runtime.nib</key>
 		<data>
-		EXWKWfE16dIkTKVvj/6tORuvvp0=
+		aFzMdr8lk1TqU+jVDgnuWy409AU=
 		</data>
 		<key>BookTicketFormCell.nib/objects-13.0+.nib</key>
 		<data>
@@ -486,7 +490,7 @@
 		</data>
 		<key>Headers/Shadhin_BL-Swift.h</key>
 		<data>
-		Lk9E/3Wz0DA37/gjg30JpxbGfbQ=
+		vLNlH4KGgZqYWUwKr9qrlSomWwM=
 		</data>
 		<key>Headers/Shadhin_BL.h</key>
 		<data>
@@ -646,11 +650,11 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		r+PiaW9oPVgpFHyuioWUlf+dkWU=
+		mm2iewpKWoKgHdztLc6PagchMlA=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		bGN7BQ/tbvIaqxWvMmljo8Z0Kok=
+		c59uOqzcPa4G31SBEfugQb8ONaI=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -658,19 +662,19 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bGN7BQ/tbvIaqxWvMmljo8Z0Kok=
+		c59uOqzcPa4G31SBEfugQb8ONaI=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		daaohtqyOvVwQt3zG7HjHcPm67Y=
+		FN0ix9R3FiYexIDZJ1mziTJiKDA=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		r+PiaW9oPVgpFHyuioWUlf+dkWU=
+		mm2iewpKWoKgHdztLc6PagchMlA=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		6HwSHtQC1hEtXNf0SbTGlghPjoo=
+		wTschfbNLzI82XndMTlOdShMCk8=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -678,11 +682,11 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		6HwSHtQC1hEtXNf0SbTGlghPjoo=
+		wTschfbNLzI82XndMTlOdShMCk8=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GdwjdCOfQ+gQH6ixYQ9NQ2+P6vk=
+		W7R7B6Ce6V6cmK4o/8G4a8QByho=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -795,6 +799,18 @@
 		<key>NewTrackCell.nib/runtime.nib</key>
 		<data>
 		9Dge4iSbcbDAkPciOGZajIkFFyc=
+		</data>
+		<key>OTPVerifyPopupView.nib/objects-13.0+.nib</key>
+		<data>
+		IWMM8kgyKBrCTtMiTkQAj8Y614Y=
+		</data>
+		<key>OTPVerifyPopupView.nib/objects-14.0+.nib</key>
+		<data>
+		IWMM8kgyKBrCTtMiTkQAj8Y614Y=
+		</data>
+		<key>OTPVerifyPopupView.nib/runtime.nib</key>
+		<data>
+		uvOKqggsjChEqPdUcmGTL3pz5GE=
 		</data>
 		<key>OTPaymentCell.nib/objects-13.0+.nib</key>
 		<data>
@@ -1212,6 +1228,14 @@
 		<data>
 		caX0nNrkB+RY/IoqtT+0SZz12dI=
 		</data>
+		<key>SuccessSubscribeView.nib/objects-13.0+.nib</key>
+		<data>
+		h6ospYJNftovgg/wUysBH9b/gKA=
+		</data>
+		<key>SuccessSubscribeView.nib/runtime.nib</key>
+		<data>
+		Uj7q9u9L5TeyGIEUw68b7VRnWcU=
+		</data>
 		<key>TPaymentOptionCell.nib/objects-12.3+.nib</key>
 		<data>
 		aoBv4b51aVKuWk2mdCLyqEqLlGE=
@@ -1231,6 +1255,14 @@
 		<key>TVideoCell.nib/runtime.nib</key>
 		<data>
 		D10jrRFVK8SRJogyQt51f9T6VNw=
+		</data>
+		<key>TermsWebVC.nib/objects-13.0+.nib</key>
+		<data>
+		V2MUuAE0LGNOSX6ZIEMIaT/BBxA=
+		</data>
+		<key>TermsWebVC.nib/runtime.nib</key>
+		<data>
+		uSzua7lEownj5sTGipnj3zeAFpk=
 		</data>
 		<key>TicketArtistListCell.nib</key>
 		<data>
@@ -1626,7 +1658,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZhruvibqTH44ywya14mpwdqXgf3RJBq9nfkZqMd0GK0=
+			GqPnTRSyKJu4KTxDEzwY86WFvkfuax9vvUUXTG2CwOk=
 			</data>
 		</dict>
 		<key>AudioAdsView.nib/objects-13.0+.nib</key>
@@ -1717,42 +1749,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n02S/uC9pDCzN20AjhBDptTyR88SoH+/KEcuxjPRP8c=
+			nCM+BVS9Qb27iZk9TmOqYJmNVR0jmFkg6bMwCBpLXFI=
 			</data>
 		</dict>
 		<key>BkashPlanCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q8ujtWVfl4/pVkmcdd1lFitkvcc3lRyndKNgg95xUc4=
+			lHsjCtat/leleAyzbeX2darxCYFC3WH8C3A4sG2DCTE=
+			</data>
+		</dict>
+		<key>BkashPlanCell.nib/objects-14.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pSN+7RUtiqh2REwPkWPEl+V5RsmlPyjmuSxYSvJEYr4=
 			</data>
 		</dict>
 		<key>BkashPlanCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s+Ib5vakuGaUVDDILP5eZbckNTHR1HsEXOZbl6bEZFs=
+			9nbgc5EVSqBD4TVG7/4QiWnKqC/Io6GPckCZ8/kfQok=
 			</data>
 		</dict>
 		<key>BkashSubsriptionVC.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r0WHV90HgAS05UiTkDLo37qWPlDLRqljiKMaV0UbuC4=
+			xXBypC5+gh2c9QIt3PypqTkpkawzHU75ylDjp2BHiyI=
 			</data>
 		</dict>
 		<key>BkashSubsriptionVC.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bImRWNKVTgx3rokjdv+Yln0So9qD7KMcfT/1NPI76Do=
+			73rpt1Lcc2Np6oxyVKesB3OpnwnkUJ6NALgxO2Fshk8=
 			</data>
 		</dict>
 		<key>BkashSubsriptionVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IJjGxLGHOK7v1xWREZt9mPO0PhiWgkcBqB+rYBHhYiU=
+			fpnEn+r68dKey7uxQTNkogU2W4L/qCWRe0YKmbxPpPU=
 			</data>
 		</dict>
 		<key>BookTicketFormCell.nib/objects-13.0+.nib</key>
@@ -2284,7 +2323,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BNUF8KbPumaynTDae+cZjVKUevgQMWaZmmm27CnhKWk=
+			lL0mytwgeGbCpCALuH0UfDRVSRObU6c/hLmIWZ27afI=
 			</data>
 		</dict>
 		<key>Headers/Shadhin_BL.h</key>
@@ -2557,14 +2596,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gjD4WTV4pnAEDImfW0zXgB14ecsu8ggS/3CdIwru7YQ=
+			cmmU9S3ATGBMYWkrb9eq6hEj8kmPH2frFU7cQr+3VtQ=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8rZnotulyoxF8JywFOCwg+QK+jYu3ksbkhFxNgqEgB0=
+			ORh1HlgAOOXTrJtm7spEYdVNo3+gcToxovcVzILHi4U=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -2578,28 +2617,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8rZnotulyoxF8JywFOCwg+QK+jYu3ksbkhFxNgqEgB0=
+			ORh1HlgAOOXTrJtm7spEYdVNo3+gcToxovcVzILHi4U=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fNXvmHSNz/x1HiR4gusV9vpDv3dzlbq3HEOiIaoq3kE=
+			+pVlbvJXOLneo1b00xLmfftco6jRed8labkmMJKNlSw=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gjD4WTV4pnAEDImfW0zXgB14ecsu8ggS/3CdIwru7YQ=
+			cmmU9S3ATGBMYWkrb9eq6hEj8kmPH2frFU7cQr+3VtQ=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3qUq7T7gOlRvZ71SgfK90648jJWM1/K64hCtCk2Esbk=
+			2wdHPf11iqZo1SjPHRbhRq3JEwKvouYCkvpGwC64ALU=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -2613,14 +2652,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3qUq7T7gOlRvZ71SgfK90648jJWM1/K64hCtCk2Esbk=
+			2wdHPf11iqZo1SjPHRbhRq3JEwKvouYCkvpGwC64ALU=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NnTPYAyfCh+SomRZEIlUXFJ4aEmxfp8YOMZp1BVONXI=
+			YHc4RHsVlnWJEip7Jj4V48syr3VmG+Wkg7wMLzcFja8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -2817,6 +2856,27 @@
 			<key>hash2</key>
 			<data>
 			DKWTfFQozGzwVbku099rW14Okx+zSOYKKSp/dt9XBc4=
+			</data>
+		</dict>
+		<key>OTPVerifyPopupView.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cALdh6LVC9NtrsB9G6NDDW1HRCrEzGlI1rEx+BwTQno=
+			</data>
+		</dict>
+		<key>OTPVerifyPopupView.nib/objects-14.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cALdh6LVC9NtrsB9G6NDDW1HRCrEzGlI1rEx+BwTQno=
+			</data>
+		</dict>
+		<key>OTPVerifyPopupView.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			F8qzmLG9m2kn8xD1bwJf62Rkox+g+nnROZjKeQmZW+o=
 			</data>
 		</dict>
 		<key>OTPaymentCell.nib/objects-13.0+.nib</key>
@@ -3547,6 +3607,20 @@
 			mpeourZedL+ASZ2IEmeo0XwxBsFbwCpOm3H1MQy1vB4=
 			</data>
 		</dict>
+		<key>SuccessSubscribeView.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AugDNTNQc5mwY88kEtTLgak8HhP2nVrVU7Jp/t9/s0g=
+			</data>
+		</dict>
+		<key>SuccessSubscribeView.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cchBgKuh/WdGNjNM9juqNIxB1Xa+05xIflMluQKnGIY=
+			</data>
+		</dict>
 		<key>TPaymentOptionCell.nib/objects-12.3+.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -3580,6 +3654,20 @@
 			<key>hash2</key>
 			<data>
 			BYwc328J+qnrbfL/4TajlMwXcUWoN1E9c/d+lf+44Ms=
+			</data>
+		</dict>
+		<key>TermsWebVC.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			V4Eat4fBxSLC7D+eAlwA383mpIvlrCn5UdGwvZqQlAY=
+			</data>
+		</dict>
+		<key>TermsWebVC.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9bGqjlpzlC/llTMzdHmZpWFsmXCuFMRzdr/b5RJq8h8=
 			</data>
 		</dict>
 		<key>TicketArtistListCell.nib</key>

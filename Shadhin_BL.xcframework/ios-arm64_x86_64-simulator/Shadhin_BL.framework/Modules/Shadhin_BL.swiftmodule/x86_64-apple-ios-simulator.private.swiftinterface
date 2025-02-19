@@ -264,6 +264,23 @@ extension Shadhin_BL.HubConnectionDelegate {
 extension UIKit.UIButton {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func hitTest(_ point: CoreFoundation.CGPoint, with event: UIKit.UIEvent?) -> UIKit.UIView?
 }
+public enum OTPAnimationTypes {
+  case flipFromRight
+  case flipFromLeft
+  case flash
+  case shake
+  case rotate
+  case expand
+  case crossDissolve
+  case curlDown
+  case curlUp
+  case none
+  public static func == (a: Shadhin_BL.OTPAnimationTypes, b: Shadhin_BL.OTPAnimationTypes) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public class HubConnection {
   weak public var delegate: (any Shadhin_BL.HubConnectionDelegate)?
   public var connectionId: Swift.String? {
@@ -426,6 +443,11 @@ public enum SignalRError : Swift.Error {
   case serverClose(message: Swift.String?)
   case noSupportedTransportAvailable
   case connectionIsReconnecting
+}
+extension Shadhin_BL.OTPField : UIKit.UITextFieldDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc final public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc final public func textFieldDidBeginEditing(_ textField: UIKit.UITextField)
+  @_Concurrency.MainActor @preconcurrency @objc final public func textFieldDidEndEditing(_ textField: UIKit.UITextField)
 }
 public struct EntryPoint {
   public static let Home: Swift.String
@@ -599,6 +621,42 @@ extension Foundation.URL : Shadhin_BL.URLConvertible {
 extension Foundation.URLComponents : Shadhin_BL.URLConvertible {
   public func asURL() throws -> Foundation.URL
 }
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class OTPField : UIKit.UITextField {
+  @_Concurrency.MainActor @preconcurrency final public var spacing: CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency final public var slotCount: Swift.UInt
+  @_Concurrency.MainActor @preconcurrency final public var slotCornerRaduis: CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency final public var slotPlaceHolder: Swift.String
+  @_Concurrency.MainActor @preconcurrency final public var slotFontType: UIKit.UIFont
+  @_Concurrency.MainActor @preconcurrency final public var slotPlaceHolderFontType: UIKit.UIFont
+  @_Concurrency.MainActor @preconcurrency final public var filledSlotTextColor: UIKit.UIColor
+  @_Concurrency.MainActor @preconcurrency final public var emptySlotTextColor: UIKit.UIColor
+  @_Concurrency.MainActor @preconcurrency final public var emptySlotBackgroundColor: UIKit.UIColor
+  @_Concurrency.MainActor @preconcurrency final public var filledSlotBackgroundColor: UIKit.UIColor
+  @_Concurrency.MainActor @preconcurrency final public var isBorderEnabled: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency final public var filledSlotBorderWidth: CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency final public var filledSlotBorderColor: CoreGraphics.CGColor
+  @_Concurrency.MainActor @preconcurrency final public var emptySlotBorderWidth: CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency final public var emptySlotBorderColor: CoreGraphics.CGColor
+  @_Concurrency.MainActor @preconcurrency final public var isVibrateEnabled: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency final public var isAnimationEnabledOnLastDigit: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency final public var animationType: Shadhin_BL.OTPAnimationTypes
+  @_Concurrency.MainActor @preconcurrency final public var enableUnderLineViews: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency final public var underlineViewWidthMultiplier: CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency final public var underlineViewHeight: CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency final public var underlineViewBottomSpace: CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency final public var isFieldVerified: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency weak final public var otpDelegete: (any Shadhin_BL.OTPFieldDelegete)?
+  @_Concurrency.MainActor @preconcurrency final public func build()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency final public func clearAllSlotDigits()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol OTPFieldDelegete : AnyObject {
+  func didEnterLastDigit(otp: Swift.String)
+  func didChangeDigit(digit: Swift.String, at index: Swift.Int)
+}
 @_hasMissingDesignatedInitializers final public class RevocationTrustEvaluator {
   public struct Options : Swift.OptionSet {
     public let rawValue: CoreFoundation.CFOptionFlags
@@ -734,6 +792,27 @@ public class CompletionMessage : Shadhin_BL.HubMessage, Swift.Codable {
   @objc deinit
   required public init(from decoder: any Swift.Decoder) throws
 }
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class OTPStackView : UIKit.UIStackView {
+  @_Concurrency.MainActor @preconcurrency public var numberOfFields: Swift.Int
+  @_Concurrency.MainActor @preconcurrency public var showsWarningColor: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency public var borderWid: CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency public var tfCornerRadius: Swift.Int
+  @_Concurrency.MainActor @preconcurrency public var tfSpacing: Swift.Int
+  @_Concurrency.MainActor @preconcurrency public var textFont: UIKit.UIFont?
+  @_Concurrency.MainActor @preconcurrency public var inactiveFieldBorderColor: UIKit.UIColor
+  @_Concurrency.MainActor @preconcurrency public var textBackgroundColor: UIKit.UIColor
+  @_Concurrency.MainActor @preconcurrency public var textColor: UIKit.UIColor
+  @_Concurrency.MainActor @preconcurrency public var activeFieldBorderColor: UIKit.UIColor
+  @_Concurrency.MainActor @preconcurrency public var isBottomLineEnabled: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency final public func setupStackView()
+  @_Concurrency.MainActor @preconcurrency final public func addOTPFields()
+  @objc deinit
+}
+extension Shadhin_BL.OTPStackView : UIKit.UITextFieldDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textFieldDidBeginEditing(_ textField: UIKit.UITextField)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textFieldDidEndEditing(_ textField: UIKit.UITextField)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
+}
 public class HttpConnectionOptions {
   public var headers: [Swift.String : Swift.String]
   public var accessTokenProvider: () -> Swift.String?
@@ -749,6 +828,8 @@ public class HttpConnectionOptions {
   public init()
   @objc deinit
 }
+extension Shadhin_BL.OTPAnimationTypes : Swift.Equatable {}
+extension Shadhin_BL.OTPAnimationTypes : Swift.Hashable {}
 extension Shadhin_BL.FeatureType : Swift.Equatable {}
 extension Shadhin_BL.FeatureType : Swift.Hashable {}
 extension Shadhin_BL.FeatureType : Swift.RawRepresentable {}

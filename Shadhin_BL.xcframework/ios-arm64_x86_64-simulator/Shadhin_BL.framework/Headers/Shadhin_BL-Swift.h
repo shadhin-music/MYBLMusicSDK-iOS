@@ -349,6 +349,37 @@ SWIFT_CLASS("_TtC10Shadhin_BL11BLRadioView")
 
 
 
+SWIFT_CLASS("_TtC10Shadhin_BL8OTPField")
+@interface OTPField : UITextField
+- (void)layoutSubviews;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+@interface OTPField (SWIFT_EXTENSION(Shadhin_BL)) <UITextFieldDelegate>
+- (BOOL)textField:(UITextField * _Nonnull)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
+- (void)textFieldDidBeginEditing:(UITextField * _Nonnull)textField;
+- (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
+@end
+
+
+SWIFT_CLASS("_TtC10Shadhin_BL12OTPStackView")
+@interface OTPStackView : UIStackView
+- (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
+@interface OTPStackView (SWIFT_EXTENSION(Shadhin_BL)) <UITextFieldDelegate>
+- (void)textFieldDidBeginEditing:(UITextField * _Nonnull)textField;
+- (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
+- (BOOL)textField:(UITextField * _Nonnull)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+
 SWIFT_PROTOCOL("_TtP10Shadhin_BL13RadioCallBack_")
 @protocol RadioCallBack <NSObject>
 - (void)fetchTokenForRadioWithComplete:(void (^ _Nonnull)(NSString * _Nonnull, BOOL))complete;
@@ -408,10 +439,16 @@ SWIFT_PROTOCOL("_TtP10Shadhin_BL19ShadhinCoreNotifier_")
 
 
 
-
 @interface UIButton (SWIFT_EXTENSION(Shadhin_BL))
 - (UIView * _Nullable)hitTest:(CGPoint)point withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
 @end
+
+
+
+
+
+
+
 
 
 
@@ -831,6 +868,37 @@ SWIFT_CLASS("_TtC10Shadhin_BL11BLRadioView")
 
 
 
+SWIFT_CLASS("_TtC10Shadhin_BL8OTPField")
+@interface OTPField : UITextField
+- (void)layoutSubviews;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+@interface OTPField (SWIFT_EXTENSION(Shadhin_BL)) <UITextFieldDelegate>
+- (BOOL)textField:(UITextField * _Nonnull)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
+- (void)textFieldDidBeginEditing:(UITextField * _Nonnull)textField;
+- (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
+@end
+
+
+SWIFT_CLASS("_TtC10Shadhin_BL12OTPStackView")
+@interface OTPStackView : UIStackView
+- (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
+@interface OTPStackView (SWIFT_EXTENSION(Shadhin_BL)) <UITextFieldDelegate>
+- (void)textFieldDidBeginEditing:(UITextField * _Nonnull)textField;
+- (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
+- (BOOL)textField:(UITextField * _Nonnull)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+
 SWIFT_PROTOCOL("_TtP10Shadhin_BL13RadioCallBack_")
 @protocol RadioCallBack <NSObject>
 - (void)fetchTokenForRadioWithComplete:(void (^ _Nonnull)(NSString * _Nonnull, BOOL))complete;
@@ -890,10 +958,16 @@ SWIFT_PROTOCOL("_TtP10Shadhin_BL19ShadhinCoreNotifier_")
 
 
 
-
 @interface UIButton (SWIFT_EXTENSION(Shadhin_BL))
 - (UIView * _Nullable)hitTest:(CGPoint)point withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
 @end
+
+
+
+
+
+
+
 
 
 
