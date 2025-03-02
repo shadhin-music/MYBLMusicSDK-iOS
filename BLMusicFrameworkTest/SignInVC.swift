@@ -113,7 +113,7 @@ extension SignInVC : ShadhinCoreNotifier{
     
     
 }
-class PhoneNumberVerify{
+class PhoneNumberVerify {
     static func isBanglalink(_ number : String) -> Bool{
         let phone = number.replacingOccurrences(of: "+", with: "")
         let banglalinkRegex =  "^8801[49]\\d{8}$"
