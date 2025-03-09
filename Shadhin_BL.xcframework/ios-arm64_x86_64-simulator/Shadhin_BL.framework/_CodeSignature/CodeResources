@@ -582,7 +582,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pojywwOu3IBQESSkrk0aOQbqX6k=
+		mJnMBheuru0bfci0UhXJOTArNgI=
 		</data>
 		<key>LatestReleaseWatchLaterVC.nib/objects-13.0+.nib</key>
 		<data>
@@ -650,7 +650,7 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		mm2iewpKWoKgHdztLc6PagchMlA=
+		m2eJUw2n1ISwDFcaNkBr5yAMVp0=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -666,11 +666,11 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FN0ix9R3FiYexIDZJ1mziTJiKDA=
+		nPBhSS3l8Uwrs0VHYU0XGSXz9Fo=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		mm2iewpKWoKgHdztLc6PagchMlA=
+		m2eJUw2n1ISwDFcaNkBr5yAMVp0=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -686,7 +686,7 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		W7R7B6Ce6V6cmK4o/8G4a8QByho=
+		jr8HePbU3hf6gAIcc0KauavwC5c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -2596,7 +2596,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cmmU9S3ATGBMYWkrb9eq6hEj8kmPH2frFU7cQr+3VtQ=
+			gjloPhwr6Rj6GjMYsQUH3oYVNNlZyvxes6pH+trinRo=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -2624,14 +2624,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+pVlbvJXOLneo1b00xLmfftco6jRed8labkmMJKNlSw=
+			PvjgE/bAGt8CQUN6fTOPu494QFJTte+cj3Q8Oge6tYQ=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cmmU9S3ATGBMYWkrb9eq6hEj8kmPH2frFU7cQr+3VtQ=
+			gjloPhwr6Rj6GjMYsQUH3oYVNNlZyvxes6pH+trinRo=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -2659,7 +2659,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YHc4RHsVlnWJEip7Jj4V48syr3VmG+Wkg7wMLzcFja8=
+			bpg2gCqdLz6ryyOdzm4TuEO3l1uiTlbUY9ooO4wT3RY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
