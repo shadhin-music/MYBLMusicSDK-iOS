@@ -440,41 +440,8 @@
           },
           {
             "kind": "Function",
-            "name": "msdkPayInitiated",
-            "printedName": "msdkPayInitiated(purchaseInitiated:purchaseInitiatedBy:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_BL0A11LogNotifierP16msdkPayInitiated08purchaseG00hG2ByySb_SStF",
-            "mangledName": "$s10Shadhin_BL0A11LogNotifierP16msdkPayInitiated08purchaseG00hG2ByySb_SStF",
-            "moduleName": "Shadhin_BL",
-            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.ShadhinLogNotifier>",
-            "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinLogNotifier>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "msdkOtpHit",
-            "printedName": "msdkOtpHit(planId:otpHit:)",
+            "name": "handleMSDKPaymentEvent",
+            "printedName": "handleMSDKPaymentEvent(eventName:data:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -489,125 +456,27 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Shadhin_BL0A11LogNotifierP10msdkOtpHit6planId03otpG0ySS_SbtF",
-            "mangledName": "$s10Shadhin_BL0A11LogNotifierP10msdkOtpHit6planId03otpG0ySS_SbtF",
-            "moduleName": "Shadhin_BL",
-            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.ShadhinLogNotifier>",
-            "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinLogNotifier>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "msdkPayPricingHit",
-            "printedName": "msdkPayPricingHit(planId:planPrice:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_BL0A11LogNotifierP17msdkPayPricingHit6planId0I5PriceySS_SStF",
-            "mangledName": "$s10Shadhin_BL0A11LogNotifierP17msdkPayPricingHit6planId0I5PriceySS_SStF",
-            "moduleName": "Shadhin_BL",
-            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.ShadhinLogNotifier>",
-            "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinLogNotifier>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "msdkPaySuccess",
-            "printedName": "msdkPaySuccess(purchaseStatus:purchasePlan:purchaseMethod:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_BL0A11LogNotifierP14msdkPaySuccess14purchaseStatus0H4Plan0H6MethodySb_S2StF",
-            "mangledName": "$s10Shadhin_BL0A11LogNotifierP14msdkPaySuccess14purchaseStatus0H4Plan0H6MethodySb_S2StF",
-            "moduleName": "Shadhin_BL",
-            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.ShadhinLogNotifier>",
-            "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinLogNotifier>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "msdkPayFailed",
-            "printedName": "msdkPayFailed(purchaseStatus:purchasePlan:purchaseMethod:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_BL0A11LogNotifierP13msdkPayFailed14purchaseStatus0H4Plan0H6MethodySb_S2StF",
-            "mangledName": "$s10Shadhin_BL0A11LogNotifierP13msdkPayFailed14purchaseStatus0H4Plan0H6MethodySb_S2StF",
+            "usr": "s:10Shadhin_BL0A11LogNotifierP22handleMSDKPaymentEvent9eventName4dataySS_SDySSypGtF",
+            "mangledName": "$s10Shadhin_BL0A11LogNotifierP22handleMSDKPaymentEvent9eventName4dataySS_SDySSypGtF",
             "moduleName": "Shadhin_BL",
             "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.ShadhinLogNotifier>",
             "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinLogNotifier>",
@@ -757,6 +626,363 @@
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MSDKPaymentEvent",
+        "printedName": "MSDKPaymentEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "initiated",
+            "printedName": "initiated",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Shadhin_BL.MSDKPaymentEvent.Type) -> (Swift.Bool, Swift.String) -> Shadhin_BL.MSDKPaymentEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool, Swift.String) -> Shadhin_BL.MSDKPaymentEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MSDKPaymentEvent",
+                        "printedName": "Shadhin_BL.MSDKPaymentEvent",
+                        "usr": "s:10Shadhin_BL16MSDKPaymentEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(purchaseInitiated: Swift.Bool, purchaseInitiatedBy: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Shadhin_BL.MSDKPaymentEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MSDKPaymentEvent",
+                        "printedName": "Shadhin_BL.MSDKPaymentEvent",
+                        "usr": "s:10Shadhin_BL16MSDKPaymentEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Shadhin_BL16MSDKPaymentEventO9initiatedyACSb_SStcACmF",
+            "mangledName": "$s10Shadhin_BL16MSDKPaymentEventO9initiatedyACSb_SStcACmF",
+            "moduleName": "Shadhin_BL"
+          },
+          {
+            "kind": "Var",
+            "name": "otpHit",
+            "printedName": "otpHit",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Shadhin_BL.MSDKPaymentEvent.Type) -> (Swift.String, Swift.Bool) -> Shadhin_BL.MSDKPaymentEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.Bool) -> Shadhin_BL.MSDKPaymentEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MSDKPaymentEvent",
+                        "printedName": "Shadhin_BL.MSDKPaymentEvent",
+                        "usr": "s:10Shadhin_BL16MSDKPaymentEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(planId: Swift.String, otpHit: Swift.Bool)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Shadhin_BL.MSDKPaymentEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MSDKPaymentEvent",
+                        "printedName": "Shadhin_BL.MSDKPaymentEvent",
+                        "usr": "s:10Shadhin_BL16MSDKPaymentEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Shadhin_BL16MSDKPaymentEventO6otpHityACSS_SbtcACmF",
+            "mangledName": "$s10Shadhin_BL16MSDKPaymentEventO6otpHityACSS_SbtcACmF",
+            "moduleName": "Shadhin_BL"
+          },
+          {
+            "kind": "Var",
+            "name": "pricingHit",
+            "printedName": "pricingHit",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Shadhin_BL.MSDKPaymentEvent.Type) -> (Swift.String, Swift.String) -> Shadhin_BL.MSDKPaymentEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.String) -> Shadhin_BL.MSDKPaymentEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MSDKPaymentEvent",
+                        "printedName": "Shadhin_BL.MSDKPaymentEvent",
+                        "usr": "s:10Shadhin_BL16MSDKPaymentEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(planId: Swift.String, planPrice: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Shadhin_BL.MSDKPaymentEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MSDKPaymentEvent",
+                        "printedName": "Shadhin_BL.MSDKPaymentEvent",
+                        "usr": "s:10Shadhin_BL16MSDKPaymentEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Shadhin_BL16MSDKPaymentEventO10pricingHityACSS_SStcACmF",
+            "mangledName": "$s10Shadhin_BL16MSDKPaymentEventO10pricingHityACSS_SStcACmF",
+            "moduleName": "Shadhin_BL"
+          },
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Shadhin_BL.MSDKPaymentEvent.Type) -> (Swift.Bool, Swift.String, Swift.String) -> Shadhin_BL.MSDKPaymentEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool, Swift.String, Swift.String) -> Shadhin_BL.MSDKPaymentEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MSDKPaymentEvent",
+                        "printedName": "Shadhin_BL.MSDKPaymentEvent",
+                        "usr": "s:10Shadhin_BL16MSDKPaymentEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(purchaseStatus: Swift.Bool, purchasePlan: Swift.String, purchaseMethod: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Shadhin_BL.MSDKPaymentEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MSDKPaymentEvent",
+                        "printedName": "Shadhin_BL.MSDKPaymentEvent",
+                        "usr": "s:10Shadhin_BL16MSDKPaymentEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Shadhin_BL16MSDKPaymentEventO7successyACSb_S2StcACmF",
+            "mangledName": "$s10Shadhin_BL16MSDKPaymentEventO7successyACSb_S2StcACmF",
+            "moduleName": "Shadhin_BL"
+          },
+          {
+            "kind": "Var",
+            "name": "failed",
+            "printedName": "failed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Shadhin_BL.MSDKPaymentEvent.Type) -> (Swift.Bool, Swift.String, Swift.String) -> Shadhin_BL.MSDKPaymentEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool, Swift.String, Swift.String) -> Shadhin_BL.MSDKPaymentEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MSDKPaymentEvent",
+                        "printedName": "Shadhin_BL.MSDKPaymentEvent",
+                        "usr": "s:10Shadhin_BL16MSDKPaymentEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(purchaseStatus: Swift.Bool, purchasePlan: Swift.String, purchaseMethod: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Shadhin_BL.MSDKPaymentEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MSDKPaymentEvent",
+                        "printedName": "Shadhin_BL.MSDKPaymentEvent",
+                        "usr": "s:10Shadhin_BL16MSDKPaymentEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Shadhin_BL16MSDKPaymentEventO6failedyACSb_S2StcACmF",
+            "mangledName": "$s10Shadhin_BL16MSDKPaymentEventO6failedyACSb_S2StcACmF",
+            "moduleName": "Shadhin_BL"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10Shadhin_BL16MSDKPaymentEventO",
+        "mangledName": "$s10Shadhin_BL16MSDKPaymentEventO",
+        "moduleName": "Shadhin_BL",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -7256,44 +7482,8 @@
           },
           {
             "kind": "Function",
-            "name": "msdkPayInitiated",
-            "printedName": "msdkPayInitiated(purchaseInitiated:purchaseInitiatedBy:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@Shadhin_BL@objc(pl)ShadhinCoreNotifier(im)msdkPayInitiatedWithPurchaseInitiated:purchaseInitiatedBy:",
-            "mangledName": "$s10Shadhin_BL0A12CoreNotifierP16msdkPayInitiated08purchaseG00hG2ByySb_SStF",
-            "moduleName": "Shadhin_BL",
-            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.ShadhinCoreNotifier>",
-            "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinCoreNotifier>",
-            "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "msdkOtpHit",
-            "printedName": "msdkOtpHit(planId:otpHit:)",
+            "name": "handleMSDKPaymentEvent",
+            "printedName": "handleMSDKPaymentEvent(eventName:data:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7308,134 +7498,27 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@Shadhin_BL@objc(pl)ShadhinCoreNotifier(im)msdkOtpHitWithPlanId:otpHit:",
-            "mangledName": "$s10Shadhin_BL0A12CoreNotifierP10msdkOtpHit6planId03otpG0ySS_SbtF",
-            "moduleName": "Shadhin_BL",
-            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.ShadhinCoreNotifier>",
-            "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinCoreNotifier>",
-            "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "msdkPayPricingHit",
-            "printedName": "msdkPayPricingHit(planId:planPrice:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@Shadhin_BL@objc(pl)ShadhinCoreNotifier(im)msdkPayPricingHitWithPlanId:planPrice:",
-            "mangledName": "$s10Shadhin_BL0A12CoreNotifierP17msdkPayPricingHit6planId0I5PriceySS_SStF",
-            "moduleName": "Shadhin_BL",
-            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.ShadhinCoreNotifier>",
-            "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinCoreNotifier>",
-            "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "msdkPaySuccess",
-            "printedName": "msdkPaySuccess(purchaseStatus:purchasePlan:purchaseMethod:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@Shadhin_BL@objc(pl)ShadhinCoreNotifier(im)msdkPaySuccessWithPurchaseStatus:purchasePlan:purchaseMethod:",
-            "mangledName": "$s10Shadhin_BL0A12CoreNotifierP14msdkPaySuccess14purchaseStatus0H4Plan0H6MethodySb_S2StF",
-            "moduleName": "Shadhin_BL",
-            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.ShadhinCoreNotifier>",
-            "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinCoreNotifier>",
-            "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "msdkPayFailed",
-            "printedName": "msdkPayFailed(purchaseStatus:purchasePlan:purchaseMethod:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@Shadhin_BL@objc(pl)ShadhinCoreNotifier(im)msdkPayFailedWithPurchaseStatus:purchasePlan:purchaseMethod:",
-            "mangledName": "$s10Shadhin_BL0A12CoreNotifierP13msdkPayFailed14purchaseStatus0H4Plan0H6MethodySb_S2StF",
+            "usr": "c:@M@Shadhin_BL@objc(pl)ShadhinCoreNotifier(im)handleMSDKPaymentEventWithEventName:data:",
+            "mangledName": "$s10Shadhin_BL0A12CoreNotifierP22handleMSDKPaymentEvent9eventName4dataySS_SDySSypGtF",
             "moduleName": "Shadhin_BL",
             "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.ShadhinCoreNotifier>",
             "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinCoreNotifier>",
@@ -13941,88 +14024,8 @@
           },
           {
             "kind": "Function",
-            "name": "msdkPayFailed",
-            "printedName": "msdkPayFailed(purchaseStatus:purchasePlan:purchaseMethod:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_BL0aB0C13msdkPayFailed14purchaseStatus0F4Plan0F6MethodySb_S2StF",
-            "mangledName": "$s10Shadhin_BL0aB0C13msdkPayFailed14purchaseStatus0F4Plan0F6MethodySb_S2StF",
-            "moduleName": "Shadhin_BL",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "msdkPaySuccess",
-            "printedName": "msdkPaySuccess(purchaseStatus:purchasePlan:purchaseMethod:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_BL0aB0C14msdkPaySuccess14purchaseStatus0F4Plan0F6MethodySb_S2StF",
-            "mangledName": "$s10Shadhin_BL0aB0C14msdkPaySuccess14purchaseStatus0F4Plan0F6MethodySb_S2StF",
-            "moduleName": "Shadhin_BL",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "msdkPayPricingHit",
-            "printedName": "msdkPayPricingHit(planId:planPrice:)",
+            "name": "handleMSDKPaymentEvent",
+            "printedName": "handleMSDKPaymentEvent(eventName:data:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -14037,82 +14040,27 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Shadhin_BL0aB0C17msdkPayPricingHit6planId0G5PriceySS_SStF",
-            "mangledName": "$s10Shadhin_BL0aB0C17msdkPayPricingHit6planId0G5PriceySS_SStF",
-            "moduleName": "Shadhin_BL",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "msdkOtpHit",
-            "printedName": "msdkOtpHit(planId:otpHit:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_BL0aB0C10msdkOtpHit6planId03otpE0ySS_SbtF",
-            "mangledName": "$s10Shadhin_BL0aB0C10msdkOtpHit6planId03otpE0ySS_SbtF",
-            "moduleName": "Shadhin_BL",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "msdkPayInitiated",
-            "printedName": "msdkPayInitiated(purchaseInitiated:purchaseInitiatedBy:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_BL0aB0C16msdkPayInitiated08purchaseE00fE2ByySb_SStF",
-            "mangledName": "$s10Shadhin_BL0aB0C16msdkPayInitiated08purchaseE00fE2ByySb_SStF",
+            "usr": "s:10Shadhin_BL0aB0C22handleMSDKPaymentEvent9eventName4dataySS_SDySSypGtF",
+            "mangledName": "$s10Shadhin_BL0aB0C22handleMSDKPaymentEvent9eventName4dataySS_SDySSypGtF",
             "moduleName": "Shadhin_BL",
             "declAttributes": [
               "Final",
@@ -43124,63 +43072,63 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 9821,
+      "offset": 8565,
       "length": 7,
       "value": "\"RC201\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 9855,
+      "offset": 8599,
       "length": 7,
       "value": "\"RC202\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 9889,
+      "offset": 8633,
       "length": 7,
       "value": "\"RC203\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 9923,
+      "offset": 8667,
       "length": 7,
       "value": "\"RC204\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 9957,
+      "offset": 8701,
       "length": 10,
       "value": "\"BNMAIN01\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 9997,
+      "offset": 8741,
       "length": 9,
       "value": "\"BNALL01\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 10038,
+      "offset": 8782,
       "length": 24,
       "value": "\"0000_TERMSANDCONDITION\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 10093,
+      "offset": 8837,
       "length": 12,
       "value": "\"0000_BKASH\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 10130,
+      "offset": 8874,
       "length": 7,
       "value": "\"RADIO\""
     },

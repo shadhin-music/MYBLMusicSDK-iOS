@@ -59,37 +59,14 @@ class SignInVC: UIViewController {
     
 }
 extension SignInVC : ShadhinCoreNotifier{
-    func msdkPayInitiated(
-        purchaseInitiated: Bool,
-        purchaseInitiatedBy: String
-    ) {
-        debugPrint("\(purchaseInitiated) \(purchaseInitiatedBy)")
-    }
+    func handleMSDKPaymentEvent(eventName: String, data: [String : Any]) {
+        Log.info("MSDK Payment Event - Name: \(eventName), Data: \(data)")
+        print("🔍 Debug MSDK Event -> Name: \(eventName)")
+        for (key, value) in data {
+            print("   \(key): \(value)")
+        }
 
-    func msdkOtpHit(planId: String, otpHit: Bool) {
-        
     }
-
-    func msdkPayPricingHit(planId: String, planPrice: String) {
-        
-    }
-
-    func msdkPaySuccess(
-        purchaseStatus: Bool,
-        purchasePlan: String,
-        purchaseMethod: String
-    ) {
-        
-    }
-
-    func msdkPayFailed(
-        purchaseStatus: Bool,
-        purchasePlan: String,
-        purchaseMethod: String
-    ) {
-        
-    }
-
     func memberShipStatus(isValid: Bool, value: String) {
         print("\(isValid) \(value)")
     }

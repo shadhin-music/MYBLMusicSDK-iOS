@@ -427,11 +427,7 @@ SWIFT_PROTOCOL("_TtP10Shadhin_BL19ShadhinCoreNotifier_")
 - (void)eventWithEventName:(NSString * _Nonnull)eventName content:(NSDictionary<NSString *, NSString *> * _Nonnull)content;
 - (void)linkRedirectWithLink:(NSString * _Nonnull)link;
 - (void)memberShipStatusWithIsValid:(BOOL)isValid value:(NSString * _Nonnull)value;
-- (void)msdkPayInitiatedWithPurchaseInitiated:(BOOL)purchaseInitiated purchaseInitiatedBy:(NSString * _Nonnull)purchaseInitiatedBy;
-- (void)msdkOtpHitWithPlanId:(NSString * _Nonnull)planId otpHit:(BOOL)otpHit;
-- (void)msdkPayPricingHitWithPlanId:(NSString * _Nonnull)planId planPrice:(NSString * _Nonnull)planPrice;
-- (void)msdkPaySuccessWithPurchaseStatus:(BOOL)purchaseStatus purchasePlan:(NSString * _Nonnull)purchasePlan purchaseMethod:(NSString * _Nonnull)purchaseMethod;
-- (void)msdkPayFailedWithPurchaseStatus:(BOOL)purchaseStatus purchasePlan:(NSString * _Nonnull)purchasePlan purchaseMethod:(NSString * _Nonnull)purchaseMethod;
+- (void)handleMSDKPaymentEventWithEventName:(NSString * _Nonnull)eventName data:(NSDictionary<NSString *, id> * _Nonnull)data;
 @end
 
 
