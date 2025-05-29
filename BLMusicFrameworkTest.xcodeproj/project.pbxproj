@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		523C6EBF2D89419A00327C5E /* Shadhin_BL.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523C6EBD2D8940D900327C5E /* Shadhin_BL.xcframework */; };
-		523C6EC02D89419A00327C5E /* Shadhin_BL.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 523C6EBD2D8940D900327C5E /* Shadhin_BL.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52D1AEDD2DE83172000A48DE /* Shadhin_BL.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D1AEDC2DE83154000A48DE /* Shadhin_BL.xcframework */; };
+		52D1AEDE2DE83172000A48DE /* Shadhin_BL.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52D1AEDC2DE83154000A48DE /* Shadhin_BL.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52D1AEE02DE83279000A48DE /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D1AEDF2DE83279000A48DE /* Log.swift */; };
 		847BF9EC296AE4220065A454 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847BF9EB296AE4220065A454 /* Package.swift */; };
 		84E8D27F2964103400CD59EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8D27E2964103400CD59EB /* AppDelegate.swift */; };
 		84E8D2832964103400CD59EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8D2822964103400CD59EB /* ViewController.swift */; };
@@ -34,7 +35,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				523C6EC02D89419A00327C5E /* Shadhin_BL.xcframework in Embed Frameworks */,
+				52D1AEDE2DE83172000A48DE /* Shadhin_BL.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,7 +43,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		523C6EBD2D8940D900327C5E /* Shadhin_BL.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Shadhin_BL.xcframework; sourceTree = "<group>"; };
+		52D1AEDC2DE83154000A48DE /* Shadhin_BL.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Shadhin_BL.xcframework; sourceTree = "<group>"; };
+		52D1AEDF2DE83279000A48DE /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		847BF9EB296AE4220065A454 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		84E8D27B2964103400CD59EB /* BLMusicFrameworkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLMusicFrameworkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E8D27E2964103400CD59EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				523C6EBF2D89419A00327C5E /* Shadhin_BL.xcframework in Frameworks */,
+				52D1AEDD2DE83172000A48DE /* Shadhin_BL.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +106,7 @@
 				84E8D2892964103600CD59EB /* LaunchScreen.storyboard */,
 				84E8D28C2964103600CD59EB /* Info.plist */,
 				847BF9EB296AE4220065A454 /* Package.swift */,
+				52D1AEDF2DE83279000A48DE /* Log.swift */,
 			);
 			path = BLMusicFrameworkTest;
 			sourceTree = "<group>";
@@ -111,7 +114,7 @@
 		84E8D2922964105100CD59EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				523C6EBD2D8940D900327C5E /* Shadhin_BL.xcframework */,
+				52D1AEDC2DE83154000A48DE /* Shadhin_BL.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			files = (
 				84E8D2A52964117F00CD59EB /* B.swift in Sources */,
 				84E8D2A72964117F00CD59EB /* HomeVC.swift in Sources */,
+				52D1AEE02DE83279000A48DE /* Log.swift in Sources */,
 				84E8D2832964103400CD59EB /* ViewController.swift in Sources */,
 				84E8D27F2964103400CD59EB /* AppDelegate.swift in Sources */,
 				84E8D2A32964117F00CD59EB /* TabBarVC.swift in Sources */,

@@ -33,6 +33,36 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 
 extension AppDelegate : ShadhinCoreNotifier{
+    func msdkPayInitiated(
+        purchaseInitiated: Bool,
+        purchaseInitiatedBy: String
+    ) {
+    }
+
+    func msdkOtpHit(planId: String, otpHit: Bool) {
+        
+    }
+
+    func msdkPayPricingHit(planId: String, planPrice: String) {
+        
+    }
+
+    func msdkPaySuccess(
+        purchaseStatus: Bool,
+        purchasePlan: String,
+        purchaseMethod: String
+    ) {
+        
+    }
+
+    func msdkPayFailed(
+        purchaseStatus: Bool,
+        purchasePlan: String,
+        purchaseMethod: String
+    ) {
+        
+    }
+
     func memberShipStatus(isValid: Bool, value: String) {
         print("\(isValid) \(value)")
     }

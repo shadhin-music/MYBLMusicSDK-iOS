@@ -44,6 +44,11 @@ public protocol ShadhinLogNotifier : ObjectiveC.NSObjectProtocol {
   func event(eventName: Swift.String, contentName: Swift.String, contentType: Swift.String, patchName: Swift.String)
   func linkRedirect(link: Swift.String)
   func memberShipStatus(isValid: Swift.Bool, value: Swift.String)
+  func msdkPayInitiated(purchaseInitiated: Swift.Bool, purchaseInitiatedBy: Swift.String)
+  func msdkOtpHit(planId: Swift.String, otpHit: Swift.Bool)
+  func msdkPayPricingHit(planId: Swift.String, planPrice: Swift.String)
+  func msdkPaySuccess(purchaseStatus: Swift.Bool, purchasePlan: Swift.String, purchaseMethod: Swift.String)
+  func msdkPayFailed(purchaseStatus: Swift.Bool, purchasePlan: Swift.String, purchaseMethod: Swift.String)
 }
 @objc public protocol RadioCallBack : ObjectiveC.NSObjectProtocol {
   @objc func fetchTokenForRadio(complete: @escaping (Swift.String, Swift.Bool) -> Swift.Void)
@@ -249,6 +254,11 @@ extension Shadhin_BL.AFError : Foundation.LocalizedError {
   @objc func event(eventName: Swift.String, content: [Swift.String : Swift.String])
   @objc func linkRedirect(link: Swift.String)
   @objc func memberShipStatus(isValid: Swift.Bool, value: Swift.String)
+  @objc func msdkPayInitiated(purchaseInitiated: Swift.Bool, purchaseInitiatedBy: Swift.String)
+  @objc func msdkOtpHit(planId: Swift.String, otpHit: Swift.Bool)
+  @objc func msdkPayPricingHit(planId: Swift.String, planPrice: Swift.String)
+  @objc func msdkPaySuccess(purchaseStatus: Swift.Bool, purchasePlan: Swift.String, purchaseMethod: Swift.String)
+  @objc func msdkPayFailed(purchaseStatus: Swift.Bool, purchasePlan: Swift.String, purchaseMethod: Swift.String)
 }
 public protocol HubConnectionDelegate : AnyObject {
   func connectionDidOpen(hubConnection: Shadhin_BL.HubConnection)
@@ -324,6 +334,11 @@ public class HubConnection {
   @objc deinit
 }
 extension Shadhin_BL.ShadhinBL : Shadhin_BL.ShadhinLogNotifier {
+  final public func msdkPayFailed(purchaseStatus: Swift.Bool, purchasePlan: Swift.String, purchaseMethod: Swift.String)
+  final public func msdkPaySuccess(purchaseStatus: Swift.Bool, purchasePlan: Swift.String, purchaseMethod: Swift.String)
+  final public func msdkPayPricingHit(planId: Swift.String, planPrice: Swift.String)
+  final public func msdkOtpHit(planId: Swift.String, otpHit: Swift.Bool)
+  final public func msdkPayInitiated(purchaseInitiated: Swift.Bool, purchaseInitiatedBy: Swift.String)
   final public func memberShipStatus(isValid: Swift.Bool, value: Swift.String)
   final public func linkRedirect(link: Swift.String)
   final public func event(eventName: Swift.String, contentName: Swift.String, contentType: Swift.String, patchName: Swift.String)

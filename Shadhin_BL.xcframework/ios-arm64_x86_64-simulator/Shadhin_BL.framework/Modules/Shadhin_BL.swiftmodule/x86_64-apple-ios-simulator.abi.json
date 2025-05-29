@@ -26,6 +26,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -421,6 +431,183 @@
             "declKind": "Func",
             "usr": "s:10Shadhin_BL0A11LogNotifierP16memberShipStatus7isValid5valueySb_SStF",
             "mangledName": "$s10Shadhin_BL0A11LogNotifierP16memberShipStatus7isValid5valueySb_SStF",
+            "moduleName": "Shadhin_BL",
+            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.ShadhinLogNotifier>",
+            "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinLogNotifier>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "msdkPayInitiated",
+            "printedName": "msdkPayInitiated(purchaseInitiated:purchaseInitiatedBy:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Shadhin_BL0A11LogNotifierP16msdkPayInitiated08purchaseG00hG2ByySb_SStF",
+            "mangledName": "$s10Shadhin_BL0A11LogNotifierP16msdkPayInitiated08purchaseG00hG2ByySb_SStF",
+            "moduleName": "Shadhin_BL",
+            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.ShadhinLogNotifier>",
+            "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinLogNotifier>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "msdkOtpHit",
+            "printedName": "msdkOtpHit(planId:otpHit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Shadhin_BL0A11LogNotifierP10msdkOtpHit6planId03otpG0ySS_SbtF",
+            "mangledName": "$s10Shadhin_BL0A11LogNotifierP10msdkOtpHit6planId03otpG0ySS_SbtF",
+            "moduleName": "Shadhin_BL",
+            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.ShadhinLogNotifier>",
+            "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinLogNotifier>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "msdkPayPricingHit",
+            "printedName": "msdkPayPricingHit(planId:planPrice:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Shadhin_BL0A11LogNotifierP17msdkPayPricingHit6planId0I5PriceySS_SStF",
+            "mangledName": "$s10Shadhin_BL0A11LogNotifierP17msdkPayPricingHit6planId0I5PriceySS_SStF",
+            "moduleName": "Shadhin_BL",
+            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.ShadhinLogNotifier>",
+            "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinLogNotifier>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "msdkPaySuccess",
+            "printedName": "msdkPaySuccess(purchaseStatus:purchasePlan:purchaseMethod:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Shadhin_BL0A11LogNotifierP14msdkPaySuccess14purchaseStatus0H4Plan0H6MethodySb_S2StF",
+            "mangledName": "$s10Shadhin_BL0A11LogNotifierP14msdkPaySuccess14purchaseStatus0H4Plan0H6MethodySb_S2StF",
+            "moduleName": "Shadhin_BL",
+            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.ShadhinLogNotifier>",
+            "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinLogNotifier>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "msdkPayFailed",
+            "printedName": "msdkPayFailed(purchaseStatus:purchasePlan:purchaseMethod:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Shadhin_BL0A11LogNotifierP13msdkPayFailed14purchaseStatus0H4Plan0H6MethodySb_S2StF",
+            "mangledName": "$s10Shadhin_BL0A11LogNotifierP13msdkPayFailed14purchaseStatus0H4Plan0H6MethodySb_S2StF",
             "moduleName": "Shadhin_BL",
             "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.ShadhinLogNotifier>",
             "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinLogNotifier>",
@@ -7066,6 +7253,198 @@
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "msdkPayInitiated",
+            "printedName": "msdkPayInitiated(purchaseInitiated:purchaseInitiatedBy:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Shadhin_BL@objc(pl)ShadhinCoreNotifier(im)msdkPayInitiatedWithPurchaseInitiated:purchaseInitiatedBy:",
+            "mangledName": "$s10Shadhin_BL0A12CoreNotifierP16msdkPayInitiated08purchaseG00hG2ByySb_SStF",
+            "moduleName": "Shadhin_BL",
+            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.ShadhinCoreNotifier>",
+            "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinCoreNotifier>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "msdkOtpHit",
+            "printedName": "msdkOtpHit(planId:otpHit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Shadhin_BL@objc(pl)ShadhinCoreNotifier(im)msdkOtpHitWithPlanId:otpHit:",
+            "mangledName": "$s10Shadhin_BL0A12CoreNotifierP10msdkOtpHit6planId03otpG0ySS_SbtF",
+            "moduleName": "Shadhin_BL",
+            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.ShadhinCoreNotifier>",
+            "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinCoreNotifier>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "msdkPayPricingHit",
+            "printedName": "msdkPayPricingHit(planId:planPrice:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Shadhin_BL@objc(pl)ShadhinCoreNotifier(im)msdkPayPricingHitWithPlanId:planPrice:",
+            "mangledName": "$s10Shadhin_BL0A12CoreNotifierP17msdkPayPricingHit6planId0I5PriceySS_SStF",
+            "moduleName": "Shadhin_BL",
+            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.ShadhinCoreNotifier>",
+            "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinCoreNotifier>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "msdkPaySuccess",
+            "printedName": "msdkPaySuccess(purchaseStatus:purchasePlan:purchaseMethod:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Shadhin_BL@objc(pl)ShadhinCoreNotifier(im)msdkPaySuccessWithPurchaseStatus:purchasePlan:purchaseMethod:",
+            "mangledName": "$s10Shadhin_BL0A12CoreNotifierP14msdkPaySuccess14purchaseStatus0H4Plan0H6MethodySb_S2StF",
+            "moduleName": "Shadhin_BL",
+            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.ShadhinCoreNotifier>",
+            "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinCoreNotifier>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "msdkPayFailed",
+            "printedName": "msdkPayFailed(purchaseStatus:purchasePlan:purchaseMethod:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Shadhin_BL@objc(pl)ShadhinCoreNotifier(im)msdkPayFailedWithPurchaseStatus:purchasePlan:purchaseMethod:",
+            "mangledName": "$s10Shadhin_BL0A12CoreNotifierP13msdkPayFailed14purchaseStatus0H4Plan0H6MethodySb_S2StF",
+            "moduleName": "Shadhin_BL",
+            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.ShadhinCoreNotifier>",
+            "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinCoreNotifier>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -13562,6 +13941,188 @@
           },
           {
             "kind": "Function",
+            "name": "msdkPayFailed",
+            "printedName": "msdkPayFailed(purchaseStatus:purchasePlan:purchaseMethod:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Shadhin_BL0aB0C13msdkPayFailed14purchaseStatus0F4Plan0F6MethodySb_S2StF",
+            "mangledName": "$s10Shadhin_BL0aB0C13msdkPayFailed14purchaseStatus0F4Plan0F6MethodySb_S2StF",
+            "moduleName": "Shadhin_BL",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "msdkPaySuccess",
+            "printedName": "msdkPaySuccess(purchaseStatus:purchasePlan:purchaseMethod:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Shadhin_BL0aB0C14msdkPaySuccess14purchaseStatus0F4Plan0F6MethodySb_S2StF",
+            "mangledName": "$s10Shadhin_BL0aB0C14msdkPaySuccess14purchaseStatus0F4Plan0F6MethodySb_S2StF",
+            "moduleName": "Shadhin_BL",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "msdkPayPricingHit",
+            "printedName": "msdkPayPricingHit(planId:planPrice:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Shadhin_BL0aB0C17msdkPayPricingHit6planId0G5PriceySS_SStF",
+            "mangledName": "$s10Shadhin_BL0aB0C17msdkPayPricingHit6planId0G5PriceySS_SStF",
+            "moduleName": "Shadhin_BL",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "msdkOtpHit",
+            "printedName": "msdkOtpHit(planId:otpHit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Shadhin_BL0aB0C10msdkOtpHit6planId03otpE0ySS_SbtF",
+            "mangledName": "$s10Shadhin_BL0aB0C10msdkOtpHit6planId03otpE0ySS_SbtF",
+            "moduleName": "Shadhin_BL",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "msdkPayInitiated",
+            "printedName": "msdkPayInitiated(purchaseInitiated:purchaseInitiatedBy:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Shadhin_BL0aB0C16msdkPayInitiated08purchaseE00fE2ByySb_SStF",
+            "mangledName": "$s10Shadhin_BL0aB0C16msdkPayInitiated08purchaseE00fE2ByySb_SStF",
+            "moduleName": "Shadhin_BL",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "memberShipStatus",
             "printedName": "memberShipStatus(isValid:value:)",
             "children": [
@@ -19173,6 +19734,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -21612,6 +22183,16 @@
         "printedName": "ImageIO",
         "declKind": "Import",
         "moduleName": "Shadhin_BL"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -24237,6 +24818,16 @@
         "printedName": "WebKit",
         "declKind": "Import",
         "moduleName": "Shadhin_BL"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Shadhin_BL",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -37859,6 +38450,13 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -42050,23 +42648,30 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/BkashSubsriptionVC\/BkashSubsriptionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 953,
+      "offset": 997,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/BkashSubsriptionVC\/BkashSubsriptionVC.swift",
-      "kind": "Array",
-      "offset": 1824,
+      "kind": "StringLiteral",
+      "offset": 1696,
       "length": 2,
-      "value": "[]"
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/BkashSubsriptionVC\/BkashSubsriptionVC.swift",
-      "kind": "Array",
-      "offset": 1884,
+      "kind": "StringLiteral",
+      "offset": 1729,
       "length": 2,
-      "value": "[]"
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/BkashSubsriptionVC\/BkashSubsriptionVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 1753,
+      "length": 3,
+      "value": "0.0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/BkashSubsriptionVC\/BkashSubsriptionVC.swift",
@@ -42077,36 +42682,50 @@
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/BkashSubsriptionVC\/BkashSubsriptionVC.swift",
+      "kind": "Array",
+      "offset": 2005,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/BkashSubsriptionVC\/BkashSubsriptionVC.swift",
+      "kind": "Array",
+      "offset": 2066,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/BkashSubsriptionVC\/BkashSubsriptionVC.swift",
       "kind": "StringLiteral",
-      "offset": 2106,
+      "offset": 2227,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/BkashSubsriptionVC\/BkashSubsriptionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2319,
+      "offset": 2440,
       "length": 3,
       "value": "370"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/BkashSubsriptionVC\/BkashSubsriptionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2356,
+      "offset": 2477,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/BkashSubsriptionVC\/BkashSubsriptionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2397,
+      "offset": 2518,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/BkashSubsriptionVC\/BkashSubsriptionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2426,
+      "offset": 2547,
       "length": 1,
       "value": "1"
     },
@@ -42323,14 +42942,14 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 28914,
+      "offset": 28945,
       "length": 18,
       "value": "\"Congratulations!\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 28954,
+      "offset": 28985,
       "length": 49,
       "value": "\"Plan purchase request is successfully submitted\""
     },
@@ -42505,63 +43124,63 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 8316,
+      "offset": 9821,
       "length": 7,
       "value": "\"RC201\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 8350,
+      "offset": 9855,
       "length": 7,
       "value": "\"RC202\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 8384,
+      "offset": 9889,
       "length": 7,
       "value": "\"RC203\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 8418,
+      "offset": 9923,
       "length": 7,
       "value": "\"RC204\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 8452,
+      "offset": 9957,
       "length": 10,
       "value": "\"BNMAIN01\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 8492,
+      "offset": 9997,
       "length": 9,
       "value": "\"BNALL01\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 8533,
+      "offset": 10038,
       "length": 24,
       "value": "\"0000_TERMSANDCONDITION\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 8588,
+      "offset": 10093,
       "length": 12,
       "value": "\"0000_BKASH\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 8625,
+      "offset": 10130,
       "length": 7,
       "value": "\"RADIO\""
     },
@@ -47909,21 +48528,21 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/SubscriptionInvoiceVC\/SubscriptionInvoiceVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 484,
+      "offset": 527,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/SubscriptionInvoiceVC\/SubscriptionInvoiceVC.swift",
       "kind": "StringLiteral",
-      "offset": 507,
+      "offset": 550,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/SubscriptionInvoiceVC\/SubscriptionInvoiceVC.swift",
       "kind": "StringLiteral",
-      "offset": 539,
+      "offset": 582,
       "length": 2,
       "value": "\"\""
     },
@@ -50856,91 +51475,105 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/APIService\/APIServiceCore+Playlist.swift",
       "kind": "StringLiteral",
-      "offset": 798,
+      "offset": 724,
+      "length": 41,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/APIService\/APIServiceCore+Playlist.swift",
+      "kind": "StringLiteral",
+      "offset": 736,
+      "length": 1,
+      "value": "\"\/Playlist\/PostUserplayListV3\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/APIService\/APIServiceCore+Playlist.swift",
+      "kind": "StringLiteral",
+      "offset": 888,
       "length": 50,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/APIService\/APIServiceCore+Playlist.swift",
       "kind": "StringLiteral",
-      "offset": 810,
+      "offset": 900,
       "length": 1,
       "value": "\"\/Playlist\/DeleteUserplayList?id=\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/APIService\/APIServiceCore+Playlist.swift",
       "kind": "StringLiteral",
-      "offset": 847,
+      "offset": 937,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/APIService\/APIServiceCore+Playlist.swift",
       "kind": "StringLiteral",
-      "offset": 991,
+      "offset": 1081,
       "length": 47,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/APIService\/APIServiceCore+Playlist.swift",
       "kind": "StringLiteral",
-      "offset": 1003,
+      "offset": 1093,
       "length": 1,
       "value": "\"\/Playlist\/GetUserPlaylist?id=\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/APIService\/APIServiceCore+Playlist.swift",
       "kind": "StringLiteral",
-      "offset": 1037,
+      "offset": 1127,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/APIService\/APIServiceCore+Playlist.swift",
       "kind": "StringLiteral",
-      "offset": 1184,
+      "offset": 1274,
       "length": 49,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/APIService\/APIServiceCore+Playlist.swift",
       "kind": "StringLiteral",
-      "offset": 1196,
+      "offset": 1286,
       "length": 1,
       "value": "\"\/Playlist\/GetUserPlaylistV2?id=\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/APIService\/APIServiceCore+Playlist.swift",
       "kind": "StringLiteral",
-      "offset": 1232,
+      "offset": 1322,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/APIService\/APIServiceCore+Playlist.swift",
       "kind": "StringLiteral",
-      "offset": 1294,
+      "offset": 1384,
       "length": 48,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/APIService\/APIServiceCore+Playlist.swift",
       "kind": "StringLiteral",
-      "offset": 1306,
+      "offset": 1396,
       "length": 1,
       "value": "\"\/Playlist\/DeleteUserPlaylistContent\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/APIService\/APIServiceCore+Playlist.swift",
       "kind": "StringLiteral",
-      "offset": 1395,
+      "offset": 1485,
       "length": 46,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/APIService\/APIServiceCore+Playlist.swift",
       "kind": "StringLiteral",
-      "offset": 1407,
+      "offset": 1497,
       "length": 1,
       "value": "\"\/Playlist\/PostUserplayListContent\""
     },
@@ -52903,6 +53536,13 @@
       "offset": 7074,
       "length": 9,
       "value": "\"AdSmall\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Model\/HomeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 7104,
+      "length": 10,
+      "value": "\"Campaign\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Common\/Protocol\/ArtistDataModel.swift",
@@ -59956,294 +60596,308 @@
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19849,
+      "offset": 19853,
+      "length": 10,
+      "value": "\"reaction\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 19985,
       "length": 8,
       "value": "\"reload\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20007,
+      "offset": 20143,
       "length": 23,
       "value": "\"remove_favourite_menu\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20181,
+      "offset": 20317,
       "length": 24,
       "value": "\"remove_watch_list_menu\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20329,
+      "offset": 20465,
       "length": 8,
       "value": "\"repeat\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20464,
+      "offset": 20600,
       "length": 11,
       "value": "\"repeat_on\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20609,
+      "offset": 20745,
       "length": 15,
       "value": "\"repeat_one_on\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20746,
+      "offset": 20882,
       "length": 8,
       "value": "\"reward\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20885,
+      "offset": 21021,
       "length": 13,
       "value": "\"right_arrow\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21020,
+      "offset": 21156,
       "length": 8,
       "value": "\"search\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21152,
+      "offset": 21288,
       "length": 9,
       "value": "\"shadhin\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21281,
+      "offset": 21417,
       "length": 7,
       "value": "\"share\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21417,
+      "offset": 21553,
       "length": 12,
       "value": "\"share_menu\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21553,
+      "offset": 21689,
       "length": 9,
       "value": "\"shuffle\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21691,
+      "offset": 21827,
       "length": 12,
       "value": "\"shuffle_on\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21825,
+      "offset": 21961,
       "length": 8,
       "value": "\"slider\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21978,
+      "offset": 22114,
       "length": 21,
       "value": "\"speaker.wave.2.fill\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22127,
+      "offset": 22263,
+      "length": 11,
+      "value": "\"streaming\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 22402,
       "length": 11,
       "value": "\"subCancel\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22278,
+      "offset": 22553,
       "length": 17,
       "value": "\"subCancelOption\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22409,
+      "offset": 22684,
       "length": 4,
       "value": "\"tc\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22545,
+      "offset": 22820,
       "length": 13,
       "value": "\"termsOfUses\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22686,
+      "offset": 22961,
       "length": 11,
       "value": "\"thumbFill\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22821,
+      "offset": 23096,
       "length": 9,
       "value": "\"thumbUp\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22952,
+      "offset": 23227,
       "length": 8,
       "value": "\"ticket\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23106,
+      "offset": 23381,
       "length": 20,
       "value": "\"ticketDoneBottomBG\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23254,
+      "offset": 23529,
       "length": 11,
       "value": "\"ticketFaq\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23403,
+      "offset": 23678,
       "length": 16,
       "value": "\"ticketHeaderBG\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23551,
+      "offset": 23826,
       "length": 13,
       "value": "\"ticketRadio\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23708,
+      "offset": 23983,
       "length": 19,
       "value": "\"ticketRadioSelect\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23847,
+      "offset": 24122,
       "length": 7,
       "value": "\"timer\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23970,
+      "offset": 24245,
       "length": 5,
       "value": "\"tmp\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24093,
-      "length": 6,
-      "value": "\"tmp1\""
+      "offset": 24369,
+      "length": 7,
+      "value": "\"tmp 1\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24231,
+      "offset": 24508,
       "length": 13,
       "value": "\"topCouponBG\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24372,
+      "offset": 24649,
       "length": 11,
       "value": "\"topRankBG\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24515,
+      "offset": 24792,
       "length": 13,
       "value": "\"unCheckMark\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24672,
+      "offset": 24949,
       "length": 19,
       "value": "\"unlimitedPlaylist\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24809,
+      "offset": 25086,
       "length": 6,
       "value": "\"user\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24948,
+      "offset": 25225,
       "length": 14,
       "value": "\"user_premium\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25091,
+      "offset": 25368,
       "length": 12,
       "value": "\"video_play\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25225,
+      "offset": 25502,
       "length": 8,
       "value": "\"volume\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25365,
+      "offset": 25642,
       "length": 13,
       "value": "\"volumeThumb\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25516,
+      "offset": 25793,
       "length": 16,
       "value": "\"watchLaterHome\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_BL-dhbxlhygcnjocodtfbhrjmepvenl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_BL\/IntermediateBuildFilesPath\/Shadhin_BL.build\/Release-iphonesimulator\/Shadhin_BL.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25678,
+      "offset": 25955,
       "length": 21,
       "value": "\"watch_later_Outline\""
     }
