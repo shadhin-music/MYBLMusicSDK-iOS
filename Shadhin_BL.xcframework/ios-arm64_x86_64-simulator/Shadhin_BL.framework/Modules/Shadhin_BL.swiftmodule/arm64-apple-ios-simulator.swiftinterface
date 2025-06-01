@@ -254,7 +254,6 @@ extension Shadhin_BL.AFError : Foundation.LocalizedError {
   @objc func player(error: Swift.String)
   @objc func bkashPaymentInit()
   @objc func bksahPaymentSuccess()
-  @objc func event(eventName: Swift.String, content: [Swift.String : Swift.String])
   @objc func linkRedirect(link: Swift.String)
   @objc func memberShipStatus(isValid: Swift.Bool, value: Swift.String)
   @objc func handleMSDKPaymentEvent(eventName: Swift.String, data: [Swift.String : Any])

@@ -7366,56 +7366,6 @@
           },
           {
             "kind": "Function",
-            "name": "event",
-            "printedName": "event(eventName:content:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@Shadhin_BL@objc(pl)ShadhinCoreNotifier(im)eventWithEventName:content:",
-            "mangledName": "$s10Shadhin_BL0A12CoreNotifierP5event0E4Name7contentySS_SDyS2SGtF",
-            "moduleName": "Shadhin_BL",
-            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_BL.ShadhinCoreNotifier>",
-            "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinCoreNotifier>",
-            "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "linkRedirect",
             "printedName": "linkRedirect(link:)",
             "children": [
@@ -7439,6 +7389,7 @@
             "sugared_genericSig": "<Self where Self : Shadhin_BL.ShadhinCoreNotifier>",
             "protocolReq": true,
             "declAttributes": [
+              "RawDocComment",
               "ObjC"
             ],
             "reqNewWitnessTableEntry": true,
@@ -42610,70 +42561,77 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/BkashSubsriptionVC\/BkashSubsriptionVC.swift",
       "kind": "StringLiteral",
-      "offset": 1729,
+      "offset": 1719,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/BkashSubsriptionVC\/BkashSubsriptionVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1752,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/BkashSubsriptionVC\/BkashSubsriptionVC.swift",
       "kind": "FloatLiteral",
-      "offset": 1753,
+      "offset": 1776,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/BkashSubsriptionVC\/BkashSubsriptionVC.swift",
       "kind": "Array",
-      "offset": 1945,
+      "offset": 1968,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/BkashSubsriptionVC\/BkashSubsriptionVC.swift",
       "kind": "Array",
-      "offset": 2005,
+      "offset": 2028,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/BkashSubsriptionVC\/BkashSubsriptionVC.swift",
       "kind": "Array",
-      "offset": 2066,
+      "offset": 2089,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/BkashSubsriptionVC\/BkashSubsriptionVC.swift",
       "kind": "StringLiteral",
-      "offset": 2227,
+      "offset": 2250,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/BkashSubsriptionVC\/BkashSubsriptionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2440,
+      "offset": 2463,
       "length": 3,
       "value": "370"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/BkashSubsriptionVC\/BkashSubsriptionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2477,
+      "offset": 2500,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/BkashSubsriptionVC\/BkashSubsriptionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2518,
+      "offset": 2541,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/BkashSubsriptionVC\/BkashSubsriptionVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2547,
+      "offset": 2570,
       "length": 1,
       "value": "1"
     },
@@ -42890,14 +42848,14 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 28945,
+      "offset": 29690,
       "length": 18,
       "value": "\"Congratulations!\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Pattarn\/MainCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 28985,
+      "offset": 29730,
       "length": 49,
       "value": "\"Plan purchase request is successfully submitted\""
     },
@@ -43072,63 +43030,63 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 8565,
+      "offset": 8590,
       "length": 7,
       "value": "\"RC201\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 8599,
+      "offset": 8624,
       "length": 7,
       "value": "\"RC202\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 8633,
+      "offset": 8658,
       "length": 7,
       "value": "\"RC203\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 8667,
+      "offset": 8692,
       "length": 7,
       "value": "\"RC204\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 8701,
+      "offset": 8726,
       "length": 10,
       "value": "\"BNMAIN01\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 8741,
+      "offset": 8766,
       "length": 9,
       "value": "\"BNALL01\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 8782,
+      "offset": 8807,
       "length": 24,
       "value": "\"0000_TERMSANDCONDITION\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 8837,
+      "offset": 8862,
       "length": 12,
       "value": "\"0000_BKASH\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Core\/ShadhinBL.swift",
       "kind": "StringLiteral",
-      "offset": 8874,
+      "offset": 8899,
       "length": 7,
       "value": "\"RADIO\""
     },
@@ -48917,16 +48875,23 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/WebViewVC\/WebViewVC.swift",
       "kind": "StringLiteral",
-      "offset": 202,
+      "offset": 245,
       "length": 86,
       "value": "\"https:\/\/micropay.techapi24.com\/bkpayredirect\/get?reference=4Z5HPUMF&status=CANCELLED\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/WebViewVC\/WebViewVC.swift",
       "kind": "StringLiteral",
-      "offset": 328,
+      "offset": 371,
       "length": 50,
       "value": "\"https:\/\/api.payment-app.info\/BKash\/views\/success\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/WebViewVC\/WebViewVC.swift",
+      "kind": "StringLiteral",
+      "offset": 579,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Library\/DropDown\/helpers\/DPDKeyboardListener.swift",
@@ -51892,7 +51857,7 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/ViewController\/BkashSubscription\/BkashCancelOptionVC\/BkashCancelOptionVC.swift",
       "kind": "StringLiteral",
-      "offset": 277,
+      "offset": 320,
       "length": 2,
       "value": "\"\""
     },

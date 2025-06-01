@@ -424,7 +424,6 @@ SWIFT_PROTOCOL("_TtP10Shadhin_BL19ShadhinCoreNotifier_")
 - (void)playerWithError:(NSString * _Nonnull)error;
 - (void)bkashPaymentInit;
 - (void)bksahPaymentSuccess;
-- (void)eventWithEventName:(NSString * _Nonnull)eventName content:(NSDictionary<NSString *, NSString *> * _Nonnull)content;
 - (void)linkRedirectWithLink:(NSString * _Nonnull)link;
 - (void)memberShipStatusWithIsValid:(BOOL)isValid value:(NSString * _Nonnull)value;
 - (void)handleMSDKPaymentEventWithEventName:(NSString * _Nonnull)eventName data:(NSDictionary<NSString *, id> * _Nonnull)data;
