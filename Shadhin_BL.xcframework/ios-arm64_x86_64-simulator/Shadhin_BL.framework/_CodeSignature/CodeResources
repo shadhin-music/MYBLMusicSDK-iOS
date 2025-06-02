@@ -208,14 +208,6 @@
 		<data>
 		52qvKEjrt+nCvBOb3t91eROwuu8=
 		</data>
-		<key>CampaignCell.nib/objects-12.3+.nib</key>
-		<data>
-		KF+h+eyt3EPO1qJqouHZKx6g0VA=
-		</data>
-		<key>CampaignCell.nib/runtime.nib</key>
-		<data>
-		yjDZ7B2yQeBYFqZ0zjUpzMIV15w=
-		</data>
 		<key>CampaignDetailsCell.nib/objects-12.3+.nib</key>
 		<data>
 		jvaKp1lDgxxHlXBEWSUvBl+ZBZ4=
@@ -231,26 +223,6 @@
 		<key>CampaignDetailsCell.nib/runtime.nib</key>
 		<data>
 		oPCvcdfwwWzIFDFaF5CSVzdr6c8=
-		</data>
-		<key>CampaignDetailsVC.nib/objects-13.0+.nib</key>
-		<data>
-		Ys8f5iN/P8/msTwocCRbNUvjlQ0=
-		</data>
-		<key>CampaignDetailsVC.nib/objects-14.0+.nib</key>
-		<data>
-		GpEEnHjzOLAFqoc8+QQOdv0cIC8=
-		</data>
-		<key>CampaignDetailsVC.nib/runtime.nib</key>
-		<data>
-		OFwpfwICo0BXrsIIZtWcxcyjPdk=
-		</data>
-		<key>CampaignHeader.nib/objects-13.0+.nib</key>
-		<data>
-		uQ/7Wdq269CIdScmvIXjMlmHsrA=
-		</data>
-		<key>CampaignHeader.nib/runtime.nib</key>
-		<data>
-		bDqved3UJUbRaC1z1zWttqJQvQY=
 		</data>
 		<key>ChipCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -320,18 +292,6 @@
 		<data>
 		8evdLO4KA1ShjgViSaX4VtjhsM8=
 		</data>
-		<key>CreatePlayListVC.nib/objects-13.0+.nib</key>
-		<data>
-		8Z+PaSYhUR19LpTWO1GtMd4F6wo=
-		</data>
-		<key>CreatePlayListVC.nib/objects-14.0+.nib</key>
-		<data>
-		yrgeVz5DuGUdplc/bv6d3L8Sfyg=
-		</data>
-		<key>CreatePlayListVC.nib/runtime.nib</key>
-		<data>
-		WZEjE2ee0qFDrf08ro4bZX34rDM=
-		</data>
 		<key>CreatePlaylistCell.nib/objects-12.3+.nib</key>
 		<data>
 		rgRwe3uPAqiBlLnfKq6hafZxtRg=
@@ -339,6 +299,14 @@
 		<key>CreatePlaylistCell.nib/runtime.nib</key>
 		<data>
 		MMQQmLP5+N+D/nzeUOQrUdhExP0=
+		</data>
+		<key>CreatePlaylistVC.nib/objects-13.0+.nib</key>
+		<data>
+		irz9nnH5NGuYhZ0iZBbqTzDtfrA=
+		</data>
+		<key>CreatePlaylistVC.nib/runtime.nib</key>
+		<data>
+		owYagzzDDuDE5mysAIC6pRho3PE=
 		</data>
 		<key>CuponCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -682,7 +650,7 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		XwNwqSd4J5mWDuTykwOZ3SzxPp4=
+		B5FnRVOJJdiQZnQpHng/i/Ftsxk=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -698,11 +666,11 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SDBCWJWHCVqPHiisnqDsxx0NyYs=
+		rrg1Q+/2sP9qFfHyKuvYWeIQqFE=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		XwNwqSd4J5mWDuTykwOZ3SzxPp4=
+		B5FnRVOJJdiQZnQpHng/i/Ftsxk=
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -718,7 +686,7 @@
 		</data>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9FqVx7B6nHVV4cws51EeXB+e0y0=
+		o8CxX/Ql0YHX38D512R4/ODYpA4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1861,20 +1829,6 @@
 			avCgEeffplxfk9e/K09aoS5LaN/ekS3Lx3puswznutI=
 			</data>
 		</dict>
-		<key>CampaignCell.nib/objects-12.3+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7Yzbqpr8s/TmXvTEW3yrWoeTNFswGLPgPSqLyzifzVI=
-			</data>
-		</dict>
-		<key>CampaignCell.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6vzsmGyfOncAgmY727/g/VUpKQsKQ5X8WkZoFsvxj7Y=
-			</data>
-		</dict>
 		<key>CampaignDetailsCell.nib/objects-12.3+.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -1901,41 +1855,6 @@
 			<key>hash2</key>
 			<data>
 			9y34bHXk8/AjG0MhoYNbOFHUTipbFz3AlQIzPqirN90=
-			</data>
-		</dict>
-		<key>CampaignDetailsVC.nib/objects-13.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			iAC1vrOzG0ip7WF11QdQMhE4JzDOAATW9a5AJyxYUtc=
-			</data>
-		</dict>
-		<key>CampaignDetailsVC.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wz2jlLqv5T3k6Qv6uvquZfuRqQrCLXu8WDzD5ETgglg=
-			</data>
-		</dict>
-		<key>CampaignDetailsVC.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ytjmZhl4B6hjPZzj5QABqIgv8IqB9ZnaUh0uh83OVC4=
-			</data>
-		</dict>
-		<key>CampaignHeader.nib/objects-13.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5EreSNTQxjVhy5+46hLIg8AB2AqdMoaaGH1m4qUQL9g=
-			</data>
-		</dict>
-		<key>CampaignHeader.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hOKyfiuxLUPuGhFj39NhpB9W4sIjidWFxIXP114XKHM=
 			</data>
 		</dict>
 		<key>ChipCell.nib/objects-12.3+.nib</key>
@@ -2057,27 +1976,6 @@
 			zdu9TOQT9eWixBz//ZQGJtsYZHvXDB9yOoSQqzXEIKw=
 			</data>
 		</dict>
-		<key>CreatePlayListVC.nib/objects-13.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1CLQoZuzY8cDSW/IEKD7tFHj282PnabeuXbsYgvEr5s=
-			</data>
-		</dict>
-		<key>CreatePlayListVC.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/6m0xpn4CA36QzcsH8Lhl9LKK5JcZs4GdUy0yxflMus=
-			</data>
-		</dict>
-		<key>CreatePlayListVC.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/Mqt6NtjkyWR5neUKRJo0NUOdRB3lbZQgYJwR/Acdrw=
-			</data>
-		</dict>
 		<key>CreatePlaylistCell.nib/objects-12.3+.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -2090,6 +1988,20 @@
 			<key>hash2</key>
 			<data>
 			4+BJl7atDyyEcEskIfL6c2mJnXATlX7YWOc+gFgtUGs=
+			</data>
+		</dict>
+		<key>CreatePlaylistVC.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JcxM08IC53swqnN1JJVwHA12yUFDV1XDC3WqhGMbWho=
+			</data>
+		</dict>
+		<key>CreatePlaylistVC.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QLd7uDHAmjLzMJTDhiwahXsU2+/rqFbqeZ4OreUle0k=
 			</data>
 		</dict>
 		<key>CuponCell.nib/objects-12.3+.nib</key>
@@ -2684,7 +2596,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CC3d0e53dz5atTD2Q/IPNndV6lWyejbEwVTyD6i9tZA=
+			t2zRZZD2jYRig7J5+z+8ELnfzpZNyHK+oq7EgmunLME=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -2712,14 +2624,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p0oyjKgHfwuUSj/3x9xc0KC+6t5O/ZWPcOM6kZbi8kY=
+			ay3ySsGz0aCy6y2Zpu6/ppoH7Pz2eeKehFl4Gr4vDvI=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CC3d0e53dz5atTD2Q/IPNndV6lWyejbEwVTyD6i9tZA=
+			t2zRZZD2jYRig7J5+z+8ELnfzpZNyHK+oq7EgmunLME=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_BL.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -2747,7 +2659,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oIO/GX7qqc3jQwkgNOOe/wU8fx72dFKbtfq3OBpds80=
+			w8Q2teTEuTT/WfxX5b6cvrOHlxVPmeNEI6DtWF8ovF0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

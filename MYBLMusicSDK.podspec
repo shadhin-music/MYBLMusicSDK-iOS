@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name              = 'MYBLMusicSDK' # Name for your pod
-    s.version           = '0.5.21'
+    s.version           = '0.5.22'
     s.summary           = 'Sample Spec'
     s.homepage          = 'https://github.com/shadhin-music/MYBLMusicSDK-iOS'
 

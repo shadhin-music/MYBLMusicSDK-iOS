@@ -61,7 +61,7 @@ class SignInVC: UIViewController {
 extension SignInVC : ShadhinCoreNotifier{
     func handleMSDKPaymentEvent(eventName: String, data: [String : Any]) {
         Log.info("MSDK Payment Event - Name: \(eventName), Data: \(data)")
-        print("🔍 Debug MSDK Event -> Name: \(eventName)")
+        print("🔍 Debug MSDK Event -> Name: \(eventName) \(data)")
         for (key, value) in data {
             print("   \(key): \(value)")
         }

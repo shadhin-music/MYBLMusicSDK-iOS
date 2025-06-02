@@ -26,16 +26,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Shadhin_BL",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -19633,16 +19623,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Shadhin_BL",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -22082,16 +22062,6 @@
         "printedName": "ImageIO",
         "declKind": "Import",
         "moduleName": "Shadhin_BL"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Shadhin_BL",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -24717,16 +24687,6 @@
         "printedName": "WebKit",
         "declKind": "Import",
         "moduleName": "Shadhin_BL"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Shadhin_BL",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -38349,13 +38309,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -53449,13 +53402,6 @@
       "offset": 7074,
       "length": 9,
       "value": "\"AdSmall\""
-    },
-    {
-      "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Model\/HomeResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 7104,
-      "length": 10,
-      "value": "\"Campaign\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Common\/Protocol\/ArtistDataModel.swift",
