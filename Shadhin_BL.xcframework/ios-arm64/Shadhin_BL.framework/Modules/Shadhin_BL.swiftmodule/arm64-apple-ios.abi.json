@@ -44019,21 +44019,21 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Model\/CommentResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2496,
+      "offset": 2527,
       "length": 8,
       "value": "\"userId\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Model\/CommentResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2550,
+      "offset": 2581,
       "length": 11,
       "value": "\"contentId\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Old Works\/BLMusiciOS\/Shadhin_BL\/Model\/CommentResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2710,
+      "offset": 2741,
       "length": 10,
       "value": "\"clientId\""
     },
