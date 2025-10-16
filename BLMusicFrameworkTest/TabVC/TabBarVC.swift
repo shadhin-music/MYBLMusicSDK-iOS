@@ -6,8 +6,7 @@
 //
 
 import UIKit
-import Shadhin_BL
-
+import Shadhin_RYZE
 class TabBarVC: UITabBarController {
 
     init(){

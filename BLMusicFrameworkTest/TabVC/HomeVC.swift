@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import Shadhin_BL
+import Shadhin_RYZE
 class HomeVC: UIViewController {
     private var membership: String = "Gold"
     init(){
