@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import Shadhin_RYZE
+import Shadhin_BL
 
 class C: UIViewController {
 
@@ -23,7 +23,7 @@ class C: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         radioView.isAutoPlay = true
-        radioView.setTitle(title: "New Radio", backgroundColor: .gray, isDotHide: false, isSeeAll: true, seeAllArrowTint: .black)
+        radioView.setTitle(title: "New Radio", backgroundColor: .gray, isDotHide: false, isSeeAll: true, seeAllArrowTint: .black, radioImage: UIImage(named: ""))
         // Do any additional setup after loading the view.
     }
     override func viewWillAppear(_ animated: Bool) {
