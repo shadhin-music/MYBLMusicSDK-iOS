@@ -635,7 +635,7 @@ public struct EntryPoint {
   }
   @_Concurrency.MainActor @preconcurrency @objc override final public func awakeFromNib()
   #if compiler(>=5.3) && $NonescapableTypes
-  @objc @_Concurrency.MainActor @preconcurrency final public func setTitle(title: Swift.String, backgroundColor: UIKit.UIColor, isDotHide: Swift.Bool, isSeeAll: Swift.Bool, seeAllArrowTint: UIKit.UIColor, radioImage: UIKit.UIImage?, radioImageSize: CoreFoundation.CGFloat)
+  @objc @_Concurrency.MainActor @preconcurrency final public func setTitle(title: Swift.String? = nil, backgroundColor: UIKit.UIColor, isDotHide: Swift.Bool, isSeeAll: Swift.Bool, seeAllArrowTint: UIKit.UIColor, radioImage: UIKit.UIImage? = nil, radioImageSize: CoreFoundation.CGFloat = 20)
   #endif
   @objc deinit
 }

@@ -321,7 +321,7 @@ SWIFT_CLASS("_TtC10Shadhin_BL11BLRadioView")
 - (void)awakeFromNib;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (void)setTitleWithTitle:(NSString * _Nonnull)title backgroundColor:(UIColor * _Nonnull)backgroundColor isDotHide:(BOOL)isDotHide isSeeAll:(BOOL)isSeeAll seeAllArrowTint:(UIColor * _Nonnull)seeAllArrowTint radioImage:(UIImage * _Nullable)radioImage radioImageSize:(CGFloat)radioImageSize;
+- (void)setTitleWithTitle:(NSString * _Nullable)title backgroundColor:(UIColor * _Nonnull)backgroundColor isDotHide:(BOOL)isDotHide isSeeAll:(BOOL)isSeeAll seeAllArrowTint:(UIColor * _Nonnull)seeAllArrowTint radioImage:(UIImage * _Nullable)radioImage radioImageSize:(CGFloat)radioImageSize;
 @end
 
 @class UICollectionView;
