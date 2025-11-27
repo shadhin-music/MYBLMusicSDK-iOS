@@ -97,7 +97,7 @@ class A: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateF
 
     // MARK: - CollectionView DelegateFlowLayout
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 300, height: 240)
+        return CGSize(width:UIScreen.main.bounds.width, height: 240)
     }
 }
 
