@@ -29,16 +29,14 @@ class TabBarVC: UITabBarController {
         let aNav = UINavigationController(rootViewController: a)
         aNav.isNavigationBarHidden = true
         aNav.tabBarItem = aItem
-        
-        let b = C()
-        b.tabBarItem = bItem
-        
+
+
         let c = A()
         let nav = UINavigationController(rootViewController: c)
         nav.isNavigationBarHidden = true
         nav.tabBarItem = cItem
         c.view.backgroundColor = .gray
-        viewControllers = [aNav,b,nav]
+        viewControllers = [aNav,nav]
         
     }
     override func viewWillAppear(_ animated: Bool) {

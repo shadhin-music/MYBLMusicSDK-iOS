@@ -314,7 +314,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 IB_DESIGNABLE
 SWIFT_CLASS("_TtC10Shadhin_BL11BLRadioView")
 @interface BLRadioView : UIView
-@property (nonatomic) CGFloat height;
 /// radio auto play control
 @property (nonatomic) IBInspectable BOOL isAutoPlay;
 @property (nonatomic, copy) IBInspectable NSString * _Nonnull title;

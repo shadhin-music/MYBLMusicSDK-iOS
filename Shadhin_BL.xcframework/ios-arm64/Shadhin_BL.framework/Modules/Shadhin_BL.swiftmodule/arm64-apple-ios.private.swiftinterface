@@ -627,7 +627,6 @@ public struct EntryPoint {
   public static let PodcastAudio: Swift.String
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @IBDesignable @objc @_Concurrency.MainActor @preconcurrency final public class BLRadioView : UIKit.UIView {
-  @objc @_Concurrency.MainActor @preconcurrency final public var height: CoreFoundation.CGFloat
   @IBInspectable @objc @_Concurrency.MainActor @preconcurrency final public var isAutoPlay: Swift.Bool
   @IBInspectable @objc @_Concurrency.MainActor @preconcurrency final public var title: Swift.String {
     @objc get
